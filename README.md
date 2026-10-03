@@ -22,7 +22,7 @@ contains an ungrounded number.
 ```
 nflverse ──► pipeline/ (Python, nightly GitHub Action) ──► data/*.parquet + manifest.json ─┐
                                                                                             ├─► GitHub Pages (static)
-owner's Mac (weekly launchd job) ── ai/ + Ollama ──► reports/*.json (committed) ────────────┘
+weekly-reports.yml (Actions) ── ai/ + Ollama (CPU) ──► reports/*.json (committed) ─────────┘
                                                                                             │
 browser ── React + DuckDB-WASM queries the Parquet in the page ◄────────────────────────────┘
         └─ Live AI (auto): 1. local Ollama at http://localhost:11434 (owner's machine)
@@ -32,7 +32,7 @@ browser ── React + DuckDB-WASM queries the Parquet in the page ◄───�
 
 - **Static first.** The site is HTML, JS, Parquet, and JSON on GitHub Pages ([ADR 0001](docs/adr/0001-static-first.md)). The only server-side piece is a small, stateless Cloudflare Worker that gives visitors live AI ([ADR 0005](docs/adr/0005-cloud-live-mode.md)).
 - **Data:** the current season plus the prior 5, from [nflverse](https://github.com/nflverse) via `nflreadpy`, shipped only as precomputed aggregates. The browser queries them with DuckDB-WASM, and each page fetches only the Parquet files it needs ([ADR 0003](docs/adr/0003-duckdb-wasm.md)).
-- **AI:** Game-plan reports are generated weekly on the owner's Mac by a local model (Ollama) and committed. Play-Caller and Chat call a local Ollama from the browser when one is reachable ([ADR 0004](docs/adr/0004-local-ollama-live-mode.md)). Otherwise they call the Cloudflare Worker, which serves the same Ollama-compatible API from Workers AI ([ADR 0005](docs/adr/0005-cloud-live-mode.md)). Grounding is described in [ADR 0002](docs/adr/0002-fact-sheet-grounding.md).
+- **AI:** Game-plan reports are generated weekly by a GitHub Action that runs Ollama on the runner, and committed ([ADR 0006](docs/adr/0006-reports-in-actions.md)). Play-Caller and Chat call a local Ollama from the browser when one is reachable ([ADR 0004](docs/adr/0004-local-ollama-live-mode.md)). Otherwise they call the Cloudflare Worker, which serves the same Ollama-compatible API from Workers AI ([ADR 0005](docs/adr/0005-cloud-live-mode.md)). Grounding is described in [ADR 0002](docs/adr/0002-fact-sheet-grounding.md).
 - **Contracts:** JSON Schemas in `shared/schemas` generate both the pydantic models and the TS types. The fact-sheet spec and its golden fixtures in `shared/factsheet` are run by both the Python and TS test suites.
 
 More detail: [`docs/BUILD_PLAN.md`](docs/BUILD_PLAN.md) (plan), [`docs/CONTEXT.md`](docs/CONTEXT.md) (glossary), [`docs/CONTRACTS.md`](docs/CONTRACTS.md) (data and AI contracts).
@@ -45,7 +45,7 @@ More detail: [`docs/BUILD_PLAN.md`](docs/BUILD_PLAN.md) (plan), [`docs/CONTEXT.m
 | Node.js | 22 | `brew install node@22` (or nvm / fnm) |
 | GNU make, git | any | Xcode Command Line Tools |
 | [Ollama](https://ollama.com) | optional; needed for live AI and `make reports` | `brew install ollama` or the macOS app |
-| `gh` (GitHub CLI) | optional; used by the weekly job to download nightly data | `brew install gh` |
+| `gh` (GitHub CLI) | optional; to dispatch workflows and download nightly data | `brew install gh` |
 | Cloudflare account | optional; free plan, only to deploy the visitor live-AI Worker | [dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up) |
 
 The Python venv lives at `~/.venvs/audible` (outside iCloud-synced folders) and is symlinked to `.venv`.
@@ -85,7 +85,7 @@ fails if `reports/` holds a fixture copy or a report whose `model` is `fixture-m
 | `make check-types` | Regenerate into a temp dir and diff; fails if the committed types are stale |
 | `make data` | Run the pipeline → `data/` (`SEASONS=auto` = current-5..current; e.g. `make data SEASONS=2024-2026`) |
 | `make mock-data` | Write mock `data/` from `shared/fixtures` (and seed `reports/` if it's empty) |
-| `make reports` | Weekly batch job: game-plan reports for `WEEK=auto` (needs Ollama and `qwen3:8b`) |
+| `make reports` | Weekly batch job, run locally: game-plan reports for `WEEK=auto` (needs Ollama and the `[ai.batch]` model). The default is the `weekly-reports` GitHub Action |
 | `make eval` | Run the 12 eval scenarios and print a scorecard |
 | `make web` | Vite dev server, serving `data/` and `reports/` at `/Audible/data` and `/Audible/reports` |
 | `make build` | Production build → `web/dist` (copies `data/` and `reports/`, writes `404.html` for deep links) |
@@ -118,13 +118,12 @@ Ollama base URL, and the model. These are stored in `localStorage`.
 
 Game-plan reports on matchup pages are pre-generated, so every visitor sees them in every mode.
 
-## Ollama (the owner's Mac: weekly reports, local live mode)
+## Ollama (the owner's Mac: local live mode, optional local reports)
 
 ```bash
 brew install ollama
 brew services start ollama                      # runs `ollama serve` at login (launchd); or install the macOS app instead
-ollama pull qwen3:4b-instruct                   # live model: Play-Caller and chat ([ai.live] in config.toml)
-ollama pull qwen3:8b                            # batch model: weekly reports ([ai.batch])
+ollama pull qwen3:4b-instruct                   # live model ([ai.live] in config.toml) and batch model ([ai.batch])
 ```
 
 The browser calls Ollama directly, so Ollama must allow the site's origins (CORS):
@@ -217,12 +216,47 @@ key never reaches the browser. The proxy and the dev Claude adapter don't exist 
 `make preview`, and CI fails the deploy if any trace of them is in `web/dist`. For the batch job, set
 `[ai.batch] provider = "claude"` in `config.toml`. Spend is capped by `[ai.claude].max_daily_usd`.
 
-## Weekly reports (launchd)
+## Weekly reports (GitHub Actions)
 
-A launchd job on the owner's Mac runs `make reports` every Tuesday at 23:00. It commits `reports/`
-and pushes, and the push triggers a deploy. When Ollama isn't running, the job skips the run and
-reports go stale gracefully. Install steps, logs, and how to set up git credentials for the
-unattended push are in [`ai/launchd/README.md`](ai/launchd/README.md).
+`.github/workflows/weekly-reports.yml` generates the week's game plans on a GitHub runner, with no
+Mac needed ([ADR 0006](docs/adr/0006-reports-in-actions.md)). It runs every **Wednesday at 04:00 UTC**
+(Tuesday night, US Eastern):
+
+1. Downloads the newest nightly `data/` artifact. If none exists, it runs `make data`.
+2. Installs Ollama, restores the cached model (`actions/cache`, keyed on the `[ai.batch].model` tag in
+   `config.toml`) or pulls it, and starts `ollama serve`.
+3. Runs `audible_ai reports --week auto --provider ollama --out reports --skip-existing`: 4 reports
+   per game (each team's OC and DC), then the Play-Caller samples. CPU only.
+4. Always, even after a failure or the 5 h 20 min step timeout: runs the mock/fake-report guard,
+   commits `reports/` as `github-actions[bot]` ("reports: week N (auto)") if anything changed,
+   pushes to `main`, and dispatches `deploy.yml`. A push made with `GITHUB_TOKEN` doesn't trigger
+   other workflows, so the deploy is dispatched explicitly.
+5. Writes a timing table to the job summary: count, passed/failed, and average and max seconds per report.
+
+A run that times out keeps everything it finished. Run the workflow again and `--skip-existing`
+carries on where it stopped. Run it by hand from **Actions → weekly-reports → Run workflow**, or
+with `gh`:
+
+```bash
+gh workflow run weekly-reports.yml --ref main                     # this week, all games
+gh workflow run weekly-reports.yml --ref main -f week=5           # a specific week
+# Smoke run: one game (4 reports, no samples). Measures CPU speed; its reports are real and are committed.
+GAME=$(jq -r --slurpfile m data/manifest.json \
+  '[.[] | select(.season == $m[0].current_season and .week == $m[0].current_week)][0].game_id' data/schedule.json)
+gh workflow run weekly-reports.yml --ref main -f games="$GAME"
+gh run watch "$(gh run list --workflow weekly-reports.yml --limit 1 --json databaseId --jq '.[0].databaseId')"
+```
+
+(`GAME` comes from your local `data/`, so run `make data` first, or set it to any current-week
+`game_id` such as `2026_05_KC_LV`.)
+
+If `main` is protected, allow `github-actions[bot]` to push, or the commit step fails. Reports are
+still generated, but they aren't saved.
+
+**Optional: on the Mac (launchd).** The original local job still works. It runs `make reports`
+every Tuesday at 23:00 with the Mac's Ollama, commits, and pushes. Use it only if the Action is too
+slow, and don't run both in the same week: they would race to push. Install steps, logs, and git
+credential setup are in [`ai/launchd/README.md`](ai/launchd/README.md).
 
 ## Testing
 
@@ -304,14 +338,15 @@ If a browser blocks the local call, that's an accepted outcome, as long as the U
 ```
 shared/     contracts: JSON Schemas, prompts, fact-sheet spec + golden fixtures, eval scenarios, mock fixtures, teams.json
 pipeline/   Python: nflverse → data/ (see pipeline/README.md)
-ai/         Python: providers (Ollama, Claude), fact sheets, grounding, weekly reports, eval; launchd job
+ai/         Python: providers (Ollama, Claude), fact sheets, grounding, weekly reports, eval; optional launchd job
 worker/     Cloudflare Worker `audible-ai`: Ollama-compatible /api/tags + /api/chat on Workers AI (visitor live mode)
 web/        React + Vite + TS app: src/ (app, design, data, ai, pages, features), tests/ (Vitest), e2e/ (Playwright)
 data/       build output (gitignored): Parquet + JSON + manifest.json
 reports/    committed AI game-plan reports + index.json + samples/playcaller.json
 docs/       BUILD_PLAN, CONTEXT (glossary), CONTRACTS, CONTRACT_CHANGES, adr/
 config.toml AI model/provider config (no secrets); secrets go in .env (gitignored)
-.github/workflows/  ci.yml (lint, types, tests), nightly-data.yml (data), deploy.yml (Pages)
+.github/workflows/  ci.yml (lint, types, tests), nightly-data.yml (data), weekly-reports.yml (AI reports), deploy.yml (Pages)
+.github/scripts/    check_reports.py (mock/fake-report guard), report_timing.py (job-summary timing)
 ```
 
 ## Data and attribution

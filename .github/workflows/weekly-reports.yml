@@ -1,0 +1,199 @@
+# Generates the week's AI game-plan reports with Ollama on a GitHub runner (CPU only), commits
+# reports/ to main and dispatches deploy.yml. Replaces the owner's Mac launchd job as the default
+# (docs/adr/0006-reports-in-actions.md). Partial progress is committed even if the run times out;
+# the next run resumes with --skip-existing.
+name: weekly-reports
+
+on:
+  schedule:
+    - cron: "0 4 * * 3" # Wed 04:00 UTC ≈ Tue night US Eastern, after MNF stats land in nightly-data
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Week to generate (auto = manifest current_week, or a number)"
+        default: auto
+        type: string
+      games:
+        description: "Space-separated game_ids for a smoke run (empty = all games; samples skipped)"
+        default: ""
+        type: string
+
+permissions:
+  contents: write # commit reports/
+  actions: write # dispatch deploy.yml (GITHUB_TOKEN pushes don't trigger workflows)
+
+concurrency:
+  group: weekly-reports
+  cancel-in-progress: false
+
+env:
+  UV_PROJECT_ENVIRONMENT: ${{ github.workspace }}/.venv-ci
+  OLLAMA_MODELS: /home/runner/.ollama/models
+  OLLAMA_HOST: 127.0.0.1:11434
+
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350 # GitHub's hard cap is 360
+    env:
+      WEEK: ${{ inputs.week || 'auto' }}
+      GAMES: ${{ inputs.games }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      # data/ — same source as deploy.yml: the newest successful nightly-data artifact, else `make data`.
+      - name: Pick the data artifact
+        id: pick
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for id in $(gh run list --repo "$GITHUB_REPOSITORY" --workflow nightly-data.yml --branch main \
+                        --status success --limit 10 --json databaseId --jq '.[].databaseId'); do
+            live=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$id/artifacts" \
+                     --jq '[.artifacts[] | select(.name == "data" and (.expired | not))] | length')
+            if [ "$live" -gt 0 ]; then
+              echo "run_id=$id" >> "$GITHUB_OUTPUT"
+              echo "Data: nightly-data run $id" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+          done
+          echo "run_id=" >> "$GITHUB_OUTPUT"
+          echo "No nightly-data artifact available; building data/ with make data" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Download data/ artifact
+        if: ${{ steps.pick.outputs.run_id != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: data
+          path: data
+          run-id: ${{ steps.pick.outputs.run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Restore nflverse cache
+        if: ${{ steps.pick.outputs.run_id == '' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/audible
+          key: audible-raw-${{ github.run_id }}
+          restore-keys: audible-raw-
+
+      - name: Build data/ (fallback)
+        if: ${{ steps.pick.outputs.run_id == '' }}
+        run: make data UV_PROJECT_ENVIRONMENT="$UV_PROJECT_ENVIRONMENT"
+
+      - name: Check data/
+        run: |
+          test -f data/manifest.json || { echo "::error::data/manifest.json missing"; exit 1; }
+          jq '{stats_as_of, current_season, current_week}' data/manifest.json
+
+      # ---- Ollama -------------------------------------------------------------------------------
+      - name: Batch model from config.toml
+        id: model
+        run: |
+          model=$(uv run python -c 'import tomllib; print(tomllib.load(open("config.toml", "rb"))["ai"]["batch"]["model"])')
+          echo "model=$model" >> "$GITHUB_OUTPUT"
+          echo "Model: \`$model\`" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Restore Ollama models
+        id: models-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.OLLAMA_MODELS }}
+          key: ollama-models-${{ steps.model.outputs.model }}
+
+      - name: Install Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # The installer starts a systemd service as the `ollama` user with its own model dir;
+          # stop it and run the server as the runner user so OLLAMA_MODELS (the cached dir) is used.
+          sudo systemctl disable --now ollama 2>/dev/null || true
+          ollama --version
+
+      - name: Start ollama serve
+        run: |
+          mkdir -p "$OLLAMA_MODELS"
+          nohup ollama serve > "$RUNNER_TEMP/ollama.log" 2>&1 &
+          for _ in $(seq 1 60); do
+            curl -fsS "http://$OLLAMA_HOST/api/tags" >/dev/null 2>&1 && exit 0
+            sleep 1
+          done
+          echo "::error::ollama serve did not answer on $OLLAMA_HOST within 60 s"
+          cat "$RUNNER_TEMP/ollama.log"
+          exit 1
+
+      - name: Pull ${{ steps.model.outputs.model }}
+        run: |
+          ollama pull "${{ steps.model.outputs.model }}"
+          ollama list
+
+      - name: Save Ollama models
+        if: ${{ steps.models-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.OLLAMA_MODELS }}
+          key: ollama-models-${{ steps.model.outputs.model }}
+
+      # ---- Generate -----------------------------------------------------------------------------
+      # A step timeout below the job's, so the commit steps still get time to run after a timeout.
+      - name: Generate reports
+        timeout-minutes: 320
+        run: |
+          set -o pipefail
+          args=(--week "$WEEK" --provider ollama --out reports --skip-existing)
+          if [ -n "$GAMES" ]; then
+            for g in $GAMES; do args+=(--game "$g"); done
+            args+=(--no-samples) # smoke run: just the selected games' reports
+          fi
+          echo "audible_ai reports ${args[*]}"
+          uv run python -m audible_ai reports "${args[@]}" 2>&1 | tee "$RUNNER_TEMP/reports.log"
+
+      - name: Timing summary
+        if: always()
+        run: python3 .github/scripts/report_timing.py "$RUNNER_TEMP/reports.log" >> "$GITHUB_STEP_SUMMARY"
+
+      # ---- Save whatever was generated (also after a failure or timeout) -----------------------
+      - name: Guard against mock or fake reports
+        id: guard
+        if: always()
+        run: python3 .github/scripts/check_reports.py reports
+
+      - name: Commit and push reports/
+        id: commit
+        if: ${{ always() && steps.guard.outcome == 'success' }}
+        run: |
+          git add reports
+          if git diff --cached --quiet; then
+            echo "No report changes to commit" >> "$GITHUB_STEP_SUMMARY"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$WEEK" = "auto" ]; then n=$(jq -r .current_week data/manifest.json); else n="$WEEK"; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "reports: week $n (auto)" -m "weekly-reports run ${{ github.run_id }}"
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && break
+            if [ "$attempt" = 3 ]; then echo "::error::push to main failed"; exit 1; fi
+            sleep $((attempt * 10))
+          done
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "Committed $(git log -1 --format=%h): reports: week $n (auto)" >> "$GITHUB_STEP_SUMMARY"
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy explicitly.
+      - name: Dispatch deploy.yml
+        if: ${{ always() && steps.commit.outputs.pushed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
+
+      - name: Ollama server log
+        if: failure()
+        run: tail -n 200 "$RUNNER_TEMP/ollama.log" || true

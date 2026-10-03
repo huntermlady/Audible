@@ -23,7 +23,9 @@ M2 Mac (8 GB) that runs Ollama well enough for a 4B instruct model.
   `OLLAMA_ORIGINS=https://huntermlady.github.io,http://localhost:4173,http://localhost:5173`.
 - If the probe fails with a network error **on an HTTPS page calling http://…**, the UI shows a hint
   that the browser may be blocking it and to use `make preview` for live mode.
-- Weekly reports use the same provider interface with `qwen3:8b` (`[ai.batch]`) from a launchd job.
+- Weekly reports use the same provider interface with the `[ai.batch]` model, now `qwen3:4b-instruct`
+  (CONTRACT_CHANGES #21). They run in GitHub Actions since [ADR 0006](0006-reports-in-actions.md); the
+  launchd job on the Mac is optional.
   Any stage can be switched to Claude in `config.toml` if it fails the eval bar. In the browser, Claude
   is available only through the dev server proxy.
 

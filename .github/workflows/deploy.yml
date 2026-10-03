@@ -47,46 +47,9 @@ jobs:
           python-version: "3.12"
           enable-cache: true
 
-      # reports/ on main must hold only real batch-job output. Mock reports live in shared/fixtures
-      # and are copied into reports/ by `make mock-data` for local work; they must never ship.
+      # reports/ on main must hold only real batch-job output (no shared/fixtures mocks, no fake provider).
       - name: Guard against mock or fake reports
-        run: |
-          python3 - <<'PY'
-          import hashlib, json, pathlib, sys
-
-          fixtures = pathlib.Path("shared/fixtures/reports")
-          reports = pathlib.Path("reports")
-          digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
-          fixture_hashes = {digest(p): p for p in fixtures.rglob("*.json")}
-          bad = []
-
-          def records(doc):
-              if isinstance(doc, list):
-                  return [r for r in doc if isinstance(r, dict)]
-              return [doc] if isinstance(doc, dict) else []
-
-          for path in sorted(reports.rglob("*.json")) if reports.exists() else []:
-              if digest(path) in fixture_hashes:
-                  bad.append(f"{path}: byte-identical to {fixture_hashes[digest(path)]}")
-                  continue
-              try:
-                  doc = json.loads(path.read_text())
-              except ValueError as e:
-                  bad.append(f"{path}: not valid JSON ({e})")
-                  continue
-              for rec in records(doc):
-                  if rec.get("provider") == "fake":
-                      bad.append(f"{path}: provider == 'fake' (test-only provider)")
-                  if rec.get("model") == "fixture-mock":
-                      bad.append(f"{path}: model == 'fixture-mock' (a shared/fixtures mock report)")
-
-          if bad:
-              print("::error::reports/ contains mock or fake reports; remove them (git rm -r reports/) "
-                    "and let the weekly job (make reports) regenerate real ones.")
-              print("\n".join(sorted(set(bad))))
-              sys.exit(1)
-          print(f"reports/ OK ({sum(1 for _ in reports.rglob('*.json')) if reports.exists() else 0} JSON files)")
-          PY
+        run: python3 .github/scripts/check_reports.py reports
 
       - name: Pick the data artifact
         id: pick
