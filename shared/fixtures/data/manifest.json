@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-22T06:00:00Z",
+  "stats_as_of": "2026-09-21",
+  "current_season": 2026,
+  "current_week": 4,
+  "seasons": [
+    2025,
+    2026
+  ],
+  "files": {
+    "team_season": {
+      "path": "team_season.parquet",
+      "sha256": "3d93e2339947ce89fef0583b24ab13ca3bbfa9f95fefbf7e9379589a2aa8f2e2",
+      "bytes": 26424,
+      "rows": 66
+    },
+    "team_week": {
+      "path": "team_week.parquet",
+      "sha256": "1a7181c0071d5b4ef7a4e2305be5c11e86510db8f6ada7c07f7cf47c447463d1",
+      "bytes": 32481,
+      "rows": 666
+    },
+    "team_tendencies": {
+      "path": "team_tendencies.parquet",
+      "sha256": "5329a0f34101b791d2fb4177940d91afa3752ac00bdfcabd3cdbea9b2a0ea645",
+      "bytes": 862903,
+      "rows": 21830
+    },
+    "player_season": {
+      "path": "player_season.parquet",
+      "sha256": "347391332f8f18bf94150e76a5eacae76561b103061cf47edd4ff09033a07d8e",
+      "bytes": 35279,
+      "rows": 559
+    },
+    "schedule": {
+      "path": "schedule.json",
+      "sha256": "3eb447ceb24fe582ef688ac6331d82bd35bd30d394db3c8955d839b689e414d2",
+      "bytes": 152660,
+      "rows": 557
+    }
+  },
+  "optional_fields_by_season": {
+    "proe": [
+      2025,
+      2026
+    ],
+    "avg_air_yards": [
+      2025,
+      2026
+    ],
+    "deep_pass_rate": [
+      2025,
+      2026
+    ],
+    "screen_rate": [
+      2025,
+      2026
+    ],
+    "play_action_rate": [
+      2025,
+      2026
+    ],
+    "blitz_rate": [
+      2025,
+      2026
+    ],
+    "pressure_rate": [
+      2025
+    ],
+    "man_rate": [
+      2025
+    ],
+    "zone_rate": [
+      2025
+    ],
+    "off_proe": [
+      2025,
+      2026
+    ],
+    "def_blitz_rate": [
+      2025,
+      2026
+    ],
+    "def_pressure_rate": [
+      2025
+    ],
+    "cpoe": [
+      2025,
+      2026
+    ]
+  }
+}

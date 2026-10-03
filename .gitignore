@@ -1,5 +1,5 @@
 # Build output
-data/
+/data/
 dist/
 web/dist/
 eval/tmp/
