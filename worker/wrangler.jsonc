@@ -1,0 +1,19 @@
+{
+  // audible-ai: Ollama-compatible live AI for the Audible site (docs/CONTRACT_CHANGES.md item 19).
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "audible-ai",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-15",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "ai": { "binding": "AI" },
+  // Per-IP limit on POST /api/chat (Workers Rate Limiting; period must be 10 or 60 s).
+  "ratelimits": [
+    { "name": "RATE_LIMITER", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }
+  ],
+  "vars": {
+    "MODEL": "qwen3-30b-a3b",
+    "ALLOWED_MODELS": "qwen3-30b-a3b=@cf/qwen/qwen3-30b-a3b-fp8,llama-3.1-8b=@cf/meta/llama-3.1-8b-instruct-fp8,llama-4-scout=@cf/meta/llama-4-scout-17b-16e-instruct",
+    "ALLOWED_ORIGINS": "https://huntermlady.github.io,http://localhost:5173,http://localhost:4173"
+  }
+}

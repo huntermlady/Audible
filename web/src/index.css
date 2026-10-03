@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import '@fontsource-variable/big-shoulders-display';
+@import '@fontsource-variable/ibm-plex-sans';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+@import './design/tokens.css';
+
+@custom-variant dark (&:where(.dark, .dark *):not(:where(.light, .light *)));
+
+@theme inline {
+  --font-sans: 'IBM Plex Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Big Shoulders Display Variable', 'IBM Plex Sans Variable', ui-sans-serif, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-good: var(--good-text);
+  --color-critical: var(--critical);
+  --color-warning: var(--warning);
+  --color-chart-grid: var(--chart-grid);
+  --color-chart-axis: var(--chart-axis);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/60;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'ss02' on;
+    overflow-x: hidden;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--accent) 28%, transparent);
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: 0.01em;
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Chalk hash-mark rule: a hairline with yard-line ticks. */
+@utility chalk-rule {
+  height: 6px;
+  background:
+    linear-gradient(var(--border), var(--border)) left bottom / 100% 1px no-repeat,
+    repeating-linear-gradient(90deg, var(--border) 0 1px, transparent 1px 24px) left bottom / 100% 6px no-repeat;
+}
+
+@utility bg-accent-soft {
+  background-color: color-mix(in oklch, var(--accent) 12%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Low-sample heatmap cells: 45° hatch texture (secondary encoding, not color alone). */
+.heatmap-low-sample {
+  background-image: repeating-linear-gradient(45deg, color-mix(in oklch, var(--foreground) 14%, transparent) 0 1px, transparent 1px 6px);
+}
+
+/* Team logos: a faint halo in dark mode so dark marks (e.g. black/navy logos) stay legible. */
+.dark .team-logo {
+  filter: drop-shadow(0 0 0.6px color-mix(in oklch, var(--foreground) 55%, transparent))
+    drop-shadow(0 0 0.6px color-mix(in oklch, var(--foreground) 35%, transparent));
+}
+.dark .light .team-logo {
+  filter: none;
+}

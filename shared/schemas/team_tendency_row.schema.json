@@ -1,0 +1,348 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/team_tendency_row.schema.json",
+  "title": "TeamTendencyRow",
+  "description": "One row of data/team_tendencies.parquet. A grouping fills only its own dimension columns; the others are null. Buckets are from the offense's perspective on every row. Every metric except plays/low_sample is null when its denominator is 0 (CONTEXT.md). For side=def, metrics describe what the defense allowed/did.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "season",
+    "team",
+    "side",
+    "grouping",
+    "down",
+    "dist_bucket",
+    "field_zone",
+    "score_state",
+    "time_bucket",
+    "cell_key",
+    "plays",
+    "low_sample",
+    "pass_rate",
+    "proe",
+    "epa_per_play",
+    "success_rate",
+    "explosive_rate",
+    "pass_epa",
+    "run_epa",
+    "pass_success_rate",
+    "run_success_rate",
+    "avg_air_yards",
+    "deep_pass_rate",
+    "screen_rate",
+    "play_action_rate",
+    "shotgun_rate",
+    "no_huddle_rate",
+    "run_left_rate",
+    "run_middle_rate",
+    "run_right_rate",
+    "pass_left_rate",
+    "pass_middle_rate",
+    "pass_right_rate",
+    "sack_rate",
+    "blitz_rate",
+    "pressure_rate",
+    "man_rate",
+    "zone_rate"
+  ],
+  "properties": {
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "side": {
+      "type": "string",
+      "enum": [
+        "off",
+        "def"
+      ]
+    },
+    "grouping": {
+      "type": "string",
+      "enum": [
+        "overall",
+        "down_dist",
+        "down_dist_zone",
+        "zone",
+        "score_time",
+        "down_dist_score_time"
+      ]
+    },
+    "down": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 4
+    },
+    "dist_bucket": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "short",
+        "medium",
+        "long",
+        "very_long",
+        null
+      ]
+    },
+    "field_zone": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "backed_up",
+        "own_territory",
+        "opp_territory",
+        "red_zone",
+        null
+      ]
+    },
+    "score_state": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "trail_9plus",
+        "trail_1_8",
+        "tied",
+        "lead_1_8",
+        "lead_9plus",
+        null
+      ]
+    },
+    "time_bucket": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "two_minute",
+        "fourth_quarter",
+        "normal",
+        null
+      ]
+    },
+    "cell_key": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "plays": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "low_sample": {
+      "type": "boolean"
+    },
+    "pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "proe": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -1,
+      "maximum": 1
+    },
+    "epa_per_play": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "explosive_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pass_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "run_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "pass_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "run_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "avg_air_yards": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "deep_pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "screen_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "play_action_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "shotgun_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "no_huddle_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "run_left_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "run_middle_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "run_right_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pass_left_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pass_middle_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pass_right_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "sack_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "blitz_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "pressure_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "man_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "zone_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

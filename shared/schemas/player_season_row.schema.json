@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/player_season_row.schema.json",
+  "title": "PlayerSeasonRow",
+  "description": "One row of data/player_season.parquet: one player, one season, one team. cpoe is in percentage points (nflverse convention).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "season",
+    "player_id",
+    "player_name",
+    "team",
+    "position",
+    "games",
+    "pass_att",
+    "completions",
+    "pass_yds",
+    "pass_td",
+    "interceptions",
+    "sacks",
+    "epa_per_dropback",
+    "cpoe",
+    "any_a",
+    "rush_att",
+    "rush_yds",
+    "rush_td",
+    "epa_per_rush",
+    "rush_success_rate",
+    "targets",
+    "receptions",
+    "rec_yds",
+    "rec_td",
+    "epa_per_target",
+    "target_share",
+    "air_yards_share",
+    "yac_per_rec"
+  ],
+  "properties": {
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "player_id": {
+      "type": "string"
+    },
+    "player_name": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "position": {
+      "type": "string",
+      "enum": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ]
+    },
+    "games": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pass_att": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "completions": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "pass_yds": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "pass_td": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "interceptions": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "sacks": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "epa_per_dropback": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "cpoe": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "any_a": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "rush_att": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "rush_yds": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rush_td": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "epa_per_rush": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "rush_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "targets": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "receptions": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "rec_yds": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rec_td": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "epa_per_target": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "target_share": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "air_yards_share": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "yac_per_rec": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  }
+}

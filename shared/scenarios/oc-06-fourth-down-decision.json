@@ -1,0 +1,33 @@
+{
+  "id": "oc-06-fourth-down-decision",
+  "situation": {
+    "role": "OC",
+    "offense": "BAL",
+    "defense": "CIN",
+    "season": 2026,
+    "down": 4,
+    "distance": 1,
+    "yardline_100": 42,
+    "quarter": 3,
+    "clock_seconds": 300,
+    "score_diff": -3,
+    "timeouts_offense": 2,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": [
+    "sneak",
+    "qb_run",
+    "inside_run",
+    "quick_pass"
+  ],
+  "unacceptable_play_families": [
+    "field_goal",
+    "deep_pass"
+  ],
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": null,
+  "acceptable_fronts": null,
+  "notes_for_human_rater": "4th & 1 at the opponent 42, down 3 in the 3rd. Going for it is analytically favored; a 59-yard field goal is not a sound call."
+}

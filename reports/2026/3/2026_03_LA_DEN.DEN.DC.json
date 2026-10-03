@@ -1,0 +1,652 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_LA_DEN",
+  "season": 2026,
+  "week": 3,
+  "team": "DEN",
+  "opponent": "LA",
+  "role": "DC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_LA_DEN",
+      "season": 2026,
+      "team": "DEN",
+      "opponent": "LA",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "DEN.def.2026.overall.all.epa_per_play",
+        "label": "DEN defense: EPA/play, all plays",
+        "value": 0.0664,
+        "display": "+0.07",
+        "unit": "epa",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.success_rate",
+        "label": "DEN defense: success rate, all plays",
+        "value": 0.4286,
+        "display": "43%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.explosive_rate",
+        "label": "DEN defense: explosive-play rate, all plays",
+        "value": 0.0924,
+        "display": "9%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.blitz_rate",
+        "label": "DEN defense: blitz rate, all plays",
+        "value": 0.3438,
+        "display": "34%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.success_rate",
+        "label": "DEN defense: success rate, 1st & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "DEN defense: run success rate, 1st & long",
+        "value": 0.3478,
+        "display": "35%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "DEN defense: dropback success rate, 1st & long",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "DEN defense: explosive-play rate, 1st & long",
+        "value": 0.1111,
+        "display": "11%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-short.success_rate",
+        "label": "DEN defense: success rate, 3rd & short (2025)",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "DEN defense: run success rate, 3rd & short (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "DEN defense: blitz rate, 3rd & short (2025)",
+        "value": 0.3243,
+        "display": "32%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "DEN defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2029,
+        "display": "20%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "DEN defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3188,
+        "display": "32%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "DEN.def.2025.down_dist.d3-long.man_rate",
+        "label": "DEN defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.5217,
+        "display": "52%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "DEN.def.2025.zone.red_zone.success_rate",
+        "label": "DEN defense: success rate, red zone (2025)",
+        "value": 0.3356,
+        "display": "34%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "DEN.def.2025.zone.red_zone.epa_per_play",
+        "label": "DEN defense: EPA/play, red zone (2025)",
+        "value": -0.1448,
+        "display": "-0.14",
+        "unit": "epa",
+        "n": 146,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "DEN.def.2025.zone.red_zone.pass_success_rate",
+        "label": "DEN defense: dropback success rate, red zone (2025)",
+        "value": 0.2826,
+        "display": "28%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "DEN.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "DEN defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3559,
+        "display": "36%",
+        "unit": "rate",
+        "n": 74,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "DEN.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "DEN defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5593,
+        "display": "56%",
+        "unit": "rate",
+        "n": 74,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "LA.off.2026.overall.all.epa_per_play",
+        "label": "LA offense: EPA/play, all plays",
+        "value": 0.0127,
+        "display": "+0.01",
+        "unit": "epa",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "LA.off.2026.overall.all.success_rate",
+        "label": "LA offense: success rate, all plays",
+        "value": 0.4911,
+        "display": "49%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "LA.off.2026.overall.all.pass_rate",
+        "label": "LA offense: pass rate, all plays",
+        "value": 0.5446,
+        "display": "54%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "LA.off.2026.overall.all.proe",
+        "label": "LA offense: pass rate over expected, all plays",
+        "value": -0.057,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "LA.off.2026.overall.all.explosive_rate",
+        "label": "LA offense: explosive-play rate, all plays",
+        "value": 0.1339,
+        "display": "13%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "LA.off.2026.down_dist.d1-long.pass_rate",
+        "label": "LA offense: pass rate, 1st & long",
+        "value": 0.3542,
+        "display": "35%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "LA.off.2026.down_dist.d1-long.proe",
+        "label": "LA offense: pass rate over expected, 1st & long",
+        "value": -0.1623,
+        "display": "-16%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "LA.off.2026.down_dist.d1-long.success_rate",
+        "label": "LA offense: success rate, 1st & long",
+        "value": 0.5208,
+        "display": "52%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "LA.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "LA offense: play-action rate, 1st & long",
+        "value": 0.4706,
+        "display": "47%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-short.pass_rate",
+        "label": "LA offense: pass rate, 3rd & short (2025)",
+        "value": 0.6173,
+        "display": "62%",
+        "unit": "rate",
+        "n": 81,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-short.success_rate",
+        "label": "LA offense: success rate, 3rd & short (2025)",
+        "value": 0.5432,
+        "display": "54%",
+        "unit": "rate",
+        "n": 81,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "LA offense: run success rate, 3rd & short (2025)",
+        "value": 0.5161,
+        "display": "52%",
+        "unit": "rate",
+        "n": 81,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "LA offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-long.sack_rate",
+        "label": "LA offense: sack rate, 3rd & long (2025)",
+        "value": 0.05,
+        "display": "5%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "LA.off.2025.down_dist.d3-long.screen_rate",
+        "label": "LA offense: screen rate, 3rd & long (2025)",
+        "value": 0.025,
+        "display": "3%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "LA.off.2025.zone.red_zone.pass_rate",
+        "label": "LA offense: pass rate, red zone (2025)",
+        "value": 0.5758,
+        "display": "58%",
+        "unit": "rate",
+        "n": 198,
+        "low_sample": false,
+        "league_value": 0.5388,
+        "league_display": "54%"
+      },
+      {
+        "id": "LA.off.2025.zone.red_zone.success_rate",
+        "label": "LA offense: success rate, red zone (2025)",
+        "value": 0.5152,
+        "display": "52%",
+        "unit": "rate",
+        "n": 198,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "LA.off.2025.zone.red_zone.epa_per_play",
+        "label": "LA offense: EPA/play, red zone (2025)",
+        "value": 0.0603,
+        "display": "+0.06",
+        "unit": "epa",
+        "n": 198,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "LA.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "LA offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.6842,
+        "display": "68%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "LA.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "LA offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5789,
+        "display": "58%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, high-explosive offense that struggles in 1st & long, DEN must prioritize pass defense and man coverage in 3rd & long and red zone situations.",
+  "keys": [
+    {
+      "detail": "LA offense has a high pass rate (54%) and a strong pass rate over expected (-6%), indicating a tendency to rely on the pass even when expected to succeed less.",
+      "stat_ids": [
+        "LA.off.2026.overall.all.pass_rate",
+        "LA.off.2026.overall.all.proe"
+      ],
+      "title": "High Pass Rate and Over-Expected Performance"
+    },
+    {
+      "detail": "LA's 1st & long pass rate is only 35% (well below league average of 49%), suggesting a tendency to avoid the pass in long situations, which may be exploited with pressure and man coverage.",
+      "stat_ids": [
+        "LA.off.2026.down_dist.d1-long.pass_rate",
+        "LA.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Low 1st & Long Pass Rate"
+    },
+    {
+      "detail": "DEN's 3rd & long pass success rate is 20% (well below league average of 35%), and man coverage is used at 52% (well above league average of 39%), indicating a need for aggressive man coverage and pressure in 3rd & long.",
+      "stat_ids": [
+        "DEN.def.2025.down_dist.d3-long.pass_success_rate",
+        "DEN.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Poor 3rd & Long Pass Defense"
+    },
+    {
+      "detail": "LA's red zone pass rate is 58% (above league average of 54%), and success rate is 52% (above league average of 42%), showing a strong red zone passing game that must be contained with man coverage and zone shells.",
+      "stat_ids": [
+        "LA.off.2025.zone.red_zone.pass_rate",
+        "LA.off.2025.zone.red_zone.success_rate"
+      ],
+      "title": "Strong Red Zone Passing Game"
+    },
+    {
+      "detail": "DEN's red zone success rate is 34% (below league average of 42%), and EPA/play is -0.14 (below league average of 0.00), indicating a failure to stop drives in the red zone.",
+      "stat_ids": [
+        "DEN.def.2025.zone.red_zone.success_rate",
+        "DEN.def.2025.zone.red_zone.epa_per_play"
+      ],
+      "title": "Weak Red Zone Defense"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "LA.off.2026.overall.all.pass_rate"
+          ],
+          "text": "LA has a high pass rate, so a cover3 shell is appropriate to match the pass tendency."
+        },
+        {
+          "stat_ids": [
+            "LA.off.2026.overall.all.proe"
+          ],
+          "text": "LA's pass rate over expected is negative, suggesting a tendency to under-perform on passes, which may be exploited with a balanced front."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "LA.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "LA has a 62% pass rate in 3rd & short, above league average, indicating a strong pass tendency in short situations."
+        },
+        {
+          "stat_ids": [
+            "LA.off.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "LA's 3rd & short success rate is 54%, below league average, suggesting a need for aggressive coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "man coverage",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "if LA shows a run-heavy tendency"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DEN.def.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "DEN's 3rd & long pass success rate is 20%, below league average, indicating a need for man coverage to stop passes."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2025.down_dist.d3-long.man_rate"
+          ],
+          "text": "DEN uses 52% man coverage in 3rd & long, which is above league average, showing a consistent commitment to man coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "LA.off.2025.zone.red_zone.pass_rate"
+          ],
+          "text": "LA has a 58% pass rate in red zone, which is above league average, so man coverage is needed to contain deep passes."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "DEN's red zone success rate is 34%, below league average, indicating a need for tighter coverage in this zone."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "LA.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "LA has a 68% pass rate in two-minute situations, above league average, indicating a strong tendency to pass in high-pressure scenarios."
+        },
+        {
+          "stat_ids": [
+            "LA.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "LA's two-minute success rate is 58%, above league average, suggesting a need for man coverage to contain deep passes."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

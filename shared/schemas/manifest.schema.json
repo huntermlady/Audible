@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/manifest.schema.json",
+  "title": "Manifest",
+  "description": "data/manifest.json: read first by the web app (BUILD_PLAN 5.1, CONTRACTS 4.1).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "stats_as_of",
+    "current_season",
+    "current_week",
+    "seasons",
+    "files",
+    "optional_fields_by_season"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "stats_as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "current_season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "current_week": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 22
+    },
+    "seasons": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1999,
+        "maximum": 2100
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "files": {
+      "title": "ManifestFiles",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "team_season",
+        "team_week",
+        "team_tendencies",
+        "player_season",
+        "schedule"
+      ],
+      "properties": {
+        "team_season": {
+          "$ref": "#/$defs/ManifestFile"
+        },
+        "team_week": {
+          "$ref": "#/$defs/ManifestFile"
+        },
+        "team_tendencies": {
+          "$ref": "#/$defs/ManifestFile"
+        },
+        "player_season": {
+          "$ref": "#/$defs/ManifestFile"
+        },
+        "schedule": {
+          "$ref": "#/$defs/ManifestFile"
+        }
+      }
+    },
+    "optional_fields_by_season": {
+      "type": "object",
+      "description": "Optional (nullable) metric column -> seasons in which it is populated.",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 1999,
+          "maximum": 2100
+        },
+        "uniqueItems": true
+      }
+    }
+  },
+  "$defs": {
+    "ManifestFile": {
+      "title": "ManifestFile",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "bytes",
+        "rows"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rows": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

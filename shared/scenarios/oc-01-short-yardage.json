@@ -1,0 +1,35 @@
+{
+  "id": "oc-01-short-yardage",
+  "situation": {
+    "role": "OC",
+    "offense": "PHI",
+    "defense": "DAL",
+    "season": 2026,
+    "down": 3,
+    "distance": 1,
+    "yardline_100": 44,
+    "quarter": 2,
+    "clock_seconds": 480,
+    "score_diff": 0,
+    "timeouts_offense": 3,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": [
+    "inside_run",
+    "sneak",
+    "qb_run",
+    "quick_pass",
+    "outside_run"
+  ],
+  "unacceptable_play_families": [
+    "deep_pass",
+    "punt",
+    "field_goal"
+  ],
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": null,
+  "acceptable_fronts": null,
+  "notes_for_human_rater": "3rd & 1 near midfield. Expect a physical run, sneak, or quick rhythm throw; a shot play is a poor-percentage answer."
+}

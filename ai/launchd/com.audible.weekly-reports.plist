@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: ai/launchd/install.sh replaces __REPO__ and __HOME__ and copies it to ~/Library/LaunchAgents. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.audible.weekly-reports</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>__REPO__/ai/launchd/weekly-reports.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>AUDIBLE_REPO</key>
+    <string>__REPO__</string>
+  </dict>
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+  <!-- Tuesday (weekday 2) at 23:00 local time. A missed run (Mac asleep) fires on wake. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>2</integer>
+    <key>Hour</key>
+    <integer>23</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/audible-reports.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/Library/Logs/audible-reports.log</string>
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

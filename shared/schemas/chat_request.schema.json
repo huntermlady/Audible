@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/chat_request.schema.json",
+  "title": "ChatRequest",
+  "description": "Chat drawer request. The client prepends a fact-sheet system message; output is free text.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "context",
+    "messages"
+  ],
+  "properties": {
+    "context": {
+      "title": "ChatContext",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page",
+        "team",
+        "opponent",
+        "game_id",
+        "situation"
+      ],
+      "properties": {
+        "page": {
+          "type": "string",
+          "enum": [
+            "team",
+            "matchup",
+            "play-caller",
+            "other"
+          ]
+        },
+        "team": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2,3}$"
+        },
+        "opponent": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2,3}$"
+        },
+        "game_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]{4}_[0-9]{2}_[A-Z]{2,3}_[A-Z]{2,3}$"
+        },
+        "situation": {
+          "anyOf": [
+            {
+              "$ref": "situation.schema.json"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ChatMessage"
+      }
+    }
+  },
+  "$defs": {
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "content"
+      ],
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": [
+            "user",
+            "assistant"
+          ]
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

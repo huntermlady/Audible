@@ -1,0 +1,667 @@
+{
+  "description": "Grounding parity cases (SPEC.md \u00a711), run by ai/tests and web/tests/ai. fact_sheet names an entry of fact_sheets (or null); situation null means: use the fact sheet's own situation if it has one. expected_ungrounded lists the ungrounded tokens in order. Fact sheets are hand-built so fixture changes never affect these cases.",
+  "fact_sheets": {
+    "A": {
+      "fact_sheet_version": "1.0.0",
+      "context": {
+        "kind": "situation",
+        "situation": {
+          "role": "OC",
+          "offense": "DAL",
+          "defense": "MIA",
+          "season": 2025,
+          "down": 2,
+          "distance": 4,
+          "yardline_100": 95,
+          "quarter": 1,
+          "clock_seconds": 700,
+          "score_diff": 0,
+          "timeouts_offense": 2,
+          "timeouts_defense": 2
+        }
+      },
+      "derived": {
+        "down": 2,
+        "dist_bucket": "medium",
+        "field_zone": "backed_up",
+        "score_state": "tied",
+        "time_bucket": "normal"
+      },
+      "facts": [
+        {
+          "id": "DAL.off.2025.down_dist.d2-medium.pass_rate",
+          "label": "DAL offense: pass rate, 2nd & medium",
+          "value": 0.527,
+          "display": "53%",
+          "unit": "rate",
+          "n": 74,
+          "low_sample": false,
+          "league_value": 0.5013,
+          "league_display": "50%"
+        },
+        {
+          "id": "DAL.off.2025.down_dist.d2-medium.pass_success_rate",
+          "label": "DAL offense: dropback success rate, 2nd & medium",
+          "value": 0.5385,
+          "display": "54%",
+          "unit": "rate",
+          "n": 74,
+          "low_sample": false,
+          "league_value": 0.5417,
+          "league_display": "54%"
+        },
+        {
+          "id": "DAL.off.2025.down_dist.d2-medium.epa_per_play",
+          "label": "DAL offense: EPA/play, 2nd & medium",
+          "value": 0.0741,
+          "display": "+0.07",
+          "unit": "epa",
+          "n": 74,
+          "low_sample": false,
+          "league_value": 0.0292,
+          "league_display": "+0.03"
+        },
+        {
+          "id": "DAL.off.2025.zone.backed_up.pass_rate",
+          "label": "DAL offense: pass rate, backed up",
+          "value": 0.8571,
+          "display": "86%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": null,
+          "league_display": null
+        },
+        {
+          "id": "DAL.off.2025.zone.backed_up.success_rate",
+          "label": "DAL offense: success rate, backed up",
+          "value": 0.2857,
+          "display": "29%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": null,
+          "league_display": null
+        },
+        {
+          "id": "DAL.off.2025.zone.backed_up.epa_per_play",
+          "label": "DAL offense: EPA/play, backed up",
+          "value": -0.1257,
+          "display": "-0.13",
+          "unit": "epa",
+          "n": 21,
+          "low_sample": false,
+          "league_value": null,
+          "league_display": null
+        },
+        {
+          "id": "DAL.off.2025.overall.all.screen_rate",
+          "label": "DAL offense: screen rate, all plays",
+          "value": 0.1026,
+          "display": "10%",
+          "unit": "rate",
+          "n": 1121,
+          "low_sample": false,
+          "league_value": 0.0804,
+          "league_display": "8%"
+        },
+        {
+          "id": "DAL.off.2025.overall.all.proe",
+          "label": "DAL offense: pass rate over expected, all plays",
+          "value": 0.0004,
+          "display": "0%",
+          "unit": "rate",
+          "n": 1121,
+          "low_sample": false,
+          "league_value": -0.0058,
+          "league_display": "-1%"
+        },
+        {
+          "id": "MIA.def.2025.overall.all.sack_rate",
+          "label": "MIA defense: sack rate, all plays",
+          "value": 0.0513,
+          "display": "5%",
+          "unit": "rate",
+          "n": 1083,
+          "low_sample": false,
+          "league_value": 0.0569,
+          "league_display": "6%"
+        },
+        {
+          "id": "MIA.def.2025.overall.all.epa_per_play",
+          "label": "MIA defense: EPA/play, all plays",
+          "value": -0.097,
+          "display": "-0.10",
+          "unit": "epa",
+          "n": 1083,
+          "low_sample": false,
+          "league_value": -0.0041,
+          "league_display": "0.00"
+        },
+        {
+          "id": "MIA.def.2025.overall.all.success_rate",
+          "label": "MIA defense: success rate, all plays",
+          "value": 0.3777,
+          "display": "38%",
+          "unit": "rate",
+          "n": 1083,
+          "low_sample": false,
+          "league_value": 0.4501,
+          "league_display": "45%"
+        }
+      ]
+    },
+    "B": {
+      "fact_sheet_version": "1.0.0",
+      "context": {
+        "kind": "matchup",
+        "game_id": "2026_04_KC_BAL",
+        "season": 2026,
+        "team": "KC",
+        "opponent": "BAL",
+        "role": "OC"
+      },
+      "derived": null,
+      "facts": [
+        {
+          "id": "KC.off.2026.overall.all.epa_per_play",
+          "label": "KC offense: EPA/play, all plays",
+          "value": 0.1525,
+          "display": "+0.15",
+          "unit": "epa",
+          "n": 189,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "KC.off.2026.overall.all.pass_rate",
+          "label": "KC offense: pass rate, all plays",
+          "value": 0.6742,
+          "display": "67%",
+          "unit": "rate",
+          "n": 189,
+          "low_sample": false,
+          "league_value": 0.5813,
+          "league_display": "58%"
+        },
+        {
+          "id": "BAL.def.2026.down_dist.d3-long.blitz_rate",
+          "label": "BAL defense: blitz rate, 3rd & long",
+          "value": 0.4074,
+          "display": "41%",
+          "unit": "rate",
+          "n": 27,
+          "low_sample": false,
+          "league_value": 0.2857,
+          "league_display": "29%"
+        },
+        {
+          "id": "BAL.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+          "label": "BAL defense: dropback success rate, trailing by one score, two-minute",
+          "value": 0.5556,
+          "display": "56%",
+          "unit": "rate",
+          "n": 9,
+          "low_sample": true,
+          "league_value": 0.4629,
+          "league_display": "46%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist.d3-long.blitz_rate",
+          "label": "BAL defense: blitz rate, 3rd & long (2025)",
+          "value": 0.5246,
+          "display": "52%",
+          "unit": "rate",
+          "n": 61,
+          "low_sample": false,
+          "league_value": 0.3301,
+          "league_display": "33%"
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "id": "g01",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "DAL passes at a 53% clip on 2nd & medium.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g02",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "League average is 50%.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g03",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Dropback success rate of 54%, right at league average.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g04",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "They pass 86% of the time when backed up.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g05",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Their EPA/play is +0.07 versus +0.03 for the league.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g06",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "EPA/play of 0.0741 on these downs.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g07",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "A pass rate of 0.53 on 2nd down.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g08",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "A 72% pass rate on 2nd & medium.",
+      "expected_ungrounded": [
+        "72%"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g09",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "They convert 17% of these.",
+      "expected_ungrounded": [
+        "17%"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g10",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Based on 74 plays.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g11",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "From their own 5, with 95 yards to go.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g12",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "2nd and 4 with 11:40 left in the 1st.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g13",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "With 2:00 left in the half.",
+      "expected_ungrounded": [
+        "2:00"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g14",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "They lead 21-17.",
+      "expected_ungrounded": [
+        "21-17"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g15",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Still tied 0-0.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g16",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Play Cover 3 with a 4-man rush out of 11 personnel.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g17",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Cover-1 robber early and cover 6 on the back end.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g18",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "They recover 7 fumbles a year.",
+      "expected_ungrounded": [
+        "7"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g19",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "This is not a 5th down.",
+      "expected_ungrounded": [
+        "5th"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g20",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Show a 3rd-and-7 look.",
+      "expected_ungrounded": [
+        "7"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g21",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "EPA of -0.13 when backed up.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g22",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "EPA/play of -0.19 in this zone.",
+      "expected_ungrounded": [
+        "-0.19"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g23",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "A success rate of 29 percent.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g24",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "A dropback success rate of .54 here.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g25",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "In 2025 they were balanced.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g26",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "In 2024 they were balanced.",
+      "expected_ungrounded": [
+        "2024"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g27",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "12.5% of plays go deep.",
+      "expected_ungrounded": [
+        "12.5%"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g28",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Attack the edges with speed.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g29",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Sack rate 5%, league 6%.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g30",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "They gain 250 yards on 99% of drives.",
+      "expected_ungrounded": [
+        "250",
+        "99%"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g31",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "A +5% edge.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g32",
+      "fact_sheet": "A",
+      "situation": null,
+      "text": "Chunk plays of 15yds.",
+      "expected_ungrounded": [
+        "15"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g33",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "KC EPA/play of +0.15 against a league 0.00.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g34",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "In 2026, on 189 plays.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g35",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "On 3rd & 3 they run.",
+      "expected_ungrounded": [
+        "3"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g36",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "With 1:50 left they hurry.",
+      "expected_ungrounded": [
+        "1:50"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g37",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "They pass 67% of the time.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g38",
+      "fact_sheet": null,
+      "situation": {
+        "role": "OC",
+        "offense": "KC",
+        "defense": "BAL",
+        "season": 2026,
+        "down": 3,
+        "distance": 7,
+        "yardline_100": 35,
+        "quarter": 4,
+        "clock_seconds": 110,
+        "score_diff": -4,
+        "timeouts_offense": 1,
+        "timeouts_defense": 2
+      },
+      "text": "3rd & 7 at the 35, down 4 with 1:50 left and 1 timeout.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g39",
+      "fact_sheet": null,
+      "situation": {
+        "role": "OC",
+        "offense": "KC",
+        "defense": "BAL",
+        "season": 2026,
+        "down": 3,
+        "distance": 7,
+        "yardline_100": 35,
+        "quarter": 4,
+        "clock_seconds": 110,
+        "score_diff": -4,
+        "timeouts_offense": 1,
+        "timeouts_defense": 2
+      },
+      "text": "Ball at their own 65.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g40",
+      "fact_sheet": null,
+      "situation": {
+        "role": "OC",
+        "offense": "KC",
+        "defense": "BAL",
+        "season": 2026,
+        "down": 3,
+        "distance": 7,
+        "yardline_100": 35,
+        "quarter": 4,
+        "clock_seconds": 110,
+        "score_diff": -4,
+        "timeouts_offense": 1,
+        "timeouts_defense": 2
+      },
+      "text": "They need 8 yards.",
+      "expected_ungrounded": [
+        "8"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g41",
+      "fact_sheet": null,
+      "situation": {
+        "role": "OC",
+        "offense": "KC",
+        "defense": "BAL",
+        "season": 2026,
+        "down": 3,
+        "distance": 7,
+        "yardline_100": 35,
+        "quarter": 4,
+        "clock_seconds": 110,
+        "score_diff": -4,
+        "timeouts_offense": 1,
+        "timeouts_defense": 2
+      },
+      "text": "Trailing 24-20 late.",
+      "expected_ungrounded": [
+        "24-20"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g42",
+      "fact_sheet": null,
+      "situation": null,
+      "text": "No fact sheet: 41% is not grounded, but 3rd is.",
+      "expected_ungrounded": [
+        "41%"
+      ],
+      "expected_grounded": false
+    },
+    {
+      "id": "g43",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "Last season (2025) Baltimore blitzed 52% on 3rd & long, on 61 plays.",
+      "expected_ungrounded": [],
+      "expected_grounded": true
+    },
+    {
+      "id": "g44",
+      "fact_sheet": "B",
+      "situation": null,
+      "text": "Back in 2024 they rarely blitzed.",
+      "expected_ungrounded": [
+        "2024"
+      ],
+      "expected_grounded": false
+    }
+  ]
+}

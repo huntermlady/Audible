@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UV_PROJECT_ENVIRONMENT: ${{ github.workspace }}/.venv-ci
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: uv sync --locked
+      - name: Install web deps (json2ts for check-types)
+        run: npm --prefix web ci
+      - name: Lint
+        run: uv run ruff check .
+      - name: Typecheck
+        run: uv run pyright
+      - name: Generated types are current
+        run: make check-types UV_PROJECT_ENVIRONMENT="$UV_PROJECT_ENVIRONMENT"
+      - name: Tests
+        run: uv run pytest
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm --prefix web ci
+      - name: Lint
+        run: npm --prefix web run lint
+      - name: Typecheck
+        run: npm --prefix web run typecheck
+      - name: Unit tests
+        run: npm --prefix web test -- --run
+
+  worker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: worker/package-lock.json
+      - run: npm --prefix worker ci
+      - name: Typecheck
+        run: npm --prefix worker run typecheck
+      - name: Tests (workerd, mocked AI; no Cloudflare credentials)
+        run: npm --prefix worker test -- --run
+
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: uv sync --frozen
+      - run: npm --prefix web ci
+      - name: Mock data
+        # The Makefile's own UV_PROJECT_ENVIRONMENT default must be overridden on the command line.
+        run: make mock-data UV_PROJECT_ENVIRONMENT="$UV_PROJECT_ENVIRONMENT"
+      - name: Build
+        run: npm --prefix web run build
+        env:
+          # Stub cloud AI endpoint; the e2e suite intercepts every request to it.
+          VITE_AI_CLOUD_URL: https://audible-ai.e2e.invalid
+      - name: Install Playwright browser
+        run: npx --prefix web playwright install --with-deps chromium
+      - name: Playwright
+        run: npm --prefix web run e2e
+        env:
+          E2E_REQUIRE_CLOUD: "1"  # cloud-live specs must run, not skip
+      - name: Upload Playwright report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: web/playwright-report/
+          retention-days: 14

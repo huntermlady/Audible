@@ -1,0 +1,644 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_NYJ_DET",
+  "season": 2026,
+  "week": 3,
+  "team": "DET",
+  "opponent": "NYJ",
+  "role": "OC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_NYJ_DET",
+      "season": 2026,
+      "team": "DET",
+      "opponent": "NYJ",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "DET.off.2026.overall.all.epa_per_play",
+        "label": "DET offense: EPA/play, all plays",
+        "value": 0.107,
+        "display": "+0.11",
+        "unit": "epa",
+        "n": 135,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "DET.off.2026.overall.all.success_rate",
+        "label": "DET offense: success rate, all plays",
+        "value": 0.4667,
+        "display": "47%",
+        "unit": "rate",
+        "n": 135,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.pass_rate",
+        "label": "DET offense: pass rate, all plays",
+        "value": 0.6296,
+        "display": "63%",
+        "unit": "rate",
+        "n": 135,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.proe",
+        "label": "DET offense: pass rate over expected, all plays",
+        "value": -0.0047,
+        "display": "0%",
+        "unit": "rate",
+        "n": 135,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.explosive_rate",
+        "label": "DET offense: explosive-play rate, all plays",
+        "value": 0.1111,
+        "display": "11%",
+        "unit": "rate",
+        "n": 135,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.pass_rate",
+        "label": "DET offense: pass rate, 1st & long",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.proe",
+        "label": "DET offense: pass rate over expected, 1st & long",
+        "value": 0.0535,
+        "display": "5%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.success_rate",
+        "label": "DET offense: success rate, 1st & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "DET offense: play-action rate, 1st & long",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.pass_rate",
+        "label": "DET offense: pass rate, 3rd & short (2025)",
+        "value": 0.5088,
+        "display": "51%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.success_rate",
+        "label": "DET offense: success rate, 3rd & short (2025)",
+        "value": 0.5789,
+        "display": "58%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "DET offense: run success rate, 3rd & short (2025)",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "DET offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.sack_rate",
+        "label": "DET offense: sack rate, 3rd & long (2025)",
+        "value": 0.1111,
+        "display": "11%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.screen_rate",
+        "label": "DET offense: screen rate, 3rd & long (2025)",
+        "value": 0.0926,
+        "display": "9%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.pass_rate",
+        "label": "DET offense: pass rate, red zone",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.5497,
+        "league_display": "55%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.success_rate",
+        "label": "DET offense: success rate, red zone",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.4437,
+        "league_display": "44%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.epa_per_play",
+        "label": "DET offense: EPA/play, red zone",
+        "value": 0.3609,
+        "display": "+0.36",
+        "unit": "epa",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.0546,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "DET offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.931,
+        "display": "93%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "DET offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3793,
+        "display": "38%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "NYJ.def.2026.overall.all.epa_per_play",
+        "label": "NYJ defense: EPA/play, all plays",
+        "value": -0.1709,
+        "display": "-0.17",
+        "unit": "epa",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NYJ.def.2026.overall.all.success_rate",
+        "label": "NYJ defense: success rate, all plays",
+        "value": 0.3838,
+        "display": "38%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "NYJ.def.2026.overall.all.explosive_rate",
+        "label": "NYJ defense: explosive-play rate, all plays",
+        "value": 0.0505,
+        "display": "5%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "NYJ.def.2026.overall.all.blitz_rate",
+        "label": "NYJ defense: blitz rate, all plays",
+        "value": 0.2817,
+        "display": "28%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "NYJ.def.2026.down_dist.d1-long.success_rate",
+        "label": "NYJ defense: success rate, 1st & long",
+        "value": 0.3421,
+        "display": "34%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYJ.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "NYJ defense: run success rate, 1st & long",
+        "value": 0.3182,
+        "display": "32%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "NYJ.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "NYJ defense: dropback success rate, 1st & long",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "NYJ.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "NYJ defense: explosive-play rate, 1st & long",
+        "value": 0.0789,
+        "display": "8%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-short.success_rate",
+        "label": "NYJ defense: success rate, 3rd & short (2025)",
+        "value": 0.549,
+        "display": "55%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "NYJ defense: run success rate, 3rd & short (2025)",
+        "value": 0.6452,
+        "display": "65%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "NYJ defense: blitz rate, 3rd & short (2025)",
+        "value": 0.45,
+        "display": "45%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "NYJ defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4839,
+        "display": "48%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "NYJ defense: blitz rate, 3rd & long (2025)",
+        "value": 0.459,
+        "display": "46%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "NYJ.def.2025.down_dist.d3-long.man_rate",
+        "label": "NYJ defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.6613,
+        "display": "66%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "NYJ.def.2025.zone.red_zone.success_rate",
+        "label": "NYJ defense: success rate, red zone (2025)",
+        "value": 0.484,
+        "display": "48%",
+        "unit": "rate",
+        "n": 188,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYJ.def.2025.zone.red_zone.epa_per_play",
+        "label": "NYJ defense: EPA/play, red zone (2025)",
+        "value": 0.2455,
+        "display": "+0.25",
+        "unit": "epa",
+        "n": 188,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "NYJ.def.2025.zone.red_zone.pass_success_rate",
+        "label": "NYJ defense: dropback success rate, red zone (2025)",
+        "value": 0.4947,
+        "display": "49%",
+        "unit": "rate",
+        "n": 188,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "NYJ.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "NYJ defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.32,
+        "display": "32%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "NYJ.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "NYJ defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Against a defense that blitzes often and allows deep passes, DET should prioritize play-action and quick passes in third and long situations to exploit coverage gaps and avoid pressure.",
+  "keys": [
+    {
+      "detail": "DET's pass rate on 1st & long is well above league average at 60%, and play-action is used 45% of the time, indicating a strong tendency to use play-action to create space against a defense that blitzes.",
+      "stat_ids": [
+        "DET.off.2026.down_dist.d1-long.pass_rate",
+        "DET.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "High Play-Action Usage on 1st & Long"
+    },
+    {
+      "detail": "NYJ's blitz rate on 3rd & long is 46%, well above league average, and their man coverage rate is 66%, which is the worst in this sheet, suggesting a lack of zone coverage and vulnerability to quick passes.",
+      "stat_ids": [
+        "NYJ.def.2025.down_dist.d3-long.blitz_rate",
+        "NYJ.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "NYJ Defense Over-Relies on Man Coverage"
+    },
+    {
+      "detail": "DET's red zone success rate is 57%, well above league average, and EPA/play is +0.36, indicating strong efficiency in tight spaces, making quick passes a viable option in the red zone.",
+      "stat_ids": [
+        "DET.off.2026.zone.red_zone.success_rate",
+        "DET.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Strong Red Zone Efficiency"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.overall.all.pass_rate"
+          ],
+          "text": "DET's overall pass rate is 63%, above league average, suggesting a consistent passing offense that benefits from play-action."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "NYJ's blitz rate is 28%, below league average, indicating a moderate pressure tendency, but still present, making play-action a safe option."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Inside Run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "DET's run success rate on 3rd & short is 57%, above league average, indicating strong run efficiency in short yardage."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "NYJ's run success rate on 3rd & short is 65%, above league average, suggesting they allow runs to succeed well in short yardage."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "DET's screen rate on 3rd & long is 9%, above league average, indicating a consistent use of screens in long situations."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "NYJ's success rate on 1st & long is 34%, below league average, suggesting poor performance on long dropbacks, making screens a safer option."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "NYJ's blitz rate on 3rd & long is 46%, above league average, indicating a high risk of pressure on dropbacks."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Slant Fade",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "DET's red zone pass rate is 57%, above league average, indicating a strong tendency to pass in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "DET's red zone success rate is 57%, well above league average, showing high efficiency in the red zone."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "NYJ's red zone success rate is 48%, above league average, suggesting they allow more success in the red zone than expected."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick Pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.overall.all.pass_rate"
+          ],
+          "text": "DET's overall pass rate is 63%, above league average, indicating a consistent passing offense."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "NYJ's zone coverage rate in two-minute situations is 56%, below league average, suggesting they are less effective in covering passes."
+        },
+        {
+          "stat_ids": [
+            "NYJ.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "NYJ's pass success rate in two-minute situations is 32%, below league average, indicating poor pass defense."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

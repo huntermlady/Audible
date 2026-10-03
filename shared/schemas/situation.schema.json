@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/situation.schema.json",
+  "title": "Situation",
+  "description": "Play-Caller game state. score_diff is from the offense's perspective; quarter 5 = OT. Cross-field rule (not expressible here, enforced by validators): distance <= yardline_100.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "role",
+    "offense",
+    "defense",
+    "season",
+    "down",
+    "distance",
+    "yardline_100",
+    "quarter",
+    "clock_seconds",
+    "score_diff",
+    "timeouts_offense",
+    "timeouts_defense"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "OC",
+        "DC"
+      ]
+    },
+    "offense": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "defense": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "down": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "distance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 99
+    },
+    "yardline_100": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 99
+    },
+    "quarter": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "clock_seconds": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 900
+    },
+    "score_diff": {
+      "type": "integer",
+      "minimum": -99,
+      "maximum": 99
+    },
+    "timeouts_offense": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "timeouts_defense": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    }
+  }
+}

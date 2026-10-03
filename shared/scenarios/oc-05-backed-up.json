@@ -1,0 +1,33 @@
+{
+  "id": "oc-05-backed-up",
+  "situation": {
+    "role": "OC",
+    "offense": "DET",
+    "defense": "GB",
+    "season": 2026,
+    "down": 1,
+    "distance": 10,
+    "yardline_100": 97,
+    "quarter": 1,
+    "clock_seconds": 600,
+    "score_diff": 0,
+    "timeouts_offense": 3,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": [
+    "inside_run",
+    "outside_run",
+    "quick_pass"
+  ],
+  "unacceptable_play_families": [
+    "deep_pass",
+    "punt",
+    "field_goal"
+  ],
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": null,
+  "acceptable_fronts": null,
+  "notes_for_human_rater": "1st & 10 from the 3. Priority is avoiding a safety or turnover: runs and safe quick throws, not deep drops."
+}

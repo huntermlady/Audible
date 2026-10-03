@@ -1,0 +1,23 @@
+# Audible AI configuration (BUILD_PLAN §5.4, CONTRACT_CHANGES #8). No secrets here:
+# ANTHROPIC_API_KEY lives in .env. Switching a stage to Claude = set that stage's provider = "claude".
+
+[ai.live]                          # Play-Caller + chat (latency-bound)
+provider = "ollama"
+base_url = "http://localhost:11434"
+model = "qwen3:4b-instruct"
+think = false                      # optional; default false
+
+[ai.batch]                         # weekly game-plan reports (slowness is fine)
+provider = "ollama"
+base_url = "http://localhost:11434"
+model = "qwen3:4b-instruct"        # CONTRACT_CHANGES #21: 8 GB RAM / disk; revisit in M4
+think = false                      # optional; default false
+fallback_model = "qwen3:4b-instruct"  # optional
+
+[ai.claude]
+model = "claude-sonnet-5"          # used only if a stage is switched to Claude
+max_daily_usd = 2.00
+
+[ai.cloud]                         # hosted worker for visitors without Ollama
+worker_url = "https://audible-ai.huntermlady58.workers.dev"
+model = "@cf/qwen/qwen3-30b-a3b-fp8"

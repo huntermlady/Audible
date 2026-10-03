@@ -1,0 +1,34 @@
+{
+  "id": "oc-04-two-minute",
+  "situation": {
+    "role": "OC",
+    "offense": "BUF",
+    "defense": "MIA",
+    "season": 2026,
+    "down": 1,
+    "distance": 10,
+    "yardline_100": 60,
+    "quarter": 4,
+    "clock_seconds": 95,
+    "score_diff": -3,
+    "timeouts_offense": 1,
+    "timeouts_defense": 2
+  },
+  "data": "fixtures",
+  "acceptable_play_families": [
+    "quick_pass",
+    "intermediate_pass",
+    "deep_pass"
+  ],
+  "unacceptable_play_families": [
+    "inside_run",
+    "sneak",
+    "punt",
+    "field_goal"
+  ],
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": null,
+  "acceptable_fronts": null,
+  "notes_for_human_rater": "Down 3 with 1:35 left and one timeout, needing at least a field goal. Expect clock-aware passing; a slow-developing run wastes time."
+}

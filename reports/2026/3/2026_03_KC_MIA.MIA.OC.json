@@ -1,0 +1,633 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_KC_MIA",
+  "season": 2026,
+  "week": 3,
+  "team": "MIA",
+  "opponent": "KC",
+  "role": "OC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_KC_MIA",
+      "season": 2026,
+      "team": "MIA",
+      "opponent": "KC",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "MIA.off.2026.overall.all.epa_per_play",
+        "label": "MIA offense: EPA/play, all plays",
+        "value": -0.1118,
+        "display": "-0.11",
+        "unit": "epa",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "MIA.off.2026.overall.all.success_rate",
+        "label": "MIA offense: success rate, all plays",
+        "value": 0.3774,
+        "display": "38%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "MIA.off.2026.overall.all.pass_rate",
+        "label": "MIA offense: pass rate, all plays",
+        "value": 0.6132,
+        "display": "61%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "MIA.off.2026.overall.all.proe",
+        "label": "MIA offense: pass rate over expected, all plays",
+        "value": -0.0978,
+        "display": "-10%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "MIA.off.2026.overall.all.explosive_rate",
+        "label": "MIA offense: explosive-play rate, all plays",
+        "value": 0.0849,
+        "display": "8%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIA.off.2026.down_dist.d1-long.pass_rate",
+        "label": "MIA offense: pass rate, 1st & long",
+        "value": 0.5294,
+        "display": "53%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIA.off.2026.down_dist.d1-long.proe",
+        "label": "MIA offense: pass rate over expected, 1st & long",
+        "value": -0.0563,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "MIA.off.2026.down_dist.d1-long.success_rate",
+        "label": "MIA offense: success rate, 1st & long",
+        "value": 0.2059,
+        "display": "21%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "MIA offense: play-action rate, 1st & long",
+        "value": 0.4444,
+        "display": "44%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-short.pass_rate",
+        "label": "MIA offense: pass rate, 3rd & short (2025)",
+        "value": 0.4048,
+        "display": "40%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-short.success_rate",
+        "label": "MIA offense: success rate, 3rd & short (2025)",
+        "value": 0.5238,
+        "display": "52%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "MIA offense: run success rate, 3rd & short (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "MIA offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3621,
+        "display": "36%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-long.sack_rate",
+        "label": "MIA offense: sack rate, 3rd & long (2025)",
+        "value": 0.1897,
+        "display": "19%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "MIA.off.2025.down_dist.d3-long.screen_rate",
+        "label": "MIA offense: screen rate, 3rd & long (2025)",
+        "value": 0.0862,
+        "display": "9%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "MIA.off.2025.zone.red_zone.pass_rate",
+        "label": "MIA offense: pass rate, red zone (2025)",
+        "value": 0.5071,
+        "display": "51%",
+        "unit": "rate",
+        "n": 140,
+        "low_sample": false,
+        "league_value": 0.5388,
+        "league_display": "54%"
+      },
+      {
+        "id": "MIA.off.2025.zone.red_zone.success_rate",
+        "label": "MIA offense: success rate, red zone (2025)",
+        "value": 0.45,
+        "display": "45%",
+        "unit": "rate",
+        "n": 140,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.off.2025.zone.red_zone.epa_per_play",
+        "label": "MIA offense: EPA/play, red zone (2025)",
+        "value": 0.0421,
+        "display": "+0.04",
+        "unit": "epa",
+        "n": 140,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIA.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "MIA offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.7708,
+        "display": "77%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "MIA.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "MIA offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4583,
+        "display": "46%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.epa_per_play",
+        "label": "KC defense: EPA/play, all plays",
+        "value": -0.0558,
+        "display": "-0.06",
+        "unit": "epa",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "KC.def.2026.overall.all.success_rate",
+        "label": "KC defense: success rate, all plays",
+        "value": 0.4312,
+        "display": "43%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.explosive_rate",
+        "label": "KC defense: explosive-play rate, all plays",
+        "value": 0.0642,
+        "display": "6%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.blitz_rate",
+        "label": "KC defense: blitz rate, all plays",
+        "value": 0.3182,
+        "display": "32%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.success_rate",
+        "label": "KC defense: success rate, 1st & long",
+        "value": 0.4773,
+        "display": "48%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "KC defense: run success rate, 1st & long",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 1st & long",
+        "value": 0.5882,
+        "display": "59%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "KC defense: explosive-play rate, 1st & long",
+        "value": 0.1364,
+        "display": "14%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-short.success_rate",
+        "label": "KC defense: success rate, 3rd & short (2025)",
+        "value": 0.6512,
+        "display": "65%",
+        "unit": "rate",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "KC defense: run success rate, 3rd & short (2025)",
+        "value": 0.7073,
+        "display": "71%",
+        "unit": "rate",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2889,
+        "display": "29%",
+        "unit": "rate",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4231,
+        "display": "42%",
+        "unit": "rate",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4808,
+        "display": "48%",
+        "unit": "rate",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "KC.def.2025.down_dist.d3-long.man_rate",
+        "label": "KC defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.4808,
+        "display": "48%",
+        "unit": "rate",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "KC.def.2025.zone.red_zone.success_rate",
+        "label": "KC defense: success rate, red zone (2025)",
+        "value": 0.3889,
+        "display": "39%",
+        "unit": "rate",
+        "n": 144,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "KC.def.2025.zone.red_zone.epa_per_play",
+        "label": "KC defense: EPA/play, red zone (2025)",
+        "value": 0.0187,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 144,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "KC.def.2025.zone.red_zone.pass_success_rate",
+        "label": "KC defense: dropback success rate, red zone (2025)",
+        "value": 0.3472,
+        "display": "35%",
+        "unit": "rate",
+        "n": 144,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "KC.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "KC defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4688,
+        "display": "47%",
+        "unit": "rate",
+        "n": 37,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "KC.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "KC defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5938,
+        "display": "59%",
+        "unit": "rate",
+        "n": 37,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "MIA must rely on play-action and quick passes in 1st & long due to KC's high blitz rate and poor success rate on deep drops.",
+  "keys": [
+    {
+      "detail": "MIA's pass rate in 1st & long is well above league average at 53%, but success rate is only 21%, which is the worst in this sheet.",
+      "stat_ids": [
+        "MIA.off.2026.down_dist.d1-long.pass_rate",
+        "MIA.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Poor 1st & Long Success Rate"
+    },
+    {
+      "detail": "KC's 3rd & long blitz rate is 48%, well above league average, and man coverage is 48%, indicating a high-pressure, man-to-man defense.",
+      "stat_ids": [
+        "KC.def.2025.down_dist.d3-long.blitz_rate",
+        "KC.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "KC's High Blitz and Man Coverage in 3rd & Long"
+    },
+    {
+      "detail": "MIA's red zone pass rate is 51%, slightly below league average, and red zone success rate is 45%, which is above league average, suggesting a manageable red zone threat.",
+      "stat_ids": [
+        "MIA.off.2025.zone.red_zone.pass_rate",
+        "MIA.off.2025.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Performance is Manageable"
+    },
+    {
+      "detail": "KC's two-minute defense in trailing situations uses 59% zone coverage, which is below league average, indicating a soft coverage scheme under pressure.",
+      "stat_ids": [
+        "KC.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+      ],
+      "title": "KC's Two-Minute Coverage is Soft"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.off.2026.overall.all.pass_rate"
+          ],
+          "text": "MIA's pass rate is above league average at 61%, supporting a play-action-based offense."
+        },
+        {
+          "stat_ids": [
+            "MIA.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "MIA's run success rate in 3rd & short is 60%, above league average, indicating efficiency in short-yardage runs."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "MIA's run success rate in 3rd & short is 60%, above league average, indicating strong run efficiency."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "KC's run success rate in 3rd & short is 71%, above league average, suggesting a strong run defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "medium",
+      "primary": {
+        "concept": "screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "MIA's screen rate in 3rd & long is 9%, below league average, indicating underutilization of screen plays."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "KC's 3rd & long blitz rate is 48%, above league average, making screen plays a safer option."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.off.2025.zone.red_zone.pass_rate"
+          ],
+          "text": "MIA's red zone pass rate is 51%, above league average, indicating a consistent pass-first approach."
+        },
+        {
+          "stat_ids": [
+            "MIA.off.2025.zone.red_zone.success_rate"
+          ],
+          "text": "MIA's red zone success rate is 45%, above league average, suggesting a viable red zone offense."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "quick_pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "KC's zone coverage rate in two-minute situations is 59%, below league average, indicating a soft coverage scheme."
+        },
+        {
+          "stat_ids": [
+            "MIA.off.2026.overall.all.pass_rate"
+          ],
+          "text": "MIA's overall pass rate is 61%, above league average, supporting a pass-first approach in time pressure."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

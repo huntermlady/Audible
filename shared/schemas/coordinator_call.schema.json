@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/coordinator_call.schema.json",
+  "title": "CoordinatorCall",
+  "description": "Structured OC/DC recommendation. OC: play_family set, front/coverage_shell/pressure null. DC: front/coverage_shell/pressure set, play_family null.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "role",
+    "primary",
+    "alternatives",
+    "rationale",
+    "confidence",
+    "caveats"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "OC",
+        "DC"
+      ]
+    },
+    "primary": {
+      "$ref": "#/$defs/CallOption"
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/AlternativeCall"
+      },
+      "maxItems": 2
+    },
+    "rationale": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RationaleItem"
+      },
+      "minItems": 2,
+      "maxItems": 5
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "CallOption": {
+      "title": "CallOption",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "play_family",
+        "direction",
+        "concept",
+        "front",
+        "coverage_shell",
+        "pressure"
+      ],
+      "properties": {
+        "play_family": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "inside_run",
+            "outside_run",
+            "qb_run",
+            "screen",
+            "quick_pass",
+            "intermediate_pass",
+            "deep_pass",
+            "play_action",
+            "sneak",
+            "punt",
+            "field_goal",
+            null
+          ]
+        },
+        "direction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "left",
+            "middle",
+            "right",
+            null
+          ]
+        },
+        "concept": {
+          "type": "string",
+          "minLength": 1
+        },
+        "front": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "even",
+            "odd",
+            "bear",
+            "dime_sub",
+            null
+          ]
+        },
+        "coverage_shell": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "cover0",
+            "cover1",
+            "cover2",
+            "cover3",
+            "cover4",
+            "cover6",
+            "two_man",
+            null
+          ]
+        },
+        "pressure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "none",
+            "sim",
+            "blitz",
+            null
+          ]
+        }
+      }
+    },
+    "AlternativeCall": {
+      "title": "AlternativeCall",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "play_family",
+        "direction",
+        "concept",
+        "front",
+        "coverage_shell",
+        "pressure",
+        "when"
+      ],
+      "properties": {
+        "play_family": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "inside_run",
+            "outside_run",
+            "qb_run",
+            "screen",
+            "quick_pass",
+            "intermediate_pass",
+            "deep_pass",
+            "play_action",
+            "sneak",
+            "punt",
+            "field_goal",
+            null
+          ]
+        },
+        "direction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "left",
+            "middle",
+            "right",
+            null
+          ]
+        },
+        "concept": {
+          "type": "string",
+          "minLength": 1
+        },
+        "front": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "even",
+            "odd",
+            "bear",
+            "dime_sub",
+            null
+          ]
+        },
+        "coverage_shell": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "cover0",
+            "cover1",
+            "cover2",
+            "cover3",
+            "cover4",
+            "cover6",
+            "two_man",
+            null
+          ]
+        },
+        "pressure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "none",
+            "sim",
+            "blitz",
+            null
+          ]
+        },
+        "when": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "RationaleItem": {
+      "title": "RationaleItem",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "stat_ids"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stat_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,3}\\.(off|def)\\.[0-9]{4}\\.(overall|down_dist|down_dist_zone|zone|score_time|down_dist_score_time)\\.[a-z0-9_-]+\\.[a-z_]+$",
+            "description": "{team}.{side}.{season}.{grouping}.{cell_key}.{metric}"
+          },
+          "minItems": 1
+        }
+      }
+    }
+  }
+}

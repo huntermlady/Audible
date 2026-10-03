@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/game_plan_report.schema.json",
+  "title": "GamePlanReport",
+  "description": "reports/{season}/{week}/{game_id}.{team}.{role}.json. Reports with validation_status 'failed' are never shown.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_version",
+    "game_id",
+    "season",
+    "week",
+    "team",
+    "opponent",
+    "role",
+    "generated_at",
+    "stats_as_of",
+    "provider",
+    "model",
+    "validation_status",
+    "fact_sheet",
+    "headline",
+    "keys",
+    "situational_calls"
+  ],
+  "properties": {
+    "report_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "game_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}_[0-9]{2}_[A-Z]{2,3}_[A-Z]{2,3}$"
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 22
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "opponent": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "OC",
+        "DC"
+      ]
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "stats_as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "provider": {
+      "type": "string",
+      "enum": [
+        "ollama",
+        "claude",
+        "claude-dev",
+        "fake",
+        "cloud"
+      ]
+    },
+    "model": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "passed",
+        "failed"
+      ]
+    },
+    "fact_sheet": {
+      "$ref": "fact_sheet.schema.json"
+    },
+    "headline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "keys": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ReportKey"
+      },
+      "minItems": 3,
+      "maxItems": 5
+    },
+    "situational_calls": {
+      "title": "SituationalCalls",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "early_down",
+        "third_short",
+        "third_long",
+        "red_zone",
+        "two_minute"
+      ],
+      "properties": {
+        "early_down": {
+          "$ref": "coordinator_call.schema.json"
+        },
+        "third_short": {
+          "$ref": "coordinator_call.schema.json"
+        },
+        "third_long": {
+          "$ref": "coordinator_call.schema.json"
+        },
+        "red_zone": {
+          "$ref": "coordinator_call.schema.json"
+        },
+        "two_minute": {
+          "$ref": "coordinator_call.schema.json"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "ReportKey": {
+      "title": "ReportKey",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "detail",
+        "stat_ids"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stat_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,3}\\.(off|def)\\.[0-9]{4}\\.(overall|down_dist|down_dist_zone|zone|score_time|down_dist_score_time)\\.[a-z0-9_-]+\\.[a-z_]+$",
+            "description": "{team}.{side}.{season}.{grouping}.{cell_key}.{metric}"
+          },
+          "minItems": 1
+        }
+      }
+    }
+  }
+}

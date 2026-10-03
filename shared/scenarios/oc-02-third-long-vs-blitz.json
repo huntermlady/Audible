@@ -1,0 +1,33 @@
+{
+  "id": "oc-02-third-long-vs-blitz",
+  "situation": {
+    "role": "OC",
+    "offense": "KC",
+    "defense": "BAL",
+    "season": 2026,
+    "down": 3,
+    "distance": 8,
+    "yardline_100": 35,
+    "quarter": 4,
+    "clock_seconds": 130,
+    "score_diff": -4,
+    "timeouts_offense": 1,
+    "timeouts_defense": 2
+  },
+  "data": "fixtures",
+  "acceptable_play_families": [
+    "quick_pass",
+    "screen",
+    "intermediate_pass"
+  ],
+  "unacceptable_play_families": [
+    "inside_run",
+    "sneak",
+    "punt"
+  ],
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": null,
+  "acceptable_fronts": null,
+  "notes_for_human_rater": "Baltimore blitzes heavily on 3rd & long in the fixtures. Expect hot/quick answers or a screen that punishes pressure."
+}

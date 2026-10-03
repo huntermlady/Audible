@@ -1,0 +1,670 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_LV_NO",
+  "season": 2026,
+  "week": 3,
+  "team": "LV",
+  "opponent": "NO",
+  "role": "DC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_LV_NO",
+      "season": 2026,
+      "team": "LV",
+      "opponent": "NO",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "LV.def.2026.overall.all.epa_per_play",
+        "label": "LV defense: EPA/play, all plays",
+        "value": -0.2498,
+        "display": "-0.25",
+        "unit": "epa",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "LV.def.2026.overall.all.success_rate",
+        "label": "LV defense: success rate, all plays",
+        "value": 0.3482,
+        "display": "35%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "LV.def.2026.overall.all.explosive_rate",
+        "label": "LV defense: explosive-play rate, all plays",
+        "value": 0.0893,
+        "display": "9%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "LV.def.2026.overall.all.blitz_rate",
+        "label": "LV defense: blitz rate, all plays",
+        "value": 0.2059,
+        "display": "21%",
+        "unit": "rate",
+        "n": 112,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "LV.def.2026.down_dist.d1-long.success_rate",
+        "label": "LV defense: success rate, 1st & long",
+        "value": 0.2683,
+        "display": "27%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "LV.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "LV defense: run success rate, 1st & long",
+        "value": 0.2174,
+        "display": "22%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "LV.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "LV defense: dropback success rate, 1st & long",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "LV.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "LV defense: explosive-play rate, 1st & long",
+        "value": 0.0976,
+        "display": "10%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-short.success_rate",
+        "label": "LV defense: success rate, 3rd & short (2025)",
+        "value": 0.625,
+        "display": "63%",
+        "unit": "rate",
+        "n": 80,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "LV defense: run success rate, 3rd & short (2025)",
+        "value": 0.6596,
+        "display": "66%",
+        "unit": "rate",
+        "n": 80,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "LV defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2727,
+        "display": "27%",
+        "unit": "rate",
+        "n": 80,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "LV defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.5111,
+        "display": "51%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "LV defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3556,
+        "display": "36%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "LV.def.2025.down_dist.d3-long.man_rate",
+        "label": "LV defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.4222,
+        "display": "42%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "LV.def.2025.zone.red_zone.success_rate",
+        "label": "LV defense: success rate, red zone (2025)",
+        "value": 0.4327,
+        "display": "43%",
+        "unit": "rate",
+        "n": 208,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "LV.def.2025.zone.red_zone.epa_per_play",
+        "label": "LV defense: EPA/play, red zone (2025)",
+        "value": -0.0598,
+        "display": "-0.06",
+        "unit": "epa",
+        "n": 208,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "LV.def.2025.zone.red_zone.pass_success_rate",
+        "label": "LV defense: dropback success rate, red zone (2025)",
+        "value": 0.4271,
+        "display": "43%",
+        "unit": "rate",
+        "n": 208,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "LV.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "LV defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3913,
+        "display": "39%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "LV.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "LV defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7826,
+        "display": "78%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "NO.off.2026.overall.all.epa_per_play",
+        "label": "NO offense: EPA/play, all plays",
+        "value": 0.0459,
+        "display": "+0.05",
+        "unit": "epa",
+        "n": 148,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NO.off.2026.overall.all.success_rate",
+        "label": "NO offense: success rate, all plays",
+        "value": 0.4324,
+        "display": "43%",
+        "unit": "rate",
+        "n": 148,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "NO.off.2026.overall.all.pass_rate",
+        "label": "NO offense: pass rate, all plays",
+        "value": 0.6824,
+        "display": "68%",
+        "unit": "rate",
+        "n": 148,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "NO.off.2026.overall.all.proe",
+        "label": "NO offense: pass rate over expected, all plays",
+        "value": 0.0229,
+        "display": "2%",
+        "unit": "rate",
+        "n": 148,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NO.off.2026.overall.all.explosive_rate",
+        "label": "NO offense: explosive-play rate, all plays",
+        "value": 0.0878,
+        "display": "9%",
+        "unit": "rate",
+        "n": 148,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "NO.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NO offense: pass rate, 1st & long",
+        "value": 0.6167,
+        "display": "62%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "NO.off.2026.down_dist.d1-long.proe",
+        "label": "NO offense: pass rate over expected, 1st & long",
+        "value": 0.0474,
+        "display": "5%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "NO.off.2026.down_dist.d1-long.success_rate",
+        "label": "NO offense: success rate, 1st & long",
+        "value": 0.3167,
+        "display": "32%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "NO.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NO offense: play-action rate, 1st & long",
+        "value": 0.2432,
+        "display": "24%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-short.pass_rate",
+        "label": "NO offense: pass rate, 3rd & short (2025)",
+        "value": 0.4203,
+        "display": "42%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-short.success_rate",
+        "label": "NO offense: success rate, 3rd & short (2025)",
+        "value": 0.6522,
+        "display": "65%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "NO offense: run success rate, 3rd & short (2025)",
+        "value": 0.725,
+        "display": "73%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "NO offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-long.sack_rate",
+        "label": "NO offense: sack rate, 3rd & long (2025)",
+        "value": 0.0577,
+        "display": "6%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "NO.off.2025.down_dist.d3-long.screen_rate",
+        "label": "NO offense: screen rate, 3rd & long (2025)",
+        "value": 0.0192,
+        "display": "2%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "NO.off.2026.zone.red_zone.pass_rate",
+        "label": "NO offense: pass rate, red zone",
+        "value": 0.65,
+        "display": "65%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.5497,
+        "league_display": "55%"
+      },
+      {
+        "id": "NO.off.2026.zone.red_zone.success_rate",
+        "label": "NO offense: success rate, red zone",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.4437,
+        "league_display": "44%"
+      },
+      {
+        "id": "NO.off.2026.zone.red_zone.epa_per_play",
+        "label": "NO offense: EPA/play, red zone",
+        "value": 0.3191,
+        "display": "+0.32",
+        "unit": "epa",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.0546,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "NO.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NO offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8548,
+        "display": "85%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NO.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NO offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4516,
+        "display": "45%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense, LV defense must prioritize pass coverage and pressure in third-down situations to limit explosive plays and success rates.",
+  "keys": [
+    {
+      "detail": "LV defense allows 35% success rate on all plays, well below league average of 44%, indicating a weak overall performance that must be addressed in key situations.",
+      "stat_ids": [
+        "LV.def.2026.overall.all.success_rate"
+      ],
+      "title": "Weak Overall Success Rate"
+    },
+    {
+      "detail": "LV defense has a 21% blitz rate, below league average of 32%, suggesting insufficient pressure to disrupt offensive timing and pass plays.",
+      "stat_ids": [
+        "LV.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "Low Blitz Rate"
+    },
+    {
+      "detail": "In 1st & long, LV defense allows 33% dropback success rate, below league average of 49%, and 62% pass rate from NO offense, indicating a high risk of pass success in early downs.",
+      "stat_ids": [
+        "NO.off.2026.down_dist.d1-long.pass_rate",
+        "LV.def.2026.down_dist.d1-long.pass_success_rate"
+      ],
+      "title": "High Pass Rate in 1st & Long"
+    },
+    {
+      "detail": "In red zone, NO offense has a 65% pass rate and 50% success rate, both above league average, showing a strong tendency to pass in high-pressure zones.",
+      "stat_ids": [
+        "NO.off.2026.zone.red_zone.pass_rate",
+        "NO.off.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Strong Red Zone Passing Tendency"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, NO offense passes 85% of the time and achieves 45% success rate, indicating a high-volume, high-risk passing attack under pressure.",
+      "stat_ids": [
+        "NO.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "NO.off.2025.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "Aggressive Two-Minute Passing"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NO.off.2026.overall.all.pass_rate"
+          ],
+          "text": "NO offense has a 68% pass rate, above league average, so a cover3 shell is appropriate to match the pass tendency."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2026.overall.all.success_rate"
+          ],
+          "text": "LV defense has a 35% success rate, below league average, indicating a need for consistent coverage and pressure to improve outcomes."
+        },
+        {
+          "stat_ids": [
+            "NO.off.2026.overall.all.proe"
+          ],
+          "text": "NO offense has a 2% pass rate over expected, suggesting a slight tendency to exceed expectations, which may require more aggressive coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NO.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "NO offense has a 42% pass rate on 3rd & short, below league average of 48%, suggesting a moderate pass tendency that can be managed with cover3."
+        },
+        {
+          "stat_ids": [
+            "NO.off.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "NO offense has a 65% success rate on 3rd & short, above league average, indicating a strong run/pass balance that requires consistent coverage."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "LV defense has a 21% blitz rate, below league average, so a non-pressure front is appropriate to avoid disrupting timing."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NO.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "NO offense has a 62% pass rate on 1st & long, above league average, so man coverage is needed to defend against deep passes."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2026.down_dist.d1-long.pass_success_rate"
+          ],
+          "text": "LV defense allows 33% dropback success rate on 1st & long, below league average of 49%, indicating a need for improved pass defense."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2025.down_dist.d3-long.man_rate"
+          ],
+          "text": "LV defense has a 42% man coverage rate on 3rd & long, above league average of 39%, suggesting a baseline of man coverage is already in place."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NO.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NO offense has a 65% pass rate in red zone, above league average, so man coverage is needed to take away deep threats."
+        },
+        {
+          "stat_ids": [
+            "NO.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "NO offense has a 50% success rate in red zone, above league average, indicating a high risk of scoring in this zone."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "LV defense has a 43% success rate in red zone, about league average, showing a need for tighter coverage to improve results."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NO.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NO offense has an 85% pass rate when trailing by one score, above league average, so man coverage is needed to defend deep threats."
+        },
+        {
+          "stat_ids": [
+            "NO.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NO offense has a 45% success rate in two-minute situations, above league average, indicating a high-risk, high-reward passing attack."
+        },
+        {
+          "stat_ids": [
+            "LV.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "LV defense has a 43% success rate in red zone, about league average, showing a need for tighter coverage under pressure."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

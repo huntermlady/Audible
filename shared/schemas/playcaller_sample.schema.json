@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/playcaller_sample.schema.json",
+  "title": "PlaycallerSample",
+  "description": "One entry of reports/samples/playcaller.json (an array of 3-5); shown in Sample mode.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "situation",
+    "fact_sheet",
+    "call",
+    "generated_at",
+    "model"
+  ],
+  "properties": {
+    "situation": {
+      "$ref": "situation.schema.json"
+    },
+    "fact_sheet": {
+      "$ref": "fact_sheet.schema.json"
+    },
+    "call": {
+      "$ref": "coordinator_call.schema.json"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,690 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_CAR_CLE",
+  "season": 2026,
+  "week": 3,
+  "team": "CAR",
+  "opponent": "CLE",
+  "role": "OC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_CAR_CLE",
+      "season": 2026,
+      "team": "CAR",
+      "opponent": "CLE",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "CAR.off.2026.overall.all.epa_per_play",
+        "label": "CAR offense: EPA/play, all plays",
+        "value": 0.1623,
+        "display": "+0.16",
+        "unit": "epa",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CAR.off.2026.overall.all.success_rate",
+        "label": "CAR offense: success rate, all plays",
+        "value": 0.4628,
+        "display": "46%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "CAR.off.2026.overall.all.pass_rate",
+        "label": "CAR offense: pass rate, all plays",
+        "value": 0.6777,
+        "display": "68%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "CAR.off.2026.overall.all.proe",
+        "label": "CAR offense: pass rate over expected, all plays",
+        "value": 0.0432,
+        "display": "4%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CAR.off.2026.overall.all.explosive_rate",
+        "label": "CAR offense: explosive-play rate, all plays",
+        "value": 0.1157,
+        "display": "12%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "CAR.off.2026.down_dist.d1-long.pass_rate",
+        "label": "CAR offense: pass rate, 1st & long",
+        "value": 0.5625,
+        "display": "56%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "CAR.off.2026.down_dist.d1-long.proe",
+        "label": "CAR offense: pass rate over expected, 1st & long",
+        "value": 0.0312,
+        "display": "3%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "CAR.off.2026.down_dist.d1-long.success_rate",
+        "label": "CAR offense: success rate, 1st & long",
+        "value": 0.5208,
+        "display": "52%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "CAR.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "CAR offense: play-action rate, 1st & long",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-short.pass_rate",
+        "label": "CAR offense: pass rate, 3rd & short (2025)",
+        "value": 0.5263,
+        "display": "53%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-short.success_rate",
+        "label": "CAR offense: success rate, 3rd & short (2025)",
+        "value": 0.5439,
+        "display": "54%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "CAR offense: run success rate, 3rd & short (2025)",
+        "value": 0.6296,
+        "display": "63%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "CAR offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3696,
+        "display": "37%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-long.sack_rate",
+        "label": "CAR offense: sack rate, 3rd & long (2025)",
+        "value": 0.0652,
+        "display": "7%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "CAR.off.2025.down_dist.d3-long.screen_rate",
+        "label": "CAR offense: screen rate, 3rd & long (2025)",
+        "value": 0.087,
+        "display": "9%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "CAR.off.2026.zone.red_zone.pass_rate",
+        "label": "CAR offense: pass rate, red zone",
+        "value": 0.7353,
+        "display": "74%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.5497,
+        "league_display": "55%"
+      },
+      {
+        "id": "CAR.off.2026.zone.red_zone.success_rate",
+        "label": "CAR offense: success rate, red zone",
+        "value": 0.4706,
+        "display": "47%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4437,
+        "league_display": "44%"
+      },
+      {
+        "id": "CAR.off.2026.zone.red_zone.epa_per_play",
+        "label": "CAR offense: EPA/play, red zone",
+        "value": 0.1947,
+        "display": "+0.19",
+        "unit": "epa",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.0546,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "CAR.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "CAR offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8182,
+        "display": "82%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "CAR.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "CAR offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3409,
+        "display": "34%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.epa_per_play",
+        "label": "CLE defense: EPA/play, all plays",
+        "value": 0.0771,
+        "display": "+0.08",
+        "unit": "epa",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.success_rate",
+        "label": "CLE defense: success rate, all plays",
+        "value": 0.487,
+        "display": "49%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.explosive_rate",
+        "label": "CLE defense: explosive-play rate, all plays",
+        "value": 0.1304,
+        "display": "13%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.blitz_rate",
+        "label": "CLE defense: blitz rate, all plays",
+        "value": 0.1905,
+        "display": "19%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.success_rate",
+        "label": "CLE defense: success rate, 1st & long",
+        "value": 0.449,
+        "display": "45%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "CLE defense: run success rate, 1st & long",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "CLE defense: dropback success rate, 1st & long",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "CLE defense: explosive-play rate, 1st & long",
+        "value": 0.1429,
+        "display": "14%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-short.success_rate",
+        "label": "CLE defense: success rate, 3rd & short (2025)",
+        "value": 0.6349,
+        "display": "63%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "CLE defense: run success rate, 3rd & short (2025)",
+        "value": 0.6471,
+        "display": "65%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "CLE defense: blitz rate, 3rd & short (2025)",
+        "value": 0.4483,
+        "display": "45%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "CLE defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.339,
+        "display": "34%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "CLE defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4407,
+        "display": "44%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "CLE.def.2025.down_dist.d3-long.man_rate",
+        "label": "CLE defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.4746,
+        "display": "47%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "CLE.def.2025.zone.red_zone.success_rate",
+        "label": "CLE defense: success rate, red zone (2025)",
+        "value": 0.4043,
+        "display": "40%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "CLE.def.2025.zone.red_zone.epa_per_play",
+        "label": "CLE defense: EPA/play, red zone (2025)",
+        "value": -0.0091,
+        "display": "-0.01",
+        "unit": "epa",
+        "n": 141,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "CLE.def.2025.zone.red_zone.pass_success_rate",
+        "label": "CLE defense: dropback success rate, red zone (2025)",
+        "value": 0.4247,
+        "display": "42%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "CLE.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "CLE defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.619,
+        "display": "62%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "CLE.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "CLE defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 48,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Leverage high pass success in 1st & long and red zone while countering CLE's high blitz and man coverage rates with play-action and quick routes.",
+  "keys": [
+    {
+      "detail": "CAR offense has a well above league average pass rate in 1st & long (56%) and red zone (74%), with a strong EPA/play (+0.16 and +0.19 respectively).",
+      "stat_ids": [
+        "CAR.off.2026.down_dist.d1-long.pass_rate",
+        "CAR.off.2026.zone.red_zone.pass_rate",
+        "CAR.off.2026.overall.all.epa_per_play"
+      ],
+      "title": "High Pass Success in Key Situations"
+    },
+    {
+      "detail": "CLE defense has a high blitz rate (19% overall, 44% in 3rd & long) and man coverage rate (47% in 3rd & long), indicating aggressive and zone-heavy coverage that favors quick, short passes.",
+      "stat_ids": [
+        "CLE.def.2026.overall.all.blitz_rate",
+        "CLE.def.2025.down_dist.d3-long.man_rate",
+        "CLE.def.2025.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "CLE Defense Relies on Blitz and Man Coverage"
+    },
+    {
+      "detail": "CAR's explosive-play rate (12%) is well above league average, and its pass rate over expected (4%) shows consistent performance beyond expectations.",
+      "stat_ids": [
+        "CAR.off.2026.overall.all.explosive_rate",
+        "CAR.off.2026.overall.all.proe"
+      ],
+      "title": "CAR Offense Has Above-Average Explosiveness and Efficiency"
+    },
+    {
+      "detail": "In red zone, CAR has a 47% success rate and +0.19 EPA/play, both above league average, while CLE defense has a 40% red zone success rate and -0.01 EPA/play, indicating a weaker red zone defense.",
+      "stat_ids": [
+        "CAR.off.2026.zone.red_zone.success_rate",
+        "CAR.off.2026.zone.red_zone.epa_per_play",
+        "CLE.def.2025.zone.red_zone.success_rate",
+        "CLE.def.2025.zone.red_zone.epa_per_play"
+      ],
+      "title": "Red Zone Advantage for CAR"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, CAR has an 82% pass rate and 34% success rate, while CLE defense has a 62% success rate and 57% zone coverage, suggesting a defensive softness in coverage under pressure.",
+      "stat_ids": [
+        "CAR.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "CAR.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "CLE.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "CLE.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+      ],
+      "title": "Two-Minute Defense Softness in Trailing Situations"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CAR.off.2026.overall.all.pass_rate"
+          ],
+          "text": "CAR has a 68% pass rate, well above league average, indicating a strong passing offense that benefits from play-action."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "CLE has a 19% blitz rate, below league average, suggesting less pressure on dropbacks and more time for play-action to work."
+        },
+        {
+          "stat_ids": [
+            "CAR.off.2026.overall.all.proe"
+          ],
+          "text": "CAR has a 4% pass rate over expected, showing consistent performance beyond expectations."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Short vertical route",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CLE.def.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "CLE has a 63% success rate in 3rd & short, above league average, indicating a strong defense in this situation."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "CLE has a 45% blitz rate in 3rd & short, above league average, suggesting aggressive coverage that may overcommit."
+        },
+        {
+          "stat_ids": [
+            "CAR.off.2026.overall.all.pass_rate"
+          ],
+          "text": "CAR's 68% pass rate supports a consistent passing strategy in short-yardage situations."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "when CLE blitz rate is high"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=47 for pass success and screen rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Pass to outside route",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CAR.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "CAR has a 56% pass rate in 1st & long, indicating strong passing in high-pressure situations."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "CLE has a 44% blitz rate in 3rd & long, suggesting aggressive coverage that may overcommit to man coverage."
+        },
+        {
+          "stat_ids": [
+            "CAR.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "CAR's 56% pass rate in 1st & long supports a high-risk, high-reward pass strategy."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick slant and fade",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CAR.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "CAR has a 74% pass rate in red zone, well above league average, indicating a strong preference for passing in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "CAR.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "CAR has a 47% success rate in red zone, above league average, showing reliability in high-pressure zones."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "CLE has a 40% red zone success rate, below league average, indicating a weaker defense in this area."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick pass to outside",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CAR.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "CAR has an 82% pass rate in two-minute situations, indicating a strong reliance on passing under pressure."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "CLE has a 57% zone coverage rate in two-minute trailing situations, below league average, suggesting a soft zone defense."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "CLE has a 62% pass success rate in two-minute trailing situations, indicating a defensive softness in coverage."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

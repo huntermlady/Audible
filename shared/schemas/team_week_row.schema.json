@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/team_week_row.schema.json",
+  "title": "TeamWeekRow",
+  "description": "One row of data/team_week.parquet: one team in one played game.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "season",
+    "week",
+    "game_id",
+    "team",
+    "opponent",
+    "is_home",
+    "points_for",
+    "points_against",
+    "off_plays",
+    "off_epa_per_play",
+    "off_success_rate",
+    "off_pass_rate",
+    "off_proe",
+    "def_plays",
+    "def_epa_per_play",
+    "def_success_rate"
+  ],
+  "properties": {
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "week": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 22
+    },
+    "game_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}_[0-9]{2}_[A-Z]{2,3}_[A-Z]{2,3}$"
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "opponent": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "is_home": {
+      "type": "boolean"
+    },
+    "points_for": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "points_against": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "off_plays": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "off_epa_per_play": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "off_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_proe": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -1,
+      "maximum": 1
+    },
+    "def_plays": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "def_epa_per_play": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "def_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

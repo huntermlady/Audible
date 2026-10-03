@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/scenario.schema.json",
+  "title": "Scenario",
+  "description": "Eval scenario. OC scenarios score play_family (DC lists null); DC scenarios score front, coverage_shell and pressure (play-family lists null). A null list means not scored.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "situation",
+    "data",
+    "acceptable_play_families",
+    "unacceptable_play_families",
+    "acceptable_pressures",
+    "unacceptable_pressures",
+    "acceptable_coverage_shells",
+    "acceptable_fronts",
+    "notes_for_human_rater"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(oc|dc)-[0-9]{2}-[a-z0-9-]+$"
+    },
+    "situation": {
+      "$ref": "situation.schema.json"
+    },
+    "data": {
+      "type": "string",
+      "enum": [
+        "fixtures"
+      ]
+    },
+    "acceptable_play_families": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "inside_run",
+          "outside_run",
+          "qb_run",
+          "screen",
+          "quick_pass",
+          "intermediate_pass",
+          "deep_pass",
+          "play_action",
+          "sneak",
+          "punt",
+          "field_goal"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "unacceptable_play_families": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "inside_run",
+          "outside_run",
+          "qb_run",
+          "screen",
+          "quick_pass",
+          "intermediate_pass",
+          "deep_pass",
+          "play_action",
+          "sneak",
+          "punt",
+          "field_goal"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "acceptable_pressures": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "none",
+          "sim",
+          "blitz"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "unacceptable_pressures": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "none",
+          "sim",
+          "blitz"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "acceptable_coverage_shells": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "cover0",
+          "cover1",
+          "cover2",
+          "cover3",
+          "cover4",
+          "cover6",
+          "two_man"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "acceptable_fronts": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "even",
+          "odd",
+          "bear",
+          "dime_sub"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes_for_human_rater": {
+      "type": "string"
+    }
+  }
+}

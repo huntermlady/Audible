@@ -1,0 +1,648 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_MIN_TB",
+  "season": 2026,
+  "week": 3,
+  "team": "MIN",
+  "opponent": "TB",
+  "role": "OC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_MIN_TB",
+      "season": 2026,
+      "team": "MIN",
+      "opponent": "TB",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "MIN.off.2026.overall.all.epa_per_play",
+        "label": "MIN offense: EPA/play, all plays",
+        "value": -0.0567,
+        "display": "-0.06",
+        "unit": "epa",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.success_rate",
+        "label": "MIN offense: success rate, all plays",
+        "value": 0.3394,
+        "display": "34%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.pass_rate",
+        "label": "MIN offense: pass rate, all plays",
+        "value": 0.4954,
+        "display": "50%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.proe",
+        "label": "MIN offense: pass rate over expected, all plays",
+        "value": -0.0844,
+        "display": "-8%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.explosive_rate",
+        "label": "MIN offense: explosive-play rate, all plays",
+        "value": 0.055,
+        "display": "6%",
+        "unit": "rate",
+        "n": 109,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.pass_rate",
+        "label": "MIN offense: pass rate, 1st & long",
+        "value": 0.3171,
+        "display": "32%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.proe",
+        "label": "MIN offense: pass rate over expected, 1st & long",
+        "value": -0.1336,
+        "display": "-13%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.success_rate",
+        "label": "MIN offense: success rate, 1st & long",
+        "value": 0.2927,
+        "display": "29%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "MIN offense: play-action rate, 1st & long",
+        "value": 0.6923,
+        "display": "69%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-short.pass_rate",
+        "label": "MIN offense: pass rate, 3rd & short (2025)",
+        "value": 0.54,
+        "display": "54%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-short.success_rate",
+        "label": "MIN offense: success rate, 3rd & short (2025)",
+        "value": 0.42,
+        "display": "42%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "MIN offense: run success rate, 3rd & short (2025)",
+        "value": 0.6522,
+        "display": "65%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "MIN offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.34,
+        "display": "34%",
+        "unit": "rate",
+        "n": 53,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-long.sack_rate",
+        "label": "MIN offense: sack rate, 3rd & long (2025)",
+        "value": 0.14,
+        "display": "14%",
+        "unit": "rate",
+        "n": 53,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "MIN.off.2025.down_dist.d3-long.screen_rate",
+        "label": "MIN offense: screen rate, 3rd & long (2025)",
+        "value": 0.08,
+        "display": "8%",
+        "unit": "rate",
+        "n": 53,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "MIN.off.2025.zone.red_zone.pass_rate",
+        "label": "MIN offense: pass rate, red zone (2025)",
+        "value": 0.637,
+        "display": "64%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.5388,
+        "league_display": "54%"
+      },
+      {
+        "id": "MIN.off.2025.zone.red_zone.success_rate",
+        "label": "MIN offense: success rate, red zone (2025)",
+        "value": 0.4178,
+        "display": "42%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIN.off.2025.zone.red_zone.epa_per_play",
+        "label": "MIN offense: EPA/play, red zone (2025)",
+        "value": -0.0871,
+        "display": "-0.09",
+        "unit": "epa",
+        "n": 146,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIN.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "MIN offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.925,
+        "display": "93%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "MIN.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "MIN offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.475,
+        "display": "48%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "TB.def.2026.overall.all.epa_per_play",
+        "label": "TB defense: EPA/play, all plays",
+        "value": 0.0035,
+        "display": "0.00",
+        "unit": "epa",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "TB.def.2026.overall.all.success_rate",
+        "label": "TB defense: success rate, all plays",
+        "value": 0.4522,
+        "display": "45%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "TB.def.2026.overall.all.explosive_rate",
+        "label": "TB defense: explosive-play rate, all plays",
+        "value": 0.0783,
+        "display": "8%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "TB.def.2026.overall.all.blitz_rate",
+        "label": "TB defense: blitz rate, all plays",
+        "value": 0.4861,
+        "display": "49%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "TB.def.2026.down_dist.d1-long.success_rate",
+        "label": "TB defense: success rate, 1st & long",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "TB.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "TB defense: run success rate, 1st & long",
+        "value": 0.3684,
+        "display": "37%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "TB.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "TB defense: dropback success rate, 1st & long",
+        "value": 0.6774,
+        "display": "68%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "TB.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "TB defense: explosive-play rate, 1st & long",
+        "value": 0.14,
+        "display": "14%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-short.success_rate",
+        "label": "TB defense: success rate, 3rd & short (2025)",
+        "value": 0.5769,
+        "display": "58%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "TB defense: run success rate, 3rd & short (2025)",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "TB defense: blitz rate, 3rd & short (2025)",
+        "value": 0.4516,
+        "display": "45%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "TB defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.38,
+        "display": "38%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "TB defense: blitz rate, 3rd & long (2025)",
+        "value": 0.42,
+        "display": "42%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "TB.def.2025.down_dist.d3-long.man_rate",
+        "label": "TB defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.34,
+        "display": "34%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "TB.def.2026.zone.red_zone.success_rate",
+        "label": "TB defense: success rate, red zone",
+        "value": 0.4286,
+        "display": "43%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.4437,
+        "league_display": "44%"
+      },
+      {
+        "id": "TB.def.2026.zone.red_zone.epa_per_play",
+        "label": "TB defense: EPA/play, red zone",
+        "value": 0.0725,
+        "display": "+0.07",
+        "unit": "epa",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0546,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "TB.def.2026.zone.red_zone.pass_success_rate",
+        "label": "TB defense: dropback success rate, red zone",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.4608,
+        "league_display": "46%"
+      },
+      {
+        "id": "TB.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "TB defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5254,
+        "display": "53%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "TB.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "TB defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7966,
+        "display": "80%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes in all situations due to MIN's low pass success and high blitz pressure from TB defense.",
+  "keys": [
+    {
+      "detail": "MIN offense has a 34% success rate and 50% pass rate, well below league average, indicating poor overall passing efficiency.",
+      "stat_ids": [
+        "MIN.off.2026.overall.all.success_rate",
+        "MIN.off.2026.overall.all.pass_rate"
+      ],
+      "title": "Poor Overall Passing Efficiency"
+    },
+    {
+      "detail": "MIN's pass rate over expected is -8%, indicating underperformance relative to expectations, especially in high-pressure situations.",
+      "stat_ids": [
+        "MIN.off.2026.overall.all.proe"
+      ],
+      "title": "Passing Underperforms Expected"
+    },
+    {
+      "detail": "TB defense blitzes 49% of the time, significantly above league average, and allows 14% explosive plays in 1st & long, making deep passes risky.",
+      "stat_ids": [
+        "TB.def.2026.overall.all.blitz_rate",
+        "TB.def.2026.down_dist.d1-long.explosive_rate"
+      ],
+      "title": "High Blitz and Explosive Play Allowance"
+    },
+    {
+      "detail": "In 1st & long, MIN's pass success rate is only 29%, and play-action is used 69% of the time, suggesting a reliance on play-action to avoid pressure.",
+      "stat_ids": [
+        "MIN.off.2026.down_dist.d1-long.pass_rate",
+        "MIN.off.2026.down_dist.d1-long.play_action_rate",
+        "MIN.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "High Play-Action Reliance in 1st & Long"
+    },
+    {
+      "detail": "In red zone, MIN has a 42% success rate and -0.09 EPA/play, indicating a compressed field with limited efficiency, while TB defense allows 43% success in red zone.",
+      "stat_ids": [
+        "MIN.off.2025.zone.red_zone.success_rate",
+        "MIN.off.2025.zone.red_zone.epa_per_play",
+        "TB.def.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Efficiency Is Low"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.overall.all.success_rate",
+            "MIN.off.2026.overall.all.pass_rate"
+          ],
+          "text": "MIN's overall pass rate and success rate are below league average, indicating a need for play-action to reduce passing risk."
+        },
+        {
+          "stat_ids": [
+            "TB.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "TB defense blitzes 49% of the time, making dropbacks high-risk; play-action reduces exposure to blitz."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "MIN has a 65% run success rate in 3rd & short, indicating strong run efficiency in short yardage."
+        },
+        {
+          "stat_ids": [
+            "TB.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "TB defense allows 67% run success in 3rd & short, suggesting run defense is not dominant."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2025.down_dist.d3-long.screen_rate",
+            "MIN.off.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "MIN's screen rate is 8%, below league average, and pass success rate is 34%, indicating a need for more screen plays to avoid pressure."
+        },
+        {
+          "stat_ids": [
+            "TB.def.2026.down_dist.d1-long.pass_success_rate",
+            "TB.def.2026.down_dist.d1-long.explosive_rate"
+          ],
+          "text": "TB defense has high pass success and explosive rate in 1st & long, suggesting a strong pass defense that may not be consistent in 3rd & long."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2025.zone.red_zone.pass_rate",
+            "MIN.off.2025.zone.red_zone.success_rate"
+          ],
+          "text": "MIN has a 64% pass rate and 42% success rate in red zone, showing a preference for quick passes in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "TB.def.2026.zone.red_zone.success_rate",
+            "TB.def.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "TB defense allows 43% success and +0.07 EPA/play in red zone, indicating soft coverage and high EPA, making quick passes viable."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "quick_pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TB.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "TB defense allows 53% pass success in two-minute situations, indicating a vulnerability to quick passes."
+        },
+        {
+          "stat_ids": [
+            "TB.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "TB uses 80% zone coverage in two-minute situations, suggesting a lack of man coverage and potential for quick passes to succeed."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

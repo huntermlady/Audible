@@ -1,0 +1,1466 @@
+{
+  "started_at": "2026-09-27T13:51:50Z",
+  "configs": [
+    {
+      "stage": "live",
+      "provider": "ollama",
+      "model": "qwen3:4b-instruct",
+      "scorecard": {
+        "scenarios": 12,
+        "json_valid_pct": 100.0,
+        "grounded_pct": 100.0,
+        "acceptable_family_pct": 58.3,
+        "first_token_ms_p50": 5284,
+        "first_token_ms_p95": 6792,
+        "total_ms_p50": 21932,
+        "total_ms_p95": 27755,
+        "defensible": null,
+        "failing_criteria": [
+          "first_token_latency",
+          "total_latency"
+        ],
+        "switch_to_claude_recommended": true
+      },
+      "scenarios": [
+        {
+          "id": "dc-01-short-yardage",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 6792,
+          "total_ms": 26818,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 2",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2026.zone.opp_territory.pass_rate",
+                  "PHI.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "PHI offense passes 70% of the time in opponent territory, and has a success rate of 47% in this zone, which is about league average. This indicates a high pass volume and success rate in this situation."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.score_time.tied-normal.pass_rate",
+                  "PHI.off.2026.score_time.tied-normal.success_rate"
+                ],
+                "text": "In tied, normal-clock situations, PHI passes 65% of the time and achieves a 65% success rate, which is well above league average, suggesting a strong tendency to run plays with high success expectations."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.zone.opp_territory.pass_success_rate",
+                  "DAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "DAL defense allows 46% pass success rate and 42% overall success rate in opponent territory, which is about league average, indicating a moderate level of pass defense but not a strong weakness."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.overall.all.pass_rate",
+                  "PHI.off.2026.overall.all.proe"
+                ],
+                "text": "PHI has a 64% pass rate and a 7% pass rate over expected, which is well above league average, indicating a strong offensive passing tendency."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.overall.all.pass_success_rate",
+                  "DAL.def.2026.overall.all.success_rate"
+                ],
+                "text": "DAL defense has a 41% pass success rate and 37% overall success rate, which is below league average, suggesting a vulnerability to passing plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-02-third-long-blitz-identity",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 3831,
+          "total_ms": 20000,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.pass_rate",
+                  "KC.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "KC has a 67% pass rate and 54% success rate in opponent territory, indicating a high likelihood of passing in this zone."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.zone.opp_territory.pass_success_rate",
+                  "BAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "BAL's defense allows only 38% pass success and 36% overall success in opponent territory, showing it is vulnerable to passing attacks."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.overall.all.pass_rate",
+                  "KC.off.2026.overall.all.proe"
+                ],
+                "text": "KC's overall pass rate is 65% with a 17% over-expected pass rate, suggesting a consistent and effective passing attack."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.overall.all.pass_success_rate",
+                  "BAL.def.2026.overall.all.run_success_rate"
+                ],
+                "text": "BAL's overall pass success rate is 46% (below league average), and run success rate is 29% (well below league average), indicating a weak run defense and poor pass coverage."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.zone.opp_territory.epa_per_play"
+                ],
+                "text": "BAL allows -0.22 EPA per play in opponent territory, indicating a significant negative expected performance, suggesting a high risk of giving up big plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-03-red-zone",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 4686,
+          "total_ms": 19452,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 2",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.pass_rate"
+                ],
+                "text": "SF offense passes 65% of the time in the red zone, and this situation is in the red zone, so a coverage shell that tightly covers passing lanes is essential."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SF offense has a 43% success rate in the red zone, which is about league average, but still indicates a high volume of attempts that must be defended."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SEA defense has a 41% success rate in the red zone, which is below league average, indicating they are vulnerable to passing attacks in this zone."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "When leading by one score, SF offense passes 78% of the time, which is well above league average, making a pass-heavy defense critical."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.score_time.lead_1_8-normal.blitz_rate"
+                ],
+                "text": "SEA defense blitzes only 15% of the time when leading by one score, which is below league average, suggesting they are not aggressive in pressuring the passer."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-04-two-minute",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 5983,
+          "total_ms": 27070,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.run_success_rate"
+                ],
+                "text": "BUF's pass rate in 1st & long own territory is 50%, below league average, and their run success rate is 48%, well above league average, suggesting a balanced attack with a tendency to run. MIA's pass success rate (61%) is above league average, but run success rate (44%) is below league average, indicating a defense that struggles against runs but is strong against passes. Cover 3 provides zone coverage that limits big plays and allows man coverage on key zones, reducing exposure to explosive runs."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.explosive_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.explosive_rate"
+                ],
+                "text": "BUF has an explosive-play rate of 19%, well above league average, and MIA's explosive-play rate is only 13%, slightly above league average. This suggests BUF is more likely to produce big plays, so a zone-based coverage like Cover 3 reduces the risk of giving up long gains by limiting deep routes and open man coverage."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.screen_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.sack_rate"
+                ],
+                "text": "BUF has a screen rate of 15%, above league average, indicating a high use of screen passes. MIA's sack rate is 6%, below league average, suggesting poor pass rush. Cover 3 with even front and no pressure avoids overcommitting to a blitz and instead focuses on zone coverage to contain screens and pass plays without overextending."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-05-backed-up",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 6039,
+          "total_ms": 24457,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.pass_success_rate"
+                ],
+                "text": "DET has a 34% dropback success rate on 1st & long, well below league average, and a 72% pass rate, indicating a high likelihood of passing plays; Cover 3 provides zone coverage that limits deep passes and reduces exposure to big plays."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.explosive_rate"
+                ],
+                "text": "GB allows 17% explosive-play rate on 1st & long, which is well above league average, so a zone coverage like Cover 3 reduces the risk of big gains by limiting deep routes."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.pass_rate"
+                ],
+                "text": "DET's 72% pass rate on 1st & long suggests a strong tendency to pass, making a zone-based coverage like Cover 3 the most effective defensive response."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.success_rate"
+                ],
+                "text": "GB's 52% success rate on 1st & long, tied, normal clock, is above league average, indicating a solid defensive performance in this situation, supporting a conservative, zone-based call."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.success_rate"
+                ],
+                "text": "DET's 39% success rate on 1st & long is below league average, suggesting they are less effective at converting first downs, making a disciplined coverage like Cover 3 more likely to succeed."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-06-fourth-down-stop",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 5077,
+          "total_ms": 21424,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.pass_rate"
+                ],
+                "text": "BAL offense passes 56% of the time in opponent territory, and this situation is in opponent territory, so they are likely to pass."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.zone.opp_territory.pass_success_rate"
+                ],
+                "text": "CIN defense allows 69% dropback success rate in opponent territory, which is well above league average, indicating they are vulnerable to well-executed passes."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "BAL offense has a 40% success rate in opponent territory, which is below league average, suggesting they are less effective in this zone, but still likely to pass."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.overall.all.blitz_rate"
+                ],
+                "text": "CIN defense blinks at only 15% in all plays, which is below league average, and in trailing by one score, they have 0% blitz rate, indicating they avoid pressure in this score state."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.pass_rate"
+                ],
+                "text": "When trailing by one score, BAL passes 59% of the time, which is above league average, indicating a high probability of a pass in this score state."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-01-short-yardage",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 5519,
+          "total_ms": 21932,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass to open man",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2026.zone.opp_territory.pass_rate",
+                  "PHI.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "PHI offense has a 70% pass rate and 47% success rate in opponent territory, well above league average, indicating strong passing effectiveness in this zone."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.score_time.tied-normal.pass_rate",
+                  "PHI.off.2026.score_time.tied-normal.success_rate"
+                ],
+                "text": "In tied, normal-clock situations, PHI has a 65% pass rate and 65% success rate, significantly above league average, showing high efficiency under scoring conditions."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.zone.opp_territory.success_rate",
+                  "DAL.def.2026.zone.opp_territory.pass_success_rate"
+                ],
+                "text": "DAL defense allows a 42% success rate and 46% pass success rate in opponent territory, below league average, indicating vulnerability to passing in this zone."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.score_time.tied-normal.success_rate",
+                  "DAL.def.2026.score_time.tied-normal.blitz_rate"
+                ],
+                "text": "DAL defense has a 25% success rate and 29% blitz rate in tied, normal-clock situations, both below league average, suggesting a weak defensive response to offensive threats."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-02-third-long-vs-blitz",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 4148,
+          "total_ms": 21500,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "inside_run",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "inside_run",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.success_rate",
+                  "BAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "KC's success rate in opponent territory is 54% (league 48%), well above league average, while BAL's defense allows only 36% success rate in opponent territory, the worst in this sheet, indicating a weak defensive front in this zone."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.epa_per_play",
+                  "BAL.def.2026.zone.opp_territory.epa_per_play"
+                ],
+                "text": "KC produces -0.02 EPA per play in opponent territory, about league average, while BAL allows -0.22 EPA per play, the worst in this sheet, showing a significant defensive weakness in stopping offensive progress."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.overall.all.run_success_rate",
+                  "BAL.def.2026.overall.all.run_success_rate"
+                ],
+                "text": "KC's run success rate is 66% (league 41%), well above league average, while BAL's run success rate is 29% (league 41%), the worst in this sheet, indicating a high likelihood of run success against BAL."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.overall.all.blitz_rate"
+                ],
+                "text": "BAL has a 41% blitz rate (league 27%), well above league average, suggesting a high pressure tendency, but KC's run success rate remains strong despite this, making inside runs a reliable option."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-03-red-zone",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 4938,
+          "total_ms": 21605,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Pass to Red Zone",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "deep_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.pass_rate",
+                  "SF.off.2026.zone.red_zone.success_rate",
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "SF offense has a 65% pass rate in red zone, 43% success rate, and 78% pass rate when leading by one score, all well above league average."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.epa_per_play",
+                  "SEA.def.2026.zone.red_zone.epa_per_play"
+                ],
+                "text": "SF offense generates -0.10 EPA in red zone, while SEA defense allows -0.10 EPA in red zone, indicating a balanced EPA environment."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.pass_success_rate",
+                  "SEA.def.2026.score_time.lead_1_8-normal.success_rate"
+                ],
+                "text": "SEA defense allows 42% pass success rate in red zone and 44% success rate when leading by one score, both about league average, suggesting limited defensive pressure on passes."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.overall.all.pass_rate",
+                  "SF.off.2026.overall.all.success_rate"
+                ],
+                "text": "SF offense has a 68% pass rate and 45% success rate overall, both about league average, indicating consistent passing execution."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-04-two-minute",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 6618,
+          "total_ms": 25003,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Pass to exploit coverage gaps",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.success_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.epa_per_play"
+                ],
+                "text": "BUF's pass rate (50%) is well below league average, but success rate (54%) is above league average, and EPA/play (+0.03) is positive, indicating a strong pass-oriented performance in this zone."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.run_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.blitz_rate"
+                ],
+                "text": "MIA's run success rate (44%) is above league average, and blitz rate (32%) is above league average, suggesting a high-pressure, aggressive defense that may overcommit to run coverage, making the pass a more reliable option."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate"
+                ],
+                "text": "BUF's pass dropback success rate (59%) is above league average, and MIA's pass success rate (61%) is above league average, indicating that both offense and defense are effective at pass execution, making a quick pass a balanced and high-impact option."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-05-backed-up",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 5993,
+          "total_ms": 27755,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.pass_rate",
+                  "DET.off.2026.down_dist.d1-long.proe"
+                ],
+                "text": "DET offense has a pass rate of 72% (league 56%) and 14% over expected, indicating a strong tendency to pass in 1st & long situations."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.success_rate",
+                  "DET.off.2026.down_dist.d1-long.run_success_rate"
+                ],
+                "text": "DET run success rate (52%) is well above league average (38%), but pass success rate (39%) is below league average (44%), suggesting a balanced but slightly less effective pass game."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.run_success_rate",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.success_rate"
+                ],
+                "text": "GB defense allows a run success rate of 56% (league 40%) and a success rate of 52% (league 45%), indicating they are vulnerable to both run and pass plays."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.blitz_rate",
+                  "GB.def.2026.overall.all.blitz_rate"
+                ],
+                "text": "GB blitz rate in this situation is 21% (league 24%), slightly below average, suggesting less pressure on the quarterback and a lower chance of disrupting passes."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.epa_per_play",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.epa_per_play"
+                ],
+                "text": "DET offense generates -0.29 EPA/play (league -0.07), while GB defense allows +0.05 EPA/play, indicating a net offensive advantage in this situation."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-06-fourth-down-decision",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 5284,
+          "total_ms": 24658,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.pass_rate",
+                  "BAL.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "In opponent territory, BAL's pass rate is 56% (league 59%) and success rate is 40% (league 48%), indicating a pass-heavy, but less successful, approach in this zone."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.zone.opp_territory.success_rate",
+                  "CIN.def.2026.zone.opp_territory.epa_per_play"
+                ],
+                "text": "CIN defense allows 62% success rate and +0.37 EPA per play in opponent territory, showing a strong defensive presence that favors run and pass success, making a pass more vulnerable."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.overall.all.epa_per_play",
+                  "BAL.off.2026.overall.all.success_rate"
+                ],
+                "text": "BAL's overall EPA/play is -0.09 (league 0.00) and success rate is 41% (league 46%), indicating a below-average offensive performance that benefits from a high-risk, high-reward play like a quick pass."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.success_rate",
+                  "CIN.def.2026.score_time.trail_1_8-normal.success_rate"
+                ],
+                "text": "BAL's success rate in trailing by one score is 26% (league 45%), while CIN's defense has a 43% success rate in that scenario, suggesting a high risk of failure in any play, making a quick pass more attractive than a run."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        }
+      ]
+    },
+    {
+      "stage": "batch",
+      "provider": "ollama",
+      "model": "qwen3:4b-instruct",
+      "scorecard": {
+        "scenarios": 12,
+        "json_valid_pct": 100.0,
+        "grounded_pct": 100.0,
+        "acceptable_family_pct": 58.3,
+        "first_token_ms_p50": 945,
+        "first_token_ms_p95": 2862,
+        "total_ms_p50": 18881,
+        "total_ms_p95": 24752,
+        "defensible": null,
+        "failing_criteria": [],
+        "switch_to_claude_recommended": false
+      },
+      "scenarios": [
+        {
+          "id": "dc-01-short-yardage",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 871,
+          "total_ms": 21675,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 2",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2026.zone.opp_territory.pass_rate",
+                  "PHI.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "PHI offense passes 70% of the time in opponent territory, and has a success rate of 47% in this zone, which is about league average, indicating a high pass volume and consistent execution."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.score_time.tied-normal.pass_rate",
+                  "PHI.off.2026.score_time.tied-normal.success_rate"
+                ],
+                "text": "In tied, normal clock situations, PHI passes 65% of the time and achieves a 65% success rate, which is well above league average, suggesting a high-probability pass attack in this score state."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.zone.opp_territory.pass_success_rate",
+                  "DAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "DAL defense allows 46% pass success rate and 42% overall success rate in opponent territory, which is about league average, indicating a moderate level of pass defense but not strong enough to stop a high-volume attack."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.overall.all.pass_rate",
+                  "PHI.off.2026.overall.all.proe"
+                ],
+                "text": "PHI has a 64% pass rate and a 7% pass rate over expected, indicating a high-probability, high-efficiency pass attack that is well above league average."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.overall.all.pass_success_rate",
+                  "DAL.def.2026.overall.all.success_rate"
+                ],
+                "text": "DAL defense allows 41% pass success rate and 37% overall success rate, which is below league average, suggesting a weak pass defense overall, especially in high-probability pass situations."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-02-third-long-blitz-identity",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 857,
+          "total_ms": 18824,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.pass_rate",
+                  "KC.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "KC has a 67% pass rate and 54% success rate in opponent territory, indicating a high likelihood of passing in this zone."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.zone.opp_territory.pass_success_rate",
+                  "BAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "BAL's defense allows only 38% pass success and 36% overall success in opponent territory, showing it is vulnerable to passing attacks."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.overall.all.pass_rate",
+                  "KC.off.2026.overall.all.proe"
+                ],
+                "text": "KC's overall pass rate is 65% with a 17% proe, indicating a strong passing attack that is overperforming expectations."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.overall.all.pass_success_rate",
+                  "BAL.def.2026.overall.all.success_rate"
+                ],
+                "text": "BAL's overall pass success rate is 46%, which is below league average, suggesting it is not effective against high-quality passing attacks."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.zone.opp_territory.epa_per_play",
+                  "KC.off.2026.zone.opp_territory.epa_per_play"
+                ],
+                "text": "BAL allows -0.22 EPA per play in opponent territory, while KC generates -0.02 EPA per play, indicating a defensive gap in expected performance that favors passing plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-03-red-zone",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 945,
+          "total_ms": 16041,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.pass_rate"
+                ],
+                "text": "SF offense passes 65% of the time in the red zone, and this situation is in the red zone, so a coverage shell that tightly zones the pass is essential."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SF offense has a success rate of 43% in the red zone, which is about league average, but still indicates a high volume of plays that must be defended."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SEA defense has a red zone success rate of 41%, which is below league average, indicating they are vulnerable in this zone."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.epa_per_play"
+                ],
+                "text": "SEA defense allows -0.10 EPA per play in the red zone, which is worse than league average, showing they give up significant offensive advantage in this zone."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "When leading by one score, SF offense passes 78% of the time, so a pass-heavy coverage is critical to prevent big plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-04-two-minute",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 1061,
+          "total_ms": 24124,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Zone",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.run_success_rate"
+                ],
+                "text": "The defense has a 55% success rate and 61% pass success rate in 1st & long own territory, which is well above league average, but a 44% run success rate, the worst in this sheet, indicating vulnerability to runs."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.explosive_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.screen_rate"
+                ],
+                "text": "BUF has a 50% pass rate, 19% explosive-play rate, and 15% screen rate in 1st & long own territory, suggesting a high volume of passing and screen plays, which are more effective in zone coverage."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.zone.own_territory.success_rate",
+                  "MIA.def.2026.zone.own_territory.epa_per_play",
+                  "MIA.def.2026.zone.own_territory.pass_success_rate"
+                ],
+                "text": "The zone defense has a 53% success rate, +0.09 EPA/play, and 59% pass success rate, which is about league average, indicating it is effective against passing but not overmatched."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.zone.own_territory.pass_rate",
+                  "BUF.off.2026.zone.own_territory.epa_per_play"
+                ],
+                "text": "BUF's zone pass rate is 54% and EPA/play is +0.22, indicating a strong offensive tendency to pass in zone, making zone coverage a logical and effective response."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-05-backed-up",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 915,
+          "total_ms": 23385,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.success_rate",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.pass_success_rate"
+                ],
+                "text": "DET's pass rate (72%) and dropback success rate (34%) are well above league average, and their success rate (39%) is below league average, indicating a high-risk, high-reward offense that relies on passing. GB's defense has a 52% success rate and 50% pass success rate in this situation, showing it is effective against the pass but not as strong as league average."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.pass_rate",
+                  "DET.off.2026.down_dist.d1-long.explosive_rate"
+                ],
+                "text": "DET has a 72% pass rate and 6% explosive-play rate, which is above league average, suggesting a high volume of passing plays with moderate risk of big plays. Cover 3 provides zone coverage that limits big plays and allows defenders to stay in coverage, reducing the risk of explosive plays."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.epa_per_play",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.explosive_rate"
+                ],
+                "text": "GB's EPA/play is +0.05, above league average, and explosive-play rate is 17%, above league average, indicating the defense is already under pressure and benefits from limiting high-impact plays. Cover 3 with no pressure helps maintain defensive stability and reduces the chance of a big play."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.proe",
+                  "DET.off.2026.down_dist.d1-long.success_rate"
+                ],
+                "text": "DET's pass rate over expected (14%) and success rate (39%) are both above league average, showing they are more effective than expected in passing, making them a high-threat pass offense that must be contained with zone coverage."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-06-fourth-down-stop",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 1153,
+          "total_ms": 17918,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Cover 3",
+              "coverage_shell": "cover3",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "none"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.pass_rate"
+                ],
+                "text": "BAL offense passes 56% of the time in opponent territory, and this situation is in opponent territory, so they are likely to pass."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.zone.opp_territory.pass_success_rate"
+                ],
+                "text": "CIN defense allows 69% pass success rate in opponent territory, which is well above league average, indicating a vulnerability to well-executed passes."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "BAL offense has a 40% success rate in opponent territory, which is below league average, suggesting they are less effective in this zone, but still likely to pass."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.pass_rate"
+                ],
+                "text": "When trailing by one score, BAL passes 59% of the time, indicating a high tendency to pass under pressure."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.score_time.trail_1_8-normal.blitz_rate"
+                ],
+                "text": "CIN defense has a 0% blitz rate when trailing by one score, which is the worst in this sheet, indicating they avoid blitzing and are vulnerable to passing plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-01-short-yardage",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 904,
+          "total_ms": 18881,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass to outside",
+              "coverage_shell": null,
+              "direction": "right",
+              "front": null,
+              "play_family": "deep_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2026.zone.opp_territory.pass_rate",
+                  "PHI.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "PHI offense has a 70% pass rate and 47% success rate in opponent territory, well above league average, indicating strong pass execution in this zone."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2026.score_time.tied-normal.pass_rate",
+                  "PHI.off.2026.score_time.tied-normal.success_rate"
+                ],
+                "text": "In tied, normal-clock situations, PHI has a 65% pass rate and 65% success rate, which is well above league average, showing a high-probability pass success in current score and time conditions."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.zone.opp_territory.success_rate",
+                  "DAL.def.2026.zone.opp_territory.pass_success_rate"
+                ],
+                "text": "DAL defense allows a 42% success rate and 46% pass success rate in opponent territory, which is below league average, indicating vulnerability to passes in this zone."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.score_time.tied-normal.success_rate",
+                  "DAL.def.2026.score_time.tied-normal.blitz_rate"
+                ],
+                "text": "DAL defense has a 25% success rate and 29% blitz rate in tied, normal-clock situations, which is below league average and suggests a weak defensive response under these conditions."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-02-third-long-vs-blitz",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": false,
+          "first_token_ms": 2862,
+          "total_ms": 18624,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "inside_run",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "inside_run",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.success_rate",
+                  "BAL.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "KC offense has a 54% success rate in opponent territory, well above league average, while BAL defense has a 36% success rate in opponent territory, the worst in this sheet."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.zone.opp_territory.epa_per_play",
+                  "BAL.def.2026.zone.opp_territory.epa_per_play"
+                ],
+                "text": "KC offense generates -0.02 EPA per play in opponent territory, about league average, while BAL defense allows -0.22 EPA per play, well below league average, indicating a strong defensive pressure zone."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2026.overall.all.run_success_rate",
+                  "BAL.def.2026.overall.all.run_success_rate"
+                ],
+                "text": "KC offense has a 66% run success rate, well above league average, while BAL defense has a 29% run success rate, the worst in this sheet, suggesting runs are highly effective against them."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2026.overall.all.blitz_rate"
+                ],
+                "text": "BAL defense has a 41% blitz rate, well above league average, indicating aggressive coverage that may disrupt passing plays, making a run more reliable."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-03-red-zone",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 572,
+          "total_ms": 15732,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.pass_rate"
+                ],
+                "text": "SF offense has a 65% pass rate in the red zone, well above league average, indicating a strong tendency to pass in this zone."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SF offense has a 43% success rate in the red zone, about league average, suggesting consistent performance in this high-pressure environment."
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "SF offense has a 78% pass rate when leading by one score and in normal clock, significantly above league average, showing a proven preference for passing in this score state."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.pass_success_rate"
+                ],
+                "text": "SEA defense allows only a 42% pass success rate in the red zone, below league average, indicating vulnerability to well-executed passes."
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.score_time.lead_1_8-normal.success_rate"
+                ],
+                "text": "SEA defense has a 44% success rate when leading by one score, about league average, suggesting it is not particularly strong in this scenario."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-04-two-minute",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 1085,
+          "total_ms": 24752,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "Pass to exploit coverage gaps",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.success_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.epa_per_play"
+                ],
+                "text": "BUF's pass rate (50%) is well below league average, but success rate (54%) is well above league average, and EPA/play (+0.03) is positive, indicating a strong offensive efficiency in pass situations."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.run_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.blitz_rate"
+                ],
+                "text": "MIA's run success rate (44%) is above league average, and blitz rate (32%) is above league average, suggesting a high-pressure, aggressive defense that may overcommit to run coverage, creating opportunities for quick passes."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate"
+                ],
+                "text": "BUF's dropback success rate (59%) exceeds MIA's dropback success rate (61%), indicating a slight edge in pass execution under pressure, making quick passes a viable option."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.epa_per_play",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.epa_per_play"
+                ],
+                "text": "BUF generates +0.03 EPA per play, while MIA allows +0.12 EPA per play, showing MIA's defense is less efficient in stopping progress, especially on first downs in own territory."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-05-backed-up",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 1481,
+          "total_ms": 24493,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.pass_rate",
+                  "DET.off.2026.down_dist.d1-long.proe"
+                ],
+                "text": "DET offense has a pass rate of 72% (league 56%) and is 14% above expected in 1st & long situations, indicating a strong tendency to pass in this scenario."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.success_rate",
+                  "DET.off.2026.down_dist.d1-long.pass_success_rate"
+                ],
+                "text": "DET's success rate (39%) and pass success rate (34%) are below league average, but still show a consistent pass-first approach in 1st & long situations."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.success_rate",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.run_success_rate"
+                ],
+                "text": "GB defense allows a 52% success rate on 1st & long, tied, normal clock, and a 56% run success rate, suggesting they are vulnerable to runs but not as strong against the pass."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.run_success_rate",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.run_success_rate"
+                ],
+                "text": "DET's run success rate (52%) is well above league average, and GB's run success rate (56%) is higher than league average, indicating runs are effective against GB."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2026.down_dist.d1-long.epa_per_play",
+                  "GB.def.2026.down_dist_score_time.d1-long-tied-normal.epa_per_play"
+                ],
+                "text": "DET's EPA/play is -0.29 (league -0.07), and GB's EPA/play is +0.05 (league -0.07), showing DET gains more expected points per play and GB allows a positive EPA, indicating a favorable pass environment."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-06-fourth-down-decision",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 961,
+          "total_ms": 23720,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "high",
+            "primary": {
+              "concept": "pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.zone.opp_territory.pass_rate",
+                  "BAL.off.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "In opponent territory, BAL's pass rate is 56% (league 59%) and success rate is 40% (league 48%), indicating a pass-heavy, but underperforming, offense in this zone."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.zone.opp_territory.pass_success_rate",
+                  "CIN.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "CIN defense allows 69% pass success rate and 62% overall success rate in opponent territory, showing a strong pass defense that limits success on the pass."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.success_rate",
+                  "BAL.off.2026.score_time.trail_1_8-normal.pass_rate"
+                ],
+                "text": "When trailing by one score, BAL's success rate drops to 26% (league 45%) and pass rate is 59% (league 57%), indicating a high pass rate but poor conversion in critical situations."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.overall.all.epa_per_play",
+                  "CIN.def.2026.overall.all.epa_per_play"
+                ],
+                "text": "BAL's EPA/play is -0.09 (league 0.00), while CIN's is +0.12 (league 0.00), meaning CIN gains more expected points per play, suggesting a defensive edge that favors passing success."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.overall.all.run_success_rate",
+                  "CIN.def.2026.overall.all.run_success_rate"
+                ],
+                "text": "BAL's run success rate is 36% (league 41%), and CIN's run defense is 40% (league 41%), indicating a weak run game and a solid run defense, making run plays less likely to succeed."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        }
+      ]
+    }
+  ]
+}

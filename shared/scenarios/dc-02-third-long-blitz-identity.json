@@ -1,0 +1,39 @@
+{
+  "id": "dc-02-third-long-blitz-identity",
+  "situation": {
+    "role": "DC",
+    "offense": "KC",
+    "defense": "BAL",
+    "season": 2026,
+    "down": 3,
+    "distance": 8,
+    "yardline_100": 35,
+    "quarter": 4,
+    "clock_seconds": 130,
+    "score_diff": -4,
+    "timeouts_offense": 1,
+    "timeouts_defense": 2
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": [
+    "blitz",
+    "sim"
+  ],
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": [
+    "cover0",
+    "cover1",
+    "cover2",
+    "cover3",
+    "cover4",
+    "two_man"
+  ],
+  "acceptable_fronts": [
+    "odd",
+    "even",
+    "dime_sub"
+  ],
+  "notes_for_human_rater": "Baltimore's fixture profile is blitz-heavy on 3rd & long; KC passes a lot. Expect pressure (real or simulated) with a coverage that can hold up."
+}

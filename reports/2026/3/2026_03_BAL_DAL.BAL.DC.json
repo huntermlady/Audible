@@ -1,0 +1,705 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_BAL_DAL",
+  "season": 2026,
+  "week": 3,
+  "team": "BAL",
+  "opponent": "DAL",
+  "role": "DC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_BAL_DAL",
+      "season": 2026,
+      "team": "BAL",
+      "opponent": "DAL",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "BAL.def.2026.overall.all.epa_per_play",
+        "label": "BAL defense: EPA/play, all plays",
+        "value": -0.0371,
+        "display": "-0.04",
+        "unit": "epa",
+        "n": 116,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "BAL.def.2026.overall.all.success_rate",
+        "label": "BAL defense: success rate, all plays",
+        "value": 0.431,
+        "display": "43%",
+        "unit": "rate",
+        "n": 116,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "BAL.def.2026.overall.all.explosive_rate",
+        "label": "BAL defense: explosive-play rate, all plays",
+        "value": 0.1034,
+        "display": "10%",
+        "unit": "rate",
+        "n": 116,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "BAL.def.2026.overall.all.blitz_rate",
+        "label": "BAL defense: blitz rate, all plays",
+        "value": 0.3151,
+        "display": "32%",
+        "unit": "rate",
+        "n": 116,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "BAL.def.2026.down_dist.d1-long.success_rate",
+        "label": "BAL defense: success rate, 1st & long",
+        "value": 0.413,
+        "display": "41%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "BAL.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "BAL defense: run success rate, 1st & long",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "BAL.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "BAL defense: dropback success rate, 1st & long",
+        "value": 0.48,
+        "display": "48%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "BAL.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "BAL defense: explosive-play rate, 1st & long",
+        "value": 0.087,
+        "display": "9%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-short.success_rate",
+        "label": "BAL defense: success rate, 3rd & short (2025)",
+        "value": 0.5441,
+        "display": "54%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "BAL defense: run success rate, 3rd & short (2025)",
+        "value": 0.625,
+        "display": "63%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "BAL defense: blitz rate, 3rd & short (2025)",
+        "value": 0.1667,
+        "display": "17%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "BAL defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4068,
+        "display": "41%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "BAL defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3559,
+        "display": "36%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "BAL.def.2025.down_dist.d3-long.man_rate",
+        "label": "BAL defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.322,
+        "display": "32%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "BAL.def.2025.zone.red_zone.success_rate",
+        "label": "BAL defense: success rate, red zone (2025)",
+        "value": 0.3472,
+        "display": "35%",
+        "unit": "rate",
+        "n": 193,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "BAL.def.2025.zone.red_zone.epa_per_play",
+        "label": "BAL defense: EPA/play, red zone (2025)",
+        "value": -0.1772,
+        "display": "-0.18",
+        "unit": "epa",
+        "n": 193,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "BAL.def.2025.zone.red_zone.pass_success_rate",
+        "label": "BAL defense: dropback success rate, red zone (2025)",
+        "value": 0.3482,
+        "display": "35%",
+        "unit": "rate",
+        "n": 193,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "BAL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "BAL defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4444,
+        "display": "44%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "BAL.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "BAL defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6889,
+        "display": "69%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "DAL.off.2026.overall.all.epa_per_play",
+        "label": "DAL offense: EPA/play, all plays",
+        "value": 0.2237,
+        "display": "+0.22",
+        "unit": "epa",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "DAL.off.2026.overall.all.success_rate",
+        "label": "DAL offense: success rate, all plays",
+        "value": 0.5094,
+        "display": "51%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "DAL.off.2026.overall.all.pass_rate",
+        "label": "DAL offense: pass rate, all plays",
+        "value": 0.6792,
+        "display": "68%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "DAL.off.2026.overall.all.proe",
+        "label": "DAL offense: pass rate over expected, all plays",
+        "value": 0.0795,
+        "display": "8%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DAL.off.2026.overall.all.explosive_rate",
+        "label": "DAL offense: explosive-play rate, all plays",
+        "value": 0.0377,
+        "display": "4%",
+        "unit": "rate",
+        "n": 106,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "DAL.off.2026.down_dist.d1-long.pass_rate",
+        "label": "DAL offense: pass rate, 1st & long",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "DAL.off.2026.down_dist.d1-long.proe",
+        "label": "DAL offense: pass rate over expected, 1st & long",
+        "value": 0.0584,
+        "display": "6%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "DAL.off.2026.down_dist.d1-long.success_rate",
+        "label": "DAL offense: success rate, 1st & long",
+        "value": 0.5238,
+        "display": "52%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "DAL.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "DAL offense: play-action rate, 1st & long",
+        "value": 0.4583,
+        "display": "46%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-short.pass_rate",
+        "label": "DAL offense: pass rate, 3rd & short (2025)",
+        "value": 0.6441,
+        "display": "64%",
+        "unit": "rate",
+        "n": 59,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-short.success_rate",
+        "label": "DAL offense: success rate, 3rd & short (2025)",
+        "value": 0.6271,
+        "display": "63%",
+        "unit": "rate",
+        "n": 59,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "DAL offense: run success rate, 3rd & short (2025)",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 59,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "DAL offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-long.sack_rate",
+        "label": "DAL offense: sack rate, 3rd & long (2025)",
+        "value": 0.0702,
+        "display": "7%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "DAL.off.2025.down_dist.d3-long.screen_rate",
+        "label": "DAL offense: screen rate, 3rd & long (2025)",
+        "value": 0.0702,
+        "display": "7%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "DAL.off.2025.zone.red_zone.pass_rate",
+        "label": "DAL offense: pass rate, red zone (2025)",
+        "value": 0.5816,
+        "display": "58%",
+        "unit": "rate",
+        "n": 196,
+        "low_sample": false,
+        "league_value": 0.5388,
+        "league_display": "54%"
+      },
+      {
+        "id": "DAL.off.2025.zone.red_zone.success_rate",
+        "label": "DAL offense: success rate, red zone (2025)",
+        "value": 0.4031,
+        "display": "40%",
+        "unit": "rate",
+        "n": 196,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "DAL.off.2025.zone.red_zone.epa_per_play",
+        "label": "DAL offense: EPA/play, red zone (2025)",
+        "value": -0.0805,
+        "display": "-0.08",
+        "unit": "epa",
+        "n": 196,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "DAL.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "DAL offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.875,
+        "display": "88%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "DAL.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "DAL offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.525,
+        "display": "53%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense, BAL defense must prioritize pass coverage and pressure to limit explosive plays and maintain success in third and long situations.",
+  "keys": [
+    {
+      "detail": "BAL defense allows 43% success rate overall, well above league average, but is below league average in red zone success (35% vs 42%).",
+      "stat_ids": [
+        "BAL.def.2026.overall.all.success_rate",
+        "BAL.def.2025.zone.red_zone.success_rate"
+      ],
+      "title": "Overall and Red Zone Success Rate"
+    },
+    {
+      "detail": "BAL defense has a 32% blitz rate overall, below league average, and only 36% blitz rate on 3rd & long, which is below league average (39%).",
+      "stat_ids": [
+        "BAL.def.2026.overall.all.blitz_rate",
+        "BAL.def.2025.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "Blitz Rate Inconsistency"
+    },
+    {
+      "detail": "DAL offense has a 68% pass rate and 8% pass rate over expected, indicating a high-volume, efficient passing attack with a tendency to exploit play-action and deep passes.",
+      "stat_ids": [
+        "DAL.off.2026.overall.all.pass_rate",
+        "DAL.off.2026.overall.all.proe"
+      ],
+      "title": "Offensive Passing Tendency"
+    },
+    {
+      "detail": "In red zone, DAL offense has a 58% pass rate and 40% success rate, which is below league average, suggesting a high-risk, high-reward passing approach in tight spaces.",
+      "stat_ids": [
+        "DAL.off.2025.zone.red_zone.pass_rate",
+        "DAL.off.2025.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Passing Profile"
+    },
+    {
+      "detail": "BAL defense allows 10% explosive-play rate overall, slightly above league average, and has a 9% explosive rate on 1st & long, which is below league average (10%).",
+      "stat_ids": [
+        "BAL.def.2026.overall.all.explosive_rate",
+        "BAL.def.2026.down_dist.d1-long.explosive_rate"
+      ],
+      "title": "Explosive-Play Allowance"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Even front with single-high shell",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "Low sample size on 3rd & short data (n=68), so extrapolation limited."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.def.2025.down_dist.d3-short.success_rate",
+            "BAL.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BAL defense has a 54% success rate on 3rd & short, above league average, and 63% run success rate, indicating a strong run defense that supports a balanced front."
+        },
+        {
+          "stat_ids": [
+            "DAL.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "DAL offense has a 64% pass rate on 3rd & short, suggesting a high pass tendency that demands coverage consistency."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Even front with cover3",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "Low sample size on 3rd & short defense (n=68), and run success rate is 71%, above league average."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Even front with cover3",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.def.2025.down_dist.d3-short.success_rate",
+            "BAL.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BAL defense has a 54% success rate and 63% run success rate on 3rd & short, indicating a strong run defense and balanced approach."
+        },
+        {
+          "stat_ids": [
+            "DAL.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "DAL offense has a 64% pass rate on 3rd & short, indicating a high pass tendency that demands coverage consistency."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with simulated pressure",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "Low sample size on 3rd & long defense (n=62), and man coverage rate is only 32% (below league 39%)."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with simulated pressure",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.def.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "BAL defense allows only 33% pass success on 3rd & long, below league average (35%), indicating a vulnerability to deep passes."
+        },
+        {
+          "stat_ids": [
+            "DAL.off.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "DAL offense has a 33% pass success rate on 3rd & long, suggesting a high-risk, high-reward approach that demands strong coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with light pressure",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "Low sample size on red zone defense (n=193), and red zone success rate is below league average (35% vs 42%)."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Two-deep zone with light pressure",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.def.2025.zone.red_zone.success_rate",
+            "BAL.def.2025.zone.red_zone.epa_per_play"
+          ],
+          "text": "BAL defense has a 35% success rate and -0.18 EPA/play in red zone, both below league average, indicating a weak red zone performance."
+        },
+        {
+          "stat_ids": [
+            "DAL.off.2025.zone.red_zone.pass_rate"
+          ],
+          "text": "DAL offense has a 58% pass rate in red zone, indicating a high volume of deep passes that must be taken away."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with light pressure",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "Low sample size on two-minute offense (n=40), and pass rate is 88%, indicating a high-risk, high-reward approach."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Two-deep zone with light pressure",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DAL.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "DAL offense has an 88% pass rate in two-minute situations, indicating a high reliance on passing to score."
+        },
+        {
+          "stat_ids": [
+            "BAL.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "BAL defense has a 35% red zone success rate, below league average, suggesting a weakness in high-pressure, high-risk situations."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

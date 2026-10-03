@@ -1,0 +1,1507 @@
+[
+  {
+    "situation": {
+      "role": "OC",
+      "offense": "KC",
+      "defense": "BAL",
+      "season": 2026,
+      "down": 3,
+      "distance": 7,
+      "yardline_100": 35,
+      "quarter": 4,
+      "clock_seconds": 130,
+      "score_diff": -4,
+      "timeouts_offense": 1,
+      "timeouts_defense": 2
+    },
+    "fact_sheet": {
+      "fact_sheet_version": "1.1.0",
+      "context": {
+        "kind": "situation",
+        "situation": {
+          "role": "OC",
+          "offense": "KC",
+          "defense": "BAL",
+          "season": 2026,
+          "down": 3,
+          "distance": 7,
+          "yardline_100": 35,
+          "quarter": 4,
+          "clock_seconds": 130,
+          "score_diff": -4,
+          "timeouts_offense": 1,
+          "timeouts_defense": 2
+        }
+      },
+      "derived": {
+        "down": 3,
+        "dist_bucket": "long",
+        "field_zone": "opp_territory",
+        "score_state": "trail_1_8",
+        "time_bucket": "fourth_quarter"
+      },
+      "facts": [
+        {
+          "id": "KC.off.2025.down_dist.d3-long.pass_rate",
+          "label": "KC offense: pass rate, 3rd & long (2025)",
+          "value": 0.7586,
+          "display": "76%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.6956,
+          "league_display": "70%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.proe",
+          "label": "KC offense: pass rate over expected, 3rd & long (2025)",
+          "value": 0.1107,
+          "display": "11%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": -0.0117,
+          "league_display": "-1%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.success_rate",
+          "label": "KC offense: success rate, 3rd & long (2025)",
+          "value": 0.4828,
+          "display": "48%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.3867,
+          "league_display": "39%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.pass_success_rate",
+          "label": "KC offense: dropback success rate, 3rd & long (2025)",
+          "value": 0.5,
+          "display": "50%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.433,
+          "league_display": "43%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.run_success_rate",
+          "label": "KC offense: run success rate, 3rd & long (2025)",
+          "value": 0.4286,
+          "display": "43%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.2808,
+          "league_display": "28%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.epa_per_play",
+          "label": "KC offense: EPA/play, 3rd & long (2025)",
+          "value": 0.3476,
+          "display": "+0.35",
+          "unit": "epa",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.1241,
+          "league_display": "+0.12"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.explosive_rate",
+          "label": "KC offense: explosive-play rate, 3rd & long (2025)",
+          "value": 0.0862,
+          "display": "9%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.0855,
+          "league_display": "9%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.sack_rate",
+          "label": "KC offense: sack rate, 3rd & long (2025)",
+          "value": 0.0682,
+          "display": "7%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.0696,
+          "league_display": "7%"
+        },
+        {
+          "id": "KC.off.2025.down_dist.d3-long.screen_rate",
+          "label": "KC offense: screen rate, 3rd & long (2025)",
+          "value": 0.1591,
+          "display": "16%",
+          "unit": "rate",
+          "n": 58,
+          "low_sample": false,
+          "league_value": 0.0854,
+          "league_display": "9%"
+        },
+        {
+          "id": "KC.off.2026.zone.opp_territory.pass_rate",
+          "label": "KC offense: pass rate, opponent territory",
+          "value": 0.6667,
+          "display": "67%",
+          "unit": "rate",
+          "n": 63,
+          "low_sample": false,
+          "league_value": 0.5891,
+          "league_display": "59%"
+        },
+        {
+          "id": "KC.off.2026.zone.opp_territory.success_rate",
+          "label": "KC offense: success rate, opponent territory",
+          "value": 0.5397,
+          "display": "54%",
+          "unit": "rate",
+          "n": 63,
+          "low_sample": false,
+          "league_value": 0.4796,
+          "league_display": "48%"
+        },
+        {
+          "id": "KC.off.2026.zone.opp_territory.epa_per_play",
+          "label": "KC offense: EPA/play, opponent territory",
+          "value": -0.0248,
+          "display": "-0.02",
+          "unit": "epa",
+          "n": 63,
+          "low_sample": false,
+          "league_value": 0.0258,
+          "league_display": "+0.03"
+        },
+        {
+          "id": "KC.off.2026.overall.all.epa_per_play",
+          "label": "KC offense: EPA/play, all plays",
+          "value": 0.3075,
+          "display": "+0.31",
+          "unit": "epa",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "KC.off.2026.overall.all.success_rate",
+          "label": "KC offense: success rate, all plays",
+          "value": 0.625,
+          "display": "63%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.pass_rate",
+          "label": "KC offense: pass rate, all plays",
+          "value": 0.6458,
+          "display": "65%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.5899,
+          "league_display": "59%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.proe",
+          "label": "KC offense: pass rate over expected, all plays",
+          "value": 0.1662,
+          "display": "17%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.011,
+          "league_display": "1%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.explosive_rate",
+          "label": "KC offense: explosive-play rate, all plays",
+          "value": 0.1458,
+          "display": "15%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.success_rate",
+          "label": "BAL defense: success rate, 3rd & long, opponent territory (2025)",
+          "value": 0.35,
+          "display": "35%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.4174,
+          "league_display": "42%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.pass_success_rate",
+          "label": "BAL defense: dropback success rate, 3rd & long, opponent territory (2025)",
+          "value": 0.4615,
+          "display": "46%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.468,
+          "league_display": "47%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.run_success_rate",
+          "label": "BAL defense: run success rate, 3rd & long, opponent territory (2025)",
+          "value": 0.1429,
+          "display": "14%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.2963,
+          "league_display": "30%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.epa_per_play",
+          "label": "BAL defense: EPA/play, 3rd & long, opponent territory (2025)",
+          "value": 0.1146,
+          "display": "+0.11",
+          "unit": "epa",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.2351,
+          "league_display": "+0.24"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.explosive_rate",
+          "label": "BAL defense: explosive-play rate, 3rd & long, opponent territory (2025)",
+          "value": 0.1,
+          "display": "10%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.1028,
+          "league_display": "10%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.sack_rate",
+          "label": "BAL defense: sack rate, 3rd & long, opponent territory (2025)",
+          "value": 0.0769,
+          "display": "8%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.0662,
+          "league_display": "7%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.blitz_rate",
+          "label": "BAL defense: blitz rate, 3rd & long, opponent territory (2025)",
+          "value": 0.8462,
+          "display": "85%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.4062,
+          "league_display": "41%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.pressure_rate",
+          "label": "BAL defense: pressure rate, 3rd & long, opponent territory (2025)",
+          "value": 0.4615,
+          "display": "46%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.3576,
+          "league_display": "36%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_zone.d3-long-opp_territory.man_rate",
+          "label": "BAL defense: man coverage rate, 3rd & long, opponent territory (2025)",
+          "value": 0.3846,
+          "display": "38%",
+          "unit": "rate",
+          "n": 20,
+          "low_sample": false,
+          "league_value": 0.3929,
+          "league_display": "39%"
+        },
+        {
+          "id": "BAL.def.2026.zone.opp_territory.success_rate",
+          "label": "BAL defense: success rate, opponent territory",
+          "value": 0.3636,
+          "display": "36%",
+          "unit": "rate",
+          "n": 55,
+          "low_sample": false,
+          "league_value": 0.4796,
+          "league_display": "48%"
+        },
+        {
+          "id": "BAL.def.2026.zone.opp_territory.epa_per_play",
+          "label": "BAL defense: EPA/play, opponent territory",
+          "value": -0.2201,
+          "display": "-0.22",
+          "unit": "epa",
+          "n": 55,
+          "low_sample": false,
+          "league_value": 0.0258,
+          "league_display": "+0.03"
+        },
+        {
+          "id": "BAL.def.2026.zone.opp_territory.pass_success_rate",
+          "label": "BAL defense: dropback success rate, opponent territory",
+          "value": 0.3824,
+          "display": "38%",
+          "unit": "rate",
+          "n": 55,
+          "low_sample": false,
+          "league_value": 0.5009,
+          "league_display": "50%"
+        },
+        {
+          "id": "BAL.def.2025.score_time.trail_1_8-fourth_quarter.success_rate",
+          "label": "BAL defense: success rate, trailing by one score, fourth quarter (2025)",
+          "value": 0.3953,
+          "display": "40%",
+          "unit": "rate",
+          "n": 43,
+          "low_sample": false,
+          "league_value": 0.4439,
+          "league_display": "44%"
+        },
+        {
+          "id": "BAL.def.2025.score_time.trail_1_8-fourth_quarter.blitz_rate",
+          "label": "BAL defense: blitz rate, trailing by one score, fourth quarter (2025)",
+          "value": 0.36,
+          "display": "36%",
+          "unit": "rate",
+          "n": 43,
+          "low_sample": false,
+          "league_value": 0.2552,
+          "league_display": "26%"
+        },
+        {
+          "id": "BAL.def.2025.score_time.trail_1_8-fourth_quarter.zone_rate",
+          "label": "BAL defense: zone coverage rate, trailing by one score, fourth quarter (2025)",
+          "value": 0.72,
+          "display": "72%",
+          "unit": "rate",
+          "n": 43,
+          "low_sample": false,
+          "league_value": 0.6671,
+          "league_display": "67%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.epa_per_play",
+          "label": "BAL defense: EPA/play, all plays",
+          "value": -0.0968,
+          "display": "-0.10",
+          "unit": "epa",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.success_rate",
+          "label": "BAL defense: success rate, all plays",
+          "value": 0.3902,
+          "display": "39%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.explosive_rate",
+          "label": "BAL defense: explosive-play rate, all plays",
+          "value": 0.078,
+          "display": "8%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.blitz_rate",
+          "label": "BAL defense: blitz rate, all plays",
+          "value": 0.4065,
+          "display": "41%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.2663,
+          "league_display": "27%"
+        }
+      ]
+    },
+    "call": {
+      "role": "OC",
+      "primary": {
+        "play_family": "screen",
+        "direction": "left",
+        "concept": "Slow screen away from the pressure",
+        "front": null,
+        "coverage_shell": null,
+        "pressure": null
+      },
+      "alternatives": [
+        {
+          "play_family": "quick_pass",
+          "direction": "right",
+          "concept": "Hot throw to the slot",
+          "front": null,
+          "coverage_shell": null,
+          "pressure": null,
+          "when": "If the safety rotates down to blitz"
+        }
+      ],
+      "rationale": [
+        {
+          "text": "BAL defense: blitz rate, 3rd & long, opponent territory (2025): 85%, above the league's 41%.",
+          "stat_ids": [
+            "BAL.def.2025.down_dist_zone.d3-long-opp_territory.blitz_rate"
+          ]
+        },
+        {
+          "text": "BAL defense: EPA/play, opponent territory: -0.22, below the league's +0.03.",
+          "stat_ids": [
+            "BAL.def.2026.zone.opp_territory.epa_per_play"
+          ]
+        },
+        {
+          "text": "KC offense: EPA/play, 3rd & long (2025): +0.35, above the league's +0.12.",
+          "stat_ids": [
+            "KC.off.2025.down_dist.d3-long.epa_per_play"
+          ]
+        }
+      ],
+      "confidence": "medium",
+      "caveats": []
+    },
+    "generated_at": "2026-09-22T03:12:00Z",
+    "model": "fixture-mock"
+  },
+  {
+    "situation": {
+      "role": "DC",
+      "offense": "KC",
+      "defense": "BAL",
+      "season": 2026,
+      "down": 1,
+      "distance": 10,
+      "yardline_100": 75,
+      "quarter": 1,
+      "clock_seconds": 840,
+      "score_diff": 0,
+      "timeouts_offense": 3,
+      "timeouts_defense": 3
+    },
+    "fact_sheet": {
+      "fact_sheet_version": "1.1.0",
+      "context": {
+        "kind": "situation",
+        "situation": {
+          "role": "DC",
+          "offense": "KC",
+          "defense": "BAL",
+          "season": 2026,
+          "down": 1,
+          "distance": 10,
+          "yardline_100": 75,
+          "quarter": 1,
+          "clock_seconds": 840,
+          "score_diff": 0,
+          "timeouts_offense": 3,
+          "timeouts_defense": 3
+        }
+      },
+      "derived": {
+        "down": 1,
+        "dist_bucket": "long",
+        "field_zone": "own_territory",
+        "score_state": "tied",
+        "time_bucket": "normal"
+      },
+      "facts": [
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.success_rate",
+          "label": "BAL defense: success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.4375,
+          "display": "44%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.426,
+          "league_display": "43%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.pass_success_rate",
+          "label": "BAL defense: dropback success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.4884,
+          "display": "49%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.4932,
+          "league_display": "49%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.run_success_rate",
+          "label": "BAL defense: run success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.3333,
+          "display": "33%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.3474,
+          "league_display": "35%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.epa_per_play",
+          "label": "BAL defense: EPA/play, 1st & long, tied, normal clock (2025)",
+          "value": -0.1537,
+          "display": "-0.15",
+          "unit": "epa",
+          "n": 64,
+          "low_sample": false,
+          "league_value": -0.0971,
+          "league_display": "-0.10"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.explosive_rate",
+          "label": "BAL defense: explosive-play rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.0625,
+          "display": "6%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.0953,
+          "league_display": "10%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.sack_rate",
+          "label": "BAL defense: sack rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.0698,
+          "display": "7%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.0701,
+          "league_display": "7%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.blitz_rate",
+          "label": "BAL defense: blitz rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.4186,
+          "display": "42%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.2619,
+          "league_display": "26%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.pressure_rate",
+          "label": "BAL defense: pressure rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.4419,
+          "display": "44%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.3279,
+          "league_display": "33%"
+        },
+        {
+          "id": "BAL.def.2025.down_dist_score_time.d1-long-tied-normal.man_rate",
+          "label": "BAL defense: man coverage rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.2558,
+          "display": "26%",
+          "unit": "rate",
+          "n": 64,
+          "low_sample": false,
+          "league_value": 0.3129,
+          "league_display": "31%"
+        },
+        {
+          "id": "BAL.def.2026.zone.own_territory.success_rate",
+          "label": "BAL defense: success rate, own territory",
+          "value": 0.4054,
+          "display": "41%",
+          "unit": "rate",
+          "n": 111,
+          "low_sample": false,
+          "league_value": 0.4502,
+          "league_display": "45%"
+        },
+        {
+          "id": "BAL.def.2026.zone.own_territory.epa_per_play",
+          "label": "BAL defense: EPA/play, own territory",
+          "value": -0.0605,
+          "display": "-0.06",
+          "unit": "epa",
+          "n": 111,
+          "low_sample": false,
+          "league_value": -0.0051,
+          "league_display": "-0.01"
+        },
+        {
+          "id": "BAL.def.2026.zone.own_territory.pass_success_rate",
+          "label": "BAL defense: dropback success rate, own territory",
+          "value": 0.5156,
+          "display": "52%",
+          "unit": "rate",
+          "n": 111,
+          "low_sample": false,
+          "league_value": 0.4874,
+          "league_display": "49%"
+        },
+        {
+          "id": "BAL.def.2026.score_time.tied-normal.success_rate",
+          "label": "BAL defense: success rate, tied, normal clock",
+          "value": 0.2609,
+          "display": "26%",
+          "unit": "rate",
+          "n": 46,
+          "low_sample": false,
+          "league_value": 0.4647,
+          "league_display": "46%"
+        },
+        {
+          "id": "BAL.def.2026.score_time.tied-normal.blitz_rate",
+          "label": "BAL defense: blitz rate, tied, normal clock",
+          "value": 0.4231,
+          "display": "42%",
+          "unit": "rate",
+          "n": 46,
+          "low_sample": false,
+          "league_value": 0.2534,
+          "league_display": "25%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.epa_per_play",
+          "label": "BAL defense: EPA/play, all plays",
+          "value": -0.0968,
+          "display": "-0.10",
+          "unit": "epa",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.success_rate",
+          "label": "BAL defense: success rate, all plays",
+          "value": 0.3902,
+          "display": "39%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.explosive_rate",
+          "label": "BAL defense: explosive-play rate, all plays",
+          "value": 0.078,
+          "display": "8%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        },
+        {
+          "id": "BAL.def.2026.overall.all.blitz_rate",
+          "label": "BAL defense: blitz rate, all plays",
+          "value": 0.4065,
+          "display": "41%",
+          "unit": "rate",
+          "n": 205,
+          "low_sample": false,
+          "league_value": 0.2663,
+          "league_display": "27%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.pass_rate",
+          "label": "KC offense: pass rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.5904,
+          "display": "59%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.5389,
+          "league_display": "54%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.proe",
+          "label": "KC offense: pass rate over expected, 1st & long, tied, normal clock (2025)",
+          "value": 0.0598,
+          "display": "6%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.0072,
+          "league_display": "1%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.success_rate",
+          "label": "KC offense: success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.506,
+          "display": "51%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.426,
+          "league_display": "43%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.pass_success_rate",
+          "label": "KC offense: dropback success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.5102,
+          "display": "51%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.4932,
+          "league_display": "49%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.run_success_rate",
+          "label": "KC offense: run success rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.5,
+          "display": "50%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.3474,
+          "league_display": "35%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.epa_per_play",
+          "label": "KC offense: EPA/play, 1st & long, tied, normal clock (2025)",
+          "value": -0.0762,
+          "display": "-0.08",
+          "unit": "epa",
+          "n": 83,
+          "low_sample": false,
+          "league_value": -0.0971,
+          "league_display": "-0.10"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.explosive_rate",
+          "label": "KC offense: explosive-play rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.1084,
+          "display": "11%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.0953,
+          "league_display": "10%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.sack_rate",
+          "label": "KC offense: sack rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.0816,
+          "display": "8%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.0701,
+          "league_display": "7%"
+        },
+        {
+          "id": "KC.off.2025.down_dist_score_time.d1-long-tied-normal.screen_rate",
+          "label": "KC offense: screen rate, 1st & long, tied, normal clock (2025)",
+          "value": 0.102,
+          "display": "10%",
+          "unit": "rate",
+          "n": 83,
+          "low_sample": false,
+          "league_value": 0.0646,
+          "league_display": "6%"
+        },
+        {
+          "id": "KC.off.2026.zone.own_territory.pass_rate",
+          "label": "KC offense: pass rate, own territory",
+          "value": 0.6744,
+          "display": "67%",
+          "unit": "rate",
+          "n": 86,
+          "low_sample": false,
+          "league_value": 0.6089,
+          "league_display": "61%"
+        },
+        {
+          "id": "KC.off.2026.zone.own_territory.success_rate",
+          "label": "KC offense: success rate, own territory",
+          "value": 0.6279,
+          "display": "63%",
+          "unit": "rate",
+          "n": 86,
+          "low_sample": false,
+          "league_value": 0.4502,
+          "league_display": "45%"
+        },
+        {
+          "id": "KC.off.2026.zone.own_territory.epa_per_play",
+          "label": "KC offense: EPA/play, own territory",
+          "value": 0.4044,
+          "display": "+0.40",
+          "unit": "epa",
+          "n": 86,
+          "low_sample": false,
+          "league_value": -0.0051,
+          "league_display": "-0.01"
+        },
+        {
+          "id": "KC.off.2025.score_time.tied-normal.pass_rate",
+          "label": "KC offense: pass rate, tied, normal clock (2025)",
+          "value": 0.6571,
+          "display": "66%",
+          "unit": "rate",
+          "n": 175,
+          "low_sample": false,
+          "league_value": 0.5671,
+          "league_display": "57%"
+        },
+        {
+          "id": "KC.off.2025.score_time.tied-normal.success_rate",
+          "label": "KC offense: success rate, tied, normal clock (2025)",
+          "value": 0.5543,
+          "display": "55%",
+          "unit": "rate",
+          "n": 175,
+          "low_sample": false,
+          "league_value": 0.4511,
+          "league_display": "45%"
+        },
+        {
+          "id": "KC.off.2025.score_time.tied-normal.no_huddle_rate",
+          "label": "KC offense: no-huddle rate, tied, normal clock (2025)",
+          "value": 0.0629,
+          "display": "6%",
+          "unit": "rate",
+          "n": 175,
+          "low_sample": false,
+          "league_value": 0.0314,
+          "league_display": "3%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.epa_per_play",
+          "label": "KC offense: EPA/play, all plays",
+          "value": 0.3075,
+          "display": "+0.31",
+          "unit": "epa",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "KC.off.2026.overall.all.success_rate",
+          "label": "KC offense: success rate, all plays",
+          "value": 0.625,
+          "display": "63%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.pass_rate",
+          "label": "KC offense: pass rate, all plays",
+          "value": 0.6458,
+          "display": "65%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.5899,
+          "league_display": "59%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.proe",
+          "label": "KC offense: pass rate over expected, all plays",
+          "value": 0.1662,
+          "display": "17%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.011,
+          "league_display": "1%"
+        },
+        {
+          "id": "KC.off.2026.overall.all.explosive_rate",
+          "label": "KC offense: explosive-play rate, all plays",
+          "value": 0.1458,
+          "display": "15%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        }
+      ]
+    },
+    "call": {
+      "role": "DC",
+      "primary": {
+        "play_family": null,
+        "direction": null,
+        "concept": "Three-deep zone with an eight-man front",
+        "front": "even",
+        "coverage_shell": "cover3",
+        "pressure": "none"
+      },
+      "alternatives": [
+        {
+          "play_family": null,
+          "direction": null,
+          "concept": "Man-free with an edge blitz",
+          "front": "odd",
+          "coverage_shell": "cover1",
+          "pressure": "blitz",
+          "when": "If they go to heavy personnel"
+        }
+      ],
+      "rationale": [
+        {
+          "text": "KC offense: EPA/play, own territory: +0.40, above the league's -0.01.",
+          "stat_ids": [
+            "KC.off.2026.zone.own_territory.epa_per_play"
+          ]
+        },
+        {
+          "text": "BAL defense: success rate, tied, normal clock: 26%, below the league's 46%.",
+          "stat_ids": [
+            "BAL.def.2026.score_time.tied-normal.success_rate"
+          ]
+        },
+        {
+          "text": "KC offense: success rate, own territory: 63%, above the league's 45%.",
+          "stat_ids": [
+            "KC.off.2026.zone.own_territory.success_rate"
+          ]
+        }
+      ],
+      "confidence": "medium",
+      "caveats": []
+    },
+    "generated_at": "2026-09-22T03:12:00Z",
+    "model": "fixture-mock"
+  },
+  {
+    "situation": {
+      "role": "OC",
+      "offense": "PHI",
+      "defense": "DAL",
+      "season": 2026,
+      "down": 2,
+      "distance": 6,
+      "yardline_100": 12,
+      "quarter": 2,
+      "clock_seconds": 300,
+      "score_diff": 0,
+      "timeouts_offense": 3,
+      "timeouts_defense": 3
+    },
+    "fact_sheet": {
+      "fact_sheet_version": "1.1.0",
+      "context": {
+        "kind": "situation",
+        "situation": {
+          "role": "OC",
+          "offense": "PHI",
+          "defense": "DAL",
+          "season": 2026,
+          "down": 2,
+          "distance": 6,
+          "yardline_100": 12,
+          "quarter": 2,
+          "clock_seconds": 300,
+          "score_diff": 0,
+          "timeouts_offense": 3,
+          "timeouts_defense": 3
+        }
+      },
+      "derived": {
+        "down": 2,
+        "dist_bucket": "medium",
+        "field_zone": "red_zone",
+        "score_state": "tied",
+        "time_bucket": "normal"
+      },
+      "facts": [
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.pass_rate",
+          "label": "PHI offense: pass rate, 2nd & medium (2025)",
+          "value": 0.6067,
+          "display": "61%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.496,
+          "league_display": "50%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.proe",
+          "label": "PHI offense: pass rate over expected, 2nd & medium (2025)",
+          "value": 0.1042,
+          "display": "10%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": -0.0082,
+          "league_display": "-1%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.success_rate",
+          "label": "PHI offense: success rate, 2nd & medium (2025)",
+          "value": 0.5393,
+          "display": "54%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.4933,
+          "league_display": "49%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.pass_success_rate",
+          "label": "PHI offense: dropback success rate, 2nd & medium (2025)",
+          "value": 0.5556,
+          "display": "56%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.5247,
+          "league_display": "52%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.run_success_rate",
+          "label": "PHI offense: run success rate, 2nd & medium (2025)",
+          "value": 0.5143,
+          "display": "51%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.4624,
+          "league_display": "46%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.epa_per_play",
+          "label": "PHI offense: EPA/play, 2nd & medium (2025)",
+          "value": 0.032,
+          "display": "+0.03",
+          "unit": "epa",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.015,
+          "league_display": "+0.02"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.explosive_rate",
+          "label": "PHI offense: explosive-play rate, 2nd & medium (2025)",
+          "value": 0.1124,
+          "display": "11%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.1056,
+          "league_display": "11%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.sack_rate",
+          "label": "PHI offense: sack rate, 2nd & medium (2025)",
+          "value": 0.0926,
+          "display": "9%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.0633,
+          "league_display": "6%"
+        },
+        {
+          "id": "PHI.off.2025.down_dist.d2-medium.screen_rate",
+          "label": "PHI offense: screen rate, 2nd & medium (2025)",
+          "value": 0.1111,
+          "display": "11%",
+          "unit": "rate",
+          "n": 89,
+          "low_sample": false,
+          "league_value": 0.0602,
+          "league_display": "6%"
+        },
+        {
+          "id": "PHI.off.2026.zone.red_zone.pass_rate",
+          "label": "PHI offense: pass rate, red zone",
+          "value": 0.5294,
+          "display": "53%",
+          "unit": "rate",
+          "n": 34,
+          "low_sample": false,
+          "league_value": 0.5115,
+          "league_display": "51%"
+        },
+        {
+          "id": "PHI.off.2026.zone.red_zone.success_rate",
+          "label": "PHI offense: success rate, red zone",
+          "value": 0.5,
+          "display": "50%",
+          "unit": "rate",
+          "n": 34,
+          "low_sample": false,
+          "league_value": 0.4354,
+          "league_display": "44%"
+        },
+        {
+          "id": "PHI.off.2026.zone.red_zone.epa_per_play",
+          "label": "PHI offense: EPA/play, red zone",
+          "value": 0.011,
+          "display": "+0.01",
+          "unit": "epa",
+          "n": 34,
+          "low_sample": false,
+          "league_value": -0.0454,
+          "league_display": "-0.05"
+        },
+        {
+          "id": "PHI.off.2026.score_time.tied-normal.pass_rate",
+          "label": "PHI offense: pass rate, tied, normal clock",
+          "value": 0.6486,
+          "display": "65%",
+          "unit": "rate",
+          "n": 37,
+          "low_sample": false,
+          "league_value": 0.545,
+          "league_display": "55%"
+        },
+        {
+          "id": "PHI.off.2026.score_time.tied-normal.success_rate",
+          "label": "PHI offense: success rate, tied, normal clock",
+          "value": 0.6486,
+          "display": "65%",
+          "unit": "rate",
+          "n": 37,
+          "low_sample": false,
+          "league_value": 0.4647,
+          "league_display": "46%"
+        },
+        {
+          "id": "PHI.off.2026.score_time.tied-normal.no_huddle_rate",
+          "label": "PHI offense: no-huddle rate, tied, normal clock",
+          "value": 0.1081,
+          "display": "11%",
+          "unit": "rate",
+          "n": 37,
+          "low_sample": false,
+          "league_value": 0.0364,
+          "league_display": "4%"
+        },
+        {
+          "id": "PHI.off.2026.overall.all.epa_per_play",
+          "label": "PHI offense: EPA/play, all plays",
+          "value": 0.0617,
+          "display": "+0.06",
+          "unit": "epa",
+          "n": 213,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "PHI.off.2026.overall.all.success_rate",
+          "label": "PHI offense: success rate, all plays",
+          "value": 0.493,
+          "display": "49%",
+          "unit": "rate",
+          "n": 213,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "PHI.off.2026.overall.all.pass_rate",
+          "label": "PHI offense: pass rate, all plays",
+          "value": 0.6432,
+          "display": "64%",
+          "unit": "rate",
+          "n": 213,
+          "low_sample": false,
+          "league_value": 0.5899,
+          "league_display": "59%"
+        },
+        {
+          "id": "PHI.off.2026.overall.all.proe",
+          "label": "PHI offense: pass rate over expected, all plays",
+          "value": 0.0658,
+          "display": "7%",
+          "unit": "rate",
+          "n": 213,
+          "low_sample": false,
+          "league_value": 0.011,
+          "league_display": "1%"
+        },
+        {
+          "id": "PHI.off.2026.overall.all.explosive_rate",
+          "label": "PHI offense: explosive-play rate, all plays",
+          "value": 0.0892,
+          "display": "9%",
+          "unit": "rate",
+          "n": 213,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.success_rate",
+          "label": "DAL defense: success rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.5238,
+          "display": "52%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.4925,
+          "league_display": "49%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.pass_success_rate",
+          "label": "DAL defense: dropback success rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.5,
+          "display": "50%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.5342,
+          "league_display": "53%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.run_success_rate",
+          "label": "DAL defense: run success rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.5333,
+          "display": "53%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.4506,
+          "league_display": "45%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.epa_per_play",
+          "label": "DAL defense: EPA/play, 2nd & medium, tied, normal clock (2025)",
+          "value": -0.0232,
+          "display": "-0.02",
+          "unit": "epa",
+          "n": 21,
+          "low_sample": false,
+          "league_value": -0.0248,
+          "league_display": "-0.02"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.explosive_rate",
+          "label": "DAL defense: explosive-play rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.1905,
+          "display": "19%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.0878,
+          "league_display": "9%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.sack_rate",
+          "label": "DAL defense: sack rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0,
+          "display": "0%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.0513,
+          "league_display": "5%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.blitz_rate",
+          "label": "DAL defense: blitz rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.1667,
+          "display": "17%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.2521,
+          "league_display": "25%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.pressure_rate",
+          "label": "DAL defense: pressure rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0.3333,
+          "display": "33%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.3632,
+          "league_display": "36%"
+        },
+        {
+          "id": "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.man_rate",
+          "label": "DAL defense: man coverage rate, 2nd & medium, tied, normal clock (2025)",
+          "value": 0,
+          "display": "0%",
+          "unit": "rate",
+          "n": 21,
+          "low_sample": false,
+          "league_value": 0.3034,
+          "league_display": "30%"
+        },
+        {
+          "id": "DAL.def.2025.zone.red_zone.success_rate",
+          "label": "DAL defense: success rate, red zone (2025)",
+          "value": 0.4259,
+          "display": "43%",
+          "unit": "rate",
+          "n": 162,
+          "low_sample": false,
+          "league_value": 0.4158,
+          "league_display": "42%"
+        },
+        {
+          "id": "DAL.def.2025.zone.red_zone.epa_per_play",
+          "label": "DAL defense: EPA/play, red zone (2025)",
+          "value": -0.1298,
+          "display": "-0.13",
+          "unit": "epa",
+          "n": 162,
+          "low_sample": false,
+          "league_value": -0.0935,
+          "league_display": "-0.09"
+        },
+        {
+          "id": "DAL.def.2025.zone.red_zone.pass_success_rate",
+          "label": "DAL defense: dropback success rate, red zone (2025)",
+          "value": 0.4474,
+          "display": "45%",
+          "unit": "rate",
+          "n": 162,
+          "low_sample": false,
+          "league_value": 0.4761,
+          "league_display": "48%"
+        },
+        {
+          "id": "DAL.def.2026.score_time.tied-normal.success_rate",
+          "label": "DAL defense: success rate, tied, normal clock",
+          "value": 0.25,
+          "display": "25%",
+          "unit": "rate",
+          "n": 24,
+          "low_sample": false,
+          "league_value": 0.4647,
+          "league_display": "46%"
+        },
+        {
+          "id": "DAL.def.2026.score_time.tied-normal.blitz_rate",
+          "label": "DAL defense: blitz rate, tied, normal clock",
+          "value": 0.2941,
+          "display": "29%",
+          "unit": "rate",
+          "n": 24,
+          "low_sample": false,
+          "league_value": 0.2534,
+          "league_display": "25%"
+        },
+        {
+          "id": "DAL.def.2026.overall.all.epa_per_play",
+          "label": "DAL defense: EPA/play, all plays",
+          "value": -0.164,
+          "display": "-0.16",
+          "unit": "epa",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0,
+          "league_display": "0.00"
+        },
+        {
+          "id": "DAL.def.2026.overall.all.success_rate",
+          "label": "DAL defense: success rate, all plays",
+          "value": 0.3698,
+          "display": "37%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.4564,
+          "league_display": "46%"
+        },
+        {
+          "id": "DAL.def.2026.overall.all.explosive_rate",
+          "label": "DAL defense: explosive-play rate, all plays",
+          "value": 0.0781,
+          "display": "8%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.0967,
+          "league_display": "10%"
+        },
+        {
+          "id": "DAL.def.2026.overall.all.blitz_rate",
+          "label": "DAL defense: blitz rate, all plays",
+          "value": 0.2266,
+          "display": "23%",
+          "unit": "rate",
+          "n": 192,
+          "low_sample": false,
+          "league_value": 0.2663,
+          "league_display": "27%"
+        }
+      ]
+    },
+    "call": {
+      "role": "OC",
+      "primary": {
+        "play_family": "quick_pass",
+        "direction": "right",
+        "concept": "Fade-slant combination",
+        "front": null,
+        "coverage_shell": null,
+        "pressure": null
+      },
+      "alternatives": [
+        {
+          "play_family": "inside_run",
+          "direction": "middle",
+          "concept": "Inside zone",
+          "front": null,
+          "coverage_shell": null,
+          "pressure": null,
+          "when": "If the defense drops eight"
+        }
+      ],
+      "rationale": [
+        {
+          "text": "DAL defense: man coverage rate, 2nd & medium, tied, normal clock (2025): 0%, below the league's 30%.",
+          "stat_ids": [
+            "DAL.def.2025.down_dist_score_time.d2-medium-tied-normal.man_rate"
+          ]
+        },
+        {
+          "text": "DAL defense: success rate, tied, normal clock: 25%, below the league's 46%.",
+          "stat_ids": [
+            "DAL.def.2026.score_time.tied-normal.success_rate"
+          ]
+        },
+        {
+          "text": "PHI offense: success rate, tied, normal clock: 65%, above the league's 46%.",
+          "stat_ids": [
+            "PHI.off.2026.score_time.tied-normal.success_rate"
+          ]
+        }
+      ],
+      "confidence": "medium",
+      "caveats": []
+    },
+    "generated_at": "2026-09-22T03:12:00Z",
+    "model": "fixture-mock"
+  }
+]

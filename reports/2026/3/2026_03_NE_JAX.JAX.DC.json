@@ -1,0 +1,643 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_03_NE_JAX",
+  "season": 2026,
+  "week": 3,
+  "team": "JAX",
+  "opponent": "NE",
+  "role": "DC",
+  "generated_at": "2026-09-27T23:21:17Z",
+  "stats_as_of": "2026-09-24",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_03_NE_JAX",
+      "season": 2026,
+      "team": "JAX",
+      "opponent": "NE",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "JAX.def.2026.overall.all.epa_per_play",
+        "label": "JAX defense: EPA/play, all plays",
+        "value": -0.0196,
+        "display": "-0.02",
+        "unit": "epa",
+        "n": 105,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.success_rate",
+        "label": "JAX defense: success rate, all plays",
+        "value": 0.4667,
+        "display": "47%",
+        "unit": "rate",
+        "n": 105,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.explosive_rate",
+        "label": "JAX defense: explosive-play rate, all plays",
+        "value": 0.1238,
+        "display": "12%",
+        "unit": "rate",
+        "n": 105,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.blitz_rate",
+        "label": "JAX defense: blitz rate, all plays",
+        "value": 0.3934,
+        "display": "39%",
+        "unit": "rate",
+        "n": 105,
+        "low_sample": false,
+        "league_value": 0.3155,
+        "league_display": "32%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.success_rate",
+        "label": "JAX defense: success rate, 1st & long",
+        "value": 0.4318,
+        "display": "43%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "JAX defense: run success rate, 1st & long",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.3627,
+        "league_display": "36%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 1st & long",
+        "value": 0.45,
+        "display": "45%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4875,
+        "league_display": "49%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "JAX defense: explosive-play rate, 1st & long",
+        "value": 0.1364,
+        "display": "14%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.0971,
+        "league_display": "10%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-short.success_rate",
+        "label": "JAX defense: success rate, 3rd & short (2025)",
+        "value": 0.625,
+        "display": "63%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "JAX defense: run success rate, 3rd & short (2025)",
+        "value": 0.7273,
+        "display": "73%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2857,
+        "display": "29%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3571,
+        "display": "36%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "JAX.def.2025.down_dist.d3-long.man_rate",
+        "label": "JAX defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.2857,
+        "display": "29%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "JAX.def.2025.zone.red_zone.success_rate",
+        "label": "JAX defense: success rate, red zone (2025)",
+        "value": 0.4521,
+        "display": "45%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.def.2025.zone.red_zone.epa_per_play",
+        "label": "JAX defense: EPA/play, red zone (2025)",
+        "value": 0.0406,
+        "display": "+0.04",
+        "unit": "epa",
+        "n": 146,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "JAX.def.2025.zone.red_zone.pass_success_rate",
+        "label": "JAX defense: dropback success rate, red zone (2025)",
+        "value": 0.4598,
+        "display": "46%",
+        "unit": "rate",
+        "n": 146,
+        "low_sample": false,
+        "league_value": 0.4079,
+        "league_display": "41%"
+      },
+      {
+        "id": "JAX.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "JAX defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4186,
+        "display": "42%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "JAX.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "JAX defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6512,
+        "display": "65%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.epa_per_play",
+        "label": "NE offense: EPA/play, all plays",
+        "value": -0.0924,
+        "display": "-0.09",
+        "unit": "epa",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.0092,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NE.off.2026.overall.all.success_rate",
+        "label": "NE offense: success rate, all plays",
+        "value": 0.4153,
+        "display": "42%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.4392,
+        "league_display": "44%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.pass_rate",
+        "label": "NE offense: pass rate, all plays",
+        "value": 0.5847,
+        "display": "58%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.6002,
+        "league_display": "60%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.proe",
+        "label": "NE offense: pass rate over expected, all plays",
+        "value": 0.0051,
+        "display": "1%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": -0.0228,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.explosive_rate",
+        "label": "NE offense: explosive-play rate, all plays",
+        "value": 0.0678,
+        "display": "7%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.0859,
+        "league_display": "9%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NE offense: pass rate, 1st & long",
+        "value": 0.4318,
+        "display": "43%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.486,
+        "league_display": "49%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.proe",
+        "label": "NE offense: pass rate over expected, 1st & long",
+        "value": -0.0288,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": -0.0288,
+        "league_display": "-3%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.success_rate",
+        "label": "NE offense: success rate, 1st & long",
+        "value": 0.4318,
+        "display": "43%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NE offense: play-action rate, 1st & long",
+        "value": 0.3158,
+        "display": "32%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4297,
+        "league_display": "43%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-short.pass_rate",
+        "label": "NE offense: pass rate, 3rd & short (2025)",
+        "value": 0.5781,
+        "display": "58%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-short.success_rate",
+        "label": "NE offense: success rate, 3rd & short (2025)",
+        "value": 0.5625,
+        "display": "56%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "NE offense: run success rate, 3rd & short (2025)",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "NE offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4231,
+        "display": "42%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-long.sack_rate",
+        "label": "NE offense: sack rate, 3rd & long (2025)",
+        "value": 0.0962,
+        "display": "10%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "NE.off.2025.down_dist.d3-long.screen_rate",
+        "label": "NE offense: screen rate, 3rd & long (2025)",
+        "value": 0.0385,
+        "display": "4%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "NE.off.2025.zone.red_zone.pass_rate",
+        "label": "NE offense: pass rate, red zone (2025)",
+        "value": 0.5439,
+        "display": "54%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.5388,
+        "league_display": "54%"
+      },
+      {
+        "id": "NE.off.2025.zone.red_zone.success_rate",
+        "label": "NE offense: success rate, red zone (2025)",
+        "value": 0.4386,
+        "display": "44%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.4225,
+        "league_display": "42%"
+      },
+      {
+        "id": "NE.off.2025.zone.red_zone.epa_per_play",
+        "label": "NE offense: EPA/play, red zone (2025)",
+        "value": 0.018,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 171,
+        "low_sample": false,
+        "league_value": -0.0012,
+        "league_display": "0.00"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NE offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8333,
+        "display": "83%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NE offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a pass-heavy, quick-game offense with a low expected success rate, JAX defense must prioritize pressure and man coverage to limit deep passes and exploit play-action tendencies.",
+  "keys": [
+    {
+      "detail": "JAX defense allows 39% blitz rate, well above league average, indicating a tendency to pressure the passer; this should be leveraged against NE's high pass rate and low expected success rate.",
+      "stat_ids": [
+        "JAX.def.2026.overall.all.blitz_rate",
+        "NE.off.2026.overall.all.pass_rate"
+      ],
+      "title": "Pressure-First Front"
+    },
+    {
+      "detail": "NE's 1st & long pass rate is 43%, below league average, and their play-action rate is 32%, which is well below league average; man coverage behind a simulated pressure can disrupt these plays.",
+      "stat_ids": [
+        "NE.off.2026.down_dist.d1-long.pass_rate",
+        "NE.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "Target Play-Action and Deep Passes"
+    },
+    {
+      "detail": "JAX's red zone success rate is 45%, about league average, and NE's red zone pass rate is 54%, about league average; a two-deep zone coverage is warranted to limit deep threats in the red zone.",
+      "stat_ids": [
+        "JAX.def.2025.zone.red_zone.success_rate",
+        "NE.off.2025.zone.red_zone.pass_rate"
+      ],
+      "title": "Red Zone Two-Deep Coverage"
+    },
+    {
+      "detail": "JAX's 3rd & long man coverage rate is 29%, the worst in this sheet, indicating a lack of man coverage; this must be corrected with a higher man coverage rate in 3rd & long situations.",
+      "stat_ids": [
+        "JAX.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Increase Man Coverage in 3rd & Long"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.overall.all.pass_rate"
+          ],
+          "text": "NE has a high pass rate, so a balanced front with cover 1 is appropriate to match the offense's tendency."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.overall.all.proe"
+          ],
+          "text": "NE's pass rate is slightly below expected, suggesting it may rely on play-action or short routes; cover 1 provides a balanced response."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "NE's 3rd & short pass rate is 58%, above league average, indicating a strong passing tendency; cover 2 provides a balanced zone response."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "NE's 3rd & short success rate is 56%, below league average, suggesting a need for disciplined coverage to limit success."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "cover 1",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when NE shows a high play-action rate"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage with simulated pressure",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NE's play-action rate is 32%, well below league average, indicating a high reliance on play-action; man coverage behind simulated pressure can disrupt these plays."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "NE's 1st & long pass rate is 43%, below league average, suggesting a tendency to pass short; man coverage can limit these."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2025.zone.red_zone.pass_rate"
+          ],
+          "text": "NE's red zone pass rate is about league average, indicating a consistent deep threat; a two-deep zone coverage is needed to limit deep passes."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2025.zone.red_zone.success_rate"
+          ],
+          "text": "JAX's red zone success rate is about league average, indicating a need for disciplined coverage to maintain success."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NE's two-minute pass rate is 83%, about league average, indicating a high reliance on passing; two-deep zone coverage is needed to limit deep threats."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NE's two-minute success rate is 56%, above league average, suggesting a need for tighter coverage to limit success."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "started_at": "2026-09-27T14:38:13Z",
+  "configs": [
+    {
+      "stage": "live",
+      "provider": "cloud",
+      "model": "qwen3-30b-a3b",
+      "scorecard": {
+        "scenarios": 12,
+        "json_valid_pct": 100.0,
+        "grounded_pct": 100.0,
+        "acceptable_family_pct": 91.7,
+        "first_token_ms_p50": 2502,
+        "first_token_ms_p95": 4282,
+        "total_ms_p50": 3214,
+        "total_ms_p95": 65149,
+        "defensible": null,
+        "attempts_total": 18,
+        "prompt_tokens_total": 48705,
+        "output_tokens_total": 7627,
+        "est_neurons": 457.6,
+        "failing_criteria": [
+          "first_token_latency",
+          "total_latency"
+        ],
+        "switch_to_claude_recommended": true
+      },
+      "scenarios": [
+        {
+          "id": "dc-01-short-yardage",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 1923,
+          "prompt_tokens": 2707,
+          "output_tokens": 234,
+          "total_ms": 1932,
+          "errors": [],
+          "call": {
+            "alternatives": [],
+            "caveats": [],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Bear Front, Cover 1, Simulated Pressure",
+              "coverage_shell": "cover1",
+              "direction": null,
+              "front": "bear",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2026.score_time.tied-normal.success_rate",
+                  "PHI.off.2026.score_time.tied-normal.pass_rate"
+                ],
+                "text": "PHI is having a high success rate (65%) on 3rd & short when tied and with normal clock, with a pass rate of 65% - we need to stop their passing game here"
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2026.score_time.tied-normal.blitz_rate",
+                  "DAL.def.2025.down_dist.d3-short.blitz_rate"
+                ],
+                "text": "DAL has been blitzing at a lower rate (29%) than league average (26%) on 3rd & short when tied, but their overall blitz rate is 23% - we should consider simulated pressure to disrupt PHI's passing game"
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-02-third-long-blitz-identity",
+          "role": "DC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": true,
+          "first_token_ms": 4017,
+          "prompt_tokens": 5560,
+          "output_tokens": 986,
+          "total_ms": 7072,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Cover 3 with 4-3 front",
+                "coverage_shell": "cover3",
+                "direction": null,
+                "front": "even",
+                "play_family": null,
+                "pressure": "sim",
+                "when": "KC's pass success rate is well above league average"
+              },
+              {
+                "concept": "Cover 1 with 3-4 front",
+                "coverage_shell": "cover1",
+                "direction": null,
+                "front": "odd",
+                "play_family": null,
+                "pressure": "blitz",
+                "when": "KC's explosive rate is about league average"
+              }
+            ],
+            "caveats": [
+              "BAL's 3rd & long data has low sample (n=20)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Cover 2 with 4-3 front",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.def.2025.down_dist_zone.d3-long-opp_territory.pass_success_rate"
+                ],
+                "text": "KC is passing well on 3rd & long (46% success rate vs. league 47%)"
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2025.down_dist_zone.d3-long-opp_territory.run_success_rate"
+                ],
+                "text": "KC is struggling to run on 3rd & long (14% success rate vs. league 30%)"
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2025.down_dist_zone.d3-long-opp_territory.blitz_rate"
+                ],
+                "text": "BAL is blitzing often (85% vs. league 41%)"
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-03-red-zone",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 2997,
+          "prompt_tokens": 2782,
+          "output_tokens": 449,
+          "total_ms": 3001,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Cover 3 with a 3-4 front",
+                "coverage_shell": "cover3",
+                "direction": null,
+                "front": "odd",
+                "play_family": null,
+                "pressure": "none",
+                "when": "if the offense shows a run package"
+              },
+              {
+                "concept": "Cover 1 with a 4-3 front",
+                "coverage_shell": "cover1",
+                "direction": null,
+                "front": "even",
+                "play_family": null,
+                "pressure": "sim",
+                "when": "if the offense shows a quick pass or screen"
+              }
+            ],
+            "caveats": [
+              "SEA's red zone success rate has low sample (n=37) and is well below league average",
+              "SF's red zone success rate has low sample (n=23) and is about league average",
+              "SF's pass rate in lead/normal is well above league average (n=37)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Cover 2 with a 3-4 front",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "odd",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "SF is passing at a rate well above league average in this situation, so we need to take away the deep ball with a two-deep shell"
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2025.down_dist_zone.d2-medium-red_zone.pass_success_rate",
+                  "SF.off.2025.down_dist_zone.d2-medium-red_zone.run_success_rate"
+                ],
+                "text": "SF's pass and run success rates are both well below league average in the red zone, so we can be aggressive with simulated pressure"
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.success_rate"
+                ],
+                "text": "SEA's red zone defense is well below league average, so we need to take away the short passing game with a Cover 2 shell"
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-04-two-minute",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 2876,
+          "prompt_tokens": 2650,
+          "output_tokens": 495,
+          "total_ms": 2879,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Cover 3 with a 3-4 front",
+                "coverage_shell": "cover3",
+                "direction": null,
+                "front": "odd",
+                "play_family": null,
+                "pressure": "none",
+                "when": "if BUF's pass success rate is significantly higher"
+              },
+              {
+                "concept": "Cover 1 with a 4-3 front",
+                "coverage_shell": "cover1",
+                "direction": null,
+                "front": "even",
+                "play_family": null,
+                "pressure": "sim",
+                "when": "if BUF's explosive rate is higher than 15%"
+              }
+            ],
+            "caveats": [
+              "MIA's data in 'trail_1_8-two_minute' has low sample (n=28)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Cover 2 with a 4-3 front",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_rate",
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_success_rate"
+                ],
+                "text": "BUF is passing at a rate well above league average, with a high dropback success rate, so we need to pressure the quarterback to disrupt their timing."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.run_success_rate"
+                ],
+                "text": "MIA's defense is allowing more pass success than run success on 1st & long in their own territory, so we should focus on stopping the run while keeping the pass in front."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.epa_per_play",
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.epa_per_play"
+                ],
+                "text": "BUF is gaining more yards per play than MIA's defense is allowing, so we need to bring pressure to force a sack or a turnover."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-05-backed-up",
+          "role": "DC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": false,
+          "first_token_ms": 4282,
+          "prompt_tokens": 5798,
+          "output_tokens": 1322,
+          "total_ms": 10624,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Cover 3 with a 4-3 front",
+                "coverage_shell": "cover3",
+                "direction": null,
+                "front": "even",
+                "play_family": null,
+                "pressure": "none",
+                "when": "if DET's pass success rate is well above league average"
+              },
+              {
+                "concept": "Blitz with a 3-4 front",
+                "coverage_shell": "cover1",
+                "direction": null,
+                "front": "odd",
+                "play_family": null,
+                "pressure": "blitz",
+                "when": "if DET's sack rate is well above league average"
+              }
+            ],
+            "caveats": [
+              "Some facts have low sample sizes (n=21, n=38, n=54)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Cover 2 with a 4-3 front",
+              "coverage_shell": "cover2",
+              "direction": null,
+              "front": "even",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "DET.off.2026.score_time.tied-normal.pass_rate",
+                  "DET.off.2026.overall.all.pass_rate"
+                ],
+                "text": "DET is passing at a high rate (76% in tied, normal clock situations and 75% overall), so we need to be prepared for a pass."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.pass_success_rate",
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.success_rate"
+                ],
+                "text": "GB's defense has allowed a lower pass success rate (27%) and overall success rate (25%) on 1st & long, backed up, which suggests they are struggling against the pass."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.pressure_rate",
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.blitz_rate"
+                ],
+                "text": "GB's defense has a high pressure rate (53%) but a low blitz rate (7%) on 1st & long, backed up, indicating they are using simulated pressure rather than full blitzes."
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2025.down_dist_score_time.d1-long-tied-normal.pass_success_rate",
+                  "DET.off.2025.down_dist_score_time.d1-long-tied-normal.success_rate"
+                ],
+                "text": "DET's offense has a lower pass success rate (40%) and overall success rate (33%) on 1st & long, tied, normal clock, suggesting they may be struggling to move the ball."
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.sack_rate",
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.epa_per_play"
+                ],
+                "text": "GB's defense has a high sack rate (27%) and a negative EPA per play (-0.66), indicating they are getting pressure and limiting big plays."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "dc-06-fourth-down-stop",
+          "role": "DC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 2309,
+          "prompt_tokens": 2132,
+          "output_tokens": 406,
+          "total_ms": 2310,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Load the box with a bear front and play tight man coverage",
+                "coverage_shell": "cover1",
+                "direction": null,
+                "front": "bear",
+                "play_family": null,
+                "pressure": "sim",
+                "when": "if BAL is running the ball more than passing"
+              },
+              {
+                "concept": "Use a 3-4 front with a zone coverage shell",
+                "coverage_shell": "cover3",
+                "direction": null,
+                "front": "odd",
+                "play_family": null,
+                "pressure": "none",
+                "when": "if BAL is passing more than running"
+              }
+            ],
+            "caveats": [
+              "CIN's blitz rate in this situation is very low (0%), which may indicate a lack of pressure",
+              "BAL's success rate in this situation is very low (26%), which may indicate they are struggling"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "Load the box with a bear front and play tight man coverage",
+              "coverage_shell": "cover1",
+              "direction": null,
+              "front": "bear",
+              "play_family": null,
+              "pressure": "sim"
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.overall.all.pass_rate",
+                  "BAL.off.2026.overall.all.proe"
+                ],
+                "text": "BAL is passing at a rate below league average (50% vs 59%) and has a negative pass rate over expected (-6% vs 1%), suggesting they may be struggling to pass effectively."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.success_rate",
+                  "BAL.off.2026.overall.all.success_rate"
+                ],
+                "text": "BAL's success rate is well below league average (26% vs 46%) when trailing by one score, indicating they may be struggling to move the ball effectively."
+              }
+            ],
+            "role": "DC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-01-short-yardage",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 3076,
+          "prompt_tokens": 2725,
+          "output_tokens": 401,
+          "total_ms": 3079,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "run on 3rd & short",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "inside_run",
+                "pressure": null,
+                "when": "if the defense shows a soft coverage or doesn't blitz"
+              },
+              {
+                "concept": "pass on 3rd & short",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "quick_pass",
+                "pressure": null,
+                "when": "if the defense shows a hard coverage or blitzes"
+              }
+            ],
+            "caveats": [],
+            "confidence": "medium",
+            "primary": {
+              "concept": "inside_run",
+              "coverage_shell": null,
+              "direction": null,
+              "front": null,
+              "play_family": "inside_run",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "PHI.off.2025.down_dist.d3-short.run_success_rate"
+                ],
+                "text": "PHI's run success rate on 3rd & short is 78%, well above the league average of 70%."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2025.down_dist.d3-short.success_rate"
+                ],
+                "text": "PHI's overall success rate on 3rd & short is 62%, slightly below the league average of 64%."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2025.down_dist.d3-short.run_success_rate"
+                ],
+                "text": "DAL's run success rate against 3rd & short is 59%, below the league average of 70%."
+              },
+              {
+                "stat_ids": [
+                  "DAL.def.2025.down_dist.d3-short.success_rate"
+                ],
+                "text": "DAL's success rate against 3rd & short is 53%, below the league average of 64%."
+              },
+              {
+                "stat_ids": [
+                  "PHI.off.2025.down_dist.d3-short.pass_rate"
+                ],
+                "text": "PHI's pass rate on 3rd & short is 57%, slightly above the league average of 54%."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-02-third-long-vs-blitz",
+          "role": "OC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": true,
+          "first_token_ms": 2502,
+          "prompt_tokens": 5695,
+          "output_tokens": 664,
+          "total_ms": 5666,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "Pass to the left side",
+                "coverage_shell": null,
+                "direction": "left",
+                "front": null,
+                "play_family": "quick_pass",
+                "pressure": null,
+                "when": "if the defense shows a lot of zone coverage"
+              },
+              {
+                "concept": "Run up the middle",
+                "coverage_shell": null,
+                "direction": "middle",
+                "front": null,
+                "play_family": "inside_run",
+                "pressure": null,
+                "when": "if the defense shows a lot of man coverage"
+              }
+            ],
+            "caveats": [
+              "BAL's 3rd & long, opponent territory blitz rate has low sample (n=20)"
+            ],
+            "confidence": "high",
+            "primary": {
+              "concept": "Pass to the right side",
+              "coverage_shell": null,
+              "direction": "right",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "KC.off.2025.down_dist.d3-long.pass_rate"
+                ],
+                "text": "KC's offense has a high pass rate on 3rd & long, well above league average."
+              },
+              {
+                "stat_ids": [
+                  "BAL.def.2025.down_dist_zone.d3-long-opp_territory.blitz_rate"
+                ],
+                "text": "BAL's defense blitzes frequently on 3rd & long in opponent territory, which favors passing."
+              },
+              {
+                "stat_ids": [
+                  "KC.off.2025.down_dist.d3-long.success_rate"
+                ],
+                "text": "KC's offense has a decent success rate on 3rd & long, suggesting passing can be effective."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-03-red-zone",
+          "role": "OC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": true,
+          "first_token_ms": 2495,
+          "prompt_tokens": 5700,
+          "output_tokens": 766,
+          "total_ms": 65149,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "play-action pass",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "play_action",
+                "pressure": null,
+                "when": "if the defense shows a soft cover or no blitz"
+              },
+              {
+                "concept": "short pass",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "quick_pass",
+                "pressure": null,
+                "when": "if the defense shows a hard cover or blitz"
+              }
+            ],
+            "caveats": [
+              "low sample size for red zone stats (n=27)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "play-action pass",
+              "coverage_shell": null,
+              "direction": null,
+              "front": null,
+              "play_family": "play_action",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "SF.off.2026.score_time.lead_1_8-normal.pass_rate"
+                ],
+                "text": "SF passes more than league average when leading by one score, normal clock"
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.score_time.lead_1_8-normal.blitz_rate"
+                ],
+                "text": "SEA blitzes less than league average when leading by one score, normal clock"
+              },
+              {
+                "stat_ids": [
+                  "SF.off.2025.down_dist_zone.d2-medium-red_zone.pass_success_rate"
+                ],
+                "text": "SF has poor pass success rate in red zone, 2nd & medium"
+              },
+              {
+                "stat_ids": [
+                  "SEA.def.2026.zone.red_zone.pass_success_rate"
+                ],
+                "text": "SEA allows above average pass success rate in red zone"
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-04-two-minute",
+          "role": "OC",
+          "attempts": 1,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": true,
+          "acceptable_family": true,
+          "first_token_ms": 3211,
+          "prompt_tokens": 2668,
+          "output_tokens": 434,
+          "total_ms": 3214,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "run with play-action",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "play_action",
+                "pressure": null,
+                "when": "if the defense shows a soft coverage or blitzes less than 25%"
+              }
+            ],
+            "caveats": [],
+            "confidence": "medium",
+            "primary": {
+              "concept": "pass with quick routes",
+              "coverage_shell": null,
+              "direction": null,
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.pass_success_rate"
+                ],
+                "text": "BUF's dropback success rate (59%) is well above league average (48%) in this situation, suggesting their passing game is effective here."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.success_rate"
+                ],
+                "text": "BUF's overall success rate (54%) is above league average (44%) on 1st & long in their own territory, indicating they can move the ball effectively."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.pass_success_rate"
+                ],
+                "text": "MIA's pass success rate (61%) is above league average (48%) against 1st & long in their own territory, but BUF's higher success rate suggests they can counter this."
+              },
+              {
+                "stat_ids": [
+                  "MIA.def.2026.down_dist_zone.d1-long-own_territory.blitz_rate"
+                ],
+                "text": "MIA blitzes at 32%, above league average (26%), which could create opportunities for quick passes if the offense exploits the coverage gaps."
+              },
+              {
+                "stat_ids": [
+                  "BUF.off.2026.down_dist_zone.d1-long-own_territory.epa_per_play"
+                ],
+                "text": "BUF's EPA/play (0.03) is slightly above league average (-0.06) on 1st & long in their own territory, showing they can generate positive value here."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-05-backed-up",
+          "role": "OC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": true,
+          "first_token_ms": 2431,
+          "prompt_tokens": 5888,
+          "output_tokens": 647,
+          "total_ms": 4890,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "play-action pass",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "play_action",
+                "pressure": null,
+                "when": "if the defense shows a heavy front"
+              },
+              {
+                "concept": "quick pass",
+                "coverage_shell": null,
+                "direction": null,
+                "front": null,
+                "play_family": "quick_pass",
+                "pressure": null,
+                "when": "if the defense shows a lot of coverage"
+              }
+            ],
+            "caveats": [
+              "LOW SAMPLE: some stats have n=21-24, reducing confidence in specific matchups"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "pass",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "quick_pass",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "DET.off.2025.down_dist_score_time.d1-long-tied-normal.pass_rate"
+                ],
+                "text": "DET passes more than league average on 1st & long, tied, normal clock (56% vs 54%)"
+              },
+              {
+                "stat_ids": [
+                  "GB.def.2025.down_dist_zone.d1-long-backed_up.pressure_rate"
+                ],
+                "text": "GB allows well above league average pressure on 1st & long, backed up (53% vs 34%)"
+              },
+              {
+                "stat_ids": [
+                  "DET.off.2025.down_dist_score_time.d1-long-tied-normal.pass_success_rate"
+                ],
+                "text": "DET has below league average dropback success rate on 1st & long, tied, normal clock (40% vs 49%)"
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        },
+        {
+          "id": "oc-06-fourth-down-decision",
+          "role": "OC",
+          "attempts": 2,
+          "json_valid": true,
+          "grounded": true,
+          "first_attempt_ok": false,
+          "acceptable_family": true,
+          "first_token_ms": 2368,
+          "prompt_tokens": 4400,
+          "output_tokens": 823,
+          "total_ms": 4911,
+          "errors": [],
+          "call": {
+            "alternatives": [
+              {
+                "concept": "QB sneak",
+                "coverage_shell": null,
+                "direction": "middle",
+                "front": null,
+                "play_family": "sneak",
+                "pressure": null,
+                "when": "if the defense shows a run-stuffing front"
+              },
+              {
+                "concept": "Quick pass",
+                "coverage_shell": null,
+                "direction": "right",
+                "front": null,
+                "play_family": "quick_pass",
+                "pressure": null,
+                "when": "if the defense shows a zone coverage"
+              }
+            ],
+            "caveats": [
+              "BAL's pass rate in opponent territory (56%) is about league average (59%) but sample size is low (n=52)"
+            ],
+            "confidence": "medium",
+            "primary": {
+              "concept": "QB sneak",
+              "coverage_shell": null,
+              "direction": "middle",
+              "front": null,
+              "play_family": "sneak",
+              "pressure": null
+            },
+            "rationale": [
+              {
+                "stat_ids": [
+                  "BAL.off.2026.overall.all.run_success_rate",
+                  "BAL.off.2026.overall.all.success_rate"
+                ],
+                "text": "BAL's run success rate (36%) is well below league average (41%) and their overall success rate (41%) is also below average, suggesting they struggle to convert runs."
+              },
+              {
+                "stat_ids": [
+                  "CIN.def.2026.overall.all.run_success_rate",
+                  "CIN.def.2026.zone.opp_territory.success_rate"
+                ],
+                "text": "CIN's run success rate (40%) is about league average (41%) but they allow higher success rates in opponent territory (62%), which could be exploited if the run game is effective."
+              },
+              {
+                "stat_ids": [
+                  "BAL.off.2026.score_time.trail_1_8-normal.success_rate",
+                  "CIN.def.2026.score_time.trail_1_8-normal.success_rate"
+                ],
+                "text": "BAL's success rate while trailing by one score (26%) is much lower than CIN's (43%), indicating the defense is effective in this scenario."
+              }
+            ],
+            "role": "OC"
+          },
+          "defensible": null
+        }
+      ]
+    }
+  ]
+}

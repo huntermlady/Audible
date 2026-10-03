@@ -1,0 +1,39 @@
+{
+  "id": "dc-04-two-minute",
+  "situation": {
+    "role": "DC",
+    "offense": "BUF",
+    "defense": "MIA",
+    "season": 2026,
+    "down": 1,
+    "distance": 10,
+    "yardline_100": 60,
+    "quarter": 4,
+    "clock_seconds": 95,
+    "score_diff": -3,
+    "timeouts_offense": 1,
+    "timeouts_defense": 2
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": [
+    "none",
+    "sim"
+  ],
+  "unacceptable_pressures": [
+    "blitz"
+  ],
+  "acceptable_coverage_shells": [
+    "cover2",
+    "cover3",
+    "cover4",
+    "cover6",
+    "two_man"
+  ],
+  "acceptable_fronts": [
+    "dime_sub",
+    "even"
+  ],
+  "notes_for_human_rater": "Up 3 with 1:35 left. Keep everything in front: sub personnel and two-deep or quarters; an all-out blitz risks the game-losing big play."
+}

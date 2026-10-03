@@ -1,0 +1,49 @@
+[project]
+name = "audible"
+version = "0.1.0"
+description = "Audible workspace root (not a package)"
+requires-python = ">=3.12,<3.13"
+dependencies = ["audible-contracts", "audible-pipeline", "audible-ai"]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["shared/py", "pipeline", "ai"]
+
+[tool.uv.sources]
+audible-contracts = { workspace = true }
+audible-pipeline = { workspace = true }
+audible-ai = { workspace = true }
+
+[dependency-groups]
+dev = [
+  "ruff>=0.6",
+  "pyright>=1.1.380",
+  "pytest>=8",
+  "datamodel-code-generator>=0.26",
+  "jsonschema>=4.23",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["shared/py/src/audible_contracts/models", "web", "data", "reports"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pyright]
+include = ["shared/py", "pipeline", "ai"]
+exclude = ["**/node_modules", "**/__pycache__", "**/.venv", "web", "data"]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+
+[tool.pytest.ini_options]
+testpaths = ["shared/py/tests", "pipeline/tests", "ai/tests"]
+addopts = "--import-mode=importlib"
+
+[tool.ruff.lint.isort]
+known-first-party = ["audible_contracts", "audible_pipeline", "audible_ai"]

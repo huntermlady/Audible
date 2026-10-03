@@ -1,0 +1,32 @@
+# Build output
+data/
+dist/
+web/dist/
+eval/tmp/
+
+# Python
+.venv
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+.mypy_cache/
+
+# Node
+node_modules/
+web/test-results/
+web/playwright-report/
+web/.vite/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

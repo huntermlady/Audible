@@ -1,0 +1,35 @@
+{
+  "id": "dc-03-red-zone",
+  "situation": {
+    "role": "DC",
+    "offense": "SF",
+    "defense": "SEA",
+    "season": 2026,
+    "down": 2,
+    "distance": 6,
+    "yardline_100": 12,
+    "quarter": 3,
+    "clock_seconds": 400,
+    "score_diff": 3,
+    "timeouts_offense": 3,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": [
+    "cover0",
+    "cover1",
+    "cover2",
+    "cover3",
+    "two_man"
+  ],
+  "acceptable_fronts": [
+    "even",
+    "odd",
+    "bear"
+  ],
+  "notes_for_human_rater": "2nd & 6 at the 12. Tight coverage in a compressed field; deep-zone shells have less value here."
+}

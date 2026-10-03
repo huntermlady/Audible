@@ -1,0 +1,33 @@
+{
+  "id": "dc-06-fourth-down-stop",
+  "situation": {
+    "role": "DC",
+    "offense": "BAL",
+    "defense": "CIN",
+    "season": 2026,
+    "down": 4,
+    "distance": 1,
+    "yardline_100": 42,
+    "quarter": 3,
+    "clock_seconds": 300,
+    "score_diff": -3,
+    "timeouts_offense": 2,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": [
+    "cover0",
+    "cover1",
+    "two_man"
+  ],
+  "acceptable_fronts": [
+    "bear",
+    "even",
+    "odd"
+  ],
+  "notes_for_human_rater": "4th & 1 near midfield. Expect a goal-line-style front with tight man coverage to stop the sneak and the quick throw."
+}

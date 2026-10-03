@@ -1,0 +1,143 @@
+/*
+ * Audible design tokens. Neutral "press box" base; the team accent is the only brand hue.
+ * Chart palette = validated reference instance (dataviz skill, references/palette.md).
+ * Surface hex values are mirrored in src/design/palette.ts (tests assert they match).
+ */
+:root,
+.light {
+  color-scheme: light;
+  --radius: 0.5rem;
+
+  --background: #f5f5f2;
+  --foreground: #0b0b0b;
+  --card: #fcfcfb;
+  --card-foreground: #0b0b0b;
+  --popover: #fcfcfb;
+  --popover-foreground: #0b0b0b;
+  --primary: #0b0b0b;
+  --primary-foreground: #fcfcfb;
+  --secondary: #ecebe7;
+  --secondary-foreground: #0b0b0b;
+  --muted: #ecebe7;
+  --muted-foreground: #52514e;
+  --border: #e1e0d9;
+  --input: #c3c2b7;
+  --destructive: #c62f2f;
+  --destructive-foreground: #ffffff;
+
+  /* Neutral accent (no team selected). Team accent overrides via .team-accent below. */
+  --accent-neutral: #3b4656;
+  --accent-neutral-foreground: #ffffff;
+  --accent: var(--accent-neutral);
+  --accent-foreground: var(--accent-neutral-foreground);
+  --ring: var(--accent);
+
+  /* Chart chrome */
+  --chart-surface: #fcfcfb;
+  --chart-grid: #e1e0d9;
+  --chart-axis: #c3c2b7;
+  --chart-ink: #0b0b0b;
+  --chart-ink-muted: #52514e;
+
+  /* Categorical (fixed order, never cycled) */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+  --series-7: #4a3aa7;
+  --series-8: #e34948;
+
+  /* Sequential (blue) + diverging (blue <-> red, gray midpoint) */
+  --seq-low: #cde2fb;
+  --seq-high: #1c5cab;
+  --div-pos: #2a78d6;
+  --div-neg: #e34948;
+  --div-mid: #f0efec;
+
+  /* Status (reserved; always with icon + label) */
+  --good: #0ca30c;
+  --good-text: #006300;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+
+  /* Field */
+  --field-turf: #e6ebe2;
+  --field-endzone: #d6ddd2;
+  --field-line: #9ea69a;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --background: #0d0d0d;
+  --foreground: #fafaf8;
+  --card: #1a1a19;
+  --card-foreground: #fafaf8;
+  --popover: #1a1a19;
+  --popover-foreground: #fafaf8;
+  --primary: #fafaf8;
+  --primary-foreground: #0d0d0d;
+  --secondary: #262624;
+  --secondary-foreground: #fafaf8;
+  --muted: #262624;
+  --muted-foreground: #c3c2b7;
+  --border: #2c2c2a;
+  --input: #454541;
+  --destructive: #e66767;
+  --destructive-foreground: #0d0d0d;
+
+  --accent-neutral: #c9d1dc;
+  --accent-neutral-foreground: #0d0d0d;
+
+  --chart-surface: #1a1a19;
+  --chart-grid: #2c2c2a;
+  --chart-axis: #454541;
+  --chart-ink: #fafaf8;
+  --chart-ink-muted: #c3c2b7;
+
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+  --series-7: #9085e9;
+  --series-8: #e66767;
+
+  --seq-low: #1d2b3d;
+  --seq-high: #3987e5;
+  --div-pos: #3987e5;
+  --div-neg: #e66767;
+  --div-mid: #383835;
+
+  --good-text: #0ca30c;
+
+  --field-turf: #16201a;
+  --field-endzone: #1d2a21;
+  --field-line: #4a5a4e;
+}
+
+/*
+ * Team accent. useTeamAccent/<TeamAccentScope> set --team-accent-{light,dark} and their
+ * foregrounds (pre-computed for contrast) and add .team-accent; the active theme picks the pair,
+ * so toggling the theme re-accents instantly without JS.
+ */
+.team-accent {
+  --accent: var(--team-accent-light, var(--accent-neutral));
+  --accent-foreground: var(--team-accent-fg-light, var(--accent-neutral-foreground));
+  --ring: var(--accent);
+}
+.dark.team-accent,
+.dark .team-accent {
+  --accent: var(--team-accent-dark, var(--accent-neutral));
+  --accent-foreground: var(--team-accent-fg-dark, var(--accent-neutral-foreground));
+}
+/* A .light island inside a dark root (kitchen sink side-by-side panels). */
+.light.team-accent,
+.light .team-accent {
+  --accent: var(--team-accent-light, var(--accent-neutral));
+  --accent-foreground: var(--team-accent-fg-light, var(--accent-neutral-foreground));
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/team.schema.json",
+  "title": "Team",
+  "description": "One team in shared/teams.json (an array of these). Abbreviations are nflverse's.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "abbr",
+    "name",
+    "nickname",
+    "conference",
+    "division",
+    "color_primary",
+    "color_secondary",
+    "logo",
+    "logo_url",
+    "wordmark_url"
+  ],
+  "properties": {
+    "abbr": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "conference": {
+      "type": "string",
+      "enum": [
+        "AFC",
+        "NFC"
+      ]
+    },
+    "division": {
+      "type": "string",
+      "enum": [
+        "AFC East",
+        "AFC North",
+        "AFC South",
+        "AFC West",
+        "NFC East",
+        "NFC North",
+        "NFC South",
+        "NFC West"
+      ]
+    },
+    "color_primary": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "color_secondary": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "logo": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "logo_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Team logo (nflverse team_logo_espn), hotlinked; never committed as a file."
+    },
+    "wordmark_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Team wordmark (nflverse team_wordmark), hotlinked."
+    }
+  }
+}

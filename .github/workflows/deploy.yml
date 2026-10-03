@@ -1,0 +1,204 @@
+# Builds the site with the newest data/ and deploys it to GitHub Pages.
+# Triggers: push to main (reports, code) and workflow_dispatch; nightly-data.yml dispatches this
+# with data_run_id = its run id so the deploy uses exactly the data it just built and validated.
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      data_run_id:
+        description: "Run id of a nightly-data run whose `data` artifact to deploy (empty = latest successful)"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+  actions: read # download artifacts from other runs
+  pages: write
+  id-token: write
+
+# One deploy at a time; never cancel a deploy that has started.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  UV_PROJECT_ENVIRONMENT: ${{ github.workspace }}/.venv-ci
+  MAX_SITE_KB: 153600 # 150 MB
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      # reports/ on main must hold only real batch-job output. Mock reports live in shared/fixtures
+      # and are copied into reports/ by `make mock-data` for local work; they must never ship.
+      - name: Guard against mock or fake reports
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, sys
+
+          fixtures = pathlib.Path("shared/fixtures/reports")
+          reports = pathlib.Path("reports")
+          digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+          fixture_hashes = {digest(p): p for p in fixtures.rglob("*.json")}
+          bad = []
+
+          def records(doc):
+              if isinstance(doc, list):
+                  return [r for r in doc if isinstance(r, dict)]
+              return [doc] if isinstance(doc, dict) else []
+
+          for path in sorted(reports.rglob("*.json")) if reports.exists() else []:
+              if digest(path) in fixture_hashes:
+                  bad.append(f"{path}: byte-identical to {fixture_hashes[digest(path)]}")
+                  continue
+              try:
+                  doc = json.loads(path.read_text())
+              except ValueError as e:
+                  bad.append(f"{path}: not valid JSON ({e})")
+                  continue
+              for rec in records(doc):
+                  if rec.get("provider") == "fake":
+                      bad.append(f"{path}: provider == 'fake' (test-only provider)")
+                  if rec.get("model") == "fixture-mock":
+                      bad.append(f"{path}: model == 'fixture-mock' (a shared/fixtures mock report)")
+
+          if bad:
+              print("::error::reports/ contains mock or fake reports; remove them (git rm -r reports/) "
+                    "and let the weekly job (make reports) regenerate real ones.")
+              print("\n".join(sorted(set(bad))))
+              sys.exit(1)
+          print(f"reports/ OK ({sum(1 for _ in reports.rglob('*.json')) if reports.exists() else 0} JSON files)")
+          PY
+
+      - name: Pick the data artifact
+        id: pick
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_RUN_ID: ${{ inputs.data_run_id }}
+        run: |
+          if [ -n "$INPUT_RUN_ID" ]; then
+            echo "run_id=$INPUT_RUN_ID" >> "$GITHUB_OUTPUT"
+            echo "Data: nightly-data run $INPUT_RUN_ID (dispatched)" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          # Latest successful nightly-data run on main whose `data` artifact hasn't expired.
+          for id in $(gh run list --repo "$GITHUB_REPOSITORY" --workflow nightly-data.yml --branch main \
+                        --status success --limit 10 --json databaseId --jq '.[].databaseId'); do
+            live=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$id/artifacts" \
+                     --jq '[.artifacts[] | select(.name == "data" and (.expired | not))] | length')
+            if [ "$live" -gt 0 ]; then
+              echo "run_id=$id" >> "$GITHUB_OUTPUT"
+              echo "Data: latest successful nightly-data run $id" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+          done
+          echo "run_id=" >> "$GITHUB_OUTPUT"
+          echo "No nightly-data artifact available; building data/ with make data" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Download data/ artifact
+        if: ${{ steps.pick.outputs.run_id != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: data
+          path: data
+          run-id: ${{ steps.pick.outputs.run_id }}
+          github-token: ${{ github.token }}
+
+      # Fallback (first deploy, or all artifacts expired): run the pipeline here. The raw nflverse
+      # cache is shared with nightly-data.yml.
+      - name: Restore nflverse cache
+        if: ${{ steps.pick.outputs.run_id == '' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/audible
+          key: audible-raw-${{ github.run_id }}
+          restore-keys: audible-raw-
+
+      - name: Build data/ (fallback)
+        if: ${{ steps.pick.outputs.run_id == '' }}
+        run: |
+          uv sync --frozen
+          make data UV_PROJECT_ENVIRONMENT="$UV_PROJECT_ENVIRONMENT"
+          AUDIBLE_VALIDATE_DIR="$PWD/data" uv run pytest pipeline -q
+
+      - name: Check data/
+        run: |
+          test -f data/manifest.json || { echo "::error::data/manifest.json missing"; exit 1; }
+          jq -e '.files | length > 0' data/manifest.json >/dev/null
+          jq '{stats_as_of, current_season, current_week, seasons}' data/manifest.json
+
+      - name: Install web deps
+        run: npm --prefix web ci
+
+      # VITE_AI_CLOUD_URL is the public URL of the audible-ai Worker (repo variable AI_CLOUD_URL; not a
+      # secret, it ships in the bundle). Unset → the site has no cloud live mode (Ollama or sample only).
+      - name: Build site
+        env:
+          VITE_AI_CLOUD_URL: ${{ vars.AI_CLOUD_URL }}
+        run: |
+          if [ -z "$VITE_AI_CLOUD_URL" ]; then
+            echo "::warning::Repo variable AI_CLOUD_URL is not set; visitors get sample mode only"
+          fi
+          make build
+
+      # vite-plugins/audible.ts copies data/ + reports/ into dist/ and writes 404.html (deep links).
+      - name: Verify dist/
+        run: |
+          d=web/dist
+          for f in index.html 404.html data/manifest.json; do
+            test -f "$d/$f" || { echo "::error::$d/$f missing"; exit 1; }
+          done
+          cmp -s "$d/index.html" "$d/404.html" || { echo "::error::404.html is not a copy of index.html"; exit 1; }
+          diff -r data "$d/data" >/dev/null || { echo "::error::dist/data differs from data/"; exit 1; }
+          if [ -d reports ]; then
+            diff -r reports "$d/reports" >/dev/null || { echo "::error::dist/reports differs from reports/"; exit 1; }
+          fi
+          grep -q 'src="/Audible/assets/' "$d/index.html" || { echo "::error::index.html is not built for base /Audible/"; exit 1; }
+
+      - name: No secrets or Claude dev code in the bundle
+        run: |
+          npm --prefix web test -- --run tests/ai/dist-secrets.test.ts
+          # Belt and braces: an Anthropic key pattern anywhere in dist/ (data and reports included).
+          if grep -rIlE 'sk-ant-[A-Za-z0-9_-]{10,}' web/dist; then
+            echo "::error::Something that looks like an Anthropic API key is in web/dist"; exit 1
+          fi
+
+      - name: Site size < 150 MB
+        run: |
+          kb=$(du -sk web/dist | cut -f1)
+          echo "Site size: $((kb / 1024)) MB" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$kb" -ge "$MAX_SITE_KB" ]; then echo "::error::web/dist is ${kb} KB (limit ${MAX_SITE_KB} KB)"; exit 1; fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

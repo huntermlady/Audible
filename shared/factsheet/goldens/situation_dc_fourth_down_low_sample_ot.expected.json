@@ -1,0 +1,304 @@
+{
+  "fact_sheet_version": "1.1.0",
+  "context": {
+    "kind": "situation",
+    "situation": {
+      "role": "DC",
+      "offense": "BUF",
+      "defense": "SF",
+      "season": 2026,
+      "down": 4,
+      "distance": 1,
+      "yardline_100": 52,
+      "quarter": 5,
+      "clock_seconds": 400,
+      "score_diff": 0,
+      "timeouts_offense": 1,
+      "timeouts_defense": 1
+    }
+  },
+  "derived": {
+    "down": 4,
+    "dist_bucket": "short",
+    "field_zone": "own_territory",
+    "score_state": "tied",
+    "time_bucket": "fourth_quarter"
+  },
+  "facts": [
+    {
+      "id": "SF.def.2026.overall.all.success_rate",
+      "label": "SF defense: success rate, all plays",
+      "value": 0.4595,
+      "display": "46%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.4564,
+      "league_display": "46%"
+    },
+    {
+      "id": "SF.def.2026.overall.all.pass_success_rate",
+      "label": "SF defense: dropback success rate, all plays",
+      "value": 0.4641,
+      "display": "46%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.491,
+      "league_display": "49%"
+    },
+    {
+      "id": "SF.def.2026.overall.all.run_success_rate",
+      "label": "SF defense: run success rate, all plays",
+      "value": 0.4493,
+      "display": "45%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.4066,
+      "league_display": "41%"
+    },
+    {
+      "id": "SF.def.2026.overall.all.epa_per_play",
+      "label": "SF defense: EPA/play, all plays",
+      "value": -0.1086,
+      "display": "-0.11",
+      "unit": "epa",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0,
+      "league_display": "0.00"
+    },
+    {
+      "id": "SF.def.2026.overall.all.explosive_rate",
+      "label": "SF defense: explosive-play rate, all plays",
+      "value": 0.0721,
+      "display": "7%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.0967,
+      "league_display": "10%"
+    },
+    {
+      "id": "SF.def.2026.overall.all.sack_rate",
+      "label": "SF defense: sack rate, all plays",
+      "value": 0.0392,
+      "display": "4%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.0654,
+      "league_display": "7%"
+    },
+    {
+      "id": "SF.def.2026.overall.all.blitz_rate",
+      "label": "SF defense: blitz rate, all plays",
+      "value": 0.3203,
+      "display": "32%",
+      "unit": "rate",
+      "n": 222,
+      "low_sample": false,
+      "league_value": 0.2663,
+      "league_display": "27%"
+    },
+    {
+      "id": "SF.def.2026.zone.own_territory.success_rate",
+      "label": "SF defense: success rate, own territory",
+      "value": 0.4688,
+      "display": "47%",
+      "unit": "rate",
+      "n": 128,
+      "low_sample": false,
+      "league_value": 0.4502,
+      "league_display": "45%"
+    },
+    {
+      "id": "SF.def.2026.zone.own_territory.epa_per_play",
+      "label": "SF defense: EPA/play, own territory",
+      "value": -0.1897,
+      "display": "-0.19",
+      "unit": "epa",
+      "n": 128,
+      "low_sample": false,
+      "league_value": -0.0051,
+      "league_display": "-0.01"
+    },
+    {
+      "id": "SF.def.2026.zone.own_territory.pass_success_rate",
+      "label": "SF defense: dropback success rate, own territory",
+      "value": 0.4615,
+      "display": "46%",
+      "unit": "rate",
+      "n": 128,
+      "low_sample": false,
+      "league_value": 0.4874,
+      "league_display": "49%"
+    },
+    {
+      "id": "SF.def.2025.score_time.tied-fourth_quarter.success_rate",
+      "label": "SF defense: success rate, tied, fourth quarter (2025)",
+      "value": 0.6,
+      "display": "60%",
+      "unit": "rate",
+      "n": 20,
+      "low_sample": false,
+      "league_value": 0.4542,
+      "league_display": "45%"
+    },
+    {
+      "id": "SF.def.2025.score_time.tied-fourth_quarter.blitz_rate",
+      "label": "SF defense: blitz rate, tied, fourth quarter (2025)",
+      "value": 0.1818,
+      "display": "18%",
+      "unit": "rate",
+      "n": 20,
+      "low_sample": false,
+      "league_value": 0.32,
+      "league_display": "32%"
+    },
+    {
+      "id": "SF.def.2025.score_time.tied-fourth_quarter.zone_rate",
+      "label": "SF defense: zone coverage rate, tied, fourth quarter (2025)",
+      "value": 0.6364,
+      "display": "64%",
+      "unit": "rate",
+      "n": 20,
+      "low_sample": false,
+      "league_value": 0.6,
+      "league_display": "60%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.pass_rate",
+      "label": "BUF offense: pass rate, all plays",
+      "value": 0.5311,
+      "display": "53%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.5899,
+      "league_display": "59%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.proe",
+      "label": "BUF offense: pass rate over expected, all plays",
+      "value": 0.0145,
+      "display": "1%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.011,
+      "league_display": "1%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.success_rate",
+      "label": "BUF offense: success rate, all plays",
+      "value": 0.5311,
+      "display": "53%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.4564,
+      "league_display": "46%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.pass_success_rate",
+      "label": "BUF offense: dropback success rate, all plays",
+      "value": 0.5676,
+      "display": "57%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.491,
+      "league_display": "49%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.run_success_rate",
+      "label": "BUF offense: run success rate, all plays",
+      "value": 0.4898,
+      "display": "49%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.4066,
+      "league_display": "41%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.epa_per_play",
+      "label": "BUF offense: EPA/play, all plays",
+      "value": 0.2193,
+      "display": "+0.22",
+      "unit": "epa",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0,
+      "league_display": "0.00"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.explosive_rate",
+      "label": "BUF offense: explosive-play rate, all plays",
+      "value": 0.1627,
+      "display": "16%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.0967,
+      "league_display": "10%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.sack_rate",
+      "label": "BUF offense: sack rate, all plays",
+      "value": 0.045,
+      "display": "5%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.0654,
+      "league_display": "7%"
+    },
+    {
+      "id": "BUF.off.2026.overall.all.screen_rate",
+      "label": "BUF offense: screen rate, all plays",
+      "value": 0.0811,
+      "display": "8%",
+      "unit": "rate",
+      "n": 209,
+      "low_sample": false,
+      "league_value": 0.076,
+      "league_display": "8%"
+    },
+    {
+      "id": "BUF.off.2026.zone.own_territory.pass_rate",
+      "label": "BUF offense: pass rate, own territory",
+      "value": 0.5417,
+      "display": "54%",
+      "unit": "rate",
+      "n": 96,
+      "low_sample": false,
+      "league_value": 0.6089,
+      "league_display": "61%"
+    },
+    {
+      "id": "BUF.off.2026.zone.own_territory.success_rate",
+      "label": "BUF offense: success rate, own territory",
+      "value": 0.5521,
+      "display": "55%",
+      "unit": "rate",
+      "n": 96,
+      "low_sample": false,
+      "league_value": 0.4502,
+      "league_display": "45%"
+    },
+    {
+      "id": "BUF.off.2026.zone.own_territory.epa_per_play",
+      "label": "BUF offense: EPA/play, own territory",
+      "value": 0.2229,
+      "display": "+0.22",
+      "unit": "epa",
+      "n": 96,
+      "low_sample": false,
+      "league_value": -0.0051,
+      "league_display": "-0.01"
+    }
+  ]
+}

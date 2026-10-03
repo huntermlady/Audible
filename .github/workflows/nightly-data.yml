@@ -1,0 +1,100 @@
+# Builds data/ from nflverse, validates it, uploads it as the `data` artifact, and dispatches
+# deploy.yml with this run's id so the deploy can download that artifact.
+name: nightly-data
+
+on:
+  schedule:
+    - cron: "0 10 * 9-12,1-2 *" # daily during the season (Sep-Feb), 10:00 UTC
+    - cron: "0 10 * 3-8 1" # weekly on Mondays in the offseason (Mar-Aug)
+  workflow_dispatch:
+    inputs:
+      seasons:
+        description: "Seasons to build (auto | 2021-2026)"
+        default: auto
+      refresh:
+        description: "Re-download every cached season"
+        type: boolean
+        default: false
+      deploy:
+        description: "Dispatch deploy.yml after a successful build"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  actions: write # gh workflow run deploy.yml
+
+concurrency:
+  group: nightly-data
+  cancel-in-progress: false
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      UV_PROJECT_ENVIRONMENT: ${{ github.workspace }}/.venv-ci
+      SEASONS: ${{ inputs.seasons || 'auto' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      # Raw nflverse downloads. Keys are unique per run (caches are immutable) and restore the
+      # newest previous one; completed seasons never re-download, the current one refreshes.
+      - name: Restore nflverse cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/audible
+          key: audible-raw-${{ github.run_id }}
+          restore-keys: audible-raw-
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Build data/
+        run: |
+          start=$(date +%s)
+          if [ "${{ inputs.refresh }}" = "true" ]; then
+            uv run python -m audible_pipeline build --seasons "$SEASONS" --out data --refresh
+          else
+            make data UV_PROJECT_ENVIRONMENT="$UV_PROJECT_ENVIRONMENT"
+          fi
+          echo "Built in $(( $(date +%s) - start ))s" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate data/ against shared/schemas
+        run: AUDIBLE_VALIDATE_DIR="$PWD/data" uv run pytest pipeline -q
+
+      - name: Summarize
+        run: |
+          du -sh data
+          size=$(du -sk data | cut -f1)
+          if [ "$size" -gt 76800 ]; then echo "data/ is ${size} KB (> 75 MB)" >&2; exit 1; fi
+          {
+            echo '```json'
+            jq '{stats_as_of, current_season, current_week, seasons,
+                 rows: (.files | map_values(.rows)), bytes: (.files | map_values(.bytes))}' \
+              data/manifest.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: data
+          path: data/
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Dispatch deploy.yml
+        if: ${{ github.event_name == 'schedule' || inputs.deploy }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f .github/workflows/deploy.yml ]; then
+            echo "deploy.yml not present yet; skipping dispatch" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          gh workflow run deploy.yml --ref "${{ github.ref_name }}" -f data_run_id="${{ github.run_id }}"

@@ -1,0 +1,33 @@
+{
+  "id": "dc-01-short-yardage",
+  "situation": {
+    "role": "DC",
+    "offense": "PHI",
+    "defense": "DAL",
+    "season": 2026,
+    "down": 3,
+    "distance": 1,
+    "yardline_100": 44,
+    "quarter": 2,
+    "clock_seconds": 480,
+    "score_diff": 0,
+    "timeouts_offense": 3,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": [
+    "cover0",
+    "cover1",
+    "cover3"
+  ],
+  "acceptable_fronts": [
+    "bear",
+    "even",
+    "odd"
+  ],
+  "notes_for_human_rater": "3rd & 1 against a strong short-yardage offense. Expect a heavy front with man or single-high coverage; soft quarters invites the sticks."
+}

@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huntermlady.github.io/Audible/schemas/team_season_row.schema.json",
+  "title": "TeamSeasonRow",
+  "description": "One row of data/team_season.parquet: one team (or NFL) in one season. rank_<metric>: 1 = best per CONTEXT.md rank direction, min-rank ties, null for NFL rows and null metrics.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "season",
+    "team",
+    "games",
+    "off_plays",
+    "off_epa_per_play",
+    "off_pass_epa",
+    "off_run_epa",
+    "off_success_rate",
+    "off_explosive_rate",
+    "off_pass_rate",
+    "off_proe",
+    "off_early_down_pass_rate",
+    "off_third_down_conv_rate",
+    "off_red_zone_td_rate",
+    "def_plays",
+    "def_epa_per_play",
+    "def_pass_epa",
+    "def_run_epa",
+    "def_success_rate",
+    "def_explosive_rate",
+    "def_third_down_conv_rate",
+    "def_red_zone_td_rate",
+    "def_blitz_rate",
+    "def_pressure_rate",
+    "rank_off_epa_per_play",
+    "rank_off_pass_epa",
+    "rank_off_run_epa",
+    "rank_off_success_rate",
+    "rank_off_explosive_rate",
+    "rank_off_pass_rate",
+    "rank_off_proe",
+    "rank_off_early_down_pass_rate",
+    "rank_off_third_down_conv_rate",
+    "rank_off_red_zone_td_rate",
+    "rank_def_epa_per_play",
+    "rank_def_pass_epa",
+    "rank_def_run_epa",
+    "rank_def_success_rate",
+    "rank_def_explosive_rate",
+    "rank_def_third_down_conv_rate",
+    "rank_def_red_zone_td_rate",
+    "rank_def_blitz_rate",
+    "rank_def_pressure_rate"
+  ],
+  "properties": {
+    "season": {
+      "type": "integer",
+      "minimum": 1999,
+      "maximum": 2100
+    },
+    "team": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}$"
+    },
+    "games": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "off_plays": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "off_epa_per_play": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "off_pass_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "off_run_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "off_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_explosive_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_proe": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -1,
+      "maximum": 1
+    },
+    "off_early_down_pass_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_third_down_conv_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "off_red_zone_td_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_plays": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "def_epa_per_play": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "def_pass_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "def_run_epa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "def_success_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_explosive_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_third_down_conv_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_red_zone_td_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_blitz_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "def_pressure_rate": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "rank_off_epa_per_play": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_pass_epa": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_run_epa": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_success_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_explosive_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_pass_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_proe": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_early_down_pass_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_third_down_conv_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_off_red_zone_td_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_epa_per_play": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_pass_epa": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_run_epa": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_success_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_explosive_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_third_down_conv_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_red_zone_td_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_blitz_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    },
+    "rank_def_pressure_rate": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 32
+    }
+  }
+}

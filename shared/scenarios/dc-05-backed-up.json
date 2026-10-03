@@ -1,0 +1,33 @@
+{
+  "id": "dc-05-backed-up",
+  "situation": {
+    "role": "DC",
+    "offense": "DET",
+    "defense": "GB",
+    "season": 2026,
+    "down": 1,
+    "distance": 10,
+    "yardline_100": 97,
+    "quarter": 1,
+    "clock_seconds": 600,
+    "score_diff": 0,
+    "timeouts_offense": 3,
+    "timeouts_defense": 3
+  },
+  "data": "fixtures",
+  "acceptable_play_families": null,
+  "unacceptable_play_families": null,
+  "acceptable_pressures": null,
+  "unacceptable_pressures": null,
+  "acceptable_coverage_shells": [
+    "cover0",
+    "cover1",
+    "cover3"
+  ],
+  "acceptable_fronts": [
+    "even",
+    "odd",
+    "bear"
+  ],
+  "notes_for_human_rater": "Offense backed up at its own 3. Aggressive fronts that force a negative play or a safety are reasonable."
+}
