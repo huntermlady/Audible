@@ -1,0 +1,686 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_05_CHI_GB",
+  "season": 2026,
+  "week": 5,
+  "team": "CHI",
+  "opponent": "GB",
+  "role": "OC",
+  "generated_at": "2026-10-07T10:43:57Z",
+  "stats_as_of": "2026-10-05",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_05_CHI_GB",
+      "season": 2026,
+      "team": "CHI",
+      "opponent": "GB",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "CHI.off.2026.overall.all.epa_per_play",
+        "label": "CHI offense: EPA/play, all plays",
+        "value": 0.107,
+        "display": "+0.11",
+        "unit": "epa",
+        "n": 292,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.success_rate",
+        "label": "CHI offense: success rate, all plays",
+        "value": 0.4795,
+        "display": "48%",
+        "unit": "rate",
+        "n": 292,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.pass_rate",
+        "label": "CHI offense: pass rate, all plays",
+        "value": 0.5137,
+        "display": "51%",
+        "unit": "rate",
+        "n": 292,
+        "low_sample": false,
+        "league_value": 0.6057,
+        "league_display": "61%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.proe",
+        "label": "CHI offense: pass rate over expected, all plays",
+        "value": -0.0379,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 292,
+        "low_sample": false,
+        "league_value": -0.0208,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.explosive_rate",
+        "label": "CHI offense: explosive-play rate, all plays",
+        "value": 0.1027,
+        "display": "10%",
+        "unit": "rate",
+        "n": 292,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.pass_rate",
+        "label": "CHI offense: pass rate, 1st & long",
+        "value": 0.4696,
+        "display": "47%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.4985,
+        "league_display": "50%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.proe",
+        "label": "CHI offense: pass rate over expected, 1st & long",
+        "value": 0.0187,
+        "display": "2%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": -0.0237,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.success_rate",
+        "label": "CHI offense: success rate, 1st & long",
+        "value": 0.4435,
+        "display": "44%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "CHI offense: play-action rate, 1st & long",
+        "value": 0.5185,
+        "display": "52%",
+        "unit": "rate",
+        "n": 115,
+        "low_sample": false,
+        "league_value": 0.4262,
+        "league_display": "43%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.pass_rate",
+        "label": "CHI offense: pass rate, 3rd & short",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.5,
+        "league_display": "50%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.success_rate",
+        "label": "CHI offense: success rate, 3rd & short",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6004,
+        "league_display": "60%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "CHI offense: run success rate, 3rd & short",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6652,
+        "league_display": "67%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "CHI offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3729,
+        "display": "37%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.sack_rate",
+        "label": "CHI offense: sack rate, 3rd & long (2025)",
+        "value": 0.0508,
+        "display": "5%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.screen_rate",
+        "label": "CHI offense: screen rate, 3rd & long (2025)",
+        "value": 0.0847,
+        "display": "8%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.pass_rate",
+        "label": "CHI offense: pass rate, red zone",
+        "value": 0.4521,
+        "display": "45%",
+        "unit": "rate",
+        "n": 73,
+        "low_sample": false,
+        "league_value": 0.5377,
+        "league_display": "54%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.success_rate",
+        "label": "CHI offense: success rate, red zone",
+        "value": 0.4247,
+        "display": "42%",
+        "unit": "rate",
+        "n": 73,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.epa_per_play",
+        "label": "CHI offense: EPA/play, red zone",
+        "value": -0.1185,
+        "display": "-0.12",
+        "unit": "epa",
+        "n": 73,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "CHI.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "CHI offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8182,
+        "display": "82%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "CHI.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "CHI offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4805,
+        "display": "48%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "GB.def.2026.overall.all.epa_per_play",
+        "label": "GB defense: EPA/play, all plays",
+        "value": 0.0333,
+        "display": "+0.03",
+        "unit": "epa",
+        "n": 254,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "GB.def.2026.overall.all.success_rate",
+        "label": "GB defense: success rate, all plays",
+        "value": 0.4528,
+        "display": "45%",
+        "unit": "rate",
+        "n": 254,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "GB.def.2026.overall.all.explosive_rate",
+        "label": "GB defense: explosive-play rate, all plays",
+        "value": 0.063,
+        "display": "6%",
+        "unit": "rate",
+        "n": 254,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "GB.def.2026.overall.all.blitz_rate",
+        "label": "GB defense: blitz rate, all plays",
+        "value": 0.4058,
+        "display": "41%",
+        "unit": "rate",
+        "n": 254,
+        "low_sample": false,
+        "league_value": 0.312,
+        "league_display": "31%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.success_rate",
+        "label": "GB defense: success rate, 1st & long",
+        "value": 0.44,
+        "display": "44%",
+        "unit": "rate",
+        "n": 100,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "GB defense: run success rate, 1st & long",
+        "value": 0.3929,
+        "display": "39%",
+        "unit": "rate",
+        "n": 100,
+        "low_sample": false,
+        "league_value": 0.3539,
+        "league_display": "35%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "GB defense: dropback success rate, 1st & long",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 100,
+        "low_sample": false,
+        "league_value": 0.4997,
+        "league_display": "50%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "GB defense: explosive-play rate, 1st & long",
+        "value": 0.07,
+        "display": "7%",
+        "unit": "rate",
+        "n": 100,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-short.success_rate",
+        "label": "GB defense: success rate, 3rd & short (2025)",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "GB defense: run success rate, 3rd & short (2025)",
+        "value": 0.7222,
+        "display": "72%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "GB defense: blitz rate, 3rd & short (2025)",
+        "value": 0.5185,
+        "display": "52%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "GB defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2553,
+        "display": "26%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "GB defense: blitz rate, 3rd & long (2025)",
+        "value": 0.2766,
+        "display": "28%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "GB.def.2025.down_dist.d3-long.man_rate",
+        "label": "GB defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.2128,
+        "display": "21%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.success_rate",
+        "label": "GB defense: success rate, red zone",
+        "value": 0.619,
+        "display": "62%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.epa_per_play",
+        "label": "GB defense: EPA/play, red zone",
+        "value": 0.464,
+        "display": "+0.46",
+        "unit": "epa",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.pass_success_rate",
+        "label": "GB defense: dropback success rate, red zone",
+        "value": 0.6429,
+        "display": "64%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "GB.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "GB defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4419,
+        "display": "44%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "GB.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "GB defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes against a defense that blitzes frequently and allows high explosive-play rates.",
+  "keys": [
+    {
+      "detail": "CHI offense has a high play-action rate on 1st & long (52%) and a pass rate that is well below league average (47%), indicating a need to leverage play-action to exploit GB's blitzing tendencies.",
+      "stat_ids": [
+        "CHI.off.2026.down_dist.d1-long.play_action_rate",
+        "CHI.off.2026.down_dist.d1-long.pass_rate"
+      ],
+      "title": "Play-Action Dominance on 1st & Long"
+    },
+    {
+      "detail": "CHI's pass success rate in the red zone (42%) is about league average, but GB's red zone success rate (62%) is well above league average, suggesting a high risk of defensive success on deep passes; thus, quick, short passes are preferred.",
+      "stat_ids": [
+        "CHI.off.2026.zone.red_zone.success_rate",
+        "GB.def.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Pass Safety"
+    },
+    {
+      "detail": "GB defense has a high blitz rate (41%) and low man coverage (21%) on 3rd & long, indicating a defensive structure that pressures the quarterback and favors zone coverage; CHI's pass rate over expected is -4%, suggesting underperformance relative to expectations.",
+      "stat_ids": [
+        "GB.def.2026.overall.all.blitz_rate",
+        "GB.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Blitz-Responsive Play-Action Strategy"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "CHI's 3rd & short run success rate (45%) is the worst in this sheet; avoid running plays in early downs if GB's 3rd & short run success rate is high."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "CHI has a 52% play-action rate on 1st & long, which is well above league average, indicating a strong tendency to use play-action to create space."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "GB's blitz rate is 41%, well above league average, suggesting play-action is a high-probability success path to avoid pressure."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "CHI's 3rd & short run success rate (45%) is the worst in this sheet; avoid running plays if GB's 3rd & short run success rate is high."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "CHI's 3rd & short pass success rate is not specified, but run success rate is 45%, which is below league average, indicating poor run efficiency."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "GB's 3rd & short run success rate is 72%, well above league average, suggesting strong defensive run performance."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "CHI's screen rate on 3rd & long is only 8%, below league average; low sample size (n=65) reduces confidence in this metric."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "CHI's screen rate on 3rd & long is 8%, below league average, indicating a low use of screens in high-pressure situations."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "GB's blitz rate on 3rd & long is 28%, below league average, suggesting less pressure on dropbacks; screens may be effective."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Fade",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "CHI's red zone EPA/play is -0.12, which is below league average, indicating a tendency to generate less expected value; caution on deep shots."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "CHI's red zone pass rate is 45%, below league average, indicating a low tendency to go deep in the red zone."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "GB's red zone pass success rate is 64%, well above league average, suggesting deep passes are highly vulnerable."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "GB's zone coverage rate in two-minute situations is 71%, above league average, suggesting a strong zone defense; quick passes may be less effective."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "GB.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "GB's zone coverage rate in two-minute situations is 71%, above league average, indicating a strong zone defense that may limit passing options."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "GB's pass success rate in two-minute situations is 44%, slightly below league average, suggesting a defensive vulnerability to quick passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

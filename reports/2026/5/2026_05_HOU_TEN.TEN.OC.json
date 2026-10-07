@@ -1,0 +1,681 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_05_HOU_TEN",
+  "season": 2026,
+  "week": 5,
+  "team": "TEN",
+  "opponent": "HOU",
+  "role": "OC",
+  "generated_at": "2026-10-07T10:43:57Z",
+  "stats_as_of": "2026-10-05",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_05_HOU_TEN",
+      "season": 2026,
+      "team": "TEN",
+      "opponent": "HOU",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "TEN.off.2026.overall.all.epa_per_play",
+        "label": "TEN offense: EPA/play, all plays",
+        "value": -0.0906,
+        "display": "-0.09",
+        "unit": "epa",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.success_rate",
+        "label": "TEN offense: success rate, all plays",
+        "value": 0.4093,
+        "display": "41%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.pass_rate",
+        "label": "TEN offense: pass rate, all plays",
+        "value": 0.6279,
+        "display": "63%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.6057,
+        "league_display": "61%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.proe",
+        "label": "TEN offense: pass rate over expected, all plays",
+        "value": -0.0851,
+        "display": "-9%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": -0.0208,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.explosive_rate",
+        "label": "TEN offense: explosive-play rate, all plays",
+        "value": 0.0791,
+        "display": "8%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.pass_rate",
+        "label": "TEN offense: pass rate, 1st & long",
+        "value": 0.4944,
+        "display": "49%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.4985,
+        "league_display": "50%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.proe",
+        "label": "TEN offense: pass rate over expected, 1st & long",
+        "value": -0.114,
+        "display": "-11%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": -0.0237,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.success_rate",
+        "label": "TEN offense: success rate, 1st & long",
+        "value": 0.4045,
+        "display": "40%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "TEN offense: play-action rate, 1st & long",
+        "value": 0.4318,
+        "display": "43%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.4262,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.pass_rate",
+        "label": "TEN offense: pass rate, 3rd & short (2025)",
+        "value": 0.5077,
+        "display": "51%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.success_rate",
+        "label": "TEN offense: success rate, 3rd & short (2025)",
+        "value": 0.5077,
+        "display": "51%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "TEN offense: run success rate, 3rd & short (2025)",
+        "value": 0.5938,
+        "display": "59%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "TEN offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2698,
+        "display": "27%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.sack_rate",
+        "label": "TEN offense: sack rate, 3rd & long (2025)",
+        "value": 0.1746,
+        "display": "17%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.screen_rate",
+        "label": "TEN offense: screen rate, 3rd & long (2025)",
+        "value": 0.0317,
+        "display": "3%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.pass_rate",
+        "label": "TEN offense: pass rate, red zone",
+        "value": 0.439,
+        "display": "44%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.5377,
+        "league_display": "54%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.success_rate",
+        "label": "TEN offense: success rate, red zone",
+        "value": 0.4146,
+        "display": "41%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.epa_per_play",
+        "label": "TEN offense: EPA/play, red zone",
+        "value": -0.1637,
+        "display": "-0.16",
+        "unit": "epa",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "TEN.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "TEN offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8261,
+        "display": "83%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.8528,
+        "league_display": "85%"
+      },
+      {
+        "id": "TEN.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "TEN offense: success rate, trailing by one score, two-minute",
+        "value": 0.3913,
+        "display": "39%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.3944,
+        "league_display": "39%"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.epa_per_play",
+        "label": "HOU defense: EPA/play, all plays",
+        "value": 0.0393,
+        "display": "+0.04",
+        "unit": "epa",
+        "n": 253,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.success_rate",
+        "label": "HOU defense: success rate, all plays",
+        "value": 0.3953,
+        "display": "40%",
+        "unit": "rate",
+        "n": 253,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.explosive_rate",
+        "label": "HOU defense: explosive-play rate, all plays",
+        "value": 0.0988,
+        "display": "10%",
+        "unit": "rate",
+        "n": 253,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.blitz_rate",
+        "label": "HOU defense: blitz rate, all plays",
+        "value": 0.2075,
+        "display": "21%",
+        "unit": "rate",
+        "n": 253,
+        "low_sample": false,
+        "league_value": 0.312,
+        "league_display": "31%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.success_rate",
+        "label": "HOU defense: success rate, 1st & long",
+        "value": 0.3838,
+        "display": "38%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "HOU defense: run success rate, 1st & long",
+        "value": 0.3191,
+        "display": "32%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.3539,
+        "league_display": "35%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "HOU defense: dropback success rate, 1st & long",
+        "value": 0.4423,
+        "display": "44%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.4997,
+        "league_display": "50%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "HOU defense: explosive-play rate, 1st & long",
+        "value": 0.101,
+        "display": "10%",
+        "unit": "rate",
+        "n": 99,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-short.success_rate",
+        "label": "HOU defense: success rate, 3rd & short (2025)",
+        "value": 0.4909,
+        "display": "49%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "HOU defense: run success rate, 3rd & short (2025)",
+        "value": 0.4615,
+        "display": "46%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "HOU defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2759,
+        "display": "28%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "HOU defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3582,
+        "display": "36%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "HOU defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3731,
+        "display": "37%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "HOU.def.2025.down_dist.d3-long.man_rate",
+        "label": "HOU defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.403,
+        "display": "40%",
+        "unit": "rate",
+        "n": 72,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.success_rate",
+        "label": "HOU defense: success rate, red zone",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.epa_per_play",
+        "label": "HOU defense: EPA/play, red zone",
+        "value": 0.08,
+        "display": "+0.08",
+        "unit": "epa",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.pass_success_rate",
+        "label": "HOU defense: dropback success rate, red zone",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "HOU.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "HOU defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.3844,
+        "league_display": "38%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes in all situations due to HOU's high blitz rate and poor red zone defense, especially against 1st & long and two-minute scenarios.",
+  "keys": [
+    {
+      "detail": "TEN offense has a 41% success rate and 63% pass rate, well above league average, but underperforms in explosive plays (8% vs league 9%) and fails to convert 1st & long (40% success vs league 43%).",
+      "stat_ids": [
+        "TEN.off.2026.overall.all.success_rate",
+        "TEN.off.2026.overall.all.pass_rate",
+        "TEN.off.2026.overall.all.explosive_rate"
+      ],
+      "title": "TEN offense underperforms in high-leverage situations despite solid pass execution"
+    },
+    {
+      "detail": "HOU defense has a 21% blitz rate (below league average) and 38% success rate on 1st & long, with poor red zone defense (33% success rate vs league 43%).",
+      "stat_ids": [
+        "HOU.def.2026.overall.all.blitz_rate",
+        "HOU.def.2026.down_dist.d1-long.success_rate",
+        "HOU.def.2026.zone.red_zone.success_rate"
+      ],
+      "title": "HOU defense is vulnerable to play-action and quick passes in high-pressure situations"
+    },
+    {
+      "detail": "TEN's 3rd & short run success rate (59%) is above league average, but 3rd & long pass success rate (27%) is below league (35%), and screen rate is low (3%).",
+      "stat_ids": [
+        "TEN.off.2025.down_dist.d3-short.run_success_rate",
+        "TEN.off.2025.down_dist.d3-long.pass_success_rate",
+        "TEN.off.2025.down_dist.d3-long.screen_rate"
+      ],
+      "title": "TEN struggles to convert 3rd & long with deep passes or screens"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=65 for d3-short data; confidence reduced for 3rd & short run success rate"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2025.down_dist.d3-short.run_success_rate",
+            "TEN.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "TEN has a 59% run success rate on 3rd & short, above league average, and a 51% pass rate, suggesting balanced efficiency."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "HOU has a 28% blitz rate on 3rd & short, below league average, indicating less pressure on play-action."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=55 for 3rd & short data; confidence reduced for run success and blitz rate"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "TEN has a 59% run success rate on 3rd & short, above league average, suggesting inside runs are effective."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "HOU has a 46% run success rate on 3rd & short, below league average, indicating poor run defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=68 for 3rd & long data; confidence reduced for screen rate and pass success"
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "TEN's screen rate is only 3%, below league average, indicating underutilization of this high-conversion play."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "HOU has a 37% blitz rate on 3rd & long, above league average, suggesting high pressure on dropbacks."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=41 for red zone data; confidence reduced for EPA and success rate"
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2026.zone.red_zone.pass_rate",
+            "TEN.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "TEN has a 44% pass rate and 41% success rate in red zone, below league average, suggesting need for quick, short passes."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.zone.red_zone.success_rate",
+            "HOU.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "HOU has a 33% success rate and 33% pass success rate in red zone, the worst in this sheet, indicating poor coverage and high vulnerability."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=24 for two-minute defense data; confidence reduced for pass success rate"
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "HOU.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "HOU has a 50% pass success rate in two-minute scenarios, above league average, suggesting they are not as effective at defending against play-action."
+        },
+        {
+          "stat_ids": [
+            "TEN.off.2026.overall.all.pass_rate"
+          ],
+          "text": "TEN has a 63% pass rate, above league average, indicating strong pass execution potential."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_05_DET_ARI",
+  "season": 2026,
+  "week": 5,
+  "team": "DET",
+  "opponent": "ARI",
+  "role": "OC",
+  "generated_at": "2026-10-07T10:43:57Z",
+  "stats_as_of": "2026-10-05",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_05_DET_ARI",
+      "season": 2026,
+      "team": "DET",
+      "opponent": "ARI",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "DET.off.2026.overall.all.epa_per_play",
+        "label": "DET offense: EPA/play, all plays",
+        "value": 0.1444,
+        "display": "+0.14",
+        "unit": "epa",
+        "n": 265,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "DET.off.2026.overall.all.success_rate",
+        "label": "DET offense: success rate, all plays",
+        "value": 0.4943,
+        "display": "49%",
+        "unit": "rate",
+        "n": 265,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.pass_rate",
+        "label": "DET offense: pass rate, all plays",
+        "value": 0.6566,
+        "display": "66%",
+        "unit": "rate",
+        "n": 265,
+        "low_sample": false,
+        "league_value": 0.6057,
+        "league_display": "61%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.proe",
+        "label": "DET offense: pass rate over expected, all plays",
+        "value": 0.0133,
+        "display": "1%",
+        "unit": "rate",
+        "n": 265,
+        "low_sample": false,
+        "league_value": -0.0208,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.explosive_rate",
+        "label": "DET offense: explosive-play rate, all plays",
+        "value": 0.0943,
+        "display": "9%",
+        "unit": "rate",
+        "n": 265,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.pass_rate",
+        "label": "DET offense: pass rate, 1st & long",
+        "value": 0.6204,
+        "display": "62%",
+        "unit": "rate",
+        "n": 108,
+        "low_sample": false,
+        "league_value": 0.4985,
+        "league_display": "50%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.proe",
+        "label": "DET offense: pass rate over expected, 1st & long",
+        "value": 0.0622,
+        "display": "6%",
+        "unit": "rate",
+        "n": 108,
+        "low_sample": false,
+        "league_value": -0.0237,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.success_rate",
+        "label": "DET offense: success rate, 1st & long",
+        "value": 0.463,
+        "display": "46%",
+        "unit": "rate",
+        "n": 108,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "DET offense: play-action rate, 1st & long",
+        "value": 0.4478,
+        "display": "45%",
+        "unit": "rate",
+        "n": 108,
+        "low_sample": false,
+        "league_value": 0.4262,
+        "league_display": "43%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.pass_rate",
+        "label": "DET offense: pass rate, 3rd & short (2025)",
+        "value": 0.5088,
+        "display": "51%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.success_rate",
+        "label": "DET offense: success rate, 3rd & short (2025)",
+        "value": 0.5789,
+        "display": "58%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "DET offense: run success rate, 3rd & short (2025)",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "DET offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.sack_rate",
+        "label": "DET offense: sack rate, 3rd & long (2025)",
+        "value": 0.1111,
+        "display": "11%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "DET.off.2025.down_dist.d3-long.screen_rate",
+        "label": "DET offense: screen rate, 3rd & long (2025)",
+        "value": 0.0926,
+        "display": "9%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.pass_rate",
+        "label": "DET offense: pass rate, red zone",
+        "value": 0.6207,
+        "display": "62%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.5377,
+        "league_display": "54%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.success_rate",
+        "label": "DET offense: success rate, red zone",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.epa_per_play",
+        "label": "DET offense: EPA/play, red zone",
+        "value": 0.2858,
+        "display": "+0.29",
+        "unit": "epa",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "DET offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.931,
+        "display": "93%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "DET offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3793,
+        "display": "38%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "ARI.def.2026.overall.all.epa_per_play",
+        "label": "ARI defense: EPA/play, all plays",
+        "value": 0.0669,
+        "display": "+0.07",
+        "unit": "epa",
+        "n": 228,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "ARI.def.2026.overall.all.success_rate",
+        "label": "ARI defense: success rate, all plays",
+        "value": 0.4298,
+        "display": "43%",
+        "unit": "rate",
+        "n": 228,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "ARI.def.2026.overall.all.explosive_rate",
+        "label": "ARI defense: explosive-play rate, all plays",
+        "value": 0.1053,
+        "display": "11%",
+        "unit": "rate",
+        "n": 228,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "ARI.def.2026.overall.all.blitz_rate",
+        "label": "ARI defense: blitz rate, all plays",
+        "value": 0.2358,
+        "display": "24%",
+        "unit": "rate",
+        "n": 228,
+        "low_sample": false,
+        "league_value": 0.312,
+        "league_display": "31%"
+      },
+      {
+        "id": "ARI.def.2026.down_dist.d1-long.success_rate",
+        "label": "ARI defense: success rate, 1st & long",
+        "value": 0.4124,
+        "display": "41%",
+        "unit": "rate",
+        "n": 97,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "ARI.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "ARI defense: run success rate, 1st & long",
+        "value": 0.3208,
+        "display": "32%",
+        "unit": "rate",
+        "n": 97,
+        "low_sample": false,
+        "league_value": 0.3539,
+        "league_display": "35%"
+      },
+      {
+        "id": "ARI.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "ARI defense: dropback success rate, 1st & long",
+        "value": 0.5227,
+        "display": "52%",
+        "unit": "rate",
+        "n": 97,
+        "low_sample": false,
+        "league_value": 0.4997,
+        "league_display": "50%"
+      },
+      {
+        "id": "ARI.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "ARI defense: explosive-play rate, 1st & long",
+        "value": 0.0928,
+        "display": "9%",
+        "unit": "rate",
+        "n": 97,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-short.success_rate",
+        "label": "ARI defense: success rate, 3rd & short (2025)",
+        "value": 0.7031,
+        "display": "70%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "ARI defense: run success rate, 3rd & short (2025)",
+        "value": 0.6585,
+        "display": "66%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "ARI defense: blitz rate, 3rd & short (2025)",
+        "value": 0.1304,
+        "display": "13%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "ARI defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4038,
+        "display": "40%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "ARI defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3269,
+        "display": "33%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "ARI.def.2025.down_dist.d3-long.man_rate",
+        "label": "ARI defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "ARI.def.2026.zone.red_zone.success_rate",
+        "label": "ARI defense: success rate, red zone",
+        "value": 0.3469,
+        "display": "35%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "ARI.def.2026.zone.red_zone.epa_per_play",
+        "label": "ARI defense: EPA/play, red zone",
+        "value": 0.0805,
+        "display": "+0.08",
+        "unit": "epa",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "ARI.def.2026.zone.red_zone.pass_success_rate",
+        "label": "ARI defense: dropback success rate, red zone",
+        "value": 0.4762,
+        "display": "48%",
+        "unit": "rate",
+        "n": 49,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "ARI.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "ARI defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4359,
+        "display": "44%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "ARI.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "ARI defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6154,
+        "display": "62%",
+        "unit": "rate",
+        "n": 45,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize quick passes and play-action on first and long due to ARI's high blitz rate and poor run defense in long-yardage situations.",
+  "keys": [
+    {
+      "detail": "DET's pass rate on 1st & long is well above league average at 62%, and they have a 46% success rate, indicating strong pass execution under pressure.",
+      "stat_ids": [
+        "DET.off.2026.down_dist.d1-long.pass_rate",
+        "DET.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Strong Pass Execution on 1st & Long"
+    },
+    {
+      "detail": "ARI's 1st & long success rate is 41%, below league average, and their run defense is weak at 32%, making runs risky and passes more viable.",
+      "stat_ids": [
+        "ARI.def.2026.down_dist.d1-long.success_rate",
+        "ARI.def.2026.down_dist.d1-long.run_success_rate"
+      ],
+      "title": "Weak Run Defense on 1st & Long"
+    },
+    {
+      "detail": "ARI's blitz rate is 24%, below league average, but their 3rd & long pass success rate is 40%, which is above league average, suggesting a balanced but not dominant pass defense.",
+      "stat_ids": [
+        "ARI.def.2025.down_dist.d3-long.pass_success_rate",
+        "ARI.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "Moderate Pass Defense on 3rd & Long"
+    },
+    {
+      "detail": "In the red zone, DET's pass rate is 62% and EPA/play is +0.29, both above league average, indicating effective short, quick passing in tight spaces.",
+      "stat_ids": [
+        "DET.off.2026.zone.red_zone.pass_rate",
+        "DET.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Effective Red Zone Passing"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, DET's pass rate is 93%, and ARI's dropback success rate is only 44%, indicating a high-risk environment for the defense and a strong offensive pass reliance.",
+      "stat_ids": [
+        "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "ARI.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+      ],
+      "title": "High-Pressure Pass Reliance in Two-Minute Situations"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.overall.all.pass_rate"
+          ],
+          "text": "DET's overall pass rate is 66%, above league average, supporting a pass-heavy early-down approach."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "ARI's blitz rate is 24%, below league average, suggesting less pressure on the quarterback in early downs."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "run play",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ARI.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "ARI's 3rd & short run success rate is 66%, above league average, indicating a strong run defense that supports a run-first approach."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "ARI's 3rd & short blitz rate is 13%, below league average, suggesting less pressure on the run game."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "DET's screen rate on 3rd & long is 9%, above league average, indicating a consistent use of screen plays."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "ARI's 3rd & long blitz rate is 33%, below league average, suggesting less pressure on the quarterback during long-yardage plays."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2025.down_dist.d3-long.man_rate"
+          ],
+          "text": "ARI's man coverage rate on 3rd & long is 31%, below league average, indicating a zone-heavy defense that may not cover deep routes well."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "slant fade",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "DET's red zone pass rate is 62%, above league average, indicating a strong tendency to pass in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "DET's red zone success rate is 50%, above league average, showing consistent results in the red zone."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "ARI's red zone success rate is 35%, below league average, indicating a weak defense in this area."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "DET's pass rate in two-minute situations is 93%, indicating a strong reliance on passing under pressure."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "ARI's dropback success rate in two-minute situations is 44%, below league average, suggesting a weak pass defense under time pressure."
+        },
+        {
+          "stat_ids": [
+            "ARI.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "ARI's zone coverage rate in two-minute situations is 62%, below league average, indicating a less effective zone defense."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

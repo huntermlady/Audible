@@ -1,0 +1,705 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_05_BAL_ATL",
+  "season": 2026,
+  "week": 5,
+  "team": "BAL",
+  "opponent": "ATL",
+  "role": "OC",
+  "generated_at": "2026-10-07T10:43:57Z",
+  "stats_as_of": "2026-10-05",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_05_BAL_ATL",
+      "season": 2026,
+      "team": "BAL",
+      "opponent": "ATL",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "BAL.off.2026.overall.all.epa_per_play",
+        "label": "BAL offense: EPA/play, all plays",
+        "value": 0.1864,
+        "display": "+0.19",
+        "unit": "epa",
+        "n": 232,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.success_rate",
+        "label": "BAL offense: success rate, all plays",
+        "value": 0.5172,
+        "display": "52%",
+        "unit": "rate",
+        "n": 232,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.pass_rate",
+        "label": "BAL offense: pass rate, all plays",
+        "value": 0.5216,
+        "display": "52%",
+        "unit": "rate",
+        "n": 232,
+        "low_sample": false,
+        "league_value": 0.6057,
+        "league_display": "61%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.proe",
+        "label": "BAL offense: pass rate over expected, all plays",
+        "value": -0.0591,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 232,
+        "low_sample": false,
+        "league_value": -0.0208,
+        "league_display": "-2%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.explosive_rate",
+        "label": "BAL offense: explosive-play rate, all plays",
+        "value": 0.1164,
+        "display": "12%",
+        "unit": "rate",
+        "n": 232,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.pass_rate",
+        "label": "BAL offense: pass rate, 1st & long",
+        "value": 0.4105,
+        "display": "41%",
+        "unit": "rate",
+        "n": 95,
+        "low_sample": false,
+        "league_value": 0.4985,
+        "league_display": "50%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.proe",
+        "label": "BAL offense: pass rate over expected, 1st & long",
+        "value": -0.0778,
+        "display": "-8%",
+        "unit": "rate",
+        "n": 95,
+        "low_sample": false,
+        "league_value": -0.0237,
+        "league_display": "-2%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.success_rate",
+        "label": "BAL offense: success rate, 1st & long",
+        "value": 0.5579,
+        "display": "56%",
+        "unit": "rate",
+        "n": 95,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "BAL offense: play-action rate, 1st & long",
+        "value": 0.4103,
+        "display": "41%",
+        "unit": "rate",
+        "n": 95,
+        "low_sample": false,
+        "league_value": 0.4262,
+        "league_display": "43%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-short.pass_rate",
+        "label": "BAL offense: pass rate, 3rd & short (2025)",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-short.success_rate",
+        "label": "BAL offense: success rate, 3rd & short (2025)",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "BAL offense: run success rate, 3rd & short (2025)",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "BAL offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2778,
+        "display": "28%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.sack_rate",
+        "label": "BAL offense: sack rate, 3rd & long (2025)",
+        "value": 0.1296,
+        "display": "13%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.screen_rate",
+        "label": "BAL offense: screen rate, 3rd & long (2025)",
+        "value": 0.037,
+        "display": "4%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.pass_rate",
+        "label": "BAL offense: pass rate, red zone",
+        "value": 0.3721,
+        "display": "37%",
+        "unit": "rate",
+        "n": 43,
+        "low_sample": false,
+        "league_value": 0.5377,
+        "league_display": "54%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.success_rate",
+        "label": "BAL offense: success rate, red zone",
+        "value": 0.4884,
+        "display": "49%",
+        "unit": "rate",
+        "n": 43,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.epa_per_play",
+        "label": "BAL offense: EPA/play, red zone",
+        "value": 0.114,
+        "display": "+0.11",
+        "unit": "epa",
+        "n": 43,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "BAL.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "BAL offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8889,
+        "display": "89%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "BAL.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "BAL offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.epa_per_play",
+        "label": "ATL defense: EPA/play, all plays",
+        "value": -0.0566,
+        "display": "-0.06",
+        "unit": "epa",
+        "n": 252,
+        "low_sample": false,
+        "league_value": 0.0133,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.success_rate",
+        "label": "ATL defense: success rate, all plays",
+        "value": 0.381,
+        "display": "38%",
+        "unit": "rate",
+        "n": 252,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.explosive_rate",
+        "label": "ATL defense: explosive-play rate, all plays",
+        "value": 0.0675,
+        "display": "7%",
+        "unit": "rate",
+        "n": 252,
+        "low_sample": false,
+        "league_value": 0.0863,
+        "league_display": "9%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.blitz_rate",
+        "label": "ATL defense: blitz rate, all plays",
+        "value": 0.2148,
+        "display": "21%",
+        "unit": "rate",
+        "n": 252,
+        "low_sample": false,
+        "league_value": 0.312,
+        "league_display": "31%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.success_rate",
+        "label": "ATL defense: success rate, 1st & long",
+        "value": 0.3587,
+        "display": "36%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.4266,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "ATL defense: run success rate, 1st & long",
+        "value": 0.2647,
+        "display": "26%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.3539,
+        "league_display": "35%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 1st & long",
+        "value": 0.4138,
+        "display": "41%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.4997,
+        "league_display": "50%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "ATL defense: explosive-play rate, 1st & long",
+        "value": 0.0652,
+        "display": "7%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-short.success_rate",
+        "label": "ATL defense: success rate, 3rd & short (2025)",
+        "value": 0.6232,
+        "display": "62%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "ATL defense: run success rate, 3rd & short (2025)",
+        "value": 0.6857,
+        "display": "69%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & short (2025)",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 69,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2407,
+        "display": "24%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & long (2025)",
+        "value": 0.7037,
+        "display": "70%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.man_rate",
+        "label": "ATL defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3889,
+        "display": "39%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.success_rate",
+        "label": "ATL defense: success rate, red zone",
+        "value": 0.3846,
+        "display": "38%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.4259,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.epa_per_play",
+        "label": "ATL defense: EPA/play, red zone",
+        "value": -0.1004,
+        "display": "-0.10",
+        "unit": "epa",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.0475,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.pass_success_rate",
+        "label": "ATL defense: dropback success rate, red zone",
+        "value": 0.3684,
+        "display": "37%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "ATL defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4821,
+        "display": "48%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "ATL defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5893,
+        "display": "59%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes in all situations due to poor pass success rates and high blitzing by the defense.",
+  "keys": [
+    {
+      "detail": "BAL offense has a below-league pass rate (52% vs league 61%) and negative pass rate over expected (-6% vs league -2%), indicating inefficient passing that fails to meet expectations.",
+      "stat_ids": [
+        "BAL.off.2026.overall.all.pass_rate",
+        "BAL.off.2026.overall.all.proe"
+      ],
+      "title": "Inefficient Passing"
+    },
+    {
+      "detail": "BAL offense performs poorly on 3rd & long with only 28% dropback success rate and 13% sack rate, showing a lack of conversion ability under pressure.",
+      "stat_ids": [
+        "BAL.off.2025.down_dist.d3-long.pass_success_rate",
+        "BAL.off.2025.down_dist.d3-long.sack_rate"
+      ],
+      "title": "Poor 3rd & Long Performance"
+    },
+    {
+      "detail": "ATL defense blitzes at 21% overall and 70% on 3rd & long, and uses man coverage only 39% of the time, suggesting aggressive and inconsistent coverage that favors play-action and quick passes.",
+      "stat_ids": [
+        "ATL.def.2026.overall.all.blitz_rate",
+        "ATL.def.2025.down_dist.d3-long.blitz_rate",
+        "ATL.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Aggressive Defense with High Blitz Rates"
+    },
+    {
+      "detail": "ATL defense allows 38% success rate in red zone and 37% dropback success rate, indicating poor red zone defense and a high risk of scoring opportunities being lost.",
+      "stat_ids": [
+        "ATL.def.2026.zone.red_zone.success_rate",
+        "ATL.def.2026.zone.red_zone.pass_success_rate"
+      ],
+      "title": "Weak Red Zone Defense"
+    },
+    {
+      "detail": "BAL offense has only 4% screen rate on 3rd & long, showing a lack of short, high-risk plays that could exploit defensive gaps or create space under pressure.",
+      "stat_ids": [
+        "BAL.off.2025.down_dist.d3-long.screen_rate"
+      ],
+      "title": "Low Screen Usage"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [
+        "Low sample size for 3rd & short pass rate (n=63) limits confidence in short-yardage performance."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.overall.all.pass_rate",
+            "BAL.off.2026.overall.all.proe"
+          ],
+          "text": "BAL offense has a below-league pass rate and negative pass rate over expected, indicating inefficient passing that fails to meet expectations."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "ATL defense blinks at 21% overall, suggesting a tendency to pressure the quarterback, making play-action a safer and more effective option."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Play-action pass",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [
+        "Low sample size (n=69) for 3rd & short performance limits confidence in defensive response."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "BAL offense has a moderate success rate on 3rd & short, but lacks data on pass efficiency under pressure."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "ATL defense blits at 50% on 3rd & short, indicating a strong tendency to pressure the quarterback, making play-action a safer option."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "BAL offense has only 4% screen rate on 3rd & long, indicating a lack of use of this play in high-pressure situations."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "BAL offense has only 4% screen rate on 3rd & long, showing a lack of use of this play in high-pressure situations."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "ATL defense blits at 70% on 3rd & long, indicating a high likelihood of aggressive coverage that may collapse on a quick pass."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Quick slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red zone"
+        }
+      ],
+      "caveats": [
+        "Low sample size (n=43) for red zone performance reduces confidence in red zone pass success."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.zone.red_zone.pass_rate",
+            "BAL.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "BAL offense has only 37% pass rate and 49% success rate in red zone, indicating a low success rate in high-pressure, compressed field situations."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.zone.red_zone.success_rate",
+            "ATL.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "ATL defense allows only 38% success rate and 37% dropback success rate in red zone, showing vulnerability to quick, short passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "trailing by one score"
+        }
+      ],
+      "caveats": [
+        "Low sample size (n=60) for two-minute defense data reduces confidence in zone coverage response."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "ATL defense uses zone coverage only 59% of the time in two-minute situations, suggesting a shift to man coverage that may leave gaps for quick passes."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "ATL defense allows 48% dropback success rate in two-minute situations, indicating a vulnerability to quick, short passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}
