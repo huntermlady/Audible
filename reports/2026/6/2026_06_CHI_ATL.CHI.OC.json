@@ -1,0 +1,672 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_06_CHI_ATL",
+  "season": 2026,
+  "week": 6,
+  "team": "CHI",
+  "opponent": "ATL",
+  "role": "OC",
+  "generated_at": "2026-10-14T09:10:43Z",
+  "stats_as_of": "2026-10-12",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_06_CHI_ATL",
+      "season": 2026,
+      "team": "CHI",
+      "opponent": "ATL",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "CHI.off.2026.overall.all.epa_per_play",
+        "label": "CHI offense: EPA/play, all plays",
+        "value": 0.0226,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 360,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.success_rate",
+        "label": "CHI offense: success rate, all plays",
+        "value": 0.4611,
+        "display": "46%",
+        "unit": "rate",
+        "n": 360,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.pass_rate",
+        "label": "CHI offense: pass rate, all plays",
+        "value": 0.5472,
+        "display": "55%",
+        "unit": "rate",
+        "n": 360,
+        "low_sample": false,
+        "league_value": 0.6081,
+        "league_display": "61%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.proe",
+        "label": "CHI offense: pass rate over expected, all plays",
+        "value": -0.027,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 360,
+        "low_sample": false,
+        "league_value": -0.0196,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CHI.off.2026.overall.all.explosive_rate",
+        "label": "CHI offense: explosive-play rate, all plays",
+        "value": 0.0972,
+        "display": "10%",
+        "unit": "rate",
+        "n": 360,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.pass_rate",
+        "label": "CHI offense: pass rate, 1st & long",
+        "value": 0.5105,
+        "display": "51%",
+        "unit": "rate",
+        "n": 143,
+        "low_sample": false,
+        "league_value": 0.5039,
+        "league_display": "50%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.proe",
+        "label": "CHI offense: pass rate over expected, 1st & long",
+        "value": 0.0301,
+        "display": "3%",
+        "unit": "rate",
+        "n": 143,
+        "low_sample": false,
+        "league_value": -0.0179,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.success_rate",
+        "label": "CHI offense: success rate, 1st & long",
+        "value": 0.4406,
+        "display": "44%",
+        "unit": "rate",
+        "n": 143,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "CHI offense: play-action rate, 1st & long",
+        "value": 0.4932,
+        "display": "49%",
+        "unit": "rate",
+        "n": 143,
+        "low_sample": false,
+        "league_value": 0.4147,
+        "league_display": "41%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.pass_rate",
+        "label": "CHI offense: pass rate, 3rd & short",
+        "value": 0.4615,
+        "display": "46%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.5149,
+        "league_display": "51%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.success_rate",
+        "label": "CHI offense: success rate, 3rd & short",
+        "value": 0.4615,
+        "display": "46%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.6116,
+        "league_display": "61%"
+      },
+      {
+        "id": "CHI.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "CHI offense: run success rate, 3rd & short",
+        "value": 0.4286,
+        "display": "43%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.6703,
+        "league_display": "67%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "CHI offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3729,
+        "display": "37%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.sack_rate",
+        "label": "CHI offense: sack rate, 3rd & long (2025)",
+        "value": 0.0508,
+        "display": "5%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "CHI.off.2025.down_dist.d3-long.screen_rate",
+        "label": "CHI offense: screen rate, 3rd & long (2025)",
+        "value": 0.0847,
+        "display": "8%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.pass_rate",
+        "label": "CHI offense: pass rate, red zone",
+        "value": 0.4524,
+        "display": "45%",
+        "unit": "rate",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.5395,
+        "league_display": "54%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.success_rate",
+        "label": "CHI offense: success rate, red zone",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "CHI.off.2026.zone.red_zone.epa_per_play",
+        "label": "CHI offense: EPA/play, red zone",
+        "value": -0.1651,
+        "display": "-0.17",
+        "unit": "epa",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "CHI.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "CHI offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8182,
+        "display": "82%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "CHI.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "CHI offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4805,
+        "display": "48%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.epa_per_play",
+        "label": "ATL defense: EPA/play, all plays",
+        "value": -0.036,
+        "display": "-0.04",
+        "unit": "epa",
+        "n": 322,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.success_rate",
+        "label": "ATL defense: success rate, all plays",
+        "value": 0.4006,
+        "display": "40%",
+        "unit": "rate",
+        "n": 322,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.explosive_rate",
+        "label": "ATL defense: explosive-play rate, all plays",
+        "value": 0.0745,
+        "display": "7%",
+        "unit": "rate",
+        "n": 322,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.blitz_rate",
+        "label": "ATL defense: blitz rate, all plays",
+        "value": 0.2679,
+        "display": "27%",
+        "unit": "rate",
+        "n": 322,
+        "low_sample": false,
+        "league_value": 0.313,
+        "league_display": "31%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.success_rate",
+        "label": "ATL defense: success rate, 1st & long",
+        "value": 0.3866,
+        "display": "39%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "ATL defense: run success rate, 1st & long",
+        "value": 0.3469,
+        "display": "35%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.3504,
+        "league_display": "35%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 1st & long",
+        "value": 0.4143,
+        "display": "41%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.4953,
+        "league_display": "50%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "ATL defense: explosive-play rate, 1st & long",
+        "value": 0.0672,
+        "display": "7%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.success_rate",
+        "label": "ATL defense: success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6116,
+        "league_display": "61%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "ATL defense: run success rate, 3rd & short",
+        "value": 1,
+        "display": "100%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6703,
+        "league_display": "67%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & short",
+        "value": 0.3571,
+        "display": "36%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3868,
+        "league_display": "39%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2407,
+        "display": "24%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & long (2025)",
+        "value": 0.7037,
+        "display": "70%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "ATL.def.2025.down_dist.d3-long.man_rate",
+        "label": "ATL defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3889,
+        "display": "39%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.success_rate",
+        "label": "ATL defense: success rate, red zone",
+        "value": 0.4444,
+        "display": "44%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.epa_per_play",
+        "label": "ATL defense: EPA/play, red zone",
+        "value": -0.0146,
+        "display": "-0.01",
+        "unit": "epa",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.pass_success_rate",
+        "label": "ATL defense: dropback success rate, red zone",
+        "value": 0.4186,
+        "display": "42%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.4383,
+        "league_display": "44%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "ATL defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4821,
+        "display": "48%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "ATL defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5893,
+        "display": "59%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes against a defense that blitzes often and allows deep passes to succeed.",
+  "keys": [
+    {
+      "detail": "CHI offense has a 49% play-action rate on 1st & long, which is well above league average, and this is a key to exploit ATL's high blitz rate.",
+      "stat_ids": [
+        "CHI.off.2026.down_dist.d1-long.play_action_rate",
+        "ATL.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "Exploit Play-Action Against Blitzing Defense"
+    },
+    {
+      "detail": "CHI's pass rate on 1st & long is 51%, slightly above league average, and its pass rate over expected is 3%, indicating a slight edge in efficiency under pressure.",
+      "stat_ids": [
+        "CHI.off.2026.down_dist.d1-long.pass_rate",
+        "CHI.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Maintain Pass-First Strategy on 1st & Long"
+    },
+    {
+      "detail": "ATL defense allows only 24% dropback success on 3rd & long, and has a 70% blitz rate in that situation, making it vulnerable to screen plays and quick runs.",
+      "stat_ids": [
+        "ATL.def.2025.down_dist.d3-long.pass_success_rate",
+        "ATL.def.2025.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "Use Screens and Quick Runs on 3rd & Long"
+    },
+    {
+      "detail": "CHI's red zone pass rate is 45%, below league average, and EPA/play is -0.17, indicating poor efficiency in short-yardage zones.",
+      "stat_ids": [
+        "CHI.off.2026.zone.red_zone.pass_rate",
+        "CHI.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Improve Red Zone Efficiency with Quick, Short Passes"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, CHI has a 48% success rate and 82% pass rate, which is about league average, and ATL uses 59% zone coverage, which is below league average.",
+      "stat_ids": [
+        "CHI.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+      ],
+      "title": "Use High-Percentage Passes in Two-Minute Situations"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "CHI has a 49% play-action rate on 1st & long, which is well above league average."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "ATL has a 27% blitz rate, which is below league average, but still high, making play-action a viable option."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ATL.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "ATL allows 100% run success on 3rd & short, indicating a strong run defense."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "ATL has a 36% blitz rate on 3rd & short, which is below league average."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "when blitz rate is high"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=65 for CHI's 3rd & long success rate and n=58 for ATL's 3rd & long data"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "CHI has an 8% screen rate on 3rd & long, which is above league average."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "ATL has a 70% blitz rate on 3rd & long, which is well above league average."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "ATL allows only 24% dropback success on 3rd & long, indicating poor pass defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "CHI's red zone pass rate is 45%, below league average, indicating a need for more efficient short passes."
+        },
+        {
+          "stat_ids": [
+            "CHI.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "CHI's EPA/play in red zone is -0.17, which is well below league average, indicating inefficiency."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "ATL allows only 42% dropback success in red zone, which is about league average."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CHI.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "CHI has an 82% pass rate in two-minute situations, which is above league average."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "ATL uses only 59% zone coverage in two-minute situations, which is below league average, making it vulnerable to quick passes."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "ATL allows 48% dropback success in two-minute situations, which is about league average."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

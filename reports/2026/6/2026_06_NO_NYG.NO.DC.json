@@ -1,0 +1,642 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_06_NO_NYG",
+  "season": 2026,
+  "week": 6,
+  "team": "NO",
+  "opponent": "NYG",
+  "role": "DC",
+  "generated_at": "2026-10-14T09:10:43Z",
+  "stats_as_of": "2026-10-12",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_06_NO_NYG",
+      "season": 2026,
+      "team": "NO",
+      "opponent": "NYG",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "NO.def.2026.overall.all.epa_per_play",
+        "label": "NO defense: EPA/play, all plays",
+        "value": 0.1011,
+        "display": "+0.10",
+        "unit": "epa",
+        "n": 307,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NO.def.2026.overall.all.success_rate",
+        "label": "NO defense: success rate, all plays",
+        "value": 0.5081,
+        "display": "51%",
+        "unit": "rate",
+        "n": 307,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "NO.def.2026.overall.all.explosive_rate",
+        "label": "NO defense: explosive-play rate, all plays",
+        "value": 0.0945,
+        "display": "9%",
+        "unit": "rate",
+        "n": 307,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "NO.def.2026.overall.all.blitz_rate",
+        "label": "NO defense: blitz rate, all plays",
+        "value": 0.3526,
+        "display": "35%",
+        "unit": "rate",
+        "n": 307,
+        "low_sample": false,
+        "league_value": 0.313,
+        "league_display": "31%"
+      },
+      {
+        "id": "NO.def.2026.down_dist.d1-long.success_rate",
+        "label": "NO defense: success rate, 1st & long",
+        "value": 0.5039,
+        "display": "50%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "NO.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "NO defense: run success rate, 1st & long",
+        "value": 0.4697,
+        "display": "47%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.3504,
+        "league_display": "35%"
+      },
+      {
+        "id": "NO.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "NO defense: dropback success rate, 1st & long",
+        "value": 0.541,
+        "display": "54%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.4953,
+        "league_display": "50%"
+      },
+      {
+        "id": "NO.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "NO defense: explosive-play rate, 1st & long",
+        "value": 0.1024,
+        "display": "10%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-short.success_rate",
+        "label": "NO defense: success rate, 3rd & short (2025)",
+        "value": 0.5818,
+        "display": "58%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "NO defense: run success rate, 3rd & short (2025)",
+        "value": 0.6129,
+        "display": "61%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "NO defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2917,
+        "display": "29%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "NO defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "NO defense: blitz rate, 3rd & long (2025)",
+        "value": 0.3704,
+        "display": "37%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "NO.def.2025.down_dist.d3-long.man_rate",
+        "label": "NO defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.2222,
+        "display": "22%",
+        "unit": "rate",
+        "n": 58,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "NO.def.2026.zone.red_zone.success_rate",
+        "label": "NO defense: success rate, red zone",
+        "value": 0.4308,
+        "display": "43%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "NO.def.2026.zone.red_zone.epa_per_play",
+        "label": "NO defense: EPA/play, red zone",
+        "value": -0.1203,
+        "display": "-0.12",
+        "unit": "epa",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "NO.def.2026.zone.red_zone.pass_success_rate",
+        "label": "NO defense: dropback success rate, red zone",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.4383,
+        "league_display": "44%"
+      },
+      {
+        "id": "NO.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "NO defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3704,
+        "display": "37%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "NO.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "NO defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.8148,
+        "display": "81%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.epa_per_play",
+        "label": "NYG offense: EPA/play, all plays",
+        "value": -0.019,
+        "display": "-0.02",
+        "unit": "epa",
+        "n": 321,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.success_rate",
+        "label": "NYG offense: success rate, all plays",
+        "value": 0.4206,
+        "display": "42%",
+        "unit": "rate",
+        "n": 321,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.pass_rate",
+        "label": "NYG offense: pass rate, all plays",
+        "value": 0.5794,
+        "display": "58%",
+        "unit": "rate",
+        "n": 321,
+        "low_sample": false,
+        "league_value": 0.6081,
+        "league_display": "61%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.proe",
+        "label": "NYG offense: pass rate over expected, all plays",
+        "value": -0.0605,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 321,
+        "low_sample": false,
+        "league_value": -0.0196,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.explosive_rate",
+        "label": "NYG offense: explosive-play rate, all plays",
+        "value": 0.0592,
+        "display": "6%",
+        "unit": "rate",
+        "n": 321,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NYG offense: pass rate, 1st & long",
+        "value": 0.5118,
+        "display": "51%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.5039,
+        "league_display": "50%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.proe",
+        "label": "NYG offense: pass rate over expected, 1st & long",
+        "value": 0.0026,
+        "display": "0%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": -0.0179,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.success_rate",
+        "label": "NYG offense: success rate, 1st & long",
+        "value": 0.378,
+        "display": "38%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NYG offense: play-action rate, 1st & long",
+        "value": 0.4154,
+        "display": "42%",
+        "unit": "rate",
+        "n": 127,
+        "low_sample": false,
+        "league_value": 0.4147,
+        "league_display": "41%"
+      },
+      {
+        "id": "NYG.off.2025.down_dist.d3-short.pass_rate",
+        "label": "NYG offense: pass rate, 3rd & short (2025)",
+        "value": 0.4754,
+        "display": "48%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "NYG.off.2025.down_dist.d3-short.success_rate",
+        "label": "NYG offense: success rate, 3rd & short (2025)",
+        "value": 0.623,
+        "display": "62%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "NYG.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "NYG offense: run success rate, 3rd & short (2025)",
+        "value": 0.6563,
+        "display": "66%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NYG offense: dropback success rate, 3rd & long",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.3281,
+        "league_display": "33%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NYG offense: sack rate, 3rd & long",
+        "value": 0.0833,
+        "display": "8%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.081,
+        "league_display": "8%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NYG offense: screen rate, 3rd & long",
+        "value": 0.0833,
+        "display": "8%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.0692,
+        "league_display": "7%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.pass_rate",
+        "label": "NYG offense: pass rate, red zone",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.5395,
+        "league_display": "54%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.success_rate",
+        "label": "NYG offense: success rate, red zone",
+        "value": 0.425,
+        "display": "43%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.epa_per_play",
+        "label": "NYG offense: EPA/play, red zone",
+        "value": 0.2207,
+        "display": "+0.22",
+        "unit": "epa",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "NYG.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NYG offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.7447,
+        "display": "74%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NYG.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NYG offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3617,
+        "display": "36%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a pass-heavy, play-action-prone offense with a below-average success rate, prioritize pressure and man coverage on 1st & long and in red zone, with zone coverage when trailing in two-minute situations.",
+  "keys": [
+    {
+      "detail": "NYG offense has a 58% pass rate and 6% explosive-play rate, well above league average, indicating a strong passing attack with limited big plays.",
+      "stat_ids": [
+        "NYG.off.2026.overall.all.pass_rate",
+        "NYG.off.2026.overall.all.explosive_rate"
+      ],
+      "title": "High Pass Volume"
+    },
+    {
+      "detail": "NYG offense shows poor success rate on 1st & long (38%) and a 0% pass rate over expected, suggesting inefficiency in passing under pressure.",
+      "stat_ids": [
+        "NYG.off.2026.down_dist.d1-long.success_rate",
+        "NYG.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Inefficient 1st & Long Passing"
+    },
+    {
+      "detail": "NO defense has a 35% blitz rate and 22% man coverage on 3rd & long, which is below league average, indicating a lack of aggressive coverage or pressure in key situations.",
+      "stat_ids": [
+        "NO.def.2026.overall.all.blitz_rate",
+        "NO.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Low Man Coverage on 3rd & Long"
+    },
+    {
+      "detail": "NYG offense has a 50% pass rate in red zone and 43% success rate, which is about league average, but with a +0.22 EPA/play, indicating a high-effort, high-risk approach.",
+      "stat_ids": [
+        "NYG.off.2026.zone.red_zone.pass_rate",
+        "NYG.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Aggressive Red Zone Passing"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, NYG offense has a 74% pass rate and 36% success rate, indicating a high-passing, low-success strategy under pressure.",
+      "stat_ids": [
+        "NYG.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "NYG.off.2025.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "High-Volume, Low-Success Two-Minute Passing"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.overall.all.pass_rate"
+          ],
+          "text": "NYG offense has a 58% pass rate, indicating a high volume of passing plays, so a balanced front with coverage is appropriate."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.overall.all.success_rate"
+          ],
+          "text": "NYG offense has a 42% success rate, about league average, suggesting a moderate level of efficiency that does not require aggressive pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Man coverage with 2-man shell",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2025.down_dist.d3-short.pass_rate"
+          ],
+          "text": "NYG offense has a 48% pass rate on 3rd & short, indicating a moderate passing tendency that can be countered with man coverage."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "NYG offense has a 62% success rate on 3rd & short, which is above average, suggesting a need for tight coverage to limit gains."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Two-deep zone shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "NYG offense has a 51% pass rate on 1st & long, indicating a consistent passing tendency under pressure."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "NYG offense has a 38% success rate on 1st & long, which is below league average, suggesting a need for pressure to force incompletion."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Two-deep zone shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NYG offense has a 50% pass rate in red zone, indicating a strong tendency to pass in high-pressure, compressed zones."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "NYG offense has a +0.22 EPA/play in red zone, showing a high-effort, high-risk approach that demands a two-deep zone to take away deep options."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Zone coverage with 2-deep shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NYG offense has a 74% pass rate when trailing in two-minute situations, indicating a high-passing strategy under duress."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NYG offense has a 36% success rate in two-minute situations, which is below league average, suggesting a need for zone coverage to limit deep passes."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_06_WAS_SF",
+  "season": 2026,
+  "week": 6,
+  "team": "WAS",
+  "opponent": "SF",
+  "role": "DC",
+  "generated_at": "2026-10-14T09:10:43Z",
+  "stats_as_of": "2026-10-12",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_06_WAS_SF",
+      "season": 2026,
+      "team": "WAS",
+      "opponent": "SF",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "WAS.def.2026.overall.all.epa_per_play",
+        "label": "WAS defense: EPA/play, all plays",
+        "value": 0.0405,
+        "display": "+0.04",
+        "unit": "epa",
+        "n": 316,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.success_rate",
+        "label": "WAS defense: success rate, all plays",
+        "value": 0.4652,
+        "display": "47%",
+        "unit": "rate",
+        "n": 316,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.explosive_rate",
+        "label": "WAS defense: explosive-play rate, all plays",
+        "value": 0.0759,
+        "display": "8%",
+        "unit": "rate",
+        "n": 316,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.blitz_rate",
+        "label": "WAS defense: blitz rate, all plays",
+        "value": 0.4597,
+        "display": "46%",
+        "unit": "rate",
+        "n": 316,
+        "low_sample": false,
+        "league_value": 0.313,
+        "league_display": "31%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.success_rate",
+        "label": "WAS defense: success rate, 1st & long",
+        "value": 0.4961,
+        "display": "50%",
+        "unit": "rate",
+        "n": 129,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "WAS defense: run success rate, 1st & long",
+        "value": 0.3529,
+        "display": "35%",
+        "unit": "rate",
+        "n": 129,
+        "low_sample": false,
+        "league_value": 0.3504,
+        "league_display": "35%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 1st & long",
+        "value": 0.5897,
+        "display": "59%",
+        "unit": "rate",
+        "n": 129,
+        "low_sample": false,
+        "league_value": 0.4953,
+        "league_display": "50%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "WAS defense: explosive-play rate, 1st & long",
+        "value": 0.0775,
+        "display": "8%",
+        "unit": "rate",
+        "n": 129,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.success_rate",
+        "label": "WAS defense: success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6116,
+        "league_display": "61%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "WAS defense: run success rate, 3rd & short",
+        "value": 0.8182,
+        "display": "82%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6703,
+        "league_display": "67%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & short",
+        "value": 0.3,
+        "display": "30%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3868,
+        "league_display": "39%"
+      },
+      {
+        "id": "WAS.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3818,
+        "display": "38%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "WAS.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & long (2025)",
+        "value": 0.1455,
+        "display": "15%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "WAS.def.2025.down_dist.d3-long.man_rate",
+        "label": "WAS defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.2727,
+        "display": "27%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.success_rate",
+        "label": "WAS defense: success rate, red zone",
+        "value": 0.5217,
+        "display": "52%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.epa_per_play",
+        "label": "WAS defense: EPA/play, red zone",
+        "value": 0.4604,
+        "display": "+0.46",
+        "unit": "epa",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.pass_success_rate",
+        "label": "WAS defense: dropback success rate, red zone",
+        "value": 0.7037,
+        "display": "70%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.4383,
+        "league_display": "44%"
+      },
+      {
+        "id": "WAS.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "WAS defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3611,
+        "display": "36%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "WAS.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "WAS defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6944,
+        "display": "69%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "SF.off.2026.overall.all.epa_per_play",
+        "label": "SF offense: EPA/play, all plays",
+        "value": 0.2064,
+        "display": "+0.21",
+        "unit": "epa",
+        "n": 276,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "SF.off.2026.overall.all.success_rate",
+        "label": "SF offense: success rate, all plays",
+        "value": 0.5254,
+        "display": "53%",
+        "unit": "rate",
+        "n": 276,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "SF.off.2026.overall.all.pass_rate",
+        "label": "SF offense: pass rate, all plays",
+        "value": 0.5652,
+        "display": "57%",
+        "unit": "rate",
+        "n": 276,
+        "low_sample": false,
+        "league_value": 0.6081,
+        "league_display": "61%"
+      },
+      {
+        "id": "SF.off.2026.overall.all.proe",
+        "label": "SF offense: pass rate over expected, all plays",
+        "value": 0.0295,
+        "display": "3%",
+        "unit": "rate",
+        "n": 276,
+        "low_sample": false,
+        "league_value": -0.0196,
+        "league_display": "-2%"
+      },
+      {
+        "id": "SF.off.2026.overall.all.explosive_rate",
+        "label": "SF offense: explosive-play rate, all plays",
+        "value": 0.1196,
+        "display": "12%",
+        "unit": "rate",
+        "n": 276,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d1-long.pass_rate",
+        "label": "SF offense: pass rate, 1st & long",
+        "value": 0.4915,
+        "display": "49%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.5039,
+        "league_display": "50%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d1-long.proe",
+        "label": "SF offense: pass rate over expected, 1st & long",
+        "value": 0.0483,
+        "display": "5%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": -0.0179,
+        "league_display": "-2%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d1-long.success_rate",
+        "label": "SF offense: success rate, 1st & long",
+        "value": 0.4831,
+        "display": "48%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "SF offense: play-action rate, 1st & long",
+        "value": 0.2931,
+        "display": "29%",
+        "unit": "rate",
+        "n": 118,
+        "low_sample": false,
+        "league_value": 0.4147,
+        "league_display": "41%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d3-short.pass_rate",
+        "label": "SF offense: pass rate, 3rd & short",
+        "value": 0.5238,
+        "display": "52%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.5149,
+        "league_display": "51%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d3-short.success_rate",
+        "label": "SF offense: success rate, 3rd & short",
+        "value": 0.619,
+        "display": "62%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6116,
+        "league_display": "61%"
+      },
+      {
+        "id": "SF.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "SF offense: run success rate, 3rd & short",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.6703,
+        "league_display": "67%"
+      },
+      {
+        "id": "SF.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "SF offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.4792,
+        "display": "48%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "SF.off.2025.down_dist.d3-long.sack_rate",
+        "label": "SF offense: sack rate, 3rd & long (2025)",
+        "value": 0.0625,
+        "display": "6%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "SF.off.2025.down_dist.d3-long.screen_rate",
+        "label": "SF offense: screen rate, 3rd & long (2025)",
+        "value": 0.0208,
+        "display": "2%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "SF.off.2026.zone.red_zone.pass_rate",
+        "label": "SF offense: pass rate, red zone",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.5395,
+        "league_display": "54%"
+      },
+      {
+        "id": "SF.off.2026.zone.red_zone.success_rate",
+        "label": "SF offense: success rate, red zone",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "SF.off.2026.zone.red_zone.epa_per_play",
+        "label": "SF offense: EPA/play, red zone",
+        "value": 0.5295,
+        "display": "+0.53",
+        "unit": "epa",
+        "n": 50,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "SF.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "SF offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.913,
+        "display": "91%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "SF.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "SF offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.6957,
+        "display": "70%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-EPA, high-pass-rate offense, prioritize pressure on 1st & long and zone coverage in the red zone to limit explosive plays and success rates.",
+  "keys": [
+    {
+      "detail": "WAS defense has a 47% success rate and 46% blitz rate, well above league average, indicating a strong tendency to apply pressure.",
+      "stat_ids": [
+        "WAS.def.2026.overall.all.success_rate",
+        "WAS.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "High Blitz and Success Rate"
+    },
+    {
+      "detail": "SF offense has a 57% pass rate and 12% explosive-play rate, both above league average, suggesting a high-volume, deep-passing attack.",
+      "stat_ids": [
+        "SF.off.2026.overall.all.pass_rate",
+        "SF.off.2026.overall.all.explosive_rate"
+      ],
+      "title": "High-Volume Passing Attack"
+    },
+    {
+      "detail": "SF offense shows a 48% success rate on 1st & long and 56% in the red zone, with a +0.53 EPA/play in red zone, indicating aggressive, high-risk play execution.",
+      "stat_ids": [
+        "SF.off.2026.down_dist.d1-long.success_rate",
+        "SF.off.2026.zone.red_zone.success_rate",
+        "SF.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Aggressive Play Execution in Key Zones"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "WAS.def.2026.overall.all.success_rate",
+            "WAS.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "WAS defense has a 47% success rate and 46% blitz rate, both above league average, supporting a consistent pressure application."
+        },
+        {
+          "stat_ids": [
+            "SF.off.2026.overall.all.pass_rate"
+          ],
+          "text": "SF offense has a 57% pass rate, indicating a high likelihood of passing on first down, making man coverage and simulated pressure effective."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "SF.off.2026.down_dist.d3-short.success_rate",
+            "SF.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "SF offense has a 52% pass rate and 62% success rate on 3rd & short, indicating a high-volume, high-success passing attack."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "WAS defense has a 67% success rate on 3rd & short, well above league average, supporting a tight man coverage approach."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Cover 3",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "if SF shows play-action"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=61 for 2025 data; limited insight into 3rd & long performance."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "SF.off.2025.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "SF offense had a 48% dropback success rate on 3rd & long in 2025, indicating a high-risk, high-reward passing tendency."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "WAS defense had a 15% blitz rate on 3rd & long in 2025, below league average, suggesting a need to increase pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "SF.off.2026.zone.red_zone.pass_rate",
+            "SF.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "SF offense has a 56% pass rate and 56% success rate in red zone, indicating a high volume of deep passes that require two-deep zone coverage."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.zone.red_zone.success_rate",
+            "WAS.def.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "WAS defense has a 52% success rate and +0.46 EPA/play in red zone, showing a strong ability to contain high-EPA plays."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "dime sub-package",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "SF.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "SF offense has a 91% pass rate in two-minute situations, indicating a high reliance on passing under pressure."
+        },
+        {
+          "stat_ids": [
+            "SF.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "SF offense has a 70% success rate in two-minute situations, showing a high level of execution under duress."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

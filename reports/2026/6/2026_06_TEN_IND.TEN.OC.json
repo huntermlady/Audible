@@ -1,0 +1,710 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_06_TEN_IND",
+  "season": 2026,
+  "week": 6,
+  "team": "TEN",
+  "opponent": "IND",
+  "role": "OC",
+  "generated_at": "2026-10-14T09:10:43Z",
+  "stats_as_of": "2026-10-12",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_06_TEN_IND",
+      "season": 2026,
+      "team": "TEN",
+      "opponent": "IND",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "TEN.off.2026.overall.all.epa_per_play",
+        "label": "TEN offense: EPA/play, all plays",
+        "value": -0.1538,
+        "display": "-0.15",
+        "unit": "epa",
+        "n": 273,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.success_rate",
+        "label": "TEN offense: success rate, all plays",
+        "value": 0.4029,
+        "display": "40%",
+        "unit": "rate",
+        "n": 273,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.pass_rate",
+        "label": "TEN offense: pass rate, all plays",
+        "value": 0.6447,
+        "display": "64%",
+        "unit": "rate",
+        "n": 273,
+        "low_sample": false,
+        "league_value": 0.6081,
+        "league_display": "61%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.proe",
+        "label": "TEN offense: pass rate over expected, all plays",
+        "value": -0.0669,
+        "display": "-7%",
+        "unit": "rate",
+        "n": 273,
+        "low_sample": false,
+        "league_value": -0.0196,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TEN.off.2026.overall.all.explosive_rate",
+        "label": "TEN offense: explosive-play rate, all plays",
+        "value": 0.0696,
+        "display": "7%",
+        "unit": "rate",
+        "n": 273,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.pass_rate",
+        "label": "TEN offense: pass rate, 1st & long",
+        "value": 0.5273,
+        "display": "53%",
+        "unit": "rate",
+        "n": 110,
+        "low_sample": false,
+        "league_value": 0.5039,
+        "league_display": "50%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.proe",
+        "label": "TEN offense: pass rate over expected, 1st & long",
+        "value": -0.0837,
+        "display": "-8%",
+        "unit": "rate",
+        "n": 110,
+        "low_sample": false,
+        "league_value": -0.0179,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.success_rate",
+        "label": "TEN offense: success rate, 1st & long",
+        "value": 0.3909,
+        "display": "39%",
+        "unit": "rate",
+        "n": 110,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "TEN.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "TEN offense: play-action rate, 1st & long",
+        "value": 0.3793,
+        "display": "38%",
+        "unit": "rate",
+        "n": 110,
+        "low_sample": false,
+        "league_value": 0.4147,
+        "league_display": "41%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.pass_rate",
+        "label": "TEN offense: pass rate, 3rd & short (2025)",
+        "value": 0.5077,
+        "display": "51%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.success_rate",
+        "label": "TEN offense: success rate, 3rd & short (2025)",
+        "value": 0.5077,
+        "display": "51%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "TEN offense: run success rate, 3rd & short (2025)",
+        "value": 0.5938,
+        "display": "59%",
+        "unit": "rate",
+        "n": 65,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "TEN offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2698,
+        "display": "27%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.sack_rate",
+        "label": "TEN offense: sack rate, 3rd & long (2025)",
+        "value": 0.1746,
+        "display": "17%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "TEN.off.2025.down_dist.d3-long.screen_rate",
+        "label": "TEN offense: screen rate, 3rd & long (2025)",
+        "value": 0.0317,
+        "display": "3%",
+        "unit": "rate",
+        "n": 68,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.pass_rate",
+        "label": "TEN offense: pass rate, red zone",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.5395,
+        "league_display": "54%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.success_rate",
+        "label": "TEN offense: success rate, red zone",
+        "value": 0.3864,
+        "display": "39%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.off.2026.zone.red_zone.epa_per_play",
+        "label": "TEN offense: EPA/play, red zone",
+        "value": -0.2118,
+        "display": "-0.21",
+        "unit": "epa",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "TEN.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "TEN offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8261,
+        "display": "83%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.8543,
+        "league_display": "85%"
+      },
+      {
+        "id": "TEN.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "TEN offense: success rate, trailing by one score, two-minute",
+        "value": 0.3913,
+        "display": "39%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.4036,
+        "league_display": "40%"
+      },
+      {
+        "id": "IND.def.2026.overall.all.epa_per_play",
+        "label": "IND defense: EPA/play, all plays",
+        "value": 0.0988,
+        "display": "+0.10",
+        "unit": "epa",
+        "n": 302,
+        "low_sample": false,
+        "league_value": 0.0072,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "IND.def.2026.overall.all.success_rate",
+        "label": "IND defense: success rate, all plays",
+        "value": 0.4437,
+        "display": "44%",
+        "unit": "rate",
+        "n": 302,
+        "low_sample": false,
+        "league_value": 0.4355,
+        "league_display": "44%"
+      },
+      {
+        "id": "IND.def.2026.overall.all.explosive_rate",
+        "label": "IND defense: explosive-play rate, all plays",
+        "value": 0.0894,
+        "display": "9%",
+        "unit": "rate",
+        "n": 302,
+        "low_sample": false,
+        "league_value": 0.0872,
+        "league_display": "9%"
+      },
+      {
+        "id": "IND.def.2026.overall.all.blitz_rate",
+        "label": "IND defense: blitz rate, all plays",
+        "value": 0.2,
+        "display": "20%",
+        "unit": "rate",
+        "n": 302,
+        "low_sample": false,
+        "league_value": 0.313,
+        "league_display": "31%"
+      },
+      {
+        "id": "IND.def.2026.down_dist.d1-long.success_rate",
+        "label": "IND defense: success rate, 1st & long",
+        "value": 0.4715,
+        "display": "47%",
+        "unit": "rate",
+        "n": 123,
+        "low_sample": false,
+        "league_value": 0.4234,
+        "league_display": "42%"
+      },
+      {
+        "id": "IND.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "IND defense: run success rate, 1st & long",
+        "value": 0.4058,
+        "display": "41%",
+        "unit": "rate",
+        "n": 123,
+        "low_sample": false,
+        "league_value": 0.3504,
+        "league_display": "35%"
+      },
+      {
+        "id": "IND.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "IND defense: dropback success rate, 1st & long",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 123,
+        "low_sample": false,
+        "league_value": 0.4953,
+        "league_display": "50%"
+      },
+      {
+        "id": "IND.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "IND defense: explosive-play rate, 1st & long",
+        "value": 0.122,
+        "display": "12%",
+        "unit": "rate",
+        "n": 123,
+        "low_sample": false,
+        "league_value": 0.0981,
+        "league_display": "10%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-short.success_rate",
+        "label": "IND defense: success rate, 3rd & short (2025)",
+        "value": 0.7015,
+        "display": "70%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "IND defense: run success rate, 3rd & short (2025)",
+        "value": 0.7632,
+        "display": "76%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "IND defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2414,
+        "display": "24%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "IND defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.3115,
+        "display": "31%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "IND defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4098,
+        "display": "41%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "IND.def.2025.down_dist.d3-long.man_rate",
+        "label": "IND defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.5574,
+        "display": "56%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "IND.def.2026.zone.red_zone.success_rate",
+        "label": "IND defense: success rate, red zone",
+        "value": 0.4146,
+        "display": "41%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "IND.def.2026.zone.red_zone.epa_per_play",
+        "label": "IND defense: EPA/play, red zone",
+        "value": 0.0446,
+        "display": "+0.04",
+        "unit": "epa",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.0459,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "IND.def.2026.zone.red_zone.pass_success_rate",
+        "label": "IND defense: dropback success rate, red zone",
+        "value": 0.4167,
+        "display": "42%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4383,
+        "league_display": "44%"
+      },
+      {
+        "id": "IND.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "IND defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5122,
+        "display": "51%",
+        "unit": "rate",
+        "n": 53,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "IND.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "IND defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.561,
+        "display": "56%",
+        "unit": "rate",
+        "n": 53,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Prioritize quick passes and play-action on 1st & long due to IND's high blitz and poor pass success in long downs.",
+  "keys": [
+    {
+      "detail": "TEN offense has a 53% pass rate on 1st & long, well above league average, and a 39% success rate, below league average, indicating a pass-heavy but inefficient approach.",
+      "stat_ids": [
+        "TEN.off.2026.down_dist.d1-long.pass_rate",
+        "TEN.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "1st & Long Pass Rate and Success"
+    },
+    {
+      "detail": "IND defense blitzes 20% of the time, below league average, and has a 41% man coverage rate on 3rd & long, indicating a shift to man coverage in long downs, which favors quick, short passes.",
+      "stat_ids": [
+        "IND.def.2026.overall.all.blitz_rate",
+        "IND.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "IND Defense Blitz and Man Coverage"
+    },
+    {
+      "detail": "TEN's explosive-play rate is 7%, below league average, and pass rate over expected is -7%, indicating poor pass efficiency beyond expectations.",
+      "stat_ids": [
+        "TEN.off.2026.overall.all.explosive_rate",
+        "TEN.off.2026.overall.all.proe"
+      ],
+      "title": "TEN Offense Explosive and Expected Performance"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=110 for 1st & long pass rate and success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "TEN has a 53% pass rate on 1st & long, well above league average, suggesting a pass-heavy tendency."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "IND has a 20% blitz rate, below league average, indicating less pressure on pass plays, making play-action more effective."
+        },
+        {
+          "stat_ids": [
+            "TEN.off.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "TEN's 39% success rate on 1st & long is below league average, indicating inefficiency that may be mitigated by play-action."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Run play",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=67 for 3rd & short success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Run play",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.def.2025.down_dist.d3-short.success_rate"
+          ],
+          "text": "IND has a 70% success rate on 3rd & short, above league average, indicating strong run defense."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "IND has a 24% blitz rate on 3rd & short, below league average, suggesting less pressure on pass plays."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "IND has a 76% run success rate on 3rd & short, indicating a strong run defense that may favor run plays."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=68 for 3rd & long screen rate; confidence reduced"
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2025.down_dist.d3-long.screen_rate"
+          ],
+          "text": "TEN's screen rate on 3rd & long is only 3%, below league average, indicating underutilization of screen plays."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "IND has a 41% blitz rate on 3rd & long, above league average, suggesting high pressure on dropbacks."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2025.down_dist.d3-long.man_rate"
+          ],
+          "text": "IND has a 56% man coverage rate on 3rd & long, indicating a man coverage-heavy defense that may be vulnerable to screen plays."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=44 for red zone pass rate and success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TEN.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "TEN has a 45% pass rate in red zone, below league average, indicating a reduced reliance on deep passes."
+        },
+        {
+          "stat_ids": [
+            "TEN.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "TEN's 39% success rate in red zone is below league average, suggesting a need for quick, short routes."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "IND has a 42% dropback success rate in red zone, below league average, indicating poor pass defense in tight spaces."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=53 for trailing by one score defense data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "IND has a 51% dropback success rate in two-minute situations, above league average, indicating a strong pass defense."
+        },
+        {
+          "stat_ids": [
+            "IND.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "IND has a 56% zone coverage rate in two-minute situations, below league average, suggesting a shift to zone coverage that may be vulnerable to quick passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}
