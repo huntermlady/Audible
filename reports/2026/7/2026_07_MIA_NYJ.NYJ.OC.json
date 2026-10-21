@@ -1,0 +1,686 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_07_MIA_NYJ",
+  "season": 2026,
+  "week": 7,
+  "team": "NYJ",
+  "opponent": "MIA",
+  "role": "OC",
+  "generated_at": "2026-10-21T09:00:58Z",
+  "stats_as_of": "2026-10-19",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_07_MIA_NYJ",
+      "season": 2026,
+      "team": "NYJ",
+      "opponent": "MIA",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "NYJ.off.2026.overall.all.epa_per_play",
+        "label": "NYJ offense: EPA/play, all plays",
+        "value": -0.0271,
+        "display": "-0.03",
+        "unit": "epa",
+        "n": 347,
+        "low_sample": false,
+        "league_value": -0.0008,
+        "league_display": "0.00"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.success_rate",
+        "label": "NYJ offense: success rate, all plays",
+        "value": 0.438,
+        "display": "44%",
+        "unit": "rate",
+        "n": 347,
+        "low_sample": false,
+        "league_value": 0.4329,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.pass_rate",
+        "label": "NYJ offense: pass rate, all plays",
+        "value": 0.5879,
+        "display": "59%",
+        "unit": "rate",
+        "n": 347,
+        "low_sample": false,
+        "league_value": 0.6128,
+        "league_display": "61%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.proe",
+        "label": "NYJ offense: pass rate over expected, all plays",
+        "value": -0.0316,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 347,
+        "low_sample": false,
+        "league_value": -0.0157,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.explosive_rate",
+        "label": "NYJ offense: explosive-play rate, all plays",
+        "value": 0.0893,
+        "display": "9%",
+        "unit": "rate",
+        "n": 347,
+        "low_sample": false,
+        "league_value": 0.0847,
+        "league_display": "8%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NYJ offense: pass rate, 1st & long",
+        "value": 0.5248,
+        "display": "52%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": 0.5085,
+        "league_display": "51%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.proe",
+        "label": "NYJ offense: pass rate over expected, 1st & long",
+        "value": 0.012,
+        "display": "1%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": -0.0134,
+        "league_display": "-1%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.success_rate",
+        "label": "NYJ offense: success rate, 1st & long",
+        "value": 0.4539,
+        "display": "45%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": 0.4199,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NYJ offense: play-action rate, 1st & long",
+        "value": 0.4324,
+        "display": "43%",
+        "unit": "rate",
+        "n": 141,
+        "low_sample": false,
+        "league_value": 0.4092,
+        "league_display": "41%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.pass_rate",
+        "label": "NYJ offense: pass rate, 3rd & short",
+        "value": 0.45,
+        "display": "45%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.5074,
+        "league_display": "51%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.success_rate",
+        "label": "NYJ offense: success rate, 3rd & short",
+        "value": 0.55,
+        "display": "55%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.6157,
+        "league_display": "62%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "NYJ offense: run success rate, 3rd & short",
+        "value": 0.5455,
+        "display": "55%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.6867,
+        "league_display": "69%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NYJ offense: dropback success rate, 3rd & long",
+        "value": 0.3158,
+        "display": "32%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3247,
+        "league_display": "32%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NYJ offense: sack rate, 3rd & long",
+        "value": 0,
+        "display": "0%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0824,
+        "league_display": "8%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NYJ offense: screen rate, 3rd & long",
+        "value": 0.1579,
+        "display": "16%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0662,
+        "league_display": "7%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.pass_rate",
+        "label": "NYJ offense: pass rate, red zone",
+        "value": 0.5385,
+        "display": "54%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.543,
+        "league_display": "54%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.success_rate",
+        "label": "NYJ offense: success rate, red zone",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.4299,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.epa_per_play",
+        "label": "NYJ offense: EPA/play, red zone",
+        "value": -0.2887,
+        "display": "-0.29",
+        "unit": "epa",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.0393,
+        "league_display": "+0.04"
+      },
+      {
+        "id": "NYJ.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NYJ offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8205,
+        "display": "82%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NYJ.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NYJ offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.epa_per_play",
+        "label": "MIA defense: EPA/play, all plays",
+        "value": 0.108,
+        "display": "+0.11",
+        "unit": "epa",
+        "n": 290,
+        "low_sample": false,
+        "league_value": -0.0008,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.success_rate",
+        "label": "MIA defense: success rate, all plays",
+        "value": 0.4862,
+        "display": "49%",
+        "unit": "rate",
+        "n": 290,
+        "low_sample": false,
+        "league_value": 0.4329,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.explosive_rate",
+        "label": "MIA defense: explosive-play rate, all plays",
+        "value": 0.0862,
+        "display": "9%",
+        "unit": "rate",
+        "n": 290,
+        "low_sample": false,
+        "league_value": 0.0847,
+        "league_display": "8%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.blitz_rate",
+        "label": "MIA defense: blitz rate, all plays",
+        "value": 0.2739,
+        "display": "27%",
+        "unit": "rate",
+        "n": 290,
+        "low_sample": false,
+        "league_value": 0.3166,
+        "league_display": "32%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.success_rate",
+        "label": "MIA defense: success rate, 1st & long",
+        "value": 0.4958,
+        "display": "50%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.4199,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "MIA defense: run success rate, 1st & long",
+        "value": 0.4308,
+        "display": "43%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.3494,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 1st & long",
+        "value": 0.5741,
+        "display": "57%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.488,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "MIA defense: explosive-play rate, 1st & long",
+        "value": 0.1092,
+        "display": "11%",
+        "unit": "rate",
+        "n": 119,
+        "low_sample": false,
+        "league_value": 0.0951,
+        "league_display": "10%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-short.success_rate",
+        "label": "MIA defense: success rate, 3rd & short (2025)",
+        "value": 0.5395,
+        "display": "54%",
+        "unit": "rate",
+        "n": 76,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-short.run_success_rate",
+        "label": "MIA defense: run success rate, 3rd & short (2025)",
+        "value": 0.55,
+        "display": "55%",
+        "unit": "rate",
+        "n": 76,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-short.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & short (2025)",
+        "value": 0.2222,
+        "display": "22%",
+        "unit": "rate",
+        "n": 76,
+        "low_sample": false,
+        "league_value": 0.3149,
+        "league_display": "31%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2982,
+        "display": "30%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4912,
+        "display": "49%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.man_rate",
+        "label": "MIA defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.success_rate",
+        "label": "MIA defense: success rate, red zone",
+        "value": 0.4242,
+        "display": "42%",
+        "unit": "rate",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.4299,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.epa_per_play",
+        "label": "MIA defense: EPA/play, red zone",
+        "value": 0.1354,
+        "display": "+0.14",
+        "unit": "epa",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.0393,
+        "league_display": "+0.04"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.pass_success_rate",
+        "label": "MIA defense: dropback success rate, red zone",
+        "value": 0.4737,
+        "display": "47%",
+        "unit": "rate",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.4289,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "MIA defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "MIA defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Against a defense that pressures often and allows deep passes, prioritize quick passes and play-action in all situations, especially on third down and in the red zone.",
+  "keys": [
+    {
+      "detail": "NYJ offense has a pass rate above league average on 1st & long, with a slight overperformance over expected, making it effective against a defense that blitzes.",
+      "stat_ids": [
+        "NYJ.off.2026.down_dist.d1-long.pass_rate",
+        "NYJ.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Strong 1st & Long Passing Performance"
+    },
+    {
+      "detail": "MIA defense has a high blitz rate on 3rd & long and a low man coverage rate, indicating a zone-heavy defense that is vulnerable to quick, short passes and play-action.",
+      "stat_ids": [
+        "MIA.def.2025.down_dist.d3-long.blitz_rate",
+        "MIA.def.2025.down_dist.d3-long.man_rate"
+      ],
+      "title": "Vulnerable Zone Coverage on 3rd & Long"
+    },
+    {
+      "detail": "NYJ offense has a high explosive-play rate and a strong red zone pass rate, suggesting it can convert in tight spaces with deep shots, though red zone success is below league average.",
+      "stat_ids": [
+        "NYJ.off.2026.overall.all.explosive_rate",
+        "NYJ.off.2026.zone.red_zone.pass_rate"
+      ],
+      "title": "Explosive Plays and Red Zone Passing Ability"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "Low sample size for 3rd & short pass rate (n=20); confidence reduced"
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NYJ has a 43% play-action rate on 1st & long, above league average, indicating a consistent use of play-action to exploit defensive pressure."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "MIA defense blazes at 27%, below league average, suggesting it may not consistently pressure the quarterback, making play-action more effective."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "Low sample size (n=20); confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.def.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "MIA defense allows 55% run success on 3rd & short, below league average, suggesting it is vulnerable to inside runs."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2025.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "MIA has a 22% blitz rate on 3rd & short, below league average, indicating less pressure on the run game."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "Low sample size (n=21); confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "NYJ has a 16% screen rate on 3rd & long, above league average, indicating a consistent use of screens to exploit defensive fronts."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2025.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "MIA defense has a 49% blitz rate on 3rd & long, above league average, suggesting it may be overcommitted, making screens effective."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "Red zone success rate is 33%, below league average; low confidence in deep conversion"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NYJ has a 54% pass rate in red zone, about league average, indicating a consistent use of passing in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "MIA defense allows 47% dropback success in red zone, above league average, suggesting it is vulnerable to quick, short passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "MIA defense has 70% zone coverage in two-minute scenarios, suggesting it may be overcommitted to zone, making quick passes effective."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "MIA has 70% zone coverage in two-minute scenarios, above league average, indicating a zone-heavy defense that is vulnerable to quick, short passes."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "MIA allows 60% pass success in two-minute scenarios, above league average, suggesting it is not effective at stopping quick passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}
