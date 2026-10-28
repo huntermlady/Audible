@@ -1,0 +1,641 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_08_PHI_WAS",
+  "season": 2026,
+  "week": 8,
+  "team": "PHI",
+  "opponent": "WAS",
+  "role": "OC",
+  "generated_at": "2026-10-28T10:13:16Z",
+  "stats_as_of": "2026-10-26",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_08_PHI_WAS",
+      "season": 2026,
+      "team": "PHI",
+      "opponent": "WAS",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "PHI.off.2026.overall.all.epa_per_play",
+        "label": "PHI offense: EPA/play, all plays",
+        "value": -0.1164,
+        "display": "-0.12",
+        "unit": "epa",
+        "n": 410,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "PHI.off.2026.overall.all.success_rate",
+        "label": "PHI offense: success rate, all plays",
+        "value": 0.3683,
+        "display": "37%",
+        "unit": "rate",
+        "n": 410,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "PHI.off.2026.overall.all.pass_rate",
+        "label": "PHI offense: pass rate, all plays",
+        "value": 0.6488,
+        "display": "65%",
+        "unit": "rate",
+        "n": 410,
+        "low_sample": false,
+        "league_value": 0.6076,
+        "league_display": "61%"
+      },
+      {
+        "id": "PHI.off.2026.overall.all.proe",
+        "label": "PHI offense: pass rate over expected, all plays",
+        "value": -0.0227,
+        "display": "-2%",
+        "unit": "rate",
+        "n": 410,
+        "low_sample": false,
+        "league_value": -0.0189,
+        "league_display": "-2%"
+      },
+      {
+        "id": "PHI.off.2026.overall.all.explosive_rate",
+        "label": "PHI offense: explosive-play rate, all plays",
+        "value": 0.0488,
+        "display": "5%",
+        "unit": "rate",
+        "n": 410,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d1-long.pass_rate",
+        "label": "PHI offense: pass rate, 1st & long",
+        "value": 0.4631,
+        "display": "46%",
+        "unit": "rate",
+        "n": 149,
+        "low_sample": false,
+        "league_value": 0.5041,
+        "league_display": "50%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d1-long.proe",
+        "label": "PHI offense: pass rate over expected, 1st & long",
+        "value": -0.0867,
+        "display": "-9%",
+        "unit": "rate",
+        "n": 149,
+        "low_sample": false,
+        "league_value": -0.0166,
+        "league_display": "-2%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d1-long.success_rate",
+        "label": "PHI offense: success rate, 1st & long",
+        "value": 0.3557,
+        "display": "36%",
+        "unit": "rate",
+        "n": 149,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "PHI offense: play-action rate, 1st & long",
+        "value": 0.3167,
+        "display": "32%",
+        "unit": "rate",
+        "n": 149,
+        "low_sample": false,
+        "league_value": 0.4063,
+        "league_display": "41%"
+      },
+      {
+        "id": "PHI.off.2025.down_dist.d3-short.pass_rate",
+        "label": "PHI offense: pass rate, 3rd & short (2025)",
+        "value": 0.4783,
+        "display": "48%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.476,
+        "league_display": "48%"
+      },
+      {
+        "id": "PHI.off.2025.down_dist.d3-short.success_rate",
+        "label": "PHI offense: success rate, 3rd & short (2025)",
+        "value": 0.5652,
+        "display": "57%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.5919,
+        "league_display": "59%"
+      },
+      {
+        "id": "PHI.off.2025.down_dist.d3-short.run_success_rate",
+        "label": "PHI offense: run success rate, 3rd & short (2025)",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 46,
+        "low_sample": false,
+        "league_value": 0.656,
+        "league_display": "66%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "PHI offense: dropback success rate, 3rd & long",
+        "value": 0.2917,
+        "display": "29%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d3-long.sack_rate",
+        "label": "PHI offense: sack rate, 3rd & long",
+        "value": 0.0417,
+        "display": "4%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.0787,
+        "league_display": "8%"
+      },
+      {
+        "id": "PHI.off.2026.down_dist.d3-long.screen_rate",
+        "label": "PHI offense: screen rate, 3rd & long",
+        "value": 0.05,
+        "display": "5%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.0667,
+        "league_display": "7%"
+      },
+      {
+        "id": "PHI.off.2026.zone.red_zone.pass_rate",
+        "label": "PHI offense: pass rate, red zone",
+        "value": 0.3636,
+        "display": "36%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.5372,
+        "league_display": "54%"
+      },
+      {
+        "id": "PHI.off.2026.zone.red_zone.success_rate",
+        "label": "PHI offense: success rate, red zone",
+        "value": 0.4364,
+        "display": "44%",
+        "unit": "rate",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "PHI.off.2026.zone.red_zone.epa_per_play",
+        "label": "PHI offense: EPA/play, red zone",
+        "value": 0.0254,
+        "display": "+0.03",
+        "unit": "epa",
+        "n": 55,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "PHI.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "PHI offense: pass rate, trailing by one score, two-minute",
+        "value": 0.9583,
+        "display": "96%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.8467,
+        "league_display": "85%"
+      },
+      {
+        "id": "PHI.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "PHI offense: success rate, trailing by one score, two-minute",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.4124,
+        "league_display": "41%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.epa_per_play",
+        "label": "WAS defense: EPA/play, all plays",
+        "value": 0.0672,
+        "display": "+0.07",
+        "unit": "epa",
+        "n": 376,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.success_rate",
+        "label": "WAS defense: success rate, all plays",
+        "value": 0.4761,
+        "display": "48%",
+        "unit": "rate",
+        "n": 376,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.explosive_rate",
+        "label": "WAS defense: explosive-play rate, all plays",
+        "value": 0.0745,
+        "display": "7%",
+        "unit": "rate",
+        "n": 376,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.blitz_rate",
+        "label": "WAS defense: blitz rate, all plays",
+        "value": 0.4571,
+        "display": "46%",
+        "unit": "rate",
+        "n": 376,
+        "low_sample": false,
+        "league_value": 0.3179,
+        "league_display": "32%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.success_rate",
+        "label": "WAS defense: success rate, 1st & long",
+        "value": 0.5229,
+        "display": "52%",
+        "unit": "rate",
+        "n": 153,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "WAS defense: run success rate, 1st & long",
+        "value": 0.4194,
+        "display": "42%",
+        "unit": "rate",
+        "n": 153,
+        "low_sample": false,
+        "league_value": 0.3527,
+        "league_display": "35%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 1st & long",
+        "value": 0.5934,
+        "display": "59%",
+        "unit": "rate",
+        "n": 153,
+        "low_sample": false,
+        "league_value": 0.4891,
+        "league_display": "49%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "WAS defense: explosive-play rate, 1st & long",
+        "value": 0.0784,
+        "display": "8%",
+        "unit": "rate",
+        "n": 153,
+        "low_sample": false,
+        "league_value": 0.0948,
+        "league_display": "9%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.success_rate",
+        "label": "WAS defense: success rate, 3rd & short",
+        "value": 0.6786,
+        "display": "68%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "WAS defense: run success rate, 3rd & short",
+        "value": 0.8667,
+        "display": "87%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & short",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.3832,
+        "league_display": "38%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 3rd & long",
+        "value": 0.2222,
+        "display": "22%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & long",
+        "value": 0.6111,
+        "display": "61%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.4332,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.success_rate",
+        "label": "WAS defense: success rate, red zone",
+        "value": 0.5323,
+        "display": "53%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.epa_per_play",
+        "label": "WAS defense: EPA/play, red zone",
+        "value": 0.434,
+        "display": "+0.43",
+        "unit": "epa",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.pass_success_rate",
+        "label": "WAS defense: dropback success rate, red zone",
+        "value": 0.6286,
+        "display": "63%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.4272,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "WAS defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3611,
+        "display": "36%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "WAS.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "WAS defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6944,
+        "display": "69%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Against a defense that blitzes frequently and allows few deep passes, PHI must rely on quick passes, play-action, and screen plays to exploit gaps and avoid long dropbacks.",
+  "keys": [
+    {
+      "detail": "PHI's pass rate in 1st & long is well below league average, and success rate is the worst in this sheet, indicating a need for more play-action and shorter routes to avoid pressure.",
+      "stat_ids": [
+        "PHI.off.2026.down_dist.d1-long.pass_rate",
+        "PHI.off.2026.down_dist.d1-long.success_rate",
+        "PHI.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "1st & Long: Low Success, High Pressure"
+    },
+    {
+      "detail": "WAS defense has a high blitz rate in 3rd & long and low pass success rate, making deep passes dangerous and runs difficult; PHI must avoid long dropbacks and use screens or quick passes.",
+      "stat_ids": [
+        "WAS.def.2026.down_dist.d3-long.blitz_rate",
+        "WAS.def.2026.down_dist.d3-long.pass_success_rate"
+      ],
+      "title": "3rd & Long: High Blitz, Low Pass Success"
+    },
+    {
+      "detail": "In red zone, PHI's pass rate is only 36% (league 54%), and EPA per play is about league average, suggesting a need for quick, short passes to avoid overextending.",
+      "stat_ids": [
+        "PHI.off.2026.zone.red_zone.pass_rate",
+        "PHI.off.2026.zone.red_zone.success_rate",
+        "PHI.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Red Zone: Low Pass Rate, Compressed Field"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, PHI's pass rate is 96% (league 85%) and success rate is 38% (league 41%), showing a high volume of passes but low conversion; use play-action to create space.",
+      "stat_ids": [
+        "PHI.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "PHI.off.2026.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "Two-Minute: High Pass Volume, Low Conversion"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PHI.off.2026.overall.all.pass_rate",
+            "PHI.off.2026.overall.all.proe"
+          ],
+          "text": "PHI's pass rate is above league average, and pass rate over expected is about league average, indicating a balanced offense that can use play-action to generate passing opportunities."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "WAS defense has a high blitz rate overall, making play-action a key tool to create space and avoid immediate pressure."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PHI.off.2025.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "PHI's run success rate in 3rd & short is about league average, indicating that inside runs are effective in this situation."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "WAS defense allows 87% run success rate in 3rd & short, showing they are vulnerable to inside runs."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "if defense shows high blitz rate"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=25 for screen rate and success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PHI.off.2026.down_dist.d3-long.screen_rate",
+            "WAS.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "PHI's screen rate is below league average, and WAS defense has a high blitz rate in 3rd & long, making screens a viable option to avoid pressure and gain yardage."
+        },
+        {
+          "stat_ids": [
+            "PHI.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "Sack rate is low, indicating that runs are not being pressured, so screen plays can be used safely."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PHI.off.2026.zone.red_zone.pass_rate",
+            "PHI.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "PHI's red zone pass rate is low and success rate is about league average, indicating a need for quick, short routes to gain yardage without overextending."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "WAS defense has a high red zone pass success rate, suggesting they are effective against deep passes, making quick slants more viable."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PHI.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+            "PHI.off.2026.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "PHI's pass rate is very high in two-minute situations, but success rate is slightly below league average, indicating a need for play-action to generate more effective passing."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "WAS defense uses zone coverage 69% of the time in two-minute situations, suggesting that play-action can exploit non-zone coverage gaps."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

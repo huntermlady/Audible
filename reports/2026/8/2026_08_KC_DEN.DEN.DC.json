@@ -1,0 +1,674 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_08_KC_DEN",
+  "season": 2026,
+  "week": 8,
+  "team": "DEN",
+  "opponent": "KC",
+  "role": "DC",
+  "generated_at": "2026-10-28T10:13:16Z",
+  "stats_as_of": "2026-10-26",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_08_KC_DEN",
+      "season": 2026,
+      "team": "DEN",
+      "opponent": "KC",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "DEN.def.2026.overall.all.epa_per_play",
+        "label": "DEN defense: EPA/play, all plays",
+        "value": -0.0517,
+        "display": "-0.05",
+        "unit": "epa",
+        "n": 478,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.success_rate",
+        "label": "DEN defense: success rate, all plays",
+        "value": 0.3912,
+        "display": "39%",
+        "unit": "rate",
+        "n": 478,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.explosive_rate",
+        "label": "DEN defense: explosive-play rate, all plays",
+        "value": 0.0816,
+        "display": "8%",
+        "unit": "rate",
+        "n": 478,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "DEN.def.2026.overall.all.blitz_rate",
+        "label": "DEN defense: blitz rate, all plays",
+        "value": 0.3559,
+        "display": "36%",
+        "unit": "rate",
+        "n": 478,
+        "low_sample": false,
+        "league_value": 0.3179,
+        "league_display": "32%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.success_rate",
+        "label": "DEN defense: success rate, 1st & long",
+        "value": 0.3543,
+        "display": "35%",
+        "unit": "rate",
+        "n": 175,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "DEN defense: run success rate, 1st & long",
+        "value": 0.2941,
+        "display": "29%",
+        "unit": "rate",
+        "n": 175,
+        "low_sample": false,
+        "league_value": 0.3527,
+        "league_display": "35%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "DEN defense: dropback success rate, 1st & long",
+        "value": 0.4111,
+        "display": "41%",
+        "unit": "rate",
+        "n": 175,
+        "low_sample": false,
+        "league_value": 0.4891,
+        "league_display": "49%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "DEN defense: explosive-play rate, 1st & long",
+        "value": 0.08,
+        "display": "8%",
+        "unit": "rate",
+        "n": 175,
+        "low_sample": false,
+        "league_value": 0.0948,
+        "league_display": "9%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d3-short.success_rate",
+        "label": "DEN defense: success rate, 3rd & short",
+        "value": 0.7273,
+        "display": "73%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "DEN defense: run success rate, 3rd & short",
+        "value": 0.8095,
+        "display": "81%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "DEN defense: blitz rate, 3rd & short",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.3832,
+        "league_display": "38%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "DEN defense: dropback success rate, 3rd & long",
+        "value": 0.3667,
+        "display": "37%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "DEN.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "DEN defense: blitz rate, 3rd & long",
+        "value": 0.3667,
+        "display": "37%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.4332,
+        "league_display": "43%"
+      },
+      {
+        "id": "DEN.def.2026.zone.red_zone.success_rate",
+        "label": "DEN defense: success rate, red zone",
+        "value": 0.3485,
+        "display": "35%",
+        "unit": "rate",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "DEN.def.2026.zone.red_zone.epa_per_play",
+        "label": "DEN defense: EPA/play, red zone",
+        "value": -0.079,
+        "display": "-0.08",
+        "unit": "epa",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "DEN.def.2026.zone.red_zone.pass_success_rate",
+        "label": "DEN defense: dropback success rate, red zone",
+        "value": 0.3421,
+        "display": "34%",
+        "unit": "rate",
+        "n": 66,
+        "low_sample": false,
+        "league_value": 0.4272,
+        "league_display": "43%"
+      },
+      {
+        "id": "DEN.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "DEN defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.4095,
+        "league_display": "41%"
+      },
+      {
+        "id": "KC.off.2026.overall.all.epa_per_play",
+        "label": "KC offense: EPA/play, all plays",
+        "value": 0.1215,
+        "display": "+0.12",
+        "unit": "epa",
+        "n": 353,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "KC.off.2026.overall.all.success_rate",
+        "label": "KC offense: success rate, all plays",
+        "value": 0.4759,
+        "display": "48%",
+        "unit": "rate",
+        "n": 353,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "KC.off.2026.overall.all.pass_rate",
+        "label": "KC offense: pass rate, all plays",
+        "value": 0.5949,
+        "display": "59%",
+        "unit": "rate",
+        "n": 353,
+        "low_sample": false,
+        "league_value": 0.6076,
+        "league_display": "61%"
+      },
+      {
+        "id": "KC.off.2026.overall.all.proe",
+        "label": "KC offense: pass rate over expected, all plays",
+        "value": 0.0304,
+        "display": "3%",
+        "unit": "rate",
+        "n": 353,
+        "low_sample": false,
+        "league_value": -0.0189,
+        "league_display": "-2%"
+      },
+      {
+        "id": "KC.off.2026.overall.all.explosive_rate",
+        "label": "KC offense: explosive-play rate, all plays",
+        "value": 0.1048,
+        "display": "10%",
+        "unit": "rate",
+        "n": 353,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d1-long.pass_rate",
+        "label": "KC offense: pass rate, 1st & long",
+        "value": 0.4897,
+        "display": "49%",
+        "unit": "rate",
+        "n": 145,
+        "low_sample": false,
+        "league_value": 0.5041,
+        "league_display": "50%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d1-long.proe",
+        "label": "KC offense: pass rate over expected, 1st & long",
+        "value": 0.0138,
+        "display": "1%",
+        "unit": "rate",
+        "n": 145,
+        "low_sample": false,
+        "league_value": -0.0166,
+        "league_display": "-2%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d1-long.success_rate",
+        "label": "KC offense: success rate, 1st & long",
+        "value": 0.4966,
+        "display": "50%",
+        "unit": "rate",
+        "n": 145,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "KC offense: play-action rate, 1st & long",
+        "value": 0.5775,
+        "display": "58%",
+        "unit": "rate",
+        "n": 145,
+        "low_sample": false,
+        "league_value": 0.4063,
+        "league_display": "41%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-short.pass_rate",
+        "label": "KC offense: pass rate, 3rd & short",
+        "value": 0.5926,
+        "display": "59%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.4942,
+        "league_display": "49%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-short.success_rate",
+        "label": "KC offense: success rate, 3rd & short",
+        "value": 0.5185,
+        "display": "52%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "KC offense: run success rate, 3rd & short",
+        "value": 0.6364,
+        "display": "64%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "KC offense: dropback success rate, 3rd & long",
+        "value": 0.3158,
+        "display": "32%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-long.sack_rate",
+        "label": "KC offense: sack rate, 3rd & long",
+        "value": 0.0526,
+        "display": "5%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0787,
+        "league_display": "8%"
+      },
+      {
+        "id": "KC.off.2026.down_dist.d3-long.screen_rate",
+        "label": "KC offense: screen rate, 3rd & long",
+        "value": 0.0526,
+        "display": "5%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0667,
+        "league_display": "7%"
+      },
+      {
+        "id": "KC.off.2026.zone.red_zone.pass_rate",
+        "label": "KC offense: pass rate, red zone",
+        "value": 0.5397,
+        "display": "54%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.5372,
+        "league_display": "54%"
+      },
+      {
+        "id": "KC.off.2026.zone.red_zone.success_rate",
+        "label": "KC offense: success rate, red zone",
+        "value": 0.3651,
+        "display": "37%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.off.2026.zone.red_zone.epa_per_play",
+        "label": "KC offense: EPA/play, red zone",
+        "value": -0.1117,
+        "display": "-0.11",
+        "unit": "epa",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "KC.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "KC offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8209,
+        "display": "82%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "KC.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "KC offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4179,
+        "display": "42%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense with a strong play-action tendency, DEN must apply consistent pressure and man coverage to limit deep passes and exploit play-action inconsistencies.",
+  "keys": [
+    {
+      "detail": "KC offense has a high pass rate (59%) and strong play-action usage (58%) in 1st & long, indicating a reliance on deception and quick passes. This demands man coverage and simulated pressure to disrupt timing.",
+      "stat_ids": [
+        "KC.off.2026.overall.all.pass_rate",
+        "KC.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "High Play-Action Tendency"
+    },
+    {
+      "detail": "DEN defense allows 39% success rate overall and 35% in 1st & long, well below league average, indicating a weak overall defensive performance that must be addressed with aggressive front and coverage.",
+      "stat_ids": [
+        "DEN.def.2026.overall.all.success_rate",
+        "DEN.def.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Weak Overall Success Rate"
+    },
+    {
+      "detail": "KC offense has a 10% explosive-play rate, slightly above league average, and a high EPA/play (+0.12), suggesting a tendency to generate high-risk, high-reward plays that must be contained with pressure and zone coverage.",
+      "stat_ids": [
+        "KC.off.2026.overall.all.explosive_rate",
+        "KC.off.2026.overall.all.epa_per_play"
+      ],
+      "title": "Explosive-Play Tendency"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "3-deep shell",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when offense runs"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=33 for 3rd & short success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "single-high",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.off.2026.down_dist.d1-long.pass_rate",
+            "KC.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "KC's high pass and play-action rate in 1st & long demands man coverage and simulated pressure to disrupt timing."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2026.down_dist.d1-long.success_rate",
+            "DEN.def.2026.down_dist.d1-long.pass_success_rate"
+          ],
+          "text": "DEN's 35% success rate and 41% pass success rate in 1st & long show a weak pass defense, requiring man coverage and pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "3-deep shell",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when offense runs"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=33 for 3rd & short success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.off.2026.down_dist.d3-short.pass_rate",
+            "KC.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "KC's 54% pass rate and 42% success rate in 3rd & short show a strong pass focus, requiring man coverage to limit deep passes."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2026.down_dist.d3-short.success_rate",
+            "DEN.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "DEN's 33% success rate and 37% blitz rate in 3rd & short show a weak pass defense and insufficient pressure, requiring man coverage and simulated pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "3-deep shell",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when offense runs"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=31 for 3rd & long pass success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.off.2026.down_dist.d3-long.pass_success_rate",
+            "KC.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "KC's 32% pass success rate and 5% sack rate in 3rd & long show a weak pass defense and low pressure, requiring a two-deep shell to contain deep passes."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2026.down_dist.d3-long.pass_success_rate",
+            "DEN.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "DEN's 37% pass success rate and 37% blitz rate in 3rd & long indicate a weak pass defense and insufficient pressure, requiring a two-deep shell and simulated pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "dime sub",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "bear",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when offense runs"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=66 for red zone success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.off.2026.zone.red_zone.pass_rate",
+            "KC.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "KC's 54% pass rate and 37% red zone success rate indicate a strong pass focus in the red zone, requiring two-deep zone coverage to take away slants and fades."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2026.zone.red_zone.success_rate",
+            "DEN.def.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "DEN's 35% red zone success rate and -0.08 EPA/play show a weak red zone defense, requiring aggressive front and man coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "dime sub",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "bear",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when offense runs"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=67 for two-minute success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+            "KC.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "KC's 82% pass rate and 42% success rate in two-minute situations show a strong pass focus under pressure, requiring two-deep zone coverage and bear front to contain."
+        },
+        {
+          "stat_ids": [
+            "DEN.def.2026.overall.all.success_rate",
+            "DEN.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "DEN's overall 39% success rate and red zone 35% success rate show a weak defensive performance under pressure, requiring aggressive front and man coverage."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

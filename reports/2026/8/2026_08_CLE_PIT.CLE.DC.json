@@ -1,0 +1,701 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_08_CLE_PIT",
+  "season": 2026,
+  "week": 8,
+  "team": "CLE",
+  "opponent": "PIT",
+  "role": "DC",
+  "generated_at": "2026-10-28T10:13:16Z",
+  "stats_as_of": "2026-10-26",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_08_CLE_PIT",
+      "season": 2026,
+      "team": "CLE",
+      "opponent": "PIT",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "CLE.def.2026.overall.all.epa_per_play",
+        "label": "CLE defense: EPA/play, all plays",
+        "value": -0.0352,
+        "display": "-0.04",
+        "unit": "epa",
+        "n": 435,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.success_rate",
+        "label": "CLE defense: success rate, all plays",
+        "value": 0.4161,
+        "display": "42%",
+        "unit": "rate",
+        "n": 435,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.explosive_rate",
+        "label": "CLE defense: explosive-play rate, all plays",
+        "value": 0.1057,
+        "display": "11%",
+        "unit": "rate",
+        "n": 435,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "CLE.def.2026.overall.all.blitz_rate",
+        "label": "CLE defense: blitz rate, all plays",
+        "value": 0.2386,
+        "display": "24%",
+        "unit": "rate",
+        "n": 435,
+        "low_sample": false,
+        "league_value": 0.3179,
+        "league_display": "32%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.success_rate",
+        "label": "CLE defense: success rate, 1st & long",
+        "value": 0.3869,
+        "display": "39%",
+        "unit": "rate",
+        "n": 168,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "CLE defense: run success rate, 1st & long",
+        "value": 0.3448,
+        "display": "34%",
+        "unit": "rate",
+        "n": 168,
+        "low_sample": false,
+        "league_value": 0.3527,
+        "league_display": "35%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "CLE defense: dropback success rate, 1st & long",
+        "value": 0.4321,
+        "display": "43%",
+        "unit": "rate",
+        "n": 168,
+        "low_sample": false,
+        "league_value": 0.4891,
+        "league_display": "49%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "CLE defense: explosive-play rate, 1st & long",
+        "value": 0.1012,
+        "display": "10%",
+        "unit": "rate",
+        "n": 168,
+        "low_sample": false,
+        "league_value": 0.0948,
+        "league_display": "9%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d3-short.success_rate",
+        "label": "CLE defense: success rate, 3rd & short",
+        "value": 0.5862,
+        "display": "59%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "CLE defense: run success rate, 3rd & short",
+        "value": 0.75,
+        "display": "75%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "CLE defense: blitz rate, 3rd & short",
+        "value": 0.2308,
+        "display": "23%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.3832,
+        "league_display": "38%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "CLE defense: dropback success rate, 3rd & long",
+        "value": 0.3448,
+        "display": "34%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "CLE.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "CLE defense: blitz rate, 3rd & long",
+        "value": 0.4483,
+        "display": "45%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.4332,
+        "league_display": "43%"
+      },
+      {
+        "id": "CLE.def.2026.zone.red_zone.success_rate",
+        "label": "CLE defense: success rate, red zone",
+        "value": 0.3934,
+        "display": "39%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "CLE.def.2026.zone.red_zone.epa_per_play",
+        "label": "CLE defense: EPA/play, red zone",
+        "value": -0.0672,
+        "display": "-0.07",
+        "unit": "epa",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "CLE.def.2026.zone.red_zone.pass_success_rate",
+        "label": "CLE defense: dropback success rate, red zone",
+        "value": 0.381,
+        "display": "38%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.4272,
+        "league_display": "43%"
+      },
+      {
+        "id": "CLE.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "CLE defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.2381,
+        "display": "24%",
+        "unit": "rate",
+        "n": 24,
+        "low_sample": false,
+        "league_value": 0.4095,
+        "league_display": "41%"
+      },
+      {
+        "id": "PIT.off.2026.overall.all.epa_per_play",
+        "label": "PIT offense: EPA/play, all plays",
+        "value": -0.0484,
+        "display": "-0.05",
+        "unit": "epa",
+        "n": 434,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "PIT.off.2026.overall.all.success_rate",
+        "label": "PIT offense: success rate, all plays",
+        "value": 0.4147,
+        "display": "41%",
+        "unit": "rate",
+        "n": 434,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "PIT.off.2026.overall.all.pass_rate",
+        "label": "PIT offense: pass rate, all plays",
+        "value": 0.6659,
+        "display": "67%",
+        "unit": "rate",
+        "n": 434,
+        "low_sample": false,
+        "league_value": 0.6076,
+        "league_display": "61%"
+      },
+      {
+        "id": "PIT.off.2026.overall.all.proe",
+        "label": "PIT offense: pass rate over expected, all plays",
+        "value": 0.0288,
+        "display": "3%",
+        "unit": "rate",
+        "n": 434,
+        "low_sample": false,
+        "league_value": -0.0189,
+        "league_display": "-2%"
+      },
+      {
+        "id": "PIT.off.2026.overall.all.explosive_rate",
+        "label": "PIT offense: explosive-play rate, all plays",
+        "value": 0.0853,
+        "display": "9%",
+        "unit": "rate",
+        "n": 434,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d1-long.pass_rate",
+        "label": "PIT offense: pass rate, 1st & long",
+        "value": 0.5954,
+        "display": "60%",
+        "unit": "rate",
+        "n": 173,
+        "low_sample": false,
+        "league_value": 0.5041,
+        "league_display": "50%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d1-long.proe",
+        "label": "PIT offense: pass rate over expected, 1st & long",
+        "value": 0.0619,
+        "display": "6%",
+        "unit": "rate",
+        "n": 173,
+        "low_sample": false,
+        "league_value": -0.0166,
+        "league_display": "-2%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d1-long.success_rate",
+        "label": "PIT offense: success rate, 1st & long",
+        "value": 0.3931,
+        "display": "39%",
+        "unit": "rate",
+        "n": 173,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "PIT offense: play-action rate, 1st & long",
+        "value": 0.2524,
+        "display": "25%",
+        "unit": "rate",
+        "n": 173,
+        "low_sample": false,
+        "league_value": 0.4063,
+        "league_display": "41%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-short.pass_rate",
+        "label": "PIT offense: pass rate, 3rd & short",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.4942,
+        "league_display": "49%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-short.success_rate",
+        "label": "PIT offense: success rate, 3rd & short",
+        "value": 0.68,
+        "display": "68%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "PIT offense: run success rate, 3rd & short",
+        "value": 0.9091,
+        "display": "91%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "PIT offense: dropback success rate, 3rd & long",
+        "value": 0.2105,
+        "display": "21%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-long.sack_rate",
+        "label": "PIT offense: sack rate, 3rd & long",
+        "value": 0.1579,
+        "display": "16%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.0787,
+        "league_display": "8%"
+      },
+      {
+        "id": "PIT.off.2026.down_dist.d3-long.screen_rate",
+        "label": "PIT offense: screen rate, 3rd & long",
+        "value": 0.0526,
+        "display": "5%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.0667,
+        "league_display": "7%"
+      },
+      {
+        "id": "PIT.off.2026.zone.red_zone.pass_rate",
+        "label": "PIT offense: pass rate, red zone",
+        "value": 0.7037,
+        "display": "70%",
+        "unit": "rate",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.5372,
+        "league_display": "54%"
+      },
+      {
+        "id": "PIT.off.2026.zone.red_zone.success_rate",
+        "label": "PIT offense: success rate, red zone",
+        "value": 0.3704,
+        "display": "37%",
+        "unit": "rate",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "PIT.off.2026.zone.red_zone.epa_per_play",
+        "label": "PIT offense: EPA/play, red zone",
+        "value": -0.1769,
+        "display": "-0.18",
+        "unit": "epa",
+        "n": 54,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "PIT.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "PIT offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8507,
+        "display": "85%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "PIT.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "PIT offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4925,
+        "display": "49%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense that excels in red zone and two-minute situations, prioritize pressure and man coverage to limit deep passes and exploit run-pass tendencies.",
+  "keys": [
+    {
+      "detail": "PIT offense has a high pass rate (67%) and a strong play-action tendency (25%) in 1st & long, indicating a need for man coverage and simulated pressure to disrupt timing.",
+      "stat_ids": [
+        "PIT.off.2026.overall.all.pass_rate",
+        "PIT.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "High Pass Rate with Play Action"
+    },
+    {
+      "detail": "PIT offense has a low success rate in 3rd & long (21%) and a high screen rate (5%), suggesting a need for aggressive pressure and zone coverage to stop screen plays and deep passes.",
+      "stat_ids": [
+        "PIT.off.2026.down_dist.d3-long.pass_success_rate",
+        "PIT.off.2026.down_dist.d3-long.screen_rate"
+      ],
+      "title": "Poor 3rd & Long Performance"
+    },
+    {
+      "detail": "CLE defense allows more EPA per play (-0.07 in red zone) and has a lower success rate (39%) in red zone compared to league average, indicating vulnerability in the red zone.",
+      "stat_ids": [
+        "CLE.def.2026.zone.red_zone.success_rate",
+        "CLE.def.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Red Zone Vulnerability"
+    },
+    {
+      "detail": "PIT offense has a 3% pass rate over expected, indicating a slight overperformance in passing, which may be exploited with man coverage and pressure.",
+      "stat_ids": [
+        "PIT.off.2026.overall.all.proe"
+      ],
+      "title": "Passing Over Expected"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Even front with single-high shell",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=168 for 1st & long success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "PIT has a high pass rate in 1st & long, so a single-high shell with man coverage is needed to limit deep passes."
+        },
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "PIT uses play action in 1st & long, so man coverage behind a simulated pressure is essential."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "CLE defense has a 39% success rate in 1st & long, well below league average, indicating a need for aggressive front and coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Tight man coverage with 2-man front",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=25 for 3rd & short run success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Tight man coverage with 2-man front",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "PIT has a 91% run success rate in 3rd & short, indicating a need for tight man coverage to stop runs."
+        },
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "PIT has a high pass rate in 3rd & short, so man coverage is essential to limit passing."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "No data on 3rd & short success rate; confidence reduced."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Two-deep shell with man coverage",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "bear",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=30 for 3rd & long success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep shell with man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "PIT has a 21% success rate in 3rd & long, the worst in this sheet, indicating a need for aggressive pressure and man coverage."
+        },
+        {
+          "stat_ids": [
+            "PIT.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "PIT has a 5% screen rate in 3rd & long, suggesting a need to take away screen plays with man coverage."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "CLE has a 45% blitz rate in 3rd & long, above league average, indicating a need for consistent pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with man coverage",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "bear",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=61 for red zone success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PIT.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "PIT has a 70% pass rate in red zone, indicating a need for deep coverage and man coverage to stop slants and fades."
+        },
+        {
+          "stat_ids": [
+            "PIT.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "PIT has a 37% success rate in red zone, the worst in this sheet, indicating a high risk of failure in this area."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "CLE defense has a 39% success rate in red zone, below league average, showing a need for aggressive pressure and man coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with man coverage",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "bear",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=67 for two-minute success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "PIT.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "PIT has an 85% pass rate in two-minute situations, indicating a need for deep coverage and man coverage."
+        },
+        {
+          "stat_ids": [
+            "PIT.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "PIT has a 49% success rate in two-minute situations, indicating a high risk of failure and need for aggressive pressure."
+        },
+        {
+          "stat_ids": [
+            "CLE.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "CLE has a 39% success rate in red zone, below league average, showing a need for aggressive coverage."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

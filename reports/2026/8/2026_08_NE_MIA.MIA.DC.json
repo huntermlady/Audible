@@ -1,0 +1,652 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_08_NE_MIA",
+  "season": 2026,
+  "week": 8,
+  "team": "MIA",
+  "opponent": "NE",
+  "role": "DC",
+  "generated_at": "2026-10-28T10:13:16Z",
+  "stats_as_of": "2026-10-26",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_08_NE_MIA",
+      "season": 2026,
+      "team": "MIA",
+      "opponent": "NE",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "MIA.def.2026.overall.all.epa_per_play",
+        "label": "MIA defense: EPA/play, all plays",
+        "value": 0.1306,
+        "display": "+0.13",
+        "unit": "epa",
+        "n": 342,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.success_rate",
+        "label": "MIA defense: success rate, all plays",
+        "value": 0.4912,
+        "display": "49%",
+        "unit": "rate",
+        "n": 342,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.explosive_rate",
+        "label": "MIA defense: explosive-play rate, all plays",
+        "value": 0.0965,
+        "display": "10%",
+        "unit": "rate",
+        "n": 342,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.blitz_rate",
+        "label": "MIA defense: blitz rate, all plays",
+        "value": 0.2579,
+        "display": "26%",
+        "unit": "rate",
+        "n": 342,
+        "low_sample": false,
+        "league_value": 0.3179,
+        "league_display": "32%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.success_rate",
+        "label": "MIA defense: success rate, 1st & long",
+        "value": 0.4964,
+        "display": "50%",
+        "unit": "rate",
+        "n": 139,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "MIA defense: run success rate, 1st & long",
+        "value": 0.4459,
+        "display": "45%",
+        "unit": "rate",
+        "n": 139,
+        "low_sample": false,
+        "league_value": 0.3527,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 1st & long",
+        "value": 0.5538,
+        "display": "55%",
+        "unit": "rate",
+        "n": 139,
+        "low_sample": false,
+        "league_value": 0.4891,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "MIA defense: explosive-play rate, 1st & long",
+        "value": 0.1223,
+        "display": "12%",
+        "unit": "rate",
+        "n": 139,
+        "low_sample": false,
+        "league_value": 0.0948,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.success_rate",
+        "label": "MIA defense: success rate, 3rd & short",
+        "value": 0.76,
+        "display": "76%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "MIA defense: run success rate, 3rd & short",
+        "value": 0.7778,
+        "display": "78%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & short",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.3832,
+        "league_display": "38%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2982,
+        "display": "30%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4912,
+        "display": "49%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.man_rate",
+        "label": "MIA defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.success_rate",
+        "label": "MIA defense: success rate, red zone",
+        "value": 0.443,
+        "display": "44%",
+        "unit": "rate",
+        "n": 79,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.epa_per_play",
+        "label": "MIA defense: EPA/play, red zone",
+        "value": 0.1745,
+        "display": "+0.17",
+        "unit": "epa",
+        "n": 79,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.pass_success_rate",
+        "label": "MIA defense: dropback success rate, red zone",
+        "value": 0.5106,
+        "display": "51%",
+        "unit": "rate",
+        "n": 79,
+        "low_sample": false,
+        "league_value": 0.4272,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "MIA defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "MIA defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.epa_per_play",
+        "label": "NE offense: EPA/play, all plays",
+        "value": 0.0541,
+        "display": "+0.05",
+        "unit": "epa",
+        "n": 428,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NE.off.2026.overall.all.success_rate",
+        "label": "NE offense: success rate, all plays",
+        "value": 0.4509,
+        "display": "45%",
+        "unit": "rate",
+        "n": 428,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.pass_rate",
+        "label": "NE offense: pass rate, all plays",
+        "value": 0.5981,
+        "display": "60%",
+        "unit": "rate",
+        "n": 428,
+        "low_sample": false,
+        "league_value": 0.6076,
+        "league_display": "61%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.proe",
+        "label": "NE offense: pass rate over expected, all plays",
+        "value": -0.0004,
+        "display": "0%",
+        "unit": "rate",
+        "n": 428,
+        "low_sample": false,
+        "league_value": -0.0189,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.explosive_rate",
+        "label": "NE offense: explosive-play rate, all plays",
+        "value": 0.0888,
+        "display": "9%",
+        "unit": "rate",
+        "n": 428,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NE offense: pass rate, 1st & long",
+        "value": 0.4713,
+        "display": "47%",
+        "unit": "rate",
+        "n": 174,
+        "low_sample": false,
+        "league_value": 0.5041,
+        "league_display": "50%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.proe",
+        "label": "NE offense: pass rate over expected, 1st & long",
+        "value": -0.0351,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 174,
+        "low_sample": false,
+        "league_value": -0.0166,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.success_rate",
+        "label": "NE offense: success rate, 1st & long",
+        "value": 0.4023,
+        "display": "40%",
+        "unit": "rate",
+        "n": 174,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NE offense: play-action rate, 1st & long",
+        "value": 0.3049,
+        "display": "30%",
+        "unit": "rate",
+        "n": 174,
+        "low_sample": false,
+        "league_value": 0.4063,
+        "league_display": "41%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.pass_rate",
+        "label": "NE offense: pass rate, 3rd & short",
+        "value": 0.5172,
+        "display": "52%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4942,
+        "league_display": "49%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.success_rate",
+        "label": "NE offense: success rate, 3rd & short",
+        "value": 0.5862,
+        "display": "59%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "NE offense: run success rate, 3rd & short",
+        "value": 0.6429,
+        "display": "64%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NE offense: dropback success rate, 3rd & long",
+        "value": 0.3684,
+        "display": "37%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NE offense: sack rate, 3rd & long",
+        "value": 0.0526,
+        "display": "5%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0787,
+        "league_display": "8%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NE offense: screen rate, 3rd & long",
+        "value": 0.1579,
+        "display": "16%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.0667,
+        "league_display": "7%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.pass_rate",
+        "label": "NE offense: pass rate, red zone",
+        "value": 0.6316,
+        "display": "63%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.5372,
+        "league_display": "54%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.success_rate",
+        "label": "NE offense: success rate, red zone",
+        "value": 0.386,
+        "display": "39%",
+        "unit": "rate",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.epa_per_play",
+        "label": "NE offense: EPA/play, red zone",
+        "value": -0.0582,
+        "display": "-0.06",
+        "unit": "epa",
+        "n": 57,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NE offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8333,
+        "display": "83%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NE offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a pass-heavy, play-action-prone offense with a high EPA and poor red zone performance, prioritize man coverage and pressure on 1st & long and in the red zone, with a two-deep zone package in two-minute situations.",
+  "keys": [
+    {
+      "detail": "MIA defense allows 1st & long pass success rate of 55% (league 49%), which is well above league average, indicating a strong pass defense under pressure.",
+      "stat_ids": [
+        "MIA.def.2026.down_dist.d1-long.pass_success_rate"
+      ],
+      "title": "Strong 1st & Long Pass Defense"
+    },
+    {
+      "detail": "MIA defense has a 26% blitz rate (league 32%), which is below league average, suggesting a need for more pressure to counter NE's play-action and deep passing tendencies.",
+      "stat_ids": [
+        "MIA.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "Below-League Blitz Rate"
+    },
+    {
+      "detail": "In the red zone, NE offense has a 39% success rate (league 43%) and a -0.06 EPA/play, indicating poor red zone efficiency; MIA defense has a 44% success rate (league 43%), which is about league average, suggesting a balanced red zone defense.",
+      "stat_ids": [
+        "MIA.def.2026.zone.red_zone.success_rate",
+        "NE.off.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Defense Balanced"
+    },
+    {
+      "detail": "NE offense has a 63% pass rate in the red zone (league 54%), and a 83% pass rate when trailing by one score in two-minute situations (league 83%), indicating a high reliance on passing under duress.",
+      "stat_ids": [
+        "NE.off.2026.zone.red_zone.pass_rate",
+        "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+      ],
+      "title": "High-Pressure Passing Tendency"
+    },
+    {
+      "detail": "MIA defense has a 76% success rate on 3rd & short (league 62%), with 78% run success rate, indicating strong short-yardage defense and a solid run-stopping foundation.",
+      "stat_ids": [
+        "MIA.def.2026.down_dist.d3-short.success_rate",
+        "MIA.def.2026.down_dist.d3-short.run_success_rate"
+      ],
+      "title": "Strong 3rd & Short Defense"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.overall.all.pass_rate"
+          ],
+          "text": "NE offense has a 60% pass rate, which is about league average, suggesting a balanced run-pass tendency; an even front with single-high is a sound default to match."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NE has a 30% play-action rate on 1st & long, which is below league average, indicating a moderate use of play-action; an even front with single-high provides coverage depth without overcommitting."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Tight man coverage with front-loaded pressure",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.def.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "MIA has a 76% success rate on 3rd & short, which is well above league average, indicating a strong short-yardage defense; tight man coverage is consistent with this strength."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "NE has a 64% run success rate on 3rd & short, which is below league average, suggesting a weak run defense; tight man coverage is effective in this context."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Man coverage with simulated pressure",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "when NE has a high play-action rate"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=21 for NE.off.2026.down_dist.d3-long.sack_rate and screen_rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Man coverage with simulated pressure",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NE has a 30% play-action rate on 1st & long, which is below league average, suggesting a moderate use of play-action; man coverage with simulated pressure is effective against such tendencies."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "NE has a 16% screen rate on 3rd & long, which is above league average, indicating a high use of screen plays; man coverage with simulated pressure can disrupt screen attempts."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Two-deep zone shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NE has a 63% pass rate in red zone, which is well above league average, indicating a strong deep passing tendency; a two-deep zone shell is effective at taking away deep routes."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "NE has a 39% success rate in red zone, which is below league average, suggesting a vulnerable pass defense; a two-deep zone shell reduces deep exposure."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Two-deep zone shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NE has an 83% pass rate when trailing by one score in two-minute situations, which is about league average, indicating a strong reliance on passing under duress; a two-deep zone shell is effective at limiting deep routes."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NE has a 56% success rate in two-minute situations, which is above league average, suggesting a high-efficiency passing attack; a two-deep zone shell is a necessary response."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

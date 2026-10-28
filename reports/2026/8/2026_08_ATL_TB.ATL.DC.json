@@ -1,0 +1,626 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_08_ATL_TB",
+  "season": 2026,
+  "week": 8,
+  "team": "ATL",
+  "opponent": "TB",
+  "role": "DC",
+  "generated_at": "2026-10-28T10:13:16Z",
+  "stats_as_of": "2026-10-26",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_08_ATL_TB",
+      "season": 2026,
+      "team": "ATL",
+      "opponent": "TB",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "ATL.def.2026.overall.all.epa_per_play",
+        "label": "ATL defense: EPA/play, all plays",
+        "value": -0.018,
+        "display": "-0.02",
+        "unit": "epa",
+        "n": 458,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.success_rate",
+        "label": "ATL defense: success rate, all plays",
+        "value": 0.4389,
+        "display": "44%",
+        "unit": "rate",
+        "n": 458,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.explosive_rate",
+        "label": "ATL defense: explosive-play rate, all plays",
+        "value": 0.0808,
+        "display": "8%",
+        "unit": "rate",
+        "n": 458,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "ATL.def.2026.overall.all.blitz_rate",
+        "label": "ATL defense: blitz rate, all plays",
+        "value": 0.2484,
+        "display": "25%",
+        "unit": "rate",
+        "n": 458,
+        "low_sample": false,
+        "league_value": 0.3179,
+        "league_display": "32%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.success_rate",
+        "label": "ATL defense: success rate, 1st & long",
+        "value": 0.4327,
+        "display": "43%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "ATL defense: run success rate, 1st & long",
+        "value": 0.3676,
+        "display": "37%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.3527,
+        "league_display": "35%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 1st & long",
+        "value": 0.4757,
+        "display": "48%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.4891,
+        "league_display": "49%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "ATL defense: explosive-play rate, 1st & long",
+        "value": 0.0643,
+        "display": "6%",
+        "unit": "rate",
+        "n": 171,
+        "low_sample": false,
+        "league_value": 0.0948,
+        "league_display": "9%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.success_rate",
+        "label": "ATL defense: success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "ATL defense: run success rate, 3rd & short",
+        "value": 0.8462,
+        "display": "85%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & short",
+        "value": 0.3529,
+        "display": "35%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.3832,
+        "league_display": "38%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "ATL defense: dropback success rate, 3rd & long",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "ATL.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "ATL defense: blitz rate, 3rd & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.4332,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.success_rate",
+        "label": "ATL defense: success rate, red zone",
+        "value": 0.4828,
+        "display": "48%",
+        "unit": "rate",
+        "n": 87,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.epa_per_play",
+        "label": "ATL defense: EPA/play, red zone",
+        "value": 0.1339,
+        "display": "+0.13",
+        "unit": "epa",
+        "n": 87,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "ATL.def.2026.zone.red_zone.pass_success_rate",
+        "label": "ATL defense: dropback success rate, red zone",
+        "value": 0.4528,
+        "display": "45%",
+        "unit": "rate",
+        "n": 87,
+        "low_sample": false,
+        "league_value": 0.4272,
+        "league_display": "43%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "ATL defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4821,
+        "display": "48%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "ATL.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "ATL defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.5893,
+        "display": "59%",
+        "unit": "rate",
+        "n": 60,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "TB.off.2026.overall.all.epa_per_play",
+        "label": "TB offense: EPA/play, all plays",
+        "value": -0.084,
+        "display": "-0.08",
+        "unit": "epa",
+        "n": 432,
+        "low_sample": false,
+        "league_value": 0.0077,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "TB.off.2026.overall.all.success_rate",
+        "label": "TB offense: success rate, all plays",
+        "value": 0.4074,
+        "display": "41%",
+        "unit": "rate",
+        "n": 432,
+        "low_sample": false,
+        "league_value": 0.4352,
+        "league_display": "44%"
+      },
+      {
+        "id": "TB.off.2026.overall.all.pass_rate",
+        "label": "TB offense: pass rate, all plays",
+        "value": 0.5833,
+        "display": "58%",
+        "unit": "rate",
+        "n": 432,
+        "low_sample": false,
+        "league_value": 0.6076,
+        "league_display": "61%"
+      },
+      {
+        "id": "TB.off.2026.overall.all.proe",
+        "label": "TB offense: pass rate over expected, all plays",
+        "value": -0.056,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 432,
+        "low_sample": false,
+        "league_value": -0.0189,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TB.off.2026.overall.all.explosive_rate",
+        "label": "TB offense: explosive-play rate, all plays",
+        "value": 0.0787,
+        "display": "8%",
+        "unit": "rate",
+        "n": 432,
+        "low_sample": false,
+        "league_value": 0.0856,
+        "league_display": "9%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d1-long.pass_rate",
+        "label": "TB offense: pass rate, 1st & long",
+        "value": 0.441,
+        "display": "44%",
+        "unit": "rate",
+        "n": 161,
+        "low_sample": false,
+        "league_value": 0.5041,
+        "league_display": "50%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d1-long.proe",
+        "label": "TB offense: pass rate over expected, 1st & long",
+        "value": -0.0812,
+        "display": "-8%",
+        "unit": "rate",
+        "n": 161,
+        "low_sample": false,
+        "league_value": -0.0166,
+        "league_display": "-2%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d1-long.success_rate",
+        "label": "TB offense: success rate, 1st & long",
+        "value": 0.3478,
+        "display": "35%",
+        "unit": "rate",
+        "n": 161,
+        "low_sample": false,
+        "league_value": 0.4214,
+        "league_display": "42%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "TB offense: play-action rate, 1st & long",
+        "value": 0.4648,
+        "display": "46%",
+        "unit": "rate",
+        "n": 161,
+        "low_sample": false,
+        "league_value": 0.4063,
+        "league_display": "41%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-short.pass_rate",
+        "label": "TB offense: pass rate, 3rd & short",
+        "value": 0.5625,
+        "display": "56%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.4942,
+        "league_display": "49%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-short.success_rate",
+        "label": "TB offense: success rate, 3rd & short",
+        "value": 0.6563,
+        "display": "66%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.6162,
+        "league_display": "62%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "TB offense: run success rate, 3rd & short",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.6751,
+        "league_display": "68%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "TB offense: dropback success rate, 3rd & long",
+        "value": 0.2963,
+        "display": "30%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.3427,
+        "league_display": "34%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-long.sack_rate",
+        "label": "TB offense: sack rate, 3rd & long",
+        "value": 0.1852,
+        "display": "19%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.0787,
+        "league_display": "8%"
+      },
+      {
+        "id": "TB.off.2026.down_dist.d3-long.screen_rate",
+        "label": "TB offense: screen rate, 3rd & long",
+        "value": 0.0741,
+        "display": "7%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.0667,
+        "league_display": "7%"
+      },
+      {
+        "id": "TB.off.2026.zone.red_zone.pass_rate",
+        "label": "TB offense: pass rate, red zone",
+        "value": 0.5211,
+        "display": "52%",
+        "unit": "rate",
+        "n": 71,
+        "low_sample": false,
+        "league_value": 0.5372,
+        "league_display": "54%"
+      },
+      {
+        "id": "TB.off.2026.zone.red_zone.success_rate",
+        "label": "TB offense: success rate, red zone",
+        "value": 0.507,
+        "display": "51%",
+        "unit": "rate",
+        "n": 71,
+        "low_sample": false,
+        "league_value": 0.4294,
+        "league_display": "43%"
+      },
+      {
+        "id": "TB.off.2026.zone.red_zone.epa_per_play",
+        "label": "TB offense: EPA/play, red zone",
+        "value": 0.0789,
+        "display": "+0.08",
+        "unit": "epa",
+        "n": 71,
+        "low_sample": false,
+        "league_value": 0.0323,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "TB.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "TB offense: pass rate, trailing by one score, two-minute",
+        "value": 0.9375,
+        "display": "94%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.8467,
+        "league_display": "85%"
+      },
+      {
+        "id": "TB.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "TB offense: success rate, trailing by one score, two-minute",
+        "value": 0.3125,
+        "display": "31%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.4124,
+        "league_display": "41%"
+      }
+    ]
+  },
+  "headline": "Against a pass-heavy, low-success offense that underperforms in deep passing, use aggressive pressure and man coverage to disrupt timing and force short gains.",
+  "keys": [
+    {
+      "detail": "TB offense has a low pass success rate on 1st & long and underperforms in expected outcomes, indicating a lack of deep passing ability. This supports a focus on pressure and man coverage.",
+      "stat_ids": [
+        "TB.off.2026.down_dist.d1-long.success_rate",
+        "TB.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Weak 1st & Long Passing"
+    },
+    {
+      "detail": "TB offense has a high play-action rate on 1st & long, suggesting a tendency to use deception to draw defenders. Man coverage with simulated pressure is needed to counter.",
+      "stat_ids": [
+        "TB.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "High Play-Action Usage"
+    },
+    {
+      "detail": "TB offense's red zone performance is strong in pass rate and success, but their two-minute success rate is poor when trailing, indicating a vulnerability under pressure.",
+      "stat_ids": [
+        "TB.off.2026.zone.red_zone.pass_rate",
+        "TB.off.2026.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "Poor Two-Minute Red Zone Performance"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ATL.def.2026.overall.all.success_rate"
+          ],
+          "text": "ATL defense has about league average success rate, so a balanced front is appropriate."
+        },
+        {
+          "stat_ids": [
+            "TB.off.2026.overall.all.pass_rate"
+          ],
+          "text": "TB offense has a pass rate above league average, so man coverage is justified."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TB.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "TB offense has a success rate above league average on 3rd & short, indicating a strong run game."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "ATL defense has a high run success rate on 3rd & short, supporting a tight man coverage setup."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "two-deep shell",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "when TB has high play-action rate"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=20 for 3rd & long data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep shell",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TB.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "TB offense has a low pass success rate on 3rd & long, suggesting a weak deep passing game."
+        },
+        {
+          "stat_ids": [
+            "TB.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "TB offense has a high sack rate on 3rd & long, indicating a tendency to run, not pass."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TB.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "TB offense has a high pass rate in red zone, so man coverage is needed to take away slants and fades."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "ATL defense has a success rate above league average in red zone, indicating a solid foundation."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "dime sub-package",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "TB.off.2026.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "TB offense has a very high pass rate when trailing, indicating a need to take away deep passes."
+        },
+        {
+          "stat_ids": [
+            "ATL.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "ATL defense has a pass success rate above league average in red zone, supporting a two-deep zone."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}
