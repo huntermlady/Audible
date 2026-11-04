@@ -1,0 +1,702 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_09_JAX_BAL",
+  "season": 2026,
+  "week": 9,
+  "team": "BAL",
+  "opponent": "JAX",
+  "role": "OC",
+  "generated_at": "2026-11-04T11:46:32Z",
+  "stats_as_of": "2026-11-02",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_09_JAX_BAL",
+      "season": 2026,
+      "team": "BAL",
+      "opponent": "JAX",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "BAL.off.2026.overall.all.epa_per_play",
+        "label": "BAL offense: EPA/play, all plays",
+        "value": 0.0228,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 472,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.success_rate",
+        "label": "BAL offense: success rate, all plays",
+        "value": 0.4555,
+        "display": "46%",
+        "unit": "rate",
+        "n": 472,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.pass_rate",
+        "label": "BAL offense: pass rate, all plays",
+        "value": 0.5678,
+        "display": "57%",
+        "unit": "rate",
+        "n": 472,
+        "low_sample": false,
+        "league_value": 0.6035,
+        "league_display": "60%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.proe",
+        "label": "BAL offense: pass rate over expected, all plays",
+        "value": -0.0416,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 472,
+        "low_sample": false,
+        "league_value": -0.0217,
+        "league_display": "-2%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.explosive_rate",
+        "label": "BAL offense: explosive-play rate, all plays",
+        "value": 0.0911,
+        "display": "9%",
+        "unit": "rate",
+        "n": 472,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.pass_rate",
+        "label": "BAL offense: pass rate, 1st & long",
+        "value": 0.4426,
+        "display": "44%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.501,
+        "league_display": "50%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.proe",
+        "label": "BAL offense: pass rate over expected, 1st & long",
+        "value": -0.0648,
+        "display": "-6%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": -0.0191,
+        "league_display": "-2%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.success_rate",
+        "label": "BAL offense: success rate, 1st & long",
+        "value": 0.4809,
+        "display": "48%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "BAL offense: play-action rate, 1st & long",
+        "value": 0.3827,
+        "display": "38%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.4031,
+        "league_display": "40%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.pass_rate",
+        "label": "BAL offense: pass rate, 3rd & short",
+        "value": 0.5185,
+        "display": "52%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.495,
+        "league_display": "50%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.success_rate",
+        "label": "BAL offense: success rate, 3rd & short",
+        "value": 0.4815,
+        "display": "48%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "BAL offense: run success rate, 3rd & short",
+        "value": 0.5385,
+        "display": "54%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.pass_success_rate",
+        "label": "BAL offense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2778,
+        "display": "28%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.sack_rate",
+        "label": "BAL offense: sack rate, 3rd & long (2025)",
+        "value": 0.1296,
+        "display": "13%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.1082,
+        "league_display": "11%"
+      },
+      {
+        "id": "BAL.off.2025.down_dist.d3-long.screen_rate",
+        "label": "BAL offense: screen rate, 3rd & long (2025)",
+        "value": 0.037,
+        "display": "4%",
+        "unit": "rate",
+        "n": 56,
+        "low_sample": false,
+        "league_value": 0.0544,
+        "league_display": "5%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.pass_rate",
+        "label": "BAL offense: pass rate, red zone",
+        "value": 0.4337,
+        "display": "43%",
+        "unit": "rate",
+        "n": 83,
+        "low_sample": false,
+        "league_value": 0.5332,
+        "league_display": "53%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.success_rate",
+        "label": "BAL offense: success rate, red zone",
+        "value": 0.4458,
+        "display": "45%",
+        "unit": "rate",
+        "n": 83,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.epa_per_play",
+        "label": "BAL offense: EPA/play, red zone",
+        "value": 0.0203,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 83,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "BAL.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "BAL offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8889,
+        "display": "89%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.8367,
+        "league_display": "84%"
+      },
+      {
+        "id": "BAL.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "BAL offense: success rate, trailing by one score, two-minute",
+        "value": 0.5185,
+        "display": "52%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.425,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.epa_per_play",
+        "label": "JAX defense: EPA/play, all plays",
+        "value": -0.0991,
+        "display": "-0.10",
+        "unit": "epa",
+        "n": 412,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.success_rate",
+        "label": "JAX defense: success rate, all plays",
+        "value": 0.4223,
+        "display": "42%",
+        "unit": "rate",
+        "n": 412,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.explosive_rate",
+        "label": "JAX defense: explosive-play rate, all plays",
+        "value": 0.0777,
+        "display": "8%",
+        "unit": "rate",
+        "n": 412,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.blitz_rate",
+        "label": "JAX defense: blitz rate, all plays",
+        "value": 0.3048,
+        "display": "30%",
+        "unit": "rate",
+        "n": 412,
+        "low_sample": false,
+        "league_value": 0.3188,
+        "league_display": "32%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.success_rate",
+        "label": "JAX defense: success rate, 1st & long",
+        "value": 0.3882,
+        "display": "39%",
+        "unit": "rate",
+        "n": 170,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "JAX defense: run success rate, 1st & long",
+        "value": 0.3614,
+        "display": "36%",
+        "unit": "rate",
+        "n": 170,
+        "low_sample": false,
+        "league_value": 0.3521,
+        "league_display": "35%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 1st & long",
+        "value": 0.4138,
+        "display": "41%",
+        "unit": "rate",
+        "n": 170,
+        "low_sample": false,
+        "league_value": 0.4937,
+        "league_display": "49%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "JAX defense: explosive-play rate, 1st & long",
+        "value": 0.1059,
+        "display": "11%",
+        "unit": "rate",
+        "n": 170,
+        "low_sample": false,
+        "league_value": 0.0972,
+        "league_display": "10%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.success_rate",
+        "label": "JAX defense: success rate, 3rd & short",
+        "value": 0.44,
+        "display": "44%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "JAX defense: run success rate, 3rd & short",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & short",
+        "value": 0.3571,
+        "display": "36%",
+        "unit": "rate",
+        "n": 25,
+        "low_sample": false,
+        "league_value": 0.3864,
+        "league_display": "39%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 3rd & long",
+        "value": 0.3871,
+        "display": "39%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & long",
+        "value": 0.3226,
+        "display": "32%",
+        "unit": "rate",
+        "n": 32,
+        "low_sample": false,
+        "league_value": 0.4269,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.success_rate",
+        "label": "JAX defense: success rate, red zone",
+        "value": 0.3065,
+        "display": "31%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.epa_per_play",
+        "label": "JAX defense: EPA/play, red zone",
+        "value": -0.541,
+        "display": "-0.54",
+        "unit": "epa",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.pass_success_rate",
+        "label": "JAX defense: dropback success rate, red zone",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 62,
+        "low_sample": false,
+        "league_value": 0.4314,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "JAX defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4186,
+        "display": "42%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "JAX.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "JAX defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.6512,
+        "display": "65%",
+        "unit": "rate",
+        "n": 51,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Against a defense that pressures and allows few passes in red zone, BAL must rely on quick, play-action-based passes and avoid deep shots in critical situations.",
+  "keys": [
+    {
+      "detail": "BAL offense has a pass rate 57% (league 60%) and a success rate 46% (league 44%), which is about league average overall, but underperforms in 1st & long with only 44% pass rate and 48% success rate.",
+      "stat_ids": [
+        "BAL.off.2026.overall.all.pass_rate",
+        "BAL.off.2026.down_dist.d1-long.pass_rate",
+        "BAL.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Pass Rate and Success Underperforms in 1st & Long"
+    },
+    {
+      "detail": "JAX defense allows only 39% success rate on 1st & long and 33% in red zone, and has a negative EPA per play (-0.10), indicating it is aggressive and effective at stopping progress.",
+      "stat_ids": [
+        "JAX.def.2026.down_dist.d1-long.success_rate",
+        "JAX.def.2026.zone.red_zone.success_rate",
+        "JAX.def.2026.overall.all.epa_per_play"
+      ],
+      "title": "JAX Defense Is Aggressive and Effective at Stopping Offense"
+    },
+    {
+      "detail": "BAL's explosive-play rate is 9% (league 9%), matching league average, but its pass rate over expected is -4% (league -2%), indicating poor efficiency in pass execution.",
+      "stat_ids": [
+        "BAL.off.2026.overall.all.proe",
+        "BAL.off.2026.overall.all.explosive_rate"
+      ],
+      "title": "Pass Efficiency Is Below League Average"
+    },
+    {
+      "detail": "JAX defense has a 30% blitz rate (league 32%) and 32% blitz rate in 3rd & long (league 43%), showing it pressures the passer consistently, especially in longer downs.",
+      "stat_ids": [
+        "JAX.def.2026.overall.all.blitz_rate",
+        "JAX.def.2026.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "JAX Defense Frequently Blitzes to Pressure the Passer"
+    },
+    {
+      "detail": "In red zone, BAL's pass rate is 43% (league 53%) and success rate is 45% (league 43%), indicating it struggles to convert in tight spaces.",
+      "stat_ids": [
+        "BAL.off.2026.zone.red_zone.pass_rate",
+        "BAL.off.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Red Zone Performance Is Below League Average"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=27 for 3rd & short success rate; confidence reduced"
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d1-long.pass_rate",
+            "BAL.off.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "BAL's pass rate on 1st & long is 44% (league 50%) and success rate is 48% (league 42%), indicating a need to use play-action to improve conversion chances."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d1-long.pass_success_rate",
+            "JAX.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "JAX defense has 41% pass success rate on 1st & long and 30% blitz rate, showing it pressures the passer and is effective at stopping deep passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Run play with zone coverage",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=25 for 3rd & short stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Run play with zone coverage",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-short.success_rate",
+            "JAX.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "JAX has 44% success rate and 36% blitz rate on 3rd & short, indicating it is aggressive and favors stopping runs and passes."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "BAL's 3rd & short success rate is not provided, but overall performance suggests a need to rely on run plays to avoid pressure."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen play",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=56 for 3rd & long stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Screen play",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d1-long.pass_rate",
+            "BAL.off.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "BAL's 1st & long pass rate is 44% and success rate is 48%, indicating a need to use screen plays to avoid pressure and move the ball."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-long.blitz_rate",
+            "JAX.def.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "JAX has 32% blitz rate on 3rd & long and 39% pass success rate, showing it is aggressive and effective at stopping passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Quick slant or fade",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=83 for red zone stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick slant or fade",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.zone.red_zone.pass_rate",
+            "BAL.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "BAL's pass rate in red zone is 43% (league 53%) and success rate is 45% (league 43%), indicating a need for quick, short passes to avoid pressure."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.zone.red_zone.success_rate",
+            "JAX.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "JAX defense has 31% success rate and 33% pass success rate in red zone, showing it is highly effective at stopping passes in tight spaces."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Zone coverage with quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=51 for 2025 trailing defense stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Zone coverage with quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+            "JAX.def.2025.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "JAX has 65% zone coverage and 42% pass success rate in two-minute scenarios, indicating it uses zone coverage to limit passing opportunities."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.overall.all.pass_rate",
+            "BAL.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "BAL's overall pass rate is 57% (league 60%), suggesting it can execute quick passes when under pressure."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

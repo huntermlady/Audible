@@ -1,0 +1,639 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_09_DET_MIA",
+  "season": 2026,
+  "week": 9,
+  "team": "MIA",
+  "opponent": "DET",
+  "role": "DC",
+  "generated_at": "2026-11-04T11:46:32Z",
+  "stats_as_of": "2026-11-02",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_09_DET_MIA",
+      "season": 2026,
+      "team": "MIA",
+      "opponent": "DET",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "MIA.def.2026.overall.all.epa_per_play",
+        "label": "MIA defense: EPA/play, all plays",
+        "value": 0.1287,
+        "display": "+0.13",
+        "unit": "epa",
+        "n": 398,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.success_rate",
+        "label": "MIA defense: success rate, all plays",
+        "value": 0.4925,
+        "display": "49%",
+        "unit": "rate",
+        "n": 398,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.explosive_rate",
+        "label": "MIA defense: explosive-play rate, all plays",
+        "value": 0.098,
+        "display": "10%",
+        "unit": "rate",
+        "n": 398,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.blitz_rate",
+        "label": "MIA defense: blitz rate, all plays",
+        "value": 0.2361,
+        "display": "24%",
+        "unit": "rate",
+        "n": 398,
+        "low_sample": false,
+        "league_value": 0.3188,
+        "league_display": "32%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.success_rate",
+        "label": "MIA defense: success rate, 1st & long",
+        "value": 0.4875,
+        "display": "49%",
+        "unit": "rate",
+        "n": 160,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "MIA defense: run success rate, 1st & long",
+        "value": 0.4302,
+        "display": "43%",
+        "unit": "rate",
+        "n": 160,
+        "low_sample": false,
+        "league_value": 0.3521,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 1st & long",
+        "value": 0.5541,
+        "display": "55%",
+        "unit": "rate",
+        "n": 160,
+        "low_sample": false,
+        "league_value": 0.4937,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "MIA defense: explosive-play rate, 1st & long",
+        "value": 0.125,
+        "display": "13%",
+        "unit": "rate",
+        "n": 160,
+        "low_sample": false,
+        "league_value": 0.0972,
+        "league_display": "10%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.success_rate",
+        "label": "MIA defense: success rate, 3rd & short",
+        "value": 0.7742,
+        "display": "77%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "MIA defense: run success rate, 3rd & short",
+        "value": 0.7692,
+        "display": "77%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & short",
+        "value": 0.2222,
+        "display": "22%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.3864,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 3rd & long (2025)",
+        "value": 0.2982,
+        "display": "30%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3505,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & long (2025)",
+        "value": 0.4912,
+        "display": "49%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3854,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2025.down_dist.d3-long.man_rate",
+        "label": "MIA defense: man coverage rate, 3rd & long (2025)",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 61,
+        "low_sample": false,
+        "league_value": 0.3941,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.success_rate",
+        "label": "MIA defense: success rate, red zone",
+        "value": 0.4706,
+        "display": "47%",
+        "unit": "rate",
+        "n": 85,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.epa_per_play",
+        "label": "MIA defense: EPA/play, red zone",
+        "value": 0.1879,
+        "display": "+0.19",
+        "unit": "epa",
+        "n": 85,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.pass_success_rate",
+        "label": "MIA defense: dropback success rate, red zone",
+        "value": 0.52,
+        "display": "52%",
+        "unit": "rate",
+        "n": 85,
+        "low_sample": false,
+        "league_value": 0.4314,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "MIA defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "MIA defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.epa_per_play",
+        "label": "DET offense: EPA/play, all plays",
+        "value": 0.1154,
+        "display": "+0.12",
+        "unit": "epa",
+        "n": 461,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "DET.off.2026.overall.all.success_rate",
+        "label": "DET offense: success rate, all plays",
+        "value": 0.4946,
+        "display": "49%",
+        "unit": "rate",
+        "n": 461,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.pass_rate",
+        "label": "DET offense: pass rate, all plays",
+        "value": 0.5835,
+        "display": "58%",
+        "unit": "rate",
+        "n": 461,
+        "low_sample": false,
+        "league_value": 0.6035,
+        "league_display": "60%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.proe",
+        "label": "DET offense: pass rate over expected, all plays",
+        "value": -0.0278,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 461,
+        "low_sample": false,
+        "league_value": -0.0217,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DET.off.2026.overall.all.explosive_rate",
+        "label": "DET offense: explosive-play rate, all plays",
+        "value": 0.115,
+        "display": "12%",
+        "unit": "rate",
+        "n": 461,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.pass_rate",
+        "label": "DET offense: pass rate, 1st & long",
+        "value": 0.5361,
+        "display": "54%",
+        "unit": "rate",
+        "n": 194,
+        "low_sample": false,
+        "league_value": 0.501,
+        "league_display": "50%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.proe",
+        "label": "DET offense: pass rate over expected, 1st & long",
+        "value": 0.0139,
+        "display": "1%",
+        "unit": "rate",
+        "n": 194,
+        "low_sample": false,
+        "league_value": -0.0191,
+        "league_display": "-2%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.success_rate",
+        "label": "DET offense: success rate, 1st & long",
+        "value": 0.5052,
+        "display": "51%",
+        "unit": "rate",
+        "n": 194,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "DET offense: play-action rate, 1st & long",
+        "value": 0.4904,
+        "display": "49%",
+        "unit": "rate",
+        "n": 194,
+        "low_sample": false,
+        "league_value": 0.4031,
+        "league_display": "40%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-short.pass_rate",
+        "label": "DET offense: pass rate, 3rd & short",
+        "value": 0.5909,
+        "display": "59%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.495,
+        "league_display": "50%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-short.success_rate",
+        "label": "DET offense: success rate, 3rd & short",
+        "value": 0.4545,
+        "display": "45%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "DET offense: run success rate, 3rd & short",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "DET offense: dropback success rate, 3rd & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-long.sack_rate",
+        "label": "DET offense: sack rate, 3rd & long",
+        "value": 0.1,
+        "display": "10%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.085,
+        "league_display": "9%"
+      },
+      {
+        "id": "DET.off.2026.down_dist.d3-long.screen_rate",
+        "label": "DET offense: screen rate, 3rd & long",
+        "value": 0.15,
+        "display": "15%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.064,
+        "league_display": "6%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.pass_rate",
+        "label": "DET offense: pass rate, red zone",
+        "value": 0.5652,
+        "display": "57%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.5332,
+        "league_display": "53%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.success_rate",
+        "label": "DET offense: success rate, red zone",
+        "value": 0.4783,
+        "display": "48%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "DET.off.2026.zone.red_zone.epa_per_play",
+        "label": "DET offense: EPA/play, red zone",
+        "value": 0.1826,
+        "display": "+0.18",
+        "unit": "epa",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "DET offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.931,
+        "display": "93%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "DET.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "DET offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3793,
+        "display": "38%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense with a strong red zone and two-minute tendency, prioritize man coverage and pressure to disrupt timing and exploit dropbacks.",
+  "keys": [
+    {
+      "detail": "MIA defense allows 10% explosive plays, well above league average, and has a 24% blitz rate, below league average, indicating a need for more pressure to counter explosive offense tendencies.",
+      "stat_ids": [
+        "MIA.def.2026.overall.all.explosive_rate",
+        "MIA.def.2026.overall.all.blitz_rate"
+      ],
+      "title": "Explosive Play and Blitz Rate"
+    },
+    {
+      "detail": "DET offense has a 58% pass rate and 1% pass rate over expected, indicating a consistent pass-first approach with slight overperformance, making man coverage and simulated pressure essential.",
+      "stat_ids": [
+        "DET.off.2026.overall.all.pass_rate",
+        "DET.off.2026.overall.all.proe"
+      ],
+      "title": "Offensive Pass Tendency"
+    },
+    {
+      "detail": "In red zone and two-minute situations, DET offense shows high pass rates (57% and 93%) and low success rates (48% and 38%), indicating vulnerability to disciplined man coverage and pressure.",
+      "stat_ids": [
+        "DET.off.2026.zone.red_zone.pass_rate",
+        "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "DET.off.2025.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "Red Zone and Two-Minute Vulnerability"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.overall.all.pass_rate"
+          ],
+          "text": "DET has a 58% pass rate, so a single-high shell with man coverage is appropriate to match pass tendency."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "Play-action is common in 1st & long, so a single-high shell with man coverage provides flexibility to defend play-action."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Tight man coverage with front-loaded pressure",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "bear",
+        "play_family": null,
+        "pressure": "blitz"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "DET has a 59% pass rate in 3rd & short, so tight man coverage is essential to defend pass attempts."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "DET success rate in 3rd & short is 45%, below league average, indicating a need for strong defensive pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Cover 3 with 2-man coverage",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "if DET shows high screen rate"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=22 for DET 3rd & long screen rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Cover 3 with 2-man coverage",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "DET has a 15% screen rate in 3rd & long, indicating a need to defend screen plays with 2-man coverage."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "DET pass success rate in 3rd & long is 40%, below league average, suggesting a need for aggressive coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Two-deep zone with man coverage behind",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "DET has a 57% pass rate in red zone, so a two-deep zone with man coverage behind is effective to take away deep routes."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "DET red zone success rate is 48%, about league average, indicating a need for disciplined coverage to limit success."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Dime sub-package with two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "DET.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "DET has a 93% pass rate in two-minute situations, indicating a need for two-deep zone to take away deep passes."
+        },
+        {
+          "stat_ids": [
+            "DET.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "DET success rate in two-minute is 38%, below league average, showing vulnerability to disciplined coverage."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

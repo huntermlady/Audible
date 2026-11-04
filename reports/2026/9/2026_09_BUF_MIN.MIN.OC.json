@@ -1,0 +1,694 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_09_BUF_MIN",
+  "season": 2026,
+  "week": 9,
+  "team": "MIN",
+  "opponent": "BUF",
+  "role": "OC",
+  "generated_at": "2026-11-04T11:46:32Z",
+  "stats_as_of": "2026-11-02",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_09_BUF_MIN",
+      "season": 2026,
+      "team": "MIN",
+      "opponent": "BUF",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "MIN.off.2026.overall.all.epa_per_play",
+        "label": "MIN offense: EPA/play, all plays",
+        "value": -0.1015,
+        "display": "-0.10",
+        "unit": "epa",
+        "n": 400,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.success_rate",
+        "label": "MIN offense: success rate, all plays",
+        "value": 0.37,
+        "display": "37%",
+        "unit": "rate",
+        "n": 400,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.pass_rate",
+        "label": "MIN offense: pass rate, all plays",
+        "value": 0.5775,
+        "display": "58%",
+        "unit": "rate",
+        "n": 400,
+        "low_sample": false,
+        "league_value": 0.6035,
+        "league_display": "60%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.proe",
+        "label": "MIN offense: pass rate over expected, all plays",
+        "value": -0.0301,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 400,
+        "low_sample": false,
+        "league_value": -0.0217,
+        "league_display": "-2%"
+      },
+      {
+        "id": "MIN.off.2026.overall.all.explosive_rate",
+        "label": "MIN offense: explosive-play rate, all plays",
+        "value": 0.085,
+        "display": "9%",
+        "unit": "rate",
+        "n": 400,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.pass_rate",
+        "label": "MIN offense: pass rate, 1st & long",
+        "value": 0.4276,
+        "display": "43%",
+        "unit": "rate",
+        "n": 152,
+        "low_sample": false,
+        "league_value": 0.501,
+        "league_display": "50%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.proe",
+        "label": "MIN offense: pass rate over expected, 1st & long",
+        "value": -0.0411,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 152,
+        "low_sample": false,
+        "league_value": -0.0191,
+        "league_display": "-2%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.success_rate",
+        "label": "MIN offense: success rate, 1st & long",
+        "value": 0.3421,
+        "display": "34%",
+        "unit": "rate",
+        "n": 152,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "MIN offense: play-action rate, 1st & long",
+        "value": 0.7231,
+        "display": "72%",
+        "unit": "rate",
+        "n": 152,
+        "low_sample": false,
+        "league_value": 0.4031,
+        "league_display": "40%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-short.pass_rate",
+        "label": "MIN offense: pass rate, 3rd & short",
+        "value": 0.6364,
+        "display": "64%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.495,
+        "league_display": "50%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-short.success_rate",
+        "label": "MIN offense: success rate, 3rd & short",
+        "value": 0.5909,
+        "display": "59%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "MIN offense: run success rate, 3rd & short",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "MIN offense: dropback success rate, 3rd & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-long.sack_rate",
+        "label": "MIN offense: sack rate, 3rd & long",
+        "value": 0.04,
+        "display": "4%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.085,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIN.off.2026.down_dist.d3-long.screen_rate",
+        "label": "MIN offense: screen rate, 3rd & long",
+        "value": 0,
+        "display": "0%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.064,
+        "league_display": "6%"
+      },
+      {
+        "id": "MIN.off.2026.zone.red_zone.pass_rate",
+        "label": "MIN offense: pass rate, red zone",
+        "value": 0.6136,
+        "display": "61%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.5332,
+        "league_display": "53%"
+      },
+      {
+        "id": "MIN.off.2026.zone.red_zone.success_rate",
+        "label": "MIN offense: success rate, red zone",
+        "value": 0.3864,
+        "display": "39%",
+        "unit": "rate",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIN.off.2026.zone.red_zone.epa_per_play",
+        "label": "MIN offense: EPA/play, red zone",
+        "value": -0.2118,
+        "display": "-0.21",
+        "unit": "epa",
+        "n": 44,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "MIN.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "MIN offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.925,
+        "display": "93%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "MIN.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "MIN offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.475,
+        "display": "48%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.epa_per_play",
+        "label": "BUF defense: EPA/play, all plays",
+        "value": 0.0628,
+        "display": "+0.06",
+        "unit": "epa",
+        "n": 457,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.success_rate",
+        "label": "BUF defense: success rate, all plays",
+        "value": 0.4595,
+        "display": "46%",
+        "unit": "rate",
+        "n": 457,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.explosive_rate",
+        "label": "BUF defense: explosive-play rate, all plays",
+        "value": 0.0941,
+        "display": "9%",
+        "unit": "rate",
+        "n": 457,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.blitz_rate",
+        "label": "BUF defense: blitz rate, all plays",
+        "value": 0.3857,
+        "display": "39%",
+        "unit": "rate",
+        "n": 457,
+        "low_sample": false,
+        "league_value": 0.3188,
+        "league_display": "32%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.success_rate",
+        "label": "BUF defense: success rate, 1st & long",
+        "value": 0.4293,
+        "display": "43%",
+        "unit": "rate",
+        "n": 184,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "BUF defense: run success rate, 1st & long",
+        "value": 0.3974,
+        "display": "40%",
+        "unit": "rate",
+        "n": 184,
+        "low_sample": false,
+        "league_value": 0.3521,
+        "league_display": "35%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "BUF defense: dropback success rate, 1st & long",
+        "value": 0.4528,
+        "display": "45%",
+        "unit": "rate",
+        "n": 184,
+        "low_sample": false,
+        "league_value": 0.4937,
+        "league_display": "49%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "BUF defense: explosive-play rate, 1st & long",
+        "value": 0.0924,
+        "display": "9%",
+        "unit": "rate",
+        "n": 184,
+        "low_sample": false,
+        "league_value": 0.0972,
+        "league_display": "10%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.success_rate",
+        "label": "BUF defense: success rate, 3rd & short",
+        "value": 0.5357,
+        "display": "54%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "BUF defense: run success rate, 3rd & short",
+        "value": 0.5833,
+        "display": "58%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "BUF defense: blitz rate, 3rd & short",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.3864,
+        "league_display": "39%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "BUF defense: dropback success rate, 3rd & long",
+        "value": 0.3846,
+        "display": "38%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "BUF defense: blitz rate, 3rd & long",
+        "value": 0.3846,
+        "display": "38%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.4269,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.success_rate",
+        "label": "BUF defense: success rate, red zone",
+        "value": 0.4762,
+        "display": "48%",
+        "unit": "rate",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.epa_per_play",
+        "label": "BUF defense: EPA/play, red zone",
+        "value": 0.1519,
+        "display": "+0.15",
+        "unit": "epa",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.pass_success_rate",
+        "label": "BUF defense: dropback success rate, red zone",
+        "value": 0.46,
+        "display": "46%",
+        "unit": "rate",
+        "n": 84,
+        "low_sample": false,
+        "league_value": 0.4314,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "BUF defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.5161,
+        "display": "52%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4243,
+        "league_display": "42%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes on 1st & long due to BUF's high blitz rate and weak pass defense under pressure.",
+  "keys": [
+    {
+      "detail": "MIN offense has a low success rate on 1st & long (34% vs league 42%) and a negative proe (-4% vs league -2%), indicating poor performance under pressure.",
+      "stat_ids": [
+        "MIN.off.2026.down_dist.d1-long.success_rate",
+        "MIN.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Poor 1st & Long Performance"
+    },
+    {
+      "detail": "MIN offense uses play-action at 72% on 1st & long, which is well above league average (40%), suggesting a strong play-action strategy that may exploit BUF's high blitz rate.",
+      "stat_ids": [
+        "MIN.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "High Play-Action Usage"
+    },
+    {
+      "detail": "BUF defense has a high blitz rate (39% vs league 32%) and weak pass defense in red zone (46% success rate vs league 43%), making it vulnerable to quick, short passes and play-action.",
+      "stat_ids": [
+        "BUF.def.2026.overall.all.blitz_rate",
+        "BUF.def.2026.zone.red_zone.pass_success_rate"
+      ],
+      "title": "BUF Defense Blitzes Frequently and Struggles in Red Zone"
+    },
+    {
+      "detail": "MIN offense has a 9% explosive-play rate (league 9%), indicating consistent explosive plays, which can be leveraged in two-minute situations to gain chunks.",
+      "stat_ids": [
+        "MIN.off.2026.overall.all.explosive_rate"
+      ],
+      "title": "Consistent Explosive-Play Rate"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action slant",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=22 for 3rd & short success rate; confidence reduced for 3rd & short decisions"
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action slant",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "MIN uses 72% play-action on 1st & long, which is well above league average, suggesting it is a proven strategy."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "BUF has a 39% blitz rate, above league average, making play-action a high-probability success option."
+        },
+        {
+          "stat_ids": [
+            "MIN.off.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "MIN's 34% success rate on 1st & long is the worst in this sheet, indicating a need for quick, simple plays."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=22 for 3rd & short run success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "MIN has a 58% run success rate on 3rd & short, above league average, indicating a strong run game."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "BUF has a 25% blitz rate on 3rd & short, below league average, suggesting less defensive pressure on runs."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BUF has a 58% run success rate on 3rd & short, indicating it is vulnerable to inside runs."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=26 for 3rd & long screen rate; confidence reduced"
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "MIN has a 0% screen rate on 3rd & long, the worst in this sheet, indicating a lack of screen usage in high-pressure situations."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "BUF has a 38% blitz rate on 3rd & long, above league average, making screen passes a high-risk, high-reward option."
+        },
+        {
+          "stat_ids": [
+            "MIN.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "MIN has a 4% sack rate on 3rd & long, below league average, suggesting a low risk of sacks."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Quick fade",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=44 for red zone success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick fade",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "MIN has a 61% pass rate in red zone, above league average, indicating a strong pass-first tendency."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "BUF has a 46% pass success rate in red zone, slightly above league average, suggesting vulnerability to quick passes."
+        },
+        {
+          "stat_ids": [
+            "MIN.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "MIN has an EPA/play of -0.21 in red zone, well below league average, indicating efficient play development."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick fade",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "trailing by one score"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=34 for two-minute pass success rate; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick fade",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIN.off.2026.overall.all.explosive_rate"
+          ],
+          "text": "MIN has a 9% explosive-play rate, matching league average, indicating consistent explosive plays."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "BUF has a 52% pass success rate in two-minute situations, above league average, suggesting a vulnerability to quick passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_09_GB_NE",
+  "season": 2026,
+  "week": 9,
+  "team": "GB",
+  "opponent": "NE",
+  "role": "DC",
+  "generated_at": "2026-11-04T11:46:32Z",
+  "stats_as_of": "2026-11-02",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_09_GB_NE",
+      "season": 2026,
+      "team": "GB",
+      "opponent": "NE",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "GB.def.2026.overall.all.epa_per_play",
+        "label": "GB defense: EPA/play, all plays",
+        "value": -0.0697,
+        "display": "-0.07",
+        "unit": "epa",
+        "n": 526,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "GB.def.2026.overall.all.success_rate",
+        "label": "GB defense: success rate, all plays",
+        "value": 0.4354,
+        "display": "44%",
+        "unit": "rate",
+        "n": 526,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "GB.def.2026.overall.all.explosive_rate",
+        "label": "GB defense: explosive-play rate, all plays",
+        "value": 0.0589,
+        "display": "6%",
+        "unit": "rate",
+        "n": 526,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "GB.def.2026.overall.all.blitz_rate",
+        "label": "GB defense: blitz rate, all plays",
+        "value": 0.3438,
+        "display": "34%",
+        "unit": "rate",
+        "n": 526,
+        "low_sample": false,
+        "league_value": 0.3188,
+        "league_display": "32%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.success_rate",
+        "label": "GB defense: success rate, 1st & long",
+        "value": 0.4476,
+        "display": "45%",
+        "unit": "rate",
+        "n": 210,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "GB defense: run success rate, 1st & long",
+        "value": 0.4059,
+        "display": "41%",
+        "unit": "rate",
+        "n": 210,
+        "low_sample": false,
+        "league_value": 0.3521,
+        "league_display": "35%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "GB defense: dropback success rate, 1st & long",
+        "value": 0.4862,
+        "display": "49%",
+        "unit": "rate",
+        "n": 210,
+        "low_sample": false,
+        "league_value": 0.4937,
+        "league_display": "49%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "GB defense: explosive-play rate, 1st & long",
+        "value": 0.0762,
+        "display": "8%",
+        "unit": "rate",
+        "n": 210,
+        "low_sample": false,
+        "league_value": 0.0972,
+        "league_display": "10%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d3-short.success_rate",
+        "label": "GB defense: success rate, 3rd & short",
+        "value": 0.6207,
+        "display": "62%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "GB defense: run success rate, 3rd & short",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "GB defense: blitz rate, 3rd & short",
+        "value": 0.8,
+        "display": "80%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.3864,
+        "league_display": "39%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "GB defense: dropback success rate, 3rd & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "GB.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "GB defense: blitz rate, 3rd & long",
+        "value": 0.3,
+        "display": "30%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.4269,
+        "league_display": "43%"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.success_rate",
+        "label": "GB defense: success rate, red zone",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 90,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.epa_per_play",
+        "label": "GB defense: EPA/play, red zone",
+        "value": 0.0342,
+        "display": "+0.03",
+        "unit": "epa",
+        "n": 90,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "GB.def.2026.zone.red_zone.pass_success_rate",
+        "label": "GB defense: dropback success rate, red zone",
+        "value": 0.4048,
+        "display": "40%",
+        "unit": "rate",
+        "n": 90,
+        "low_sample": false,
+        "league_value": 0.4314,
+        "league_display": "43%"
+      },
+      {
+        "id": "GB.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "GB defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.4419,
+        "display": "44%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "GB.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "GB defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 52,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.epa_per_play",
+        "label": "NE offense: EPA/play, all plays",
+        "value": 0.0615,
+        "display": "+0.06",
+        "unit": "epa",
+        "n": 484,
+        "low_sample": false,
+        "league_value": 0.002,
+        "league_display": "0.00"
+      },
+      {
+        "id": "NE.off.2026.overall.all.success_rate",
+        "label": "NE offense: success rate, all plays",
+        "value": 0.4566,
+        "display": "46%",
+        "unit": "rate",
+        "n": 484,
+        "low_sample": false,
+        "league_value": 0.4351,
+        "league_display": "44%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.pass_rate",
+        "label": "NE offense: pass rate, all plays",
+        "value": 0.5826,
+        "display": "58%",
+        "unit": "rate",
+        "n": 484,
+        "low_sample": false,
+        "league_value": 0.6035,
+        "league_display": "60%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.proe",
+        "label": "NE offense: pass rate over expected, all plays",
+        "value": -0.0132,
+        "display": "-1%",
+        "unit": "rate",
+        "n": 484,
+        "low_sample": false,
+        "league_value": -0.0217,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NE.off.2026.overall.all.explosive_rate",
+        "label": "NE offense: explosive-play rate, all plays",
+        "value": 0.0909,
+        "display": "9%",
+        "unit": "rate",
+        "n": 484,
+        "low_sample": false,
+        "league_value": 0.0861,
+        "league_display": "9%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NE offense: pass rate, 1st & long",
+        "value": 0.4667,
+        "display": "47%",
+        "unit": "rate",
+        "n": 195,
+        "low_sample": false,
+        "league_value": 0.501,
+        "league_display": "50%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.proe",
+        "label": "NE offense: pass rate over expected, 1st & long",
+        "value": -0.0344,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 195,
+        "low_sample": false,
+        "league_value": -0.0191,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.success_rate",
+        "label": "NE offense: success rate, 1st & long",
+        "value": 0.4051,
+        "display": "41%",
+        "unit": "rate",
+        "n": 195,
+        "low_sample": false,
+        "league_value": 0.4231,
+        "league_display": "42%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NE offense: play-action rate, 1st & long",
+        "value": 0.2967,
+        "display": "30%",
+        "unit": "rate",
+        "n": 195,
+        "low_sample": false,
+        "league_value": 0.4031,
+        "league_display": "40%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.pass_rate",
+        "label": "NE offense: pass rate, 3rd & short",
+        "value": 0.4857,
+        "display": "49%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.495,
+        "league_display": "50%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.success_rate",
+        "label": "NE offense: success rate, 3rd & short",
+        "value": 0.6286,
+        "display": "63%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6031,
+        "league_display": "60%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "NE offense: run success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6645,
+        "league_display": "66%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NE offense: dropback success rate, 3rd & long",
+        "value": 0.35,
+        "display": "35%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.3414,
+        "league_display": "34%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NE offense: sack rate, 3rd & long",
+        "value": 0.1,
+        "display": "10%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.085,
+        "league_display": "9%"
+      },
+      {
+        "id": "NE.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NE offense: screen rate, 3rd & long",
+        "value": 0.15,
+        "display": "15%",
+        "unit": "rate",
+        "n": 22,
+        "low_sample": false,
+        "league_value": 0.064,
+        "league_display": "6%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.pass_rate",
+        "label": "NE offense: pass rate, red zone",
+        "value": 0.619,
+        "display": "62%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.5332,
+        "league_display": "53%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.success_rate",
+        "label": "NE offense: success rate, red zone",
+        "value": 0.4286,
+        "display": "43%",
+        "unit": "rate",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.4326,
+        "league_display": "43%"
+      },
+      {
+        "id": "NE.off.2026.zone.red_zone.epa_per_play",
+        "label": "NE offense: EPA/play, red zone",
+        "value": -0.0181,
+        "display": "-0.02",
+        "unit": "epa",
+        "n": 63,
+        "low_sample": false,
+        "league_value": 0.0329,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NE offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8333,
+        "display": "83%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NE.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NE offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense with a strong two-minute tendency, GB defense must prioritize pass coverage and aggressive pressure to limit explosive plays and maintain field position.",
+  "keys": [
+    {
+      "detail": "NE offense has a high pass rate (58%) and a negative proe, indicating they pass more than expected, especially in 1st & long (47%) and red zone (62%).",
+      "stat_ids": [
+        "NE.off.2026.overall.all.pass_rate",
+        "NE.off.2026.down_dist.d1-long.pass_rate",
+        "NE.off.2026.zone.red_zone.pass_rate"
+      ],
+      "title": "High Pass Rate, Especially in Key Situations"
+    },
+    {
+      "detail": "GB defense has a 34% blitz rate overall, which is well above league average (32%), and a 30% blitz rate on 3rd & long, which is below league average (43%), suggesting inconsistent pressure application.",
+      "stat_ids": [
+        "GB.def.2026.overall.all.blitz_rate",
+        "GB.def.2026.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "Inconsistent Blitz Application"
+    },
+    {
+      "detail": "NE offense has a 15% screen rate on 3rd & long, which is well above league average (6%), indicating a high volume of quick, short plays that can exploit gaps in coverage.",
+      "stat_ids": [
+        "NE.off.2026.down_dist.d3-long.screen_rate"
+      ],
+      "title": "High Screen Rate on 3rd & Long"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.overall.all.pass_rate"
+          ],
+          "text": "NE offense has a high pass rate (58%) overall, so a cover1 shell with an even front is appropriate to match their run-pass tendency."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "On 1st & long, NE passes 47% of the time, which is below league average (50%), suggesting a tendency to pass in early downs, so a cover1 with man coverage is effective."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "blitz"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "On 3rd & short, NE passes 49% of the time, which is about league average (50%), indicating a high volume of passes that must be stopped."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "NE has a 63% success rate on 3rd & short, which is above league average (60%), suggesting a strong tendency to succeed on short passes."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "GB defense has an 80% blitz rate on 3rd & short, which is well above league average (39%), indicating aggressive pressure is already applied."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep shell",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "On 1st & long, NE passes 47% of the time, which is below league average (50%), suggesting a tendency to pass, so a two-deep shell is appropriate."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.down_dist.d1-long.proe"
+          ],
+          "text": "NE has a -3% proe on 1st & long, indicating they pass less than expected, so a two-deep shell with simulated pressure is effective to force a pass and limit deep throws."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "GB defense has a 40% dropback success rate on 3rd & long, which is about league average (34%), suggesting a need for better pass coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NE offense passes 62% of the time in the red zone, which is above league average (53%), so man coverage is needed to take away slants and fades."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "NE offense has a 43% success rate in the red zone, about league average, indicating they are effective in this zone, so man coverage with simulated pressure is needed to limit gains."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "GB defense has a 50% success rate in the red zone, well above league average (43%), indicating a strong ability to stop drives in this area."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NE offense passes 83% of the time in two-minute situations, which is above league average (83%), indicating a strong tendency to pass under pressure."
+        },
+        {
+          "stat_ids": [
+            "NE.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NE has a 56% success rate in two-minute situations, which is above league average (46%), suggesting a high probability of scoring on these drives."
+        },
+        {
+          "stat_ids": [
+            "GB.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "GB has a 34% blitz rate overall, which is above league average (32%), suggesting a consistent pressure strategy that can be maintained in high-pressure situations."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}
