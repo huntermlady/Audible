@@ -1,0 +1,653 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_10_JAX_TEN",
+  "season": 2026,
+  "week": 10,
+  "team": "TEN",
+  "opponent": "JAX",
+  "role": "DC",
+  "generated_at": "2026-11-11T11:37:05Z",
+  "stats_as_of": "2026-11-09",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_10_JAX_TEN",
+      "season": 2026,
+      "team": "TEN",
+      "opponent": "JAX",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "TEN.def.2026.overall.all.epa_per_play",
+        "label": "TEN defense: EPA/play, all plays",
+        "value": 0.0714,
+        "display": "+0.07",
+        "unit": "epa",
+        "n": 522,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "TEN.def.2026.overall.all.success_rate",
+        "label": "TEN defense: success rate, all plays",
+        "value": 0.4693,
+        "display": "47%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.def.2026.overall.all.explosive_rate",
+        "label": "TEN defense: explosive-play rate, all plays",
+        "value": 0.0977,
+        "display": "10%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "TEN.def.2026.overall.all.blitz_rate",
+        "label": "TEN defense: blitz rate, all plays",
+        "value": 0.2434,
+        "display": "24%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.3159,
+        "league_display": "32%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d1-long.success_rate",
+        "label": "TEN defense: success rate, 1st & long",
+        "value": 0.4455,
+        "display": "45%",
+        "unit": "rate",
+        "n": 211,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "TEN defense: run success rate, 1st & long",
+        "value": 0.3645,
+        "display": "36%",
+        "unit": "rate",
+        "n": 211,
+        "low_sample": false,
+        "league_value": 0.3514,
+        "league_display": "35%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "TEN defense: dropback success rate, 1st & long",
+        "value": 0.5288,
+        "display": "53%",
+        "unit": "rate",
+        "n": 211,
+        "low_sample": false,
+        "league_value": 0.4919,
+        "league_display": "49%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "TEN defense: explosive-play rate, 1st & long",
+        "value": 0.1043,
+        "display": "10%",
+        "unit": "rate",
+        "n": 211,
+        "low_sample": false,
+        "league_value": 0.0979,
+        "league_display": "10%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d3-short.success_rate",
+        "label": "TEN defense: success rate, 3rd & short",
+        "value": 0.6087,
+        "display": "61%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "TEN defense: run success rate, 3rd & short",
+        "value": 0.5333,
+        "display": "53%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "TEN defense: blitz rate, 3rd & short",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.3906,
+        "league_display": "39%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "TEN defense: dropback success rate, 3rd & long",
+        "value": 0.4138,
+        "display": "41%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "TEN.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "TEN defense: blitz rate, 3rd & long",
+        "value": 0.4828,
+        "display": "48%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.4282,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.def.2026.zone.red_zone.success_rate",
+        "label": "TEN defense: success rate, red zone",
+        "value": 0.5135,
+        "display": "51%",
+        "unit": "rate",
+        "n": 74,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.def.2026.zone.red_zone.epa_per_play",
+        "label": "TEN defense: EPA/play, red zone",
+        "value": 0.0602,
+        "display": "+0.06",
+        "unit": "epa",
+        "n": 74,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "TEN.def.2026.zone.red_zone.pass_success_rate",
+        "label": "TEN defense: dropback success rate, red zone",
+        "value": 0.5455,
+        "display": "55%",
+        "unit": "rate",
+        "n": 74,
+        "low_sample": false,
+        "league_value": 0.4283,
+        "league_display": "43%"
+      },
+      {
+        "id": "TEN.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "TEN defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.4815,
+        "display": "48%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4181,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.off.2026.overall.all.epa_per_play",
+        "label": "JAX offense: EPA/play, all plays",
+        "value": 0.1502,
+        "display": "+0.15",
+        "unit": "epa",
+        "n": 462,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "JAX.off.2026.overall.all.success_rate",
+        "label": "JAX offense: success rate, all plays",
+        "value": 0.474,
+        "display": "47%",
+        "unit": "rate",
+        "n": 462,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.off.2026.overall.all.pass_rate",
+        "label": "JAX offense: pass rate, all plays",
+        "value": 0.5368,
+        "display": "54%",
+        "unit": "rate",
+        "n": 462,
+        "low_sample": false,
+        "league_value": 0.6027,
+        "league_display": "60%"
+      },
+      {
+        "id": "JAX.off.2026.overall.all.proe",
+        "label": "JAX offense: pass rate over expected, all plays",
+        "value": -0.0537,
+        "display": "-5%",
+        "unit": "rate",
+        "n": 462,
+        "low_sample": false,
+        "league_value": -0.0222,
+        "league_display": "-2%"
+      },
+      {
+        "id": "JAX.off.2026.overall.all.explosive_rate",
+        "label": "JAX offense: explosive-play rate, all plays",
+        "value": 0.0996,
+        "display": "10%",
+        "unit": "rate",
+        "n": 462,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d1-long.pass_rate",
+        "label": "JAX offense: pass rate, 1st & long",
+        "value": 0.4481,
+        "display": "45%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.4989,
+        "league_display": "50%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d1-long.proe",
+        "label": "JAX offense: pass rate over expected, 1st & long",
+        "value": -0.0321,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": -0.0206,
+        "league_display": "-2%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d1-long.success_rate",
+        "label": "JAX offense: success rate, 1st & long",
+        "value": 0.4645,
+        "display": "46%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "JAX offense: play-action rate, 1st & long",
+        "value": 0.4756,
+        "display": "48%",
+        "unit": "rate",
+        "n": 183,
+        "low_sample": false,
+        "league_value": 0.3998,
+        "league_display": "40%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-short.pass_rate",
+        "label": "JAX offense: pass rate, 3rd & short",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.4955,
+        "league_display": "50%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-short.success_rate",
+        "label": "JAX offense: success rate, 3rd & short",
+        "value": 0.8077,
+        "display": "81%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "JAX offense: run success rate, 3rd & short",
+        "value": 0.8889,
+        "display": "89%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "JAX offense: dropback success rate, 3rd & long",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-long.sack_rate",
+        "label": "JAX offense: sack rate, 3rd & long",
+        "value": 0.0417,
+        "display": "4%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.0964,
+        "league_display": "10%"
+      },
+      {
+        "id": "JAX.off.2026.down_dist.d3-long.screen_rate",
+        "label": "JAX offense: screen rate, 3rd & long",
+        "value": 0.0417,
+        "display": "4%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.0637,
+        "league_display": "6%"
+      },
+      {
+        "id": "JAX.off.2026.zone.red_zone.pass_rate",
+        "label": "JAX offense: pass rate, red zone",
+        "value": 0.5385,
+        "display": "54%",
+        "unit": "rate",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.5294,
+        "league_display": "53%"
+      },
+      {
+        "id": "JAX.off.2026.zone.red_zone.success_rate",
+        "label": "JAX offense: success rate, red zone",
+        "value": 0.5128,
+        "display": "51%",
+        "unit": "rate",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.off.2026.zone.red_zone.epa_per_play",
+        "label": "JAX offense: EPA/play, red zone",
+        "value": 0.2202,
+        "display": "+0.22",
+        "unit": "epa",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "JAX.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "JAX offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.9412,
+        "display": "94%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "JAX.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "JAX offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5294,
+        "display": "53%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      }
+    ]
+  },
+  "headline": "Against a high-EPA, high-play-action offense that passes frequently, especially in long and red zone situations, the defense must apply consistent pressure and man coverage to limit deep passes and exploit play-action inconsistencies.",
+  "keys": [
+    {
+      "detail": "JAX offense has a high EPA/play and pass rate over expected, indicating a high-effort, high-risk offensive style that favors passing in long and red zone situations.",
+      "stat_ids": [
+        "JAX.off.2026.overall.all.epa_per_play",
+        "JAX.off.2026.overall.all.proe",
+        "JAX.off.2026.down_dist.d1-long.pass_rate"
+      ],
+      "title": "High-EPA, High-Play-Action Offense"
+    },
+    {
+      "detail": "JAX's pass rate drops significantly in 3rd & short, but run success is extremely high—indicating a strong run game in short-yardage situations that must be contained with tight man coverage.",
+      "stat_ids": [
+        "JAX.off.2026.down_dist.d3-short.run_success_rate",
+        "JAX.off.2026.down_dist.d3-short.success_rate"
+      ],
+      "title": "Dominant Run Game in 3rd & Short"
+    },
+    {
+      "detail": "TEN defense has a below-league blitz rate and poor success rate on 3rd & long, suggesting a lack of pressure in critical situations, especially when facing a high-pass-rate opponent.",
+      "stat_ids": [
+        "TEN.def.2026.down_dist.d3-long.pass_success_rate",
+        "TEN.def.2026.down_dist.d3-long.blitz_rate"
+      ],
+      "title": "Weak Pressure in 3rd & Long"
+    },
+    {
+      "detail": "TEN defense allows more EPA per play than league average in all situations, indicating a tendency to allow more offensive progress, especially in red zone and long-yardage scenarios.",
+      "stat_ids": [
+        "TEN.def.2026.overall.all.epa_per_play",
+        "TEN.def.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "High EPA Allowance"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.off.2026.overall.all.pass_rate"
+          ],
+          "text": "JAX has a high pass rate, so man coverage is needed to prevent deep passes."
+        },
+        {
+          "stat_ids": [
+            "JAX.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "JAX uses play-action frequently in 1st & long, requiring man coverage to counter."
+        },
+        {
+          "stat_ids": [
+            "TEN.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "TEN's overall blitz rate is below league average, so simulated pressure is a better option than actual blitz."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "medium",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "JAX has a very high run success rate in 3rd & short, indicating a strong run game that must be contained."
+        },
+        {
+          "stat_ids": [
+            "TEN.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "TEN's run success rate in 3rd & short is below league average, suggesting a vulnerability to runs."
+        },
+        {
+          "stat_ids": [
+            "JAX.off.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "JAX has a high success rate in 3rd & short, indicating a need for tight coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "two-deep zone",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "when JAX shows a high play-action rate"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "JAX uses play-action frequently in 1st & long, so a two-deep zone is needed to counter."
+        },
+        {
+          "stat_ids": [
+            "TEN.def.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "TEN's 3rd & long pass success rate is above league average, indicating a need for deeper coverage."
+        },
+        {
+          "stat_ids": [
+            "JAX.off.2026.down_dist.d1-long.proe"
+          ],
+          "text": "JAX has a negative proe in 1st & long, suggesting inefficient passing that may be exploited with pressure."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "JAX passes frequently in red zone, so man coverage is essential to limit deep throws."
+        },
+        {
+          "stat_ids": [
+            "TEN.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "TEN's red zone pass success rate is above league average, indicating a need for tighter coverage."
+        },
+        {
+          "stat_ids": [
+            "JAX.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "JAX has a high EPA/play in red zone, indicating aggressive play that must be contained."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.off.2025.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "JAX has a very high pass rate in two-minute situations, indicating a need for deep coverage."
+        },
+        {
+          "stat_ids": [
+            "JAX.off.2025.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "JAX has a high success rate in two-minute situations, suggesting a need for consistent pressure."
+        },
+        {
+          "stat_ids": [
+            "TEN.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "TEN's overall blitz rate is below league average, so simulated pressure is the best option."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_10_BUF_NYJ",
+  "season": 2026,
+  "week": 10,
+  "team": "NYJ",
+  "opponent": "BUF",
+  "role": "OC",
+  "generated_at": "2026-11-11T11:37:05Z",
+  "stats_as_of": "2026-11-09",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_10_BUF_NYJ",
+      "season": 2026,
+      "team": "NYJ",
+      "opponent": "BUF",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "NYJ.off.2026.overall.all.epa_per_play",
+        "label": "NYJ offense: EPA/play, all plays",
+        "value": 0.0009,
+        "display": "0.00",
+        "unit": "epa",
+        "n": 522,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.success_rate",
+        "label": "NYJ offense: success rate, all plays",
+        "value": 0.4483,
+        "display": "45%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.pass_rate",
+        "label": "NYJ offense: pass rate, all plays",
+        "value": 0.5939,
+        "display": "59%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.6027,
+        "league_display": "60%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.proe",
+        "label": "NYJ offense: pass rate over expected, all plays",
+        "value": -0.0324,
+        "display": "-3%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": -0.0222,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYJ.off.2026.overall.all.explosive_rate",
+        "label": "NYJ offense: explosive-play rate, all plays",
+        "value": 0.0977,
+        "display": "10%",
+        "unit": "rate",
+        "n": 522,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NYJ offense: pass rate, 1st & long",
+        "value": 0.5258,
+        "display": "53%",
+        "unit": "rate",
+        "n": 213,
+        "low_sample": false,
+        "league_value": 0.4989,
+        "league_display": "50%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.proe",
+        "label": "NYJ offense: pass rate over expected, 1st & long",
+        "value": -0.0026,
+        "display": "0%",
+        "unit": "rate",
+        "n": 213,
+        "low_sample": false,
+        "league_value": -0.0206,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.success_rate",
+        "label": "NYJ offense: success rate, 1st & long",
+        "value": 0.4695,
+        "display": "47%",
+        "unit": "rate",
+        "n": 213,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NYJ offense: play-action rate, 1st & long",
+        "value": 0.4643,
+        "display": "46%",
+        "unit": "rate",
+        "n": 213,
+        "low_sample": false,
+        "league_value": 0.3998,
+        "league_display": "40%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.pass_rate",
+        "label": "NYJ offense: pass rate, 3rd & short",
+        "value": 0.5333,
+        "display": "53%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.4955,
+        "league_display": "50%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.success_rate",
+        "label": "NYJ offense: success rate, 3rd & short",
+        "value": 0.5333,
+        "display": "53%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "NYJ offense: run success rate, 3rd & short",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NYJ offense: dropback success rate, 3rd & long",
+        "value": 0.3103,
+        "display": "31%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NYJ offense: sack rate, 3rd & long",
+        "value": 0.069,
+        "display": "7%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.0964,
+        "league_display": "10%"
+      },
+      {
+        "id": "NYJ.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NYJ offense: screen rate, 3rd & long",
+        "value": 0.1379,
+        "display": "14%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.0637,
+        "league_display": "6%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.pass_rate",
+        "label": "NYJ offense: pass rate, red zone",
+        "value": 0.56,
+        "display": "56%",
+        "unit": "rate",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.5294,
+        "league_display": "53%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.success_rate",
+        "label": "NYJ offense: success rate, red zone",
+        "value": 0.36,
+        "display": "36%",
+        "unit": "rate",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYJ.off.2026.zone.red_zone.epa_per_play",
+        "label": "NYJ offense: EPA/play, red zone",
+        "value": -0.1974,
+        "display": "-0.20",
+        "unit": "epa",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "NYJ.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NYJ offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8462,
+        "display": "85%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.8401,
+        "league_display": "84%"
+      },
+      {
+        "id": "NYJ.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NYJ offense: success rate, trailing by one score, two-minute",
+        "value": 0.3077,
+        "display": "31%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.423,
+        "league_display": "42%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.epa_per_play",
+        "label": "BUF defense: EPA/play, all plays",
+        "value": -0.0102,
+        "display": "-0.01",
+        "unit": "epa",
+        "n": 502,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.success_rate",
+        "label": "BUF defense: success rate, all plays",
+        "value": 0.4422,
+        "display": "44%",
+        "unit": "rate",
+        "n": 502,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.explosive_rate",
+        "label": "BUF defense: explosive-play rate, all plays",
+        "value": 0.0896,
+        "display": "9%",
+        "unit": "rate",
+        "n": 502,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "BUF.def.2026.overall.all.blitz_rate",
+        "label": "BUF defense: blitz rate, all plays",
+        "value": 0.3857,
+        "display": "39%",
+        "unit": "rate",
+        "n": 502,
+        "low_sample": false,
+        "league_value": 0.3159,
+        "league_display": "32%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.success_rate",
+        "label": "BUF defense: success rate, 1st & long",
+        "value": 0.4229,
+        "display": "42%",
+        "unit": "rate",
+        "n": 201,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "BUF defense: run success rate, 1st & long",
+        "value": 0.375,
+        "display": "38%",
+        "unit": "rate",
+        "n": 201,
+        "low_sample": false,
+        "league_value": 0.3514,
+        "league_display": "35%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "BUF defense: dropback success rate, 1st & long",
+        "value": 0.4602,
+        "display": "46%",
+        "unit": "rate",
+        "n": 201,
+        "low_sample": false,
+        "league_value": 0.4919,
+        "league_display": "49%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "BUF defense: explosive-play rate, 1st & long",
+        "value": 0.0846,
+        "display": "8%",
+        "unit": "rate",
+        "n": 201,
+        "low_sample": false,
+        "league_value": 0.0979,
+        "league_display": "10%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.success_rate",
+        "label": "BUF defense: success rate, 3rd & short",
+        "value": 0.5172,
+        "display": "52%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "BUF defense: run success rate, 3rd & short",
+        "value": 0.5833,
+        "display": "58%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "BUF defense: blitz rate, 3rd & short",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.3906,
+        "league_display": "39%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "BUF defense: dropback success rate, 3rd & long",
+        "value": 0.3704,
+        "display": "37%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "BUF.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "BUF defense: blitz rate, 3rd & long",
+        "value": 0.3846,
+        "display": "38%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.4282,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.success_rate",
+        "label": "BUF defense: success rate, red zone",
+        "value": 0.4651,
+        "display": "47%",
+        "unit": "rate",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.epa_per_play",
+        "label": "BUF defense: EPA/play, red zone",
+        "value": 0.1255,
+        "display": "+0.13",
+        "unit": "epa",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "BUF.def.2026.zone.red_zone.pass_success_rate",
+        "label": "BUF defense: dropback success rate, red zone",
+        "value": 0.4423,
+        "display": "44%",
+        "unit": "rate",
+        "n": 86,
+        "low_sample": false,
+        "league_value": 0.4283,
+        "league_display": "43%"
+      },
+      {
+        "id": "BUF.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "BUF defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.5278,
+        "display": "53%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.4181,
+        "league_display": "42%"
+      }
+    ]
+  },
+  "headline": "Prioritize play-action and quick passes in third and long situations due to high blitz and low success rates against BUF's defense.",
+  "keys": [
+    {
+      "detail": "NYJ offense has a high play-action rate on 1st & long, which aligns with BUF's high blitz rate and low pass success rate on 1st & long.",
+      "stat_ids": [
+        "NYJ.off.2026.down_dist.d1-long.play_action_rate",
+        "BUF.def.2026.down_dist.d1-long.pass_success_rate",
+        "BUF.def.2026.down_dist.d1-long.explosive_rate"
+      ],
+      "title": "Play-Action Dominance on 1st & Long"
+    },
+    {
+      "detail": "NYJ's red zone pass rate is well above league average, and despite lower success rate, EPA per play is negative, indicating efficient play execution in tight spaces.",
+      "stat_ids": [
+        "NYJ.off.2026.zone.red_zone.pass_rate",
+        "NYJ.off.2026.zone.red_zone.epa_per_play",
+        "NYJ.off.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Efficient Red Zone Passing"
+    },
+    {
+      "detail": "In two-minute situations, NYJ's pass rate is near league average, but success rate is significantly below league average, indicating a need for high-impact, short-yardage plays.",
+      "stat_ids": [
+        "NYJ.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "NYJ.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "BUF.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+      ],
+      "title": "High-Pressure Two-Minute Execution"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NYJ's play-action rate on 1st & long is 46%, well above league average, indicating a proven and effective strategy."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d1-long.pass_success_rate"
+          ],
+          "text": "BUF's pass success rate on 1st & long is 46%, slightly below league average, suggesting a vulnerability to play-action plays."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d1-long.explosive_rate"
+          ],
+          "text": "BUF's explosive-play rate on 1st & long is 8%, below league average, indicating less pressure on dropbacks and a reduced ability to disrupt play-action."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BUF's run success rate on 3rd & short is 58%, above league average, indicating a strong defensive run game."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "BUF's blitz rate on 3rd & short is 25%, below league average, suggesting less pressure on passing plays."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Screen pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "NYJ's screen rate on 3rd & long is 14%, above league average, indicating a strong use of screen plays in high-pressure situations."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "BUF's blitz rate on 3rd & long is 38%, above league average, suggesting a high pressure on dropbacks and a need for quick, short plays."
+        },
+        {
+          "stat_ids": [
+            "NYJ.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "NYJ's sack rate on 3rd & long is 7%, below league average, indicating a low risk of being sacked on long downs."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant fade",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NYJ's red zone pass rate is 56%, above league average, showing a consistent preference for passing in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "NYJ.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "NYJ's EPA/play in red zone is -0.20, below league average, indicating efficient play execution under pressure."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "BUF's red zone pass success rate is 44%, slightly above league average, suggesting a moderate ability to defend quick passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYJ.off.2026.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "NYJ's pass rate in two-minute situations is near league average, indicating a balanced approach to high-pressure play."
+        },
+        {
+          "stat_ids": [
+            "BUF.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "BUF's pass success rate in two-minute situations is 53%, above league average, suggesting a strong ability to defend passing plays."
+        },
+        {
+          "stat_ids": [
+            "NYJ.off.2026.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "NYJ's success rate in two-minute situations is below league average, indicating a need for high-impact, short-yardage plays."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

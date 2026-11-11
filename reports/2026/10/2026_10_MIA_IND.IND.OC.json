@@ -1,0 +1,700 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_10_MIA_IND",
+  "season": 2026,
+  "week": 10,
+  "team": "IND",
+  "opponent": "MIA",
+  "role": "OC",
+  "generated_at": "2026-11-11T11:37:05Z",
+  "stats_as_of": "2026-11-09",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_10_MIA_IND",
+      "season": 2026,
+      "team": "IND",
+      "opponent": "MIA",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "IND.off.2026.overall.all.epa_per_play",
+        "label": "IND offense: EPA/play, all plays",
+        "value": -0.1247,
+        "display": "-0.12",
+        "unit": "epa",
+        "n": 573,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "IND.off.2026.overall.all.success_rate",
+        "label": "IND offense: success rate, all plays",
+        "value": 0.4223,
+        "display": "42%",
+        "unit": "rate",
+        "n": 573,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "IND.off.2026.overall.all.pass_rate",
+        "label": "IND offense: pass rate, all plays",
+        "value": 0.5951,
+        "display": "60%",
+        "unit": "rate",
+        "n": 573,
+        "low_sample": false,
+        "league_value": 0.6027,
+        "league_display": "60%"
+      },
+      {
+        "id": "IND.off.2026.overall.all.proe",
+        "label": "IND offense: pass rate over expected, all plays",
+        "value": -0.0392,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 573,
+        "low_sample": false,
+        "league_value": -0.0222,
+        "league_display": "-2%"
+      },
+      {
+        "id": "IND.off.2026.overall.all.explosive_rate",
+        "label": "IND offense: explosive-play rate, all plays",
+        "value": 0.0785,
+        "display": "8%",
+        "unit": "rate",
+        "n": 573,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d1-long.pass_rate",
+        "label": "IND offense: pass rate, 1st & long",
+        "value": 0.4672,
+        "display": "47%",
+        "unit": "rate",
+        "n": 229,
+        "low_sample": false,
+        "league_value": 0.4989,
+        "league_display": "50%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d1-long.proe",
+        "label": "IND offense: pass rate over expected, 1st & long",
+        "value": -0.0695,
+        "display": "-7%",
+        "unit": "rate",
+        "n": 229,
+        "low_sample": false,
+        "league_value": -0.0206,
+        "league_display": "-2%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d1-long.success_rate",
+        "label": "IND offense: success rate, 1st & long",
+        "value": 0.393,
+        "display": "39%",
+        "unit": "rate",
+        "n": 229,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "IND offense: play-action rate, 1st & long",
+        "value": 0.5607,
+        "display": "56%",
+        "unit": "rate",
+        "n": 229,
+        "low_sample": false,
+        "league_value": 0.3998,
+        "league_display": "40%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-short.pass_rate",
+        "label": "IND offense: pass rate, 3rd & short",
+        "value": 0.381,
+        "display": "38%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.4955,
+        "league_display": "50%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-short.success_rate",
+        "label": "IND offense: success rate, 3rd & short",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "IND offense: run success rate, 3rd & short",
+        "value": 0.6538,
+        "display": "65%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "IND offense: dropback success rate, 3rd & long",
+        "value": 0.3462,
+        "display": "35%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-long.sack_rate",
+        "label": "IND offense: sack rate, 3rd & long",
+        "value": 0.1154,
+        "display": "12%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.0964,
+        "league_display": "10%"
+      },
+      {
+        "id": "IND.off.2026.down_dist.d3-long.screen_rate",
+        "label": "IND offense: screen rate, 3rd & long",
+        "value": 0.0385,
+        "display": "4%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.0637,
+        "league_display": "6%"
+      },
+      {
+        "id": "IND.off.2026.zone.red_zone.pass_rate",
+        "label": "IND offense: pass rate, red zone",
+        "value": 0.4133,
+        "display": "41%",
+        "unit": "rate",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.5294,
+        "league_display": "53%"
+      },
+      {
+        "id": "IND.off.2026.zone.red_zone.success_rate",
+        "label": "IND offense: success rate, red zone",
+        "value": 0.4533,
+        "display": "45%",
+        "unit": "rate",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "IND.off.2026.zone.red_zone.epa_per_play",
+        "label": "IND offense: EPA/play, red zone",
+        "value": -0.0428,
+        "display": "-0.04",
+        "unit": "epa",
+        "n": 75,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "IND.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "IND offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8065,
+        "display": "81%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.8401,
+        "league_display": "84%"
+      },
+      {
+        "id": "IND.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "IND offense: success rate, trailing by one score, two-minute",
+        "value": 0.3548,
+        "display": "35%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.423,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.epa_per_play",
+        "label": "MIA defense: EPA/play, all plays",
+        "value": 0.1142,
+        "display": "+0.11",
+        "unit": "epa",
+        "n": 453,
+        "low_sample": false,
+        "league_value": -0.0042,
+        "league_display": "0.00"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.success_rate",
+        "label": "MIA defense: success rate, all plays",
+        "value": 0.4857,
+        "display": "49%",
+        "unit": "rate",
+        "n": 453,
+        "low_sample": false,
+        "league_value": 0.4327,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.explosive_rate",
+        "label": "MIA defense: explosive-play rate, all plays",
+        "value": 0.0927,
+        "display": "9%",
+        "unit": "rate",
+        "n": 453,
+        "low_sample": false,
+        "league_value": 0.0857,
+        "league_display": "9%"
+      },
+      {
+        "id": "MIA.def.2026.overall.all.blitz_rate",
+        "label": "MIA defense: blitz rate, all plays",
+        "value": 0.2286,
+        "display": "23%",
+        "unit": "rate",
+        "n": 453,
+        "low_sample": false,
+        "league_value": 0.3159,
+        "league_display": "32%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.success_rate",
+        "label": "MIA defense: success rate, 1st & long",
+        "value": 0.4722,
+        "display": "47%",
+        "unit": "rate",
+        "n": 180,
+        "low_sample": false,
+        "league_value": 0.4215,
+        "league_display": "42%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "MIA defense: run success rate, 1st & long",
+        "value": 0.4082,
+        "display": "41%",
+        "unit": "rate",
+        "n": 180,
+        "low_sample": false,
+        "league_value": 0.3514,
+        "league_display": "35%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 1st & long",
+        "value": 0.5488,
+        "display": "55%",
+        "unit": "rate",
+        "n": 180,
+        "low_sample": false,
+        "league_value": 0.4919,
+        "league_display": "49%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "MIA defense: explosive-play rate, 1st & long",
+        "value": 0.1278,
+        "display": "13%",
+        "unit": "rate",
+        "n": 180,
+        "low_sample": false,
+        "league_value": 0.0979,
+        "league_display": "10%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.success_rate",
+        "label": "MIA defense: success rate, 3rd & short",
+        "value": 0.7143,
+        "display": "71%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.5943,
+        "league_display": "59%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "MIA defense: run success rate, 3rd & short",
+        "value": 0.7333,
+        "display": "73%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.66,
+        "league_display": "66%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & short",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.3906,
+        "league_display": "39%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "MIA defense: dropback success rate, 3rd & long",
+        "value": 0.2632,
+        "display": "26%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.3401,
+        "league_display": "34%"
+      },
+      {
+        "id": "MIA.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "MIA defense: blitz rate, 3rd & long",
+        "value": 0.3158,
+        "display": "32%",
+        "unit": "rate",
+        "n": 21,
+        "low_sample": false,
+        "league_value": 0.4282,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.success_rate",
+        "label": "MIA defense: success rate, red zone",
+        "value": 0.4592,
+        "display": "46%",
+        "unit": "rate",
+        "n": 98,
+        "low_sample": false,
+        "league_value": 0.4324,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.epa_per_play",
+        "label": "MIA defense: EPA/play, red zone",
+        "value": 0.1456,
+        "display": "+0.15",
+        "unit": "epa",
+        "n": 98,
+        "low_sample": false,
+        "league_value": 0.0293,
+        "league_display": "+0.03"
+      },
+      {
+        "id": "MIA.def.2026.zone.red_zone.pass_success_rate",
+        "label": "MIA defense: dropback success rate, red zone",
+        "value": 0.4821,
+        "display": "48%",
+        "unit": "rate",
+        "n": 98,
+        "low_sample": false,
+        "league_value": 0.4283,
+        "league_display": "43%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "MIA defense: dropback success rate, trailing by one score, two-minute (2025)",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4535,
+        "league_display": "45%"
+      },
+      {
+        "id": "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate",
+        "label": "MIA defense: zone coverage rate, trailing by one score, two-minute (2025)",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6621,
+        "league_display": "66%"
+      }
+    ]
+  },
+  "headline": "Against a defense that pressures and allows deep passes, prioritize quick passes and play-action in all situations, especially when facing 1st & long or in the red zone.",
+  "keys": [
+    {
+      "detail": "IND offense has a below-league pass rate on 1st & long, with a -7% proe and 39% success rate, indicating poor performance under pressure.",
+      "stat_ids": [
+        "IND.off.2026.down_dist.d1-long.pass_rate",
+        "IND.off.2026.down_dist.d1-long.success_rate",
+        "IND.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Poor 1st & Long Performance"
+    },
+    {
+      "detail": "MIA defense has a high blitz rate (23%) and a high explosive-play rate (9%), suggesting aggressive and unpredictable coverage that favors quick, short passes.",
+      "stat_ids": [
+        "MIA.def.2026.overall.all.blitz_rate",
+        "MIA.def.2026.overall.all.explosive_rate"
+      ],
+      "title": "MIA Defense Aggressively Blitzes"
+    },
+    {
+      "detail": "IND offense has a low explosive-play rate (8%) and a below-league EPA/play (-0.12), indicating a lack of high-impact plays and poor efficiency in all situations.",
+      "stat_ids": [
+        "IND.off.2026.overall.all.explosive_rate",
+        "IND.off.2026.overall.all.epa_per_play"
+      ],
+      "title": "Low Explosive-Play Output"
+    },
+    {
+      "detail": "In the red zone, IND offense has a 41% pass rate and 45% success rate, below league average, and a negative EPA/play (-0.04), indicating poor red-zone efficiency.",
+      "stat_ids": [
+        "IND.off.2026.zone.red_zone.pass_rate",
+        "IND.off.2026.zone.red_zone.success_rate",
+        "IND.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Weak Red Zone Efficiency"
+    },
+    {
+      "detail": "When trailing by one score in two-minute situations, IND offense has a 35% success rate and 81% pass rate, showing high pass usage but poor conversion rates.",
+      "stat_ids": [
+        "IND.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "IND.off.2026.score_time.trail_1_8-two_minute.success_rate"
+      ],
+      "title": "Poor Two-Minute Conversion"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: IND.off.2026.down_dist.d3-short has n=42, which is low for a 3rd & short stat."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.off.2026.down_dist.d1-long.pass_rate",
+            "IND.off.2026.down_dist.d1-long.success_rate",
+            "IND.off.2026.down_dist.d1-long.proe"
+          ],
+          "text": "IND offense has a 47% pass rate on 1st & long, below league average, and a -7% proe, indicating poor performance under pressure. Play-action is a safer alternative to dropbacks."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "MIA defense has a 23% blitz rate, which is below league average but still elevated, suggesting a tendency to pressure the quarterback. Play-action reduces exposure to blitzes."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: MIA.def.2026.down_dist.d3-short has n=35, which is low for a 3rd & short stat."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "MIA.def.2026.down_dist.d3-short.run_success_rate",
+            "MIA.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "MIA defense has a 73% run success rate on 3rd & short and a 25% blitz rate, suggesting it allows runs to succeed and is not aggressive. A run is a safer option than a pass in this situation."
+        },
+        {
+          "stat_ids": [
+            "IND.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "No data on IND offense pass rate on 3rd & short, but overall pass efficiency is low. A run is a more reliable option."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: IND.off.2026.down_dist.d3-long has n=27, which is low for a 3rd & long stat."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.off.2026.down_dist.d3-long.pass_success_rate",
+            "IND.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "IND offense has a 26% pass success rate on 3rd & long, below league average, indicating poor performance under pressure. Screens reduce quarterback exposure and increase run success."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "MIA defense has a 32% blitz rate on 3rd & long, which is below league average but still elevated, suggesting a tendency to pressure. Screens are less vulnerable to blitzes."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: IND.off.2026.zone.red_zone has n=75, which is moderate but not large."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.off.2026.zone.red_zone.pass_rate",
+            "IND.off.2026.zone.red_zone.success_rate",
+            "IND.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "IND offense has a 41% pass rate and 45% success rate in red zone, below league average, and a negative EPA/play (-0.04), indicating poor efficiency. Quick passes like slants are safer and more effective in compressed fields."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "MIA defense has a 48% dropback success rate in red zone, above league average, suggesting it allows some pass success but may not be aggressive in coverage. A quick slant can exploit soft coverage."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick Pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "trailing by one score"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: MIA.def.2025.score_time.trail_1_8-two_minute has n=35, which is low for a two-minute defense stat."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick Pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "IND.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+            "IND.off.2026.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "IND offense has an 81% pass rate and 35% success rate in two-minute situations, indicating high pass usage but poor conversion. Quick passes are more efficient in such scenarios."
+        },
+        {
+          "stat_ids": [
+            "MIA.def.2025.score_time.trail_1_8-two_minute.zone_rate"
+          ],
+          "text": "MIA defense has a 70% zone coverage rate in two-minute situations, suggesting it uses zone coverage to limit deep passes. Quick passes are more likely to succeed in zone coverage."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}
