@@ -1,0 +1,619 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_11_ARI_KC",
+  "season": 2026,
+  "week": 11,
+  "team": "KC",
+  "opponent": "ARI",
+  "role": "DC",
+  "generated_at": "2026-11-18T12:31:25Z",
+  "stats_as_of": "2026-11-16",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_11_ARI_KC",
+      "season": 2026,
+      "team": "KC",
+      "opponent": "ARI",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "KC.def.2026.overall.all.epa_per_play",
+        "label": "KC defense: EPA/play, all plays",
+        "value": -0.0849,
+        "display": "-0.08",
+        "unit": "epa",
+        "n": 566,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "KC.def.2026.overall.all.success_rate",
+        "label": "KC defense: success rate, all plays",
+        "value": 0.394,
+        "display": "39%",
+        "unit": "rate",
+        "n": 566,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.explosive_rate",
+        "label": "KC defense: explosive-play rate, all plays",
+        "value": 0.076,
+        "display": "8%",
+        "unit": "rate",
+        "n": 566,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.blitz_rate",
+        "label": "KC defense: blitz rate, all plays",
+        "value": 0.2678,
+        "display": "27%",
+        "unit": "rate",
+        "n": 566,
+        "low_sample": false,
+        "league_value": 0.3145,
+        "league_display": "31%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.success_rate",
+        "label": "KC defense: success rate, 1st & long",
+        "value": 0.4136,
+        "display": "41%",
+        "unit": "rate",
+        "n": 220,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "KC defense: run success rate, 1st & long",
+        "value": 0.3274,
+        "display": "33%",
+        "unit": "rate",
+        "n": 220,
+        "low_sample": false,
+        "league_value": 0.3523,
+        "league_display": "35%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 1st & long",
+        "value": 0.5047,
+        "display": "50%",
+        "unit": "rate",
+        "n": 220,
+        "low_sample": false,
+        "league_value": 0.4918,
+        "league_display": "49%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "KC defense: explosive-play rate, 1st & long",
+        "value": 0.0955,
+        "display": "10%",
+        "unit": "rate",
+        "n": 220,
+        "low_sample": false,
+        "league_value": 0.1,
+        "league_display": "10%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.success_rate",
+        "label": "KC defense: success rate, 3rd & short",
+        "value": 0.5217,
+        "display": "52%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "KC defense: run success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & short",
+        "value": 0.0909,
+        "display": "9%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.3873,
+        "league_display": "39%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 3rd & long",
+        "value": 0.3235,
+        "display": "32%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & long",
+        "value": 0.4118,
+        "display": "41%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4346,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.success_rate",
+        "label": "KC defense: success rate, red zone",
+        "value": 0.2949,
+        "display": "29%",
+        "unit": "rate",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.epa_per_play",
+        "label": "KC defense: EPA/play, red zone",
+        "value": -0.322,
+        "display": "-0.32",
+        "unit": "epa",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.pass_success_rate",
+        "label": "KC defense: dropback success rate, red zone",
+        "value": 0.2083,
+        "display": "21%",
+        "unit": "rate",
+        "n": 78,
+        "low_sample": false,
+        "league_value": 0.428,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "KC defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.4211,
+        "display": "42%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.4237,
+        "league_display": "42%"
+      },
+      {
+        "id": "ARI.off.2026.overall.all.epa_per_play",
+        "label": "ARI offense: EPA/play, all plays",
+        "value": -0.0531,
+        "display": "-0.05",
+        "unit": "epa",
+        "n": 634,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "ARI.off.2026.overall.all.success_rate",
+        "label": "ARI offense: success rate, all plays",
+        "value": 0.4306,
+        "display": "43%",
+        "unit": "rate",
+        "n": 634,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "ARI.off.2026.overall.all.pass_rate",
+        "label": "ARI offense: pass rate, all plays",
+        "value": 0.6467,
+        "display": "65%",
+        "unit": "rate",
+        "n": 634,
+        "low_sample": false,
+        "league_value": 0.6036,
+        "league_display": "60%"
+      },
+      {
+        "id": "ARI.off.2026.overall.all.proe",
+        "label": "ARI offense: pass rate over expected, all plays",
+        "value": -0.0057,
+        "display": "-1%",
+        "unit": "rate",
+        "n": 634,
+        "low_sample": false,
+        "league_value": -0.0203,
+        "league_display": "-2%"
+      },
+      {
+        "id": "ARI.off.2026.overall.all.explosive_rate",
+        "label": "ARI offense: explosive-play rate, all plays",
+        "value": 0.0552,
+        "display": "6%",
+        "unit": "rate",
+        "n": 634,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d1-long.pass_rate",
+        "label": "ARI offense: pass rate, 1st & long",
+        "value": 0.55,
+        "display": "55%",
+        "unit": "rate",
+        "n": 240,
+        "low_sample": false,
+        "league_value": 0.5023,
+        "league_display": "50%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d1-long.proe",
+        "label": "ARI offense: pass rate over expected, 1st & long",
+        "value": -0.0045,
+        "display": "0%",
+        "unit": "rate",
+        "n": 240,
+        "low_sample": false,
+        "league_value": -0.0174,
+        "league_display": "-2%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d1-long.success_rate",
+        "label": "ARI offense: success rate, 1st & long",
+        "value": 0.4667,
+        "display": "47%",
+        "unit": "rate",
+        "n": 240,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "ARI offense: play-action rate, 1st & long",
+        "value": 0.3258,
+        "display": "33%",
+        "unit": "rate",
+        "n": 240,
+        "low_sample": false,
+        "league_value": 0.3948,
+        "league_display": "39%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-short.pass_rate",
+        "label": "ARI offense: pass rate, 3rd & short",
+        "value": 0.5957,
+        "display": "60%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.4927,
+        "league_display": "49%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-short.success_rate",
+        "label": "ARI offense: success rate, 3rd & short",
+        "value": 0.5319,
+        "display": "53%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "ARI offense: run success rate, 3rd & short",
+        "value": 0.8421,
+        "display": "84%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "ARI offense: dropback success rate, 3rd & long",
+        "value": 0.3514,
+        "display": "35%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-long.sack_rate",
+        "label": "ARI offense: sack rate, 3rd & long",
+        "value": 0.0811,
+        "display": "8%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.1005,
+        "league_display": "10%"
+      },
+      {
+        "id": "ARI.off.2026.down_dist.d3-long.screen_rate",
+        "label": "ARI offense: screen rate, 3rd & long",
+        "value": 0.0541,
+        "display": "5%",
+        "unit": "rate",
+        "n": 38,
+        "low_sample": false,
+        "league_value": 0.0632,
+        "league_display": "6%"
+      },
+      {
+        "id": "ARI.off.2026.zone.red_zone.pass_rate",
+        "label": "ARI offense: pass rate, red zone",
+        "value": 0.6281,
+        "display": "63%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.5303,
+        "league_display": "53%"
+      },
+      {
+        "id": "ARI.off.2026.zone.red_zone.success_rate",
+        "label": "ARI offense: success rate, red zone",
+        "value": 0.3471,
+        "display": "35%",
+        "unit": "rate",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "ARI.off.2026.zone.red_zone.epa_per_play",
+        "label": "ARI offense: EPA/play, red zone",
+        "value": -0.1793,
+        "display": "-0.18",
+        "unit": "epa",
+        "n": 121,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "ARI.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "ARI offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8056,
+        "display": "81%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.8291,
+        "league_display": "83%"
+      },
+      {
+        "id": "ARI.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "ARI offense: success rate, trailing by one score, two-minute",
+        "value": 0.4444,
+        "display": "44%",
+        "unit": "rate",
+        "n": 36,
+        "low_sample": false,
+        "league_value": 0.4401,
+        "league_display": "44%"
+      }
+    ]
+  },
+  "headline": "Against a high-pass-rate, quick-game offense, KC must prioritize pass defense with aggressive pressure and man coverage to limit explosive plays and exploit deep passing tendencies.",
+  "keys": [
+    {
+      "detail": "ARI offense has a high pass rate (65%) and a strong 1st & long pass rate (55%), well above league average, indicating a reliance on deep passing and play-action.",
+      "stat_ids": [
+        "ARI.off.2026.overall.all.pass_rate",
+        "ARI.off.2026.down_dist.d1-long.pass_rate"
+      ],
+      "title": "High Pass Rate Tendency"
+    },
+    {
+      "detail": "ARI's explosive-play rate (6%) is below league average, suggesting fewer big plays, but their success rate in 1st & long (47%) is well above league average, indicating a consistent ability to convert early downs.",
+      "stat_ids": [
+        "ARI.off.2026.overall.all.explosive_rate",
+        "ARI.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Consistent Early Down Conversion"
+    },
+    {
+      "detail": "KC defense allows a below-average success rate in red zone (29%) and a very low pass success rate (21%) in red zone, the worst in this sheet, indicating a critical weakness in deep zone coverage.",
+      "stat_ids": [
+        "KC.def.2026.zone.red_zone.success_rate",
+        "KC.def.2026.zone.red_zone.pass_success_rate"
+      ],
+      "title": "Red Zone Pass Defense Failure"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "even front",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "ARI has a high pass rate on 1st & long, so a cover1 shell with even front matches their tendency to pass early."
+        },
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d1-long.proe"
+          ],
+          "text": "ARI's pass rate over expected is 0%, indicating they are not overperforming, so a standard cover1 is sufficient."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [],
+      "caveats": [
+        "LOW SAMPLE: n=23 for 3rd & short defense stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "tight man coverage",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "ARI has a 60% pass rate on 3rd & short, well above league average, indicating a strong passing tendency in short yardage."
+        },
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "ARI has an 84% run success rate on 3rd & short, indicating they are highly effective at running, so man coverage is needed to stop runs."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "two-deep zone",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "sim",
+          "when": "when ARI has high pass rate"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "ARI has a 35% dropback success rate on 3rd & long, above league average, indicating a strong passing tendency."
+        },
+        {
+          "stat_ids": [
+            "ARI.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "ARI has a low screen rate (5%), suggesting fewer screen plays, so deep pass defense is more critical than run."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [],
+      "caveats": [
+        "LOW SAMPLE: n=78 for red zone defense stats; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "two-deep zone",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "sim"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.def.2026.zone.red_zone.success_rate",
+            "KC.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "KC's red zone pass success rate is 21%, the worst in this sheet, and success rate is 29%, well below league average, indicating a need for deep zone coverage to stop deep passes."
+        },
+        {
+          "stat_ids": [
+            "ARI.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "ARI has a high red zone pass rate (63%), indicating a strong deep passing tendency in the red zone."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "dime sub-package",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "ARI.off.2026.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "ARI has an 81% pass rate in two-minute, trailing by one score, indicating a strong tendency to pass in critical situations."
+        },
+        {
+          "stat_ids": [
+            "ARI.off.2026.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "ARI has a 44% success rate in two-minute, trailing, which is about league average, suggesting they are effective in high-pressure situations."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}

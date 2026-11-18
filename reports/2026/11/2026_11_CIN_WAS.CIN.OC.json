@@ -1,0 +1,664 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_11_CIN_WAS",
+  "season": 2026,
+  "week": 11,
+  "team": "CIN",
+  "opponent": "WAS",
+  "role": "OC",
+  "generated_at": "2026-11-18T12:31:25Z",
+  "stats_as_of": "2026-11-16",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_11_CIN_WAS",
+      "season": 2026,
+      "team": "CIN",
+      "opponent": "WAS",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "CIN.off.2026.overall.all.epa_per_play",
+        "label": "CIN offense: EPA/play, all plays",
+        "value": 0.1605,
+        "display": "+0.16",
+        "unit": "epa",
+        "n": 546,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "CIN.off.2026.overall.all.success_rate",
+        "label": "CIN offense: success rate, all plays",
+        "value": 0.5073,
+        "display": "51%",
+        "unit": "rate",
+        "n": 546,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "CIN.off.2026.overall.all.pass_rate",
+        "label": "CIN offense: pass rate, all plays",
+        "value": 0.6685,
+        "display": "67%",
+        "unit": "rate",
+        "n": 546,
+        "low_sample": false,
+        "league_value": 0.6036,
+        "league_display": "60%"
+      },
+      {
+        "id": "CIN.off.2026.overall.all.proe",
+        "label": "CIN offense: pass rate over expected, all plays",
+        "value": 0.0901,
+        "display": "9%",
+        "unit": "rate",
+        "n": 546,
+        "low_sample": false,
+        "league_value": -0.0203,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CIN.off.2026.overall.all.explosive_rate",
+        "label": "CIN offense: explosive-play rate, all plays",
+        "value": 0.0916,
+        "display": "9%",
+        "unit": "rate",
+        "n": 546,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d1-long.pass_rate",
+        "label": "CIN offense: pass rate, 1st & long",
+        "value": 0.6234,
+        "display": "62%",
+        "unit": "rate",
+        "n": 231,
+        "low_sample": false,
+        "league_value": 0.5023,
+        "league_display": "50%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d1-long.proe",
+        "label": "CIN offense: pass rate over expected, 1st & long",
+        "value": 0.1308,
+        "display": "13%",
+        "unit": "rate",
+        "n": 231,
+        "low_sample": false,
+        "league_value": -0.0174,
+        "league_display": "-2%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d1-long.success_rate",
+        "label": "CIN offense: success rate, 1st & long",
+        "value": 0.4848,
+        "display": "48%",
+        "unit": "rate",
+        "n": 231,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "CIN offense: play-action rate, 1st & long",
+        "value": 0.2292,
+        "display": "23%",
+        "unit": "rate",
+        "n": 231,
+        "low_sample": false,
+        "league_value": 0.3948,
+        "league_display": "39%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-short.pass_rate",
+        "label": "CIN offense: pass rate, 3rd & short",
+        "value": 0.6,
+        "display": "60%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.4927,
+        "league_display": "49%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-short.success_rate",
+        "label": "CIN offense: success rate, 3rd & short",
+        "value": 0.7,
+        "display": "70%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "CIN offense: run success rate, 3rd & short",
+        "value": 0.8125,
+        "display": "81%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "CIN offense: dropback success rate, 3rd & long",
+        "value": 0.4643,
+        "display": "46%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-long.sack_rate",
+        "label": "CIN offense: sack rate, 3rd & long",
+        "value": 0.0714,
+        "display": "7%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.1005,
+        "league_display": "10%"
+      },
+      {
+        "id": "CIN.off.2026.down_dist.d3-long.screen_rate",
+        "label": "CIN offense: screen rate, 3rd & long",
+        "value": 0,
+        "display": "0%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.0632,
+        "league_display": "6%"
+      },
+      {
+        "id": "CIN.off.2026.zone.red_zone.pass_rate",
+        "label": "CIN offense: pass rate, red zone",
+        "value": 0.6196,
+        "display": "62%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.5303,
+        "league_display": "53%"
+      },
+      {
+        "id": "CIN.off.2026.zone.red_zone.success_rate",
+        "label": "CIN offense: success rate, red zone",
+        "value": 0.587,
+        "display": "59%",
+        "unit": "rate",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "CIN.off.2026.zone.red_zone.epa_per_play",
+        "label": "CIN offense: EPA/play, red zone",
+        "value": 0.3015,
+        "display": "+0.30",
+        "unit": "epa",
+        "n": 92,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "CIN.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "CIN offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8889,
+        "display": "89%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.8291,
+        "league_display": "83%"
+      },
+      {
+        "id": "CIN.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "CIN offense: success rate, trailing by one score, two-minute",
+        "value": 0.6296,
+        "display": "63%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.4401,
+        "league_display": "44%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.epa_per_play",
+        "label": "WAS defense: EPA/play, all plays",
+        "value": 0.0339,
+        "display": "+0.03",
+        "unit": "epa",
+        "n": 579,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.success_rate",
+        "label": "WAS defense: success rate, all plays",
+        "value": 0.4577,
+        "display": "46%",
+        "unit": "rate",
+        "n": 579,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.explosive_rate",
+        "label": "WAS defense: explosive-play rate, all plays",
+        "value": 0.0725,
+        "display": "7%",
+        "unit": "rate",
+        "n": 579,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "WAS.def.2026.overall.all.blitz_rate",
+        "label": "WAS defense: blitz rate, all plays",
+        "value": 0.4247,
+        "display": "42%",
+        "unit": "rate",
+        "n": 579,
+        "low_sample": false,
+        "league_value": 0.3145,
+        "league_display": "31%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.success_rate",
+        "label": "WAS defense: success rate, 1st & long",
+        "value": 0.4957,
+        "display": "50%",
+        "unit": "rate",
+        "n": 234,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "WAS defense: run success rate, 1st & long",
+        "value": 0.4151,
+        "display": "42%",
+        "unit": "rate",
+        "n": 234,
+        "low_sample": false,
+        "league_value": 0.3523,
+        "league_display": "35%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 1st & long",
+        "value": 0.5625,
+        "display": "56%",
+        "unit": "rate",
+        "n": 234,
+        "low_sample": false,
+        "league_value": 0.4918,
+        "league_display": "49%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "WAS defense: explosive-play rate, 1st & long",
+        "value": 0.0812,
+        "display": "8%",
+        "unit": "rate",
+        "n": 234,
+        "low_sample": false,
+        "league_value": 0.1,
+        "league_display": "10%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.success_rate",
+        "label": "WAS defense: success rate, 3rd & short",
+        "value": 0.575,
+        "display": "58%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "WAS defense: run success rate, 3rd & short",
+        "value": 0.7391,
+        "display": "74%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & short",
+        "value": 0.2941,
+        "display": "29%",
+        "unit": "rate",
+        "n": 40,
+        "low_sample": false,
+        "league_value": 0.3873,
+        "league_display": "39%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "WAS defense: dropback success rate, 3rd & long",
+        "value": 0.3214,
+        "display": "32%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "WAS.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "WAS defense: blitz rate, 3rd & long",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.4346,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.success_rate",
+        "label": "WAS defense: success rate, red zone",
+        "value": 0.5169,
+        "display": "52%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.epa_per_play",
+        "label": "WAS defense: EPA/play, red zone",
+        "value": 0.2778,
+        "display": "+0.28",
+        "unit": "epa",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "WAS.def.2026.zone.red_zone.pass_success_rate",
+        "label": "WAS defense: dropback success rate, red zone",
+        "value": 0.5417,
+        "display": "54%",
+        "unit": "rate",
+        "n": 89,
+        "low_sample": false,
+        "league_value": 0.428,
+        "league_display": "43%"
+      },
+      {
+        "id": "WAS.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "WAS defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.2778,
+        "display": "28%",
+        "unit": "rate",
+        "n": 20,
+        "low_sample": false,
+        "league_value": 0.4237,
+        "league_display": "42%"
+      }
+    ]
+  },
+  "headline": "Leverage high pass success in 1st & long and red zone against a defense that blitzes often and allows few explosive plays.",
+  "keys": [
+    {
+      "detail": "CIN offense has a 62% pass rate on 1st & long, well above league average, and a 13% pass rate over expected, indicating strong performance under pressure.",
+      "stat_ids": [
+        "CIN.off.2026.down_dist.d1-long.pass_rate",
+        "CIN.off.2026.down_dist.d1-long.proe"
+      ],
+      "title": "Strong 1st & Long Passing"
+    },
+    {
+      "detail": "CIN offense has a 62% pass rate in red zone, with a +0.30 EPA/play, indicating efficient and high-impact passing in compressed spaces.",
+      "stat_ids": [
+        "CIN.off.2026.zone.red_zone.pass_rate",
+        "CIN.off.2026.zone.red_zone.epa_per_play"
+      ],
+      "title": "Efficient Red Zone Passing"
+    },
+    {
+      "detail": "WAS defense has a 57% blitz rate on 3rd & long, significantly above league average, and a 32% dropback success rate, indicating a high-pressure, low-success defense on long downs.",
+      "stat_ids": [
+        "WAS.def.2026.down_dist.d3-long.blitz_rate",
+        "WAS.def.2026.down_dist.d3-long.pass_success_rate"
+      ],
+      "title": "WAS Defense Over-Relies on Blitz on 3rd & Long"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "early_down"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CIN.off.2026.overall.all.pass_rate"
+          ],
+          "text": "CIN offense has a 67% pass rate, above league average, suggesting a balanced and consistent passing game."
+        },
+        {
+          "stat_ids": [
+            "CIN.off.2026.overall.all.proe"
+          ],
+          "text": "CIN offense has a 9% pass rate over expected, indicating a consistent performance above baseline."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "third_short"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CIN.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "CIN offense has an 81% run success rate on 3rd & short, well above league average."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "WAS defense has a 74% run success rate on 3rd & short, indicating a strong run defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "CIN offense has 0% screen rate on 3rd & long, which is the worst in this sheet."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CIN.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "CIN offense has 0% screen rate on 3rd & long, the worst in this sheet."
+        },
+        {
+          "stat_ids": [
+            "WAS.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "WAS defense has a 57% blitz rate on 3rd & long, indicating high pressure on long downs."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "CIN.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "CIN offense has a 62% pass rate in red zone, well above league average."
+        },
+        {
+          "stat_ids": [
+            "CIN.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "CIN offense has a 59% success rate in red zone, above league average."
+        },
+        {
+          "stat_ids": [
+            "CIN.off.2026.zone.red_zone.epa_per_play"
+          ],
+          "text": "CIN offense has a +0.30 EPA/play in red zone, well above league average."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Deep fade",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "deep_pass",
+          "pressure": null,
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "WAS defense has only 28% dropback success rate in two-minute situations, below league average."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Deep fade",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "deep_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "WAS.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "WAS defense has a 28% dropback success rate in two-minute situations, significantly below league average."
+        },
+        {
+          "stat_ids": [
+            "CIN.off.2026.overall.all.pass_rate"
+          ],
+          "text": "CIN offense has a 67% pass rate, indicating a strong passing game that can exploit defensive inconsistency."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

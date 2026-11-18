@@ -1,0 +1,690 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_11_JAX_NYG",
+  "season": 2026,
+  "week": 11,
+  "team": "NYG",
+  "opponent": "JAX",
+  "role": "OC",
+  "generated_at": "2026-11-18T12:31:25Z",
+  "stats_as_of": "2026-11-16",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_11_JAX_NYG",
+      "season": 2026,
+      "team": "NYG",
+      "opponent": "JAX",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "NYG.off.2026.overall.all.epa_per_play",
+        "label": "NYG offense: EPA/play, all plays",
+        "value": 0.0168,
+        "display": "+0.02",
+        "unit": "epa",
+        "n": 578,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.success_rate",
+        "label": "NYG offense: success rate, all plays",
+        "value": 0.4152,
+        "display": "42%",
+        "unit": "rate",
+        "n": 578,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.pass_rate",
+        "label": "NYG offense: pass rate, all plays",
+        "value": 0.59,
+        "display": "59%",
+        "unit": "rate",
+        "n": 578,
+        "low_sample": false,
+        "league_value": 0.6036,
+        "league_display": "60%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.proe",
+        "label": "NYG offense: pass rate over expected, all plays",
+        "value": -0.0438,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 578,
+        "low_sample": false,
+        "league_value": -0.0203,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYG.off.2026.overall.all.explosive_rate",
+        "label": "NYG offense: explosive-play rate, all plays",
+        "value": 0.083,
+        "display": "8%",
+        "unit": "rate",
+        "n": 578,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.pass_rate",
+        "label": "NYG offense: pass rate, 1st & long",
+        "value": 0.5279,
+        "display": "53%",
+        "unit": "rate",
+        "n": 233,
+        "low_sample": false,
+        "league_value": 0.5023,
+        "league_display": "50%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.proe",
+        "label": "NYG offense: pass rate over expected, 1st & long",
+        "value": 0.0134,
+        "display": "1%",
+        "unit": "rate",
+        "n": 233,
+        "low_sample": false,
+        "league_value": -0.0174,
+        "league_display": "-2%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.success_rate",
+        "label": "NYG offense: success rate, 1st & long",
+        "value": 0.3863,
+        "display": "39%",
+        "unit": "rate",
+        "n": 233,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "NYG offense: play-action rate, 1st & long",
+        "value": 0.3496,
+        "display": "35%",
+        "unit": "rate",
+        "n": 233,
+        "low_sample": false,
+        "league_value": 0.3948,
+        "league_display": "39%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-short.pass_rate",
+        "label": "NYG offense: pass rate, 3rd & short",
+        "value": 0.2258,
+        "display": "23%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.4927,
+        "league_display": "49%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-short.success_rate",
+        "label": "NYG offense: success rate, 3rd & short",
+        "value": 0.5806,
+        "display": "58%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "NYG offense: run success rate, 3rd & short",
+        "value": 0.5833,
+        "display": "58%",
+        "unit": "rate",
+        "n": 31,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "NYG offense: dropback success rate, 3rd & long",
+        "value": 0.35,
+        "display": "35%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.sack_rate",
+        "label": "NYG offense: sack rate, 3rd & long",
+        "value": 0.175,
+        "display": "18%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.1005,
+        "league_display": "10%"
+      },
+      {
+        "id": "NYG.off.2026.down_dist.d3-long.screen_rate",
+        "label": "NYG offense: screen rate, 3rd & long",
+        "value": 0.05,
+        "display": "5%",
+        "unit": "rate",
+        "n": 42,
+        "low_sample": false,
+        "league_value": 0.0632,
+        "league_display": "6%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.pass_rate",
+        "label": "NYG offense: pass rate, red zone",
+        "value": 0.4776,
+        "display": "48%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.5303,
+        "league_display": "53%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.success_rate",
+        "label": "NYG offense: success rate, red zone",
+        "value": 0.4478,
+        "display": "45%",
+        "unit": "rate",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "NYG.off.2026.zone.red_zone.epa_per_play",
+        "label": "NYG offense: EPA/play, red zone",
+        "value": 0.15,
+        "display": "+0.15",
+        "unit": "epa",
+        "n": 67,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "NYG.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "NYG offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.7447,
+        "display": "74%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "NYG.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "NYG offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.3617,
+        "display": "36%",
+        "unit": "rate",
+        "n": 47,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.epa_per_play",
+        "label": "JAX defense: EPA/play, all plays",
+        "value": -0.0907,
+        "display": "-0.09",
+        "unit": "epa",
+        "n": 523,
+        "low_sample": false,
+        "league_value": 0.0057,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.success_rate",
+        "label": "JAX defense: success rate, all plays",
+        "value": 0.4111,
+        "display": "41%",
+        "unit": "rate",
+        "n": 523,
+        "low_sample": false,
+        "league_value": 0.4321,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.explosive_rate",
+        "label": "JAX defense: explosive-play rate, all plays",
+        "value": 0.0746,
+        "display": "7%",
+        "unit": "rate",
+        "n": 523,
+        "low_sample": false,
+        "league_value": 0.0871,
+        "league_display": "9%"
+      },
+      {
+        "id": "JAX.def.2026.overall.all.blitz_rate",
+        "label": "JAX defense: blitz rate, all plays",
+        "value": 0.3093,
+        "display": "31%",
+        "unit": "rate",
+        "n": 523,
+        "low_sample": false,
+        "league_value": 0.3145,
+        "league_display": "31%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.success_rate",
+        "label": "JAX defense: success rate, 1st & long",
+        "value": 0.4,
+        "display": "40%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.4224,
+        "league_display": "42%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "JAX defense: run success rate, 1st & long",
+        "value": 0.381,
+        "display": "38%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.3523,
+        "league_display": "35%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 1st & long",
+        "value": 0.4182,
+        "display": "42%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.4918,
+        "league_display": "49%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "JAX defense: explosive-play rate, 1st & long",
+        "value": 0.1116,
+        "display": "11%",
+        "unit": "rate",
+        "n": 215,
+        "low_sample": false,
+        "league_value": 0.1,
+        "league_display": "10%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.success_rate",
+        "label": "JAX defense: success rate, 3rd & short",
+        "value": 0.4643,
+        "display": "46%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.5998,
+        "league_display": "60%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "JAX defense: run success rate, 3rd & short",
+        "value": 0.5,
+        "display": "50%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.6679,
+        "league_display": "67%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & short",
+        "value": 0.3571,
+        "display": "36%",
+        "unit": "rate",
+        "n": 28,
+        "low_sample": false,
+        "league_value": 0.3873,
+        "league_display": "39%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "JAX defense: dropback success rate, 3rd & long",
+        "value": 0.3333,
+        "display": "33%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.3282,
+        "league_display": "33%"
+      },
+      {
+        "id": "JAX.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "JAX defense: blitz rate, 3rd & long",
+        "value": 0.359,
+        "display": "36%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.4346,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.success_rate",
+        "label": "JAX defense: success rate, red zone",
+        "value": 0.3281,
+        "display": "33%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.4384,
+        "league_display": "44%"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.epa_per_play",
+        "label": "JAX defense: EPA/play, red zone",
+        "value": -0.4397,
+        "display": "-0.44",
+        "unit": "epa",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.046,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "JAX.def.2026.zone.red_zone.pass_success_rate",
+        "label": "JAX defense: dropback success rate, red zone",
+        "value": 0.3514,
+        "display": "35%",
+        "unit": "rate",
+        "n": 64,
+        "low_sample": false,
+        "league_value": 0.428,
+        "league_display": "43%"
+      },
+      {
+        "id": "JAX.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "JAX defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.45,
+        "display": "45%",
+        "unit": "rate",
+        "n": 23,
+        "low_sample": false,
+        "league_value": 0.4237,
+        "league_display": "42%"
+      }
+    ]
+  },
+  "headline": "Against a defense that pressures often and allows few explosive plays, NYG must rely on quick passes and play-action to exploit coverage gaps and avoid long-developing dropbacks.",
+  "keys": [
+    {
+      "detail": "NYG's pass rate over expected is 4% below league average, indicating inefficiency in pass execution; this is especially concerning in 1st & long where pass rate is above league average but success rate is below.",
+      "stat_ids": [
+        "NYG.off.2026.overall.all.proe",
+        "NYG.off.2026.down_dist.d1-long.pass_rate",
+        "NYG.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "Pass Efficiency Below League Average"
+    },
+    {
+      "detail": "JAX's blitz rate is at league average, but their success rate in 1st & long is below league average, and their red zone defense is the worst in this sheet with only 33% success rate.",
+      "stat_ids": [
+        "JAX.def.2026.overall.all.blitz_rate",
+        "JAX.def.2026.down_dist.d1-long.success_rate",
+        "JAX.def.2026.zone.red_zone.success_rate"
+      ],
+      "title": "Weak Red Zone and 1st & Long Defense"
+    },
+    {
+      "detail": "NYG's explosive-play rate is 1% below league average, and JAX's explosive-play rate is below league average, suggesting limited high-impact plays on either side.",
+      "stat_ids": [
+        "NYG.off.2026.overall.all.explosive_rate",
+        "JAX.def.2026.overall.all.explosive_rate"
+      ],
+      "title": "Low Explosive-Play Production"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [
+        "Low sample size for 3rd & short pass success rate (n=31) limits confidence in short-yardage decisions."
+      ],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.down_dist.d1-long.play_action_rate"
+          ],
+          "text": "NYG's play-action rate in 1st & long is 35%, below league average, indicating a need to use it more to counter JAX's blitz rate."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d1-long.pass_success_rate"
+          ],
+          "text": "JAX's pass success rate on 1st & long is 42%, below league average, suggesting play-action can exploit coverage gaps."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.overall.all.blitz_rate"
+          ],
+          "text": "JAX's blitz rate is at league average, indicating a consistent pressure threat that play-action can counter."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [
+        "Sample size for 3rd & short success rate is small (n=28), limiting confidence in pass success."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "JAX's 3rd & short success rate is 46%, below league average, indicating a weak defense that can be exploited with run plays."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "JAX's blitz rate in 3rd & short is 36%, above league average, suggesting a high-pressure environment where run plays are more effective."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "JAX's run success rate in 3rd & short is 50%, below league average, indicating a vulnerability in run defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "Screen rate in 3rd & long is only 5%, below league average, and sample size is small (n=42)."
+      ],
+      "confidence": "low",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.down_dist.d3-long.screen_rate"
+          ],
+          "text": "NYG's screen rate in 3rd & long is 5%, below league average, indicating underutilization of a high-impact play."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "JAX's blitz rate in 3rd & long is 36%, above league average, suggesting a high-pressure environment where screens can create space."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "NYG's sack rate in 3rd & long is 18%, above league average, indicating a high risk of sacks that can be mitigated with screen plays."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "Low sample size for red zone success rate (n=67) reduces confidence in red zone pass success."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "NYG.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "NYG's pass rate in red zone is 48%, below league average, indicating a need for quick, short passes."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "NYG's red zone success rate is 45%, about league average, suggesting a need for high-efficiency, low-risk plays."
+        },
+        {
+          "stat_ids": [
+            "JAX.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "JAX's red zone success rate is 33%, the worst in this sheet, indicating a vulnerable zone that can be exploited with quick passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "trailing by one score"
+        }
+      ],
+      "caveats": [
+        "Sample size for two-minute success rate is small (n=23), limiting confidence in pass success."
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "JAX.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "JAX's two-minute pass success rate is 45%, above league average, indicating a potential vulnerability in pass defense."
+        },
+        {
+          "stat_ids": [
+            "NYG.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "NYG's red zone success rate is 45%, about league average, suggesting a need for high-efficiency, low-risk plays in two-minute scenarios."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}
