@@ -1,0 +1,666 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_12_KC_BUF",
+  "season": 2026,
+  "week": 12,
+  "team": "BUF",
+  "opponent": "KC",
+  "role": "OC",
+  "generated_at": "2026-11-25T13:45:30Z",
+  "stats_as_of": "2026-11-23",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_12_KC_BUF",
+      "season": 2026,
+      "team": "BUF",
+      "opponent": "KC",
+      "role": "OC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "BUF.off.2026.overall.all.epa_per_play",
+        "label": "BUF offense: EPA/play, all plays",
+        "value": 0.1337,
+        "display": "+0.13",
+        "unit": "epa",
+        "n": 626,
+        "low_sample": false,
+        "league_value": 0.0114,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "BUF.off.2026.overall.all.success_rate",
+        "label": "BUF offense: success rate, all plays",
+        "value": 0.4824,
+        "display": "48%",
+        "unit": "rate",
+        "n": 626,
+        "low_sample": false,
+        "league_value": 0.4426,
+        "league_display": "44%"
+      },
+      {
+        "id": "BUF.off.2026.overall.all.pass_rate",
+        "label": "BUF offense: pass rate, all plays",
+        "value": 0.5495,
+        "display": "55%",
+        "unit": "rate",
+        "n": 626,
+        "low_sample": false,
+        "league_value": 0.6044,
+        "league_display": "60%"
+      },
+      {
+        "id": "BUF.off.2026.overall.all.proe",
+        "label": "BUF offense: pass rate over expected, all plays",
+        "value": -0.0055,
+        "display": "-1%",
+        "unit": "rate",
+        "n": 626,
+        "low_sample": false,
+        "league_value": -0.0107,
+        "league_display": "-1%"
+      },
+      {
+        "id": "BUF.off.2026.overall.all.explosive_rate",
+        "label": "BUF offense: explosive-play rate, all plays",
+        "value": 0.1246,
+        "display": "12%",
+        "unit": "rate",
+        "n": 626,
+        "low_sample": false,
+        "league_value": 0.0869,
+        "league_display": "9%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d1-long.pass_rate",
+        "label": "BUF offense: pass rate, 1st & long",
+        "value": 0.4125,
+        "display": "41%",
+        "unit": "rate",
+        "n": 257,
+        "low_sample": false,
+        "league_value": 0.5008,
+        "league_display": "50%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d1-long.proe",
+        "label": "BUF offense: pass rate over expected, 1st & long",
+        "value": -0.0394,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 257,
+        "low_sample": false,
+        "league_value": -0.0124,
+        "league_display": "-1%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d1-long.success_rate",
+        "label": "BUF offense: success rate, 1st & long",
+        "value": 0.4669,
+        "display": "47%",
+        "unit": "rate",
+        "n": 257,
+        "low_sample": false,
+        "league_value": 0.4422,
+        "league_display": "44%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "BUF offense: play-action rate, 1st & long",
+        "value": 0.5189,
+        "display": "52%",
+        "unit": "rate",
+        "n": 257,
+        "low_sample": false,
+        "league_value": 0.3964,
+        "league_display": "40%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-short.pass_rate",
+        "label": "BUF offense: pass rate, 3rd & short",
+        "value": 0.3636,
+        "display": "36%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.4949,
+        "league_display": "49%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-short.success_rate",
+        "label": "BUF offense: success rate, 3rd & short",
+        "value": 0.5455,
+        "display": "55%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.6014,
+        "league_display": "60%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "BUF offense: run success rate, 3rd & short",
+        "value": 0.5714,
+        "display": "57%",
+        "unit": "rate",
+        "n": 33,
+        "low_sample": false,
+        "league_value": 0.6695,
+        "league_display": "67%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "BUF offense: dropback success rate, 3rd & long",
+        "value": 0.3939,
+        "display": "39%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.3212,
+        "league_display": "32%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-long.sack_rate",
+        "label": "BUF offense: sack rate, 3rd & long",
+        "value": 0.1818,
+        "display": "18%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.1008,
+        "league_display": "10%"
+      },
+      {
+        "id": "BUF.off.2026.down_dist.d3-long.screen_rate",
+        "label": "BUF offense: screen rate, 3rd & long",
+        "value": 0.0303,
+        "display": "3%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.0648,
+        "league_display": "6%"
+      },
+      {
+        "id": "BUF.off.2026.zone.red_zone.pass_rate",
+        "label": "BUF offense: pass rate, red zone",
+        "value": 0.453,
+        "display": "45%",
+        "unit": "rate",
+        "n": 117,
+        "low_sample": false,
+        "league_value": 0.5344,
+        "league_display": "53%"
+      },
+      {
+        "id": "BUF.off.2026.zone.red_zone.success_rate",
+        "label": "BUF offense: success rate, red zone",
+        "value": 0.4359,
+        "display": "44%",
+        "unit": "rate",
+        "n": 117,
+        "low_sample": false,
+        "league_value": 0.451,
+        "league_display": "45%"
+      },
+      {
+        "id": "BUF.off.2026.zone.red_zone.epa_per_play",
+        "label": "BUF offense: EPA/play, red zone",
+        "value": 0.1013,
+        "display": "+0.10",
+        "unit": "epa",
+        "n": 117,
+        "low_sample": false,
+        "league_value": 0.0547,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "BUF.off.2025.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "BUF offense: pass rate, trailing by one score, two-minute (2025)",
+        "value": 0.8,
+        "display": "80%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.8311,
+        "league_display": "83%"
+      },
+      {
+        "id": "BUF.off.2025.score_time.trail_1_8-two_minute.success_rate",
+        "label": "BUF offense: success rate, trailing by one score, two-minute (2025)",
+        "value": 0.5143,
+        "display": "51%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4592,
+        "league_display": "46%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.epa_per_play",
+        "label": "KC defense: EPA/play, all plays",
+        "value": -0.0854,
+        "display": "-0.09",
+        "unit": "epa",
+        "n": 621,
+        "low_sample": false,
+        "league_value": 0.0114,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "KC.def.2026.overall.all.success_rate",
+        "label": "KC defense: success rate, all plays",
+        "value": 0.3977,
+        "display": "40%",
+        "unit": "rate",
+        "n": 621,
+        "low_sample": false,
+        "league_value": 0.4426,
+        "league_display": "44%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.explosive_rate",
+        "label": "KC defense: explosive-play rate, all plays",
+        "value": 0.0725,
+        "display": "7%",
+        "unit": "rate",
+        "n": 621,
+        "low_sample": false,
+        "league_value": 0.0869,
+        "league_display": "9%"
+      },
+      {
+        "id": "KC.def.2026.overall.all.blitz_rate",
+        "label": "KC defense: blitz rate, all plays",
+        "value": 0.2661,
+        "display": "27%",
+        "unit": "rate",
+        "n": 621,
+        "low_sample": false,
+        "league_value": 0.3112,
+        "league_display": "31%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.success_rate",
+        "label": "KC defense: success rate, 1st & long",
+        "value": 0.416,
+        "display": "42%",
+        "unit": "rate",
+        "n": 238,
+        "low_sample": false,
+        "league_value": 0.4422,
+        "league_display": "44%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "KC defense: run success rate, 1st & long",
+        "value": 0.3525,
+        "display": "35%",
+        "unit": "rate",
+        "n": 238,
+        "low_sample": false,
+        "league_value": 0.3865,
+        "league_display": "39%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 1st & long",
+        "value": 0.4828,
+        "display": "48%",
+        "unit": "rate",
+        "n": 238,
+        "low_sample": false,
+        "league_value": 0.4976,
+        "league_display": "50%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "KC defense: explosive-play rate, 1st & long",
+        "value": 0.0924,
+        "display": "9%",
+        "unit": "rate",
+        "n": 238,
+        "low_sample": false,
+        "league_value": 0.0999,
+        "league_display": "10%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.success_rate",
+        "label": "KC defense: success rate, 3rd & short",
+        "value": 0.5385,
+        "display": "54%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.6014,
+        "league_display": "60%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "KC defense: run success rate, 3rd & short",
+        "value": 0.6667,
+        "display": "67%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.6695,
+        "league_display": "67%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & short",
+        "value": 0.0909,
+        "display": "9%",
+        "unit": "rate",
+        "n": 26,
+        "low_sample": false,
+        "league_value": 0.3921,
+        "league_display": "39%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "KC defense: dropback success rate, 3rd & long",
+        "value": 0.2973,
+        "display": "30%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.3212,
+        "league_display": "32%"
+      },
+      {
+        "id": "KC.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "KC defense: blitz rate, 3rd & long",
+        "value": 0.4595,
+        "display": "46%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.4309,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.success_rate",
+        "label": "KC defense: success rate, red zone",
+        "value": 0.3171,
+        "display": "32%",
+        "unit": "rate",
+        "n": 82,
+        "low_sample": false,
+        "league_value": 0.451,
+        "league_display": "45%"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.epa_per_play",
+        "label": "KC defense: EPA/play, red zone",
+        "value": -0.3028,
+        "display": "-0.30",
+        "unit": "epa",
+        "n": 82,
+        "low_sample": false,
+        "league_value": 0.0547,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "KC.def.2026.zone.red_zone.pass_success_rate",
+        "label": "KC defense: dropback success rate, red zone",
+        "value": 0.2549,
+        "display": "25%",
+        "unit": "rate",
+        "n": 82,
+        "low_sample": false,
+        "league_value": 0.4296,
+        "league_display": "43%"
+      },
+      {
+        "id": "KC.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "KC defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.4211,
+        "display": "42%",
+        "unit": "rate",
+        "n": 29,
+        "low_sample": false,
+        "league_value": 0.42,
+        "league_display": "42%"
+      }
+    ]
+  },
+  "headline": "Against a defense that pressures and allows few passes in the red zone, BUF must rely on play-action and quick passes in critical situations to exploit coverage gaps and avoid sacks.",
+  "keys": [
+    {
+      "detail": "BUF's pass rate in 1st & long is well below league average, and its success rate is only slightly above league average, indicating a high risk of failure on deep dropbacks.",
+      "stat_ids": [
+        "BUF.off.2026.down_dist.d1-long.pass_rate",
+        "BUF.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "1st & Long: Avoid Deep Passes"
+    },
+    {
+      "detail": "KC's defense has a high blitz rate on 3rd & long and a low pass success rate in the red zone, making deep passes and screen plays especially dangerous.",
+      "stat_ids": [
+        "KC.def.2026.down_dist.d3-long.blitz_rate",
+        "KC.def.2026.down_dist.d3-long.pass_success_rate",
+        "KC.def.2026.zone.red_zone.pass_success_rate"
+      ],
+      "title": "Red Zone and 3rd & Long: Limit Deep Threats"
+    },
+    {
+      "detail": "BUF's explosive-play rate is above league average, but its overall pass rate is below league average, suggesting a need for more play-action to create space and avoid pressure.",
+      "stat_ids": [
+        "BUF.off.2026.overall.all.pass_rate",
+        "BUF.off.2026.overall.all.explosive_rate",
+        "BUF.off.2026.down_dist.d1-long.play_action_rate"
+      ],
+      "title": "Play-Action as a Primary Tool"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Play-action",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "play_action",
+          "pressure": null,
+          "when": "1st & 10"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Play-action",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "play_action",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BUF.off.2026.down_dist.d1-long.pass_rate",
+            "BUF.off.2026.down_dist.d1-long.proe"
+          ],
+          "text": "Pass rate on 1st & long is 41%, well below league average, and pass rate over expected is -4%, indicating poor performance relative to expectations."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2026.down_dist.d1-long.pass_success_rate",
+            "KC.def.2026.down_dist.d1-long.explosive_rate"
+          ],
+          "text": "KC defense has a 48% pass success rate on 1st & long and a 9% explosive-play rate, suggesting it is effective at stopping passes but not at generating turnovers."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Inside run",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "inside_run",
+          "pressure": null,
+          "when": "3rd & short"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Inside run",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "inside_run",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BUF.off.2026.down_dist.d3-short.run_success_rate",
+            "KC.def.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BUF's run success rate on 3rd & short is 57%, above league average, and KC's run success rate is 67%, indicating a strong run defense but also a high success rate for runs."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2026.down_dist.d3-short.blitz_rate"
+          ],
+          "text": "KC's blitz rate on 3rd & short is only 9%, below league average, suggesting less pressure on short runs."
+        }
+      ],
+      "role": "OC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Screen",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "screen",
+          "pressure": null,
+          "when": "3rd & long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=35 for screen rate"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Screen",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "screen",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BUF.off.2026.down_dist.d3-long.screen_rate",
+            "KC.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "BUF's screen rate is only 3%, below league average, and KC's blitz rate on 3rd & long is 46%, above league average, making screens a viable option to avoid pressure."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2026.down_dist.d3-long.pass_success_rate",
+            "KC.def.2026.down_dist.d3-long.blitz_rate"
+          ],
+          "text": "KC defense has a 30% pass success rate and 46% blitz rate on 3rd & long, indicating a high risk of pressure and poor pass defense."
+        }
+      ],
+      "role": "OC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Slant",
+          "coverage_shell": null,
+          "direction": "left",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Slant",
+        "coverage_shell": null,
+        "direction": "left",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BUF.off.2026.zone.red_zone.pass_rate",
+            "BUF.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "BUF's red zone pass rate is 45%, below league average, and success rate is 44%, slightly below league average."
+        },
+        {
+          "stat_ids": [
+            "KC.def.2026.zone.red_zone.success_rate",
+            "KC.def.2026.zone.red_zone.pass_success_rate"
+          ],
+          "text": "KC defense has a 32% success rate and 25% pass success rate in red zone, the worst in this sheet, indicating it is vulnerable to quick, short passes."
+        }
+      ],
+      "role": "OC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Quick pass",
+          "coverage_shell": null,
+          "direction": "right",
+          "front": null,
+          "play_family": "quick_pass",
+          "pressure": null,
+          "when": "trailing by one score"
+        }
+      ],
+      "caveats": [],
+      "confidence": "high",
+      "primary": {
+        "concept": "Quick pass",
+        "coverage_shell": null,
+        "direction": "right",
+        "front": null,
+        "play_family": "quick_pass",
+        "pressure": null
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "KC.def.2026.score_time.trail_1_8-two_minute.pass_success_rate"
+          ],
+          "text": "KC defense has a 42% pass success rate in two-minute situations, matching league average, suggesting it is not overly aggressive but still vulnerable to quick passes."
+        },
+        {
+          "stat_ids": [
+            "BUF.off.2026.overall.all.pass_rate",
+            "BUF.off.2026.overall.all.explosive_rate"
+          ],
+          "text": "BUF's overall pass rate is below league average, but explosive-play rate is above, indicating a need for high-impact, short passes."
+        }
+      ],
+      "role": "OC"
+    }
+  }
+}

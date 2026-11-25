@@ -1,0 +1,695 @@
+{
+  "report_version": "1.0.0",
+  "game_id": "2026_12_BAL_HOU",
+  "season": 2026,
+  "week": 12,
+  "team": "HOU",
+  "opponent": "BAL",
+  "role": "DC",
+  "generated_at": "2026-11-25T13:45:30Z",
+  "stats_as_of": "2026-11-23",
+  "provider": "ollama",
+  "model": "qwen3:4b-instruct",
+  "validation_status": "passed",
+  "fact_sheet": {
+    "fact_sheet_version": "1.1.0",
+    "context": {
+      "kind": "matchup",
+      "game_id": "2026_12_BAL_HOU",
+      "season": 2026,
+      "team": "HOU",
+      "opponent": "BAL",
+      "role": "DC"
+    },
+    "derived": null,
+    "facts": [
+      {
+        "id": "HOU.def.2026.overall.all.epa_per_play",
+        "label": "HOU defense: EPA/play, all plays",
+        "value": -0.0121,
+        "display": "-0.01",
+        "unit": "epa",
+        "n": 624,
+        "low_sample": false,
+        "league_value": 0.0114,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.success_rate",
+        "label": "HOU defense: success rate, all plays",
+        "value": 0.4103,
+        "display": "41%",
+        "unit": "rate",
+        "n": 624,
+        "low_sample": false,
+        "league_value": 0.4426,
+        "league_display": "44%"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.explosive_rate",
+        "label": "HOU defense: explosive-play rate, all plays",
+        "value": 0.0913,
+        "display": "9%",
+        "unit": "rate",
+        "n": 624,
+        "low_sample": false,
+        "league_value": 0.0869,
+        "league_display": "9%"
+      },
+      {
+        "id": "HOU.def.2026.overall.all.blitz_rate",
+        "label": "HOU defense: blitz rate, all plays",
+        "value": 0.2365,
+        "display": "24%",
+        "unit": "rate",
+        "n": 624,
+        "low_sample": false,
+        "league_value": 0.3112,
+        "league_display": "31%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.success_rate",
+        "label": "HOU defense: success rate, 1st & long",
+        "value": 0.3909,
+        "display": "39%",
+        "unit": "rate",
+        "n": 243,
+        "low_sample": false,
+        "league_value": 0.4422,
+        "league_display": "44%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.run_success_rate",
+        "label": "HOU defense: run success rate, 1st & long",
+        "value": 0.3717,
+        "display": "37%",
+        "unit": "rate",
+        "n": 243,
+        "low_sample": false,
+        "league_value": 0.3865,
+        "league_display": "39%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.pass_success_rate",
+        "label": "HOU defense: dropback success rate, 1st & long",
+        "value": 0.4077,
+        "display": "41%",
+        "unit": "rate",
+        "n": 243,
+        "low_sample": false,
+        "league_value": 0.4976,
+        "league_display": "50%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d1-long.explosive_rate",
+        "label": "HOU defense: explosive-play rate, 1st & long",
+        "value": 0.1029,
+        "display": "10%",
+        "unit": "rate",
+        "n": 243,
+        "low_sample": false,
+        "league_value": 0.0999,
+        "league_display": "10%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d3-short.success_rate",
+        "label": "HOU defense: success rate, 3rd & short",
+        "value": 0.7407,
+        "display": "74%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6014,
+        "league_display": "60%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d3-short.run_success_rate",
+        "label": "HOU defense: run success rate, 3rd & short",
+        "value": 0.7778,
+        "display": "78%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.6695,
+        "league_display": "67%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d3-short.blitz_rate",
+        "label": "HOU defense: blitz rate, 3rd & short",
+        "value": 0.4444,
+        "display": "44%",
+        "unit": "rate",
+        "n": 27,
+        "low_sample": false,
+        "league_value": 0.3921,
+        "league_display": "39%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d3-long.pass_success_rate",
+        "label": "HOU defense: dropback success rate, 3rd & long",
+        "value": 0.2432,
+        "display": "24%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.3212,
+        "league_display": "32%"
+      },
+      {
+        "id": "HOU.def.2026.down_dist.d3-long.blitz_rate",
+        "label": "HOU defense: blitz rate, 3rd & long",
+        "value": 0.3784,
+        "display": "38%",
+        "unit": "rate",
+        "n": 39,
+        "low_sample": false,
+        "league_value": 0.4309,
+        "league_display": "43%"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.success_rate",
+        "label": "HOU defense: success rate, red zone",
+        "value": 0.4416,
+        "display": "44%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.451,
+        "league_display": "45%"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.epa_per_play",
+        "label": "HOU defense: EPA/play, red zone",
+        "value": 0.0944,
+        "display": "+0.09",
+        "unit": "epa",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.0547,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "HOU.def.2026.zone.red_zone.pass_success_rate",
+        "label": "HOU defense: dropback success rate, red zone",
+        "value": 0.4103,
+        "display": "41%",
+        "unit": "rate",
+        "n": 77,
+        "low_sample": false,
+        "league_value": 0.4296,
+        "league_display": "43%"
+      },
+      {
+        "id": "HOU.def.2026.score_time.trail_1_8-two_minute.pass_success_rate",
+        "label": "HOU defense: dropback success rate, trailing by one score, two-minute",
+        "value": 0.5588,
+        "display": "56%",
+        "unit": "rate",
+        "n": 41,
+        "low_sample": false,
+        "league_value": 0.42,
+        "league_display": "42%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.epa_per_play",
+        "label": "BAL offense: EPA/play, all plays",
+        "value": 0.0013,
+        "display": "0.00",
+        "unit": "epa",
+        "n": 652,
+        "low_sample": false,
+        "league_value": 0.0114,
+        "league_display": "+0.01"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.success_rate",
+        "label": "BAL offense: success rate, all plays",
+        "value": 0.4555,
+        "display": "46%",
+        "unit": "rate",
+        "n": 652,
+        "low_sample": false,
+        "league_value": 0.4426,
+        "league_display": "44%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.pass_rate",
+        "label": "BAL offense: pass rate, all plays",
+        "value": 0.5798,
+        "display": "58%",
+        "unit": "rate",
+        "n": 652,
+        "low_sample": false,
+        "league_value": 0.6044,
+        "league_display": "60%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.proe",
+        "label": "BAL offense: pass rate over expected, all plays",
+        "value": -0.036,
+        "display": "-4%",
+        "unit": "rate",
+        "n": 652,
+        "low_sample": false,
+        "league_value": -0.0107,
+        "league_display": "-1%"
+      },
+      {
+        "id": "BAL.off.2026.overall.all.explosive_rate",
+        "label": "BAL offense: explosive-play rate, all plays",
+        "value": 0.0905,
+        "display": "9%",
+        "unit": "rate",
+        "n": 652,
+        "low_sample": false,
+        "league_value": 0.0869,
+        "league_display": "9%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.pass_rate",
+        "label": "BAL offense: pass rate, 1st & long",
+        "value": 0.4492,
+        "display": "45%",
+        "unit": "rate",
+        "n": 256,
+        "low_sample": false,
+        "league_value": 0.5008,
+        "league_display": "50%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.proe",
+        "label": "BAL offense: pass rate over expected, 1st & long",
+        "value": -0.0746,
+        "display": "-7%",
+        "unit": "rate",
+        "n": 256,
+        "low_sample": false,
+        "league_value": -0.0124,
+        "league_display": "-1%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.success_rate",
+        "label": "BAL offense: success rate, 1st & long",
+        "value": 0.4688,
+        "display": "47%",
+        "unit": "rate",
+        "n": 256,
+        "low_sample": false,
+        "league_value": 0.4422,
+        "league_display": "44%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d1-long.play_action_rate",
+        "label": "BAL offense: play-action rate, 1st & long",
+        "value": 0.3913,
+        "display": "39%",
+        "unit": "rate",
+        "n": 256,
+        "low_sample": false,
+        "league_value": 0.3964,
+        "league_display": "40%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.pass_rate",
+        "label": "BAL offense: pass rate, 3rd & short",
+        "value": 0.4857,
+        "display": "49%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.4949,
+        "league_display": "49%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.success_rate",
+        "label": "BAL offense: success rate, 3rd & short",
+        "value": 0.4857,
+        "display": "49%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6014,
+        "league_display": "60%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-short.run_success_rate",
+        "label": "BAL offense: run success rate, 3rd & short",
+        "value": 0.5556,
+        "display": "56%",
+        "unit": "rate",
+        "n": 35,
+        "low_sample": false,
+        "league_value": 0.6695,
+        "league_display": "67%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-long.pass_success_rate",
+        "label": "BAL offense: dropback success rate, 3rd & long",
+        "value": 0.25,
+        "display": "25%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.3212,
+        "league_display": "32%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-long.sack_rate",
+        "label": "BAL offense: sack rate, 3rd & long",
+        "value": 0.1786,
+        "display": "18%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.1008,
+        "league_display": "10%"
+      },
+      {
+        "id": "BAL.off.2026.down_dist.d3-long.screen_rate",
+        "label": "BAL offense: screen rate, 3rd & long",
+        "value": 0.1786,
+        "display": "18%",
+        "unit": "rate",
+        "n": 30,
+        "low_sample": false,
+        "league_value": 0.0648,
+        "league_display": "6%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.pass_rate",
+        "label": "BAL offense: pass rate, red zone",
+        "value": 0.4455,
+        "display": "45%",
+        "unit": "rate",
+        "n": 101,
+        "low_sample": false,
+        "league_value": 0.5344,
+        "league_display": "53%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.success_rate",
+        "label": "BAL offense: success rate, red zone",
+        "value": 0.4752,
+        "display": "48%",
+        "unit": "rate",
+        "n": 101,
+        "low_sample": false,
+        "league_value": 0.451,
+        "league_display": "45%"
+      },
+      {
+        "id": "BAL.off.2026.zone.red_zone.epa_per_play",
+        "label": "BAL offense: EPA/play, red zone",
+        "value": 0.0888,
+        "display": "+0.09",
+        "unit": "epa",
+        "n": 101,
+        "low_sample": false,
+        "league_value": 0.0547,
+        "league_display": "+0.05"
+      },
+      {
+        "id": "BAL.off.2026.score_time.trail_1_8-two_minute.pass_rate",
+        "label": "BAL offense: pass rate, trailing by one score, two-minute",
+        "value": 0.8824,
+        "display": "88%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.8281,
+        "league_display": "83%"
+      },
+      {
+        "id": "BAL.off.2026.score_time.trail_1_8-two_minute.success_rate",
+        "label": "BAL offense: success rate, trailing by one score, two-minute",
+        "value": 0.5294,
+        "display": "53%",
+        "unit": "rate",
+        "n": 34,
+        "low_sample": false,
+        "league_value": 0.4396,
+        "league_display": "44%"
+      }
+    ]
+  },
+  "headline": "HOU defense must prioritize pass coverage and pressure due to BAL's high pass rate and tendency to exploit third and long situations.",
+  "keys": [
+    {
+      "detail": "BAL's pass rate is well above league average and their success rate on 1st & long is above league average, indicating a strong passing attack that must be contained.",
+      "stat_ids": [
+        "BAL.off.2026.overall.all.pass_rate",
+        "BAL.off.2026.down_dist.d1-long.pass_rate",
+        "BAL.off.2026.down_dist.d1-long.success_rate"
+      ],
+      "title": "BAL's high pass rate and success on 1st & long"
+    },
+    {
+      "detail": "HOU's pass success rate on 3rd & long is below league average, and their overall success rate is below league average, showing vulnerability in key downs.",
+      "stat_ids": [
+        "HOU.def.2026.down_dist.d3-long.pass_success_rate",
+        "HOU.def.2026.overall.all.success_rate"
+      ],
+      "title": "HOU defense struggles on 3rd & long"
+    },
+    {
+      "detail": "BAL's red zone pass rate is below league average, but their red zone success rate is above league average, suggesting a high-efficiency offense in critical zones.",
+      "stat_ids": [
+        "BAL.off.2026.zone.red_zone.pass_rate",
+        "BAL.off.2026.zone.red_zone.success_rate"
+      ],
+      "title": "BAL's red zone efficiency"
+    }
+  ],
+  "situational_calls": {
+    "early_down": {
+      "alternatives": [
+        {
+          "concept": "Even front with single-high shell",
+          "coverage_shell": "cover3",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "early_down"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=27 for 3rd & short data; confidence reduced for 3rd & short decisions"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Even front with single-high shell",
+        "coverage_shell": "cover3",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.overall.all.pass_rate"
+          ],
+          "text": "BAL's pass rate is well above league average, so a balanced front with coverage is needed to prevent deep passes."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d1-long.pass_rate"
+          ],
+          "text": "BAL's pass rate on 1st & long is below league average, indicating a tendency to pass in long situations."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.down_dist.d1-long.success_rate"
+          ],
+          "text": "HOU's success rate on 1st & long is below league average, showing a need for strong pass coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_short": {
+      "alternatives": [
+        {
+          "concept": "Tight man coverage with run blitz",
+          "coverage_shell": "cover1",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "blitz",
+          "when": "third_short"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=27 for 3rd & short data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Tight man coverage with run blitz",
+        "coverage_shell": "cover1",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "blitz"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d3-short.run_success_rate"
+          ],
+          "text": "BAL's run success rate on 3rd & short is below league average, indicating a strong run game that must be contained."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.down_dist.d3-short.success_rate"
+          ],
+          "text": "No data available; assumption based on overall weakness."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d3-short.pass_rate"
+          ],
+          "text": "No data available; assumption based on overall pass tendency."
+        }
+      ],
+      "role": "DC"
+    },
+    "third_long": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with man coverage behind",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "third_long"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=39 for 3rd & long data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with man coverage behind",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "BAL's dropback success rate on 3rd & long is below league average, indicating a high-risk pass that must be stopped."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.down_dist.d3-long.pass_success_rate"
+          ],
+          "text": "HOU's pass success rate on 3rd & long is below league average, showing a critical weakness."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.down_dist.d3-long.sack_rate"
+          ],
+          "text": "BAL's sack rate on 3rd & long is above league average, suggesting a strong run game that may be exploited."
+        }
+      ],
+      "role": "DC"
+    },
+    "red_zone": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with man coverage behind",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "red_zone"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=77 for red zone data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with man coverage behind",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.zone.red_zone.pass_rate"
+          ],
+          "text": "BAL's red zone pass rate is below league average, indicating a tendency to pass in tight spaces."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.zone.red_zone.success_rate"
+          ],
+          "text": "BAL's red zone success rate is above league average, showing a high-efficiency offense in critical zones."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.zone.red_zone.success_rate"
+          ],
+          "text": "HOU's red zone success rate is about league average, indicating a need for tighter coverage."
+        }
+      ],
+      "role": "DC"
+    },
+    "two_minute": {
+      "alternatives": [
+        {
+          "concept": "Two-deep zone with man coverage behind",
+          "coverage_shell": "cover2",
+          "direction": null,
+          "front": "even",
+          "play_family": null,
+          "pressure": "none",
+          "when": "two_minute"
+        }
+      ],
+      "caveats": [
+        "LOW SAMPLE: n=34 for two-minute data; confidence reduced"
+      ],
+      "confidence": "medium",
+      "primary": {
+        "concept": "Two-deep zone with man coverage behind",
+        "coverage_shell": "cover2",
+        "direction": null,
+        "front": "even",
+        "play_family": null,
+        "pressure": "none"
+      },
+      "rationale": [
+        {
+          "stat_ids": [
+            "BAL.off.2026.score_time.trail_1_8-two_minute.pass_rate"
+          ],
+          "text": "BAL's pass rate in two-minute situations is above league average, indicating a high-passing tendency under pressure."
+        },
+        {
+          "stat_ids": [
+            "BAL.off.2026.score_time.trail_1_8-two_minute.success_rate"
+          ],
+          "text": "BAL's success rate in two-minute situations is above league average, showing a high-efficiency offense under pressure."
+        },
+        {
+          "stat_ids": [
+            "HOU.def.2026.overall.all.success_rate"
+          ],
+          "text": "HOU's overall success rate is below league average, indicating a need for strong pass defense."
+        }
+      ],
+      "role": "DC"
+    }
+  }
+}
